@@ -1,5 +1,5 @@
 {
-  "_comment": "Conference standings are published by NJ.com. An entry's URL is built from baseUrl + slug + season + conference, where 'season' falls back to defaultSeason and 'conference' to defaultConference (Big North). Sports NJ.com does not group under Big North point at the body that does: football at the Super Football Conference (SFC), lacrosse at NJILL/NJIGLL. A sport with neither 'slug' nor 'url' is listed but not clickable - NJ.com has no Big North table for girls soccer, field hockey or ice hockey. Update defaultSeason each year.",
+  "_comment": "Conference standings are published by NJ.com. An entry's URL is built from baseUrl + slug + season + conference, where 'season' falls back to defaultSeason and 'conference' to defaultConference (Big North). NJ.com is inconsistent about the conference id per sport: most use 'Big North' but girls soccer uses 'Big-North' (hyphen), so it carries a conference override. Football groups at the Super Football Conference (SFC) and lacrosse at NJILL/NJIGLL. A sport with neither 'slug' nor 'url' is listed but not clickable - NJ.com has no Big North table for field hockey or ice hockey (revisit later). Update defaultSeason each year.",
   "defaultSeason": "2026-2027",
   "baseUrl": "https://highschoolsports.nj.com",
   "defaultConference": "Big North",
@@ -9,7 +9,7 @@
       "sports": [
         { "label": "Football", "slug": "football", "conference": "SFC" },
         { "label": "Boys Soccer", "slug": "boyssoccer" },
-        { "label": "Girls Soccer" },
+        { "label": "Girls Soccer", "slug": "girlssoccer", "conference": "Big-North" },
         { "label": "Field Hockey" },
         { "label": "Girls Tennis", "slug": "girlstennis" },
         { "label": "Girls Volleyball", "slug": "girlsvolleyball" }
