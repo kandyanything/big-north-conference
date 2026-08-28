@@ -486,6 +486,10 @@ main .container > section { overflow-x: auto; }
 
 .cal-match { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .cal-match strong { color: var(--ink); font-weight: 600; }
+/* team names with inline crests: crest sits on the baseline of its school */
+.cal-teams { display: inline; }
+.cal-crest { width: 22px; height: 22px; object-fit: contain; vertical-align: -6px; margin-right: 5px; }
+.cal-vs { margin: 0 7px; color: var(--muted); font-weight: 600; }
 .cal-meta { font-size: .85rem; color: var(--muted); }
 
 .cal-status {

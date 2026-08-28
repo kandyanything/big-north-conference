@@ -196,6 +196,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    function calCrest(slug) {
+        var img = document.createElement('img');
+        img.className = 'cal-crest';
+        img.src = 'images/logos/optimized/' + slug + '.png';
+        img.alt = '';
+        img.setAttribute('aria-hidden', 'true');
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        img.onerror = function () { this.remove(); };
+        return img;
+    }
+
     function buildRow(g) {
         var row = document.createElement('div');
         row.className = 'cal-game' + (g.status ? ' is-off' : '');
@@ -208,8 +220,20 @@ document.addEventListener('DOMContentLoaded', function () {
         var mid = document.createElement('span');
         mid.className = 'cal-match';
         var teams = document.createElement('strong');
-        var vs = g.home === true ? ' vs ' : g.home === false ? ' at ' : ' v ';
-        teams.textContent = g.school + (g.opponent ? vs + g.opponent : '');
+        teams.className = 'cal-teams';
+        // A conference school always carries a crest; the opponent only when it
+        // is a conference school too (split-schedule.js tags these). So a
+        // conference matchup shows two crests, an out-of-conference game one.
+        if (g.schoolLogo) teams.appendChild(calCrest(g.schoolLogo));
+        teams.appendChild(document.createTextNode(g.school));
+        if (g.opponent) {
+            var vsSpan = document.createElement('span');
+            vsSpan.className = 'cal-vs';
+            vsSpan.textContent = g.home === true ? 'vs' : g.home === false ? 'at' : 'v';
+            teams.appendChild(vsSpan);
+            if (g.oppLogo) teams.appendChild(calCrest(g.oppLogo));
+            teams.appendChild(document.createTextNode(g.opponent));
+        }
         mid.appendChild(teams);
 
         var meta = document.createElement('span');

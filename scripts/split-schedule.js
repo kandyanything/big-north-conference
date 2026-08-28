@@ -9,6 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { logoSlug } = require('./school-logos');
 
 const ROOT = path.join(__dirname, '..');
 const SRC = path.join(ROOT, 'data', 'schedule.json');
@@ -52,6 +53,15 @@ function slim(g) {
     if (g.home !== null && g.home !== undefined) out.home = g.home;
     if (g.status) out.status = g.status;
     if (g.kind && g.kind !== 'Game') out.kind = g.kind;
+    // The reporting school is always a conference school, so it always has a
+    // crest. The opponent gets one only when it is also a conference school -
+    // an out-of-conference opponent stays crest-less.
+    const sLogo = logoSlug(g.school);
+    if (sLogo) out.schoolLogo = sLogo;
+    if (g.opponent) {
+        const oLogo = logoSlug(g.opponent);
+        if (oLogo) out.oppLogo = oLogo;
+    }
     return out;
 }
 
