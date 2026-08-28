@@ -1,0 +1,312 @@
+# NJAC content editor (Decap CMS), configured for board members to update
+# the site's hand-curated content without going through code.
+#
+# Not active yet. The "github" backend below needs a small OAuth proxy that
+# is deliberately not installed - see cms-activation/ACTIVATION.md for the
+# steps to turn this on, and why it is safe to leave this file sitting here
+# unused in the meantime (visiting /admin with no working auth just shows a
+# login screen nobody can get past; it cannot expose or change anything).
+#
+# Every save through this editor is a normal git commit, attributed to
+# whichever board member is signed in, and triggers the same Netlify deploy
+# a manual push does. Nothing about how the site is built or hosted changes.
+backend:
+  name: github
+  repo: kandyanything/nwjerseyac-new
+  branch: main
+  base_url: https://nwjerseyac.org
+  auth_endpoint: .netlify/functions/auth
+
+# Lets the whole editor be previewed on a real machine with zero GitHub
+# connection: when this page is opened at http://localhost - anywhere, any
+# port - Decap skips login entirely and talks to a small local proxy
+# (`npx decap-server`) instead, which reads and writes these same JSON files
+# directly on disk. The moment this is opened at the real domain, the
+# hostname is no longer "localhost" and this line does nothing - the github
+# backend above takes over exactly as configured. Both can sit in the same
+# file permanently for that reason; there is no toggle to remember to remove.
+local_backend: true
+
+# Only used as a fallback if a field below does not set its own folder.
+# Nothing currently uses the fallback - every image field names its real
+# folder explicitly, matching where that kind of file already lives.
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+# Anyone who successfully authenticates already had to be added as a
+# collaborator on the GitHub repository - that is the whole access list.
+# There is no separate password or account system for this editor to manage.
+
+collections:
+  - name: "directory"
+    label: "Athletic Directors"
+    description: "Contact info shown on the home page directory. Add or remove a school entirely from code, not here - this only edits the fields for schools already listed."
+    files:
+      - file: "data/directory.json"
+        label: "AD Contact Directory"
+        name: "directory"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "AD contact directory. 'logo' must be an exact filename already in images/logos/optimized/ - logos are hand-processed (trimmed and sized to match the others) before being added, so upload a new one by asking for that separately rather than through this field." }
+          - label: "Schools"
+            name: "directory"
+            widget: "list"
+            summary: "{{fields.school}}"
+            fields:
+              - { label: "School", name: "school", widget: "string" }
+              - { label: "Logo filename", name: "logo", widget: "string", required: false,
+                  hint: "Exact filename already in images/logos/optimized/, e.g. whippany-park.png. To add a new logo, ask for it to be processed first rather than typing a guess here." }
+              - { label: "School website", name: "website", widget: "string", required: false }
+              - { label: "Athletic Director name", name: "ad", widget: "string", required: false }
+              - { label: "Email", name: "email", widget: "string", required: false }
+              - { label: "Office phone", name: "phone", widget: "string", required: false }
+
+  - name: "leadership"
+    label: "NJAC Leadership"
+    description: "The conference's executive officers - name and position only, on purpose. No contact details go here; this file is public."
+    files:
+      - file: "data/leadership.json"
+        label: "Executive Officers"
+        name: "leadership"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "NJAC executive officers. Name and position only - no email or phone. Contact details are deliberately not stored here: this file is served publicly, so leaving them out of the renderer alone would not keep them private. 'school' is kept for identification. Order is by office, not alphabetical. The section hides itself if this list is empty." }
+          - label: "Officers, in the order they should appear"
+            name: "leadership"
+            widget: "list"
+            summary: "{{fields.role}} — {{fields.name}}"
+            fields:
+              - { label: "Position", name: "role", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "School (optional)", name: "school", widget: "string", required: false }
+
+  - name: "slides"
+    label: "Homepage Photo Slider"
+    description: "The rotating photographs behind the masthead on the home page."
+    files:
+      - file: "data/slides.json"
+        label: "Hero Slides"
+        name: "slides"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Hero photo slider. Each slide needs 'image' and 'alt'. Optional 'heading', 'text' and a 'link' with 'linkLabel' draw a caption over the photo; leave them out for a photo-only slide. While this list is empty the hero falls back to its plain gradient, so the page never shows an empty banner." }
+          - { label: "Seconds between slides", name: "intervalMs", widget: "number", value_type: "int",
+              hint: "In milliseconds - 5000 means 5 seconds. Applies to the whole slider, not per photo." }
+          - label: "Slides, in the order they play"
+            name: "slides"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image", media_folder: "images/photos", public_folder: "images/photos",
+                  hint: "Landscape, roughly 2000px wide or more works best - it fills the full width of the hero." }
+              - { label: "Alt text (describe the photo for screen readers)", name: "alt", widget: "string" }
+              - { label: "Caption heading (optional)", name: "heading", widget: "string", required: false,
+                  hint: "Leave every caption field blank for a photo-only slide - most slides have none." }
+              - { label: "Caption text (optional)", name: "text", widget: "text", required: false }
+              - { label: "Caption button link (optional)", name: "link", widget: "string", required: false }
+              - { label: "Caption button label (optional)", name: "linkLabel", widget: "string", required: false, default: "Read More" }
+
+  - name: "videos"
+    label: "NJAC Vision"
+    description: "Game video shown on the home page and the All Videos page. Thumbnails come from YouTube automatically - there is nothing to upload."
+    files:
+      - file: "data/videos.json"
+        label: "Videos"
+        name: "videos"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "NJAC Vision game video. 'id' is the YouTube video ID - the part of the URL after v=. Thumbnails are pulled from YouTube's own CDN using that ID, so there is nothing to upload here." }
+          - label: "Videos, newest first"
+            name: "videos"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "YouTube video ID", name: "id", widget: "string",
+                  hint: "From the video's URL: youtube.com/watch?v=THIS_PART" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+              - { label: "Sport", name: "sport", widget: "string", required: false }
+              - { label: "Thumbnail quality override (rarely needed)", name: "thumb", widget: "string", required: false,
+                  hint: "Leave blank almost always - YouTube's default thumbnail is used automatically." }
+
+  - name: "honors"
+    label: "NJAC Honors"
+    description: "Awards and recognitions - conference all-stars, scholar athletes, championship rosters. The section on the home page stays hidden while this list is empty."
+    files:
+      - file: "data/honors.json"
+        label: "Honors"
+        name: "honors"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "NJAC Honors. One entry per award or recognition group. 'title' is required; 'year', 'sport', 'description' and 'url' are all optional. 'items' is an optional list of names shown beneath the description - use it for scholar athletes or championship rosters. The section stays hidden while this list is empty." }
+          - label: "Honors"
+            name: "honors"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Year or season (optional)", name: "year", widget: "string", required: false,
+                  hint: "e.g. 2025-2026" }
+              - { label: "Sport (optional)", name: "sport", widget: "string", required: false }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+              - { label: "Names to list (optional)", name: "items", widget: "list", required: false,
+                  field: { label: "Name", name: "name", widget: "string" } }
+
+  - name: "news"
+    label: "NJAC News"
+    description: "Stories shown in the home page news section. Stays hidden while this list is empty."
+    files:
+      - file: "data/news.json"
+        label: "News"
+        name: "news"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "NJAC News. One entry per story, newest first. 'image' is optional - omit it and the story renders as text only. 'url' is where the headline links to; omit it for a story with no destination yet." }
+          - label: "Stories, newest first"
+            name: "news"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Headline", name: "title", widget: "string" }
+              - { label: "Date (optional)", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
+              - { label: "Photo (optional)", name: "image", widget: "image", media_folder: "images/news", public_folder: "images/news", required: false }
+              - { label: "Summary (optional)", name: "excerpt", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false,
+                  hint: "Where the headline links to. Leave blank for a story with no link yet." }
+
+  - name: "nav"
+    label: "Top Navigation"
+    description: "The menu bar at the top of every page. Reordering, renaming or adding a link here changes it site-wide immediately - there is no separate preview step, so double-check a change before saving. A top-level entry with sub-links becomes a dropdown; one without becomes a plain link."
+    files:
+      - file: "data/nav.json"
+        label: "Menu"
+        name: "nav"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "The site's top navigation, built fresh on every page by js/nav-render.js. href always uses the full, portable form - index.html#section rather than a bare #section - the renderer strips the index.html prefix automatically on the home page itself, which is what keeps a click on a same-page link a smooth scroll rather than a full reload." }
+          - label: "Menu items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Link", name: "href", widget: "string",
+                  hint: "A page on this site (calendar.html), or a section of the home page (index.html#standings). Never a bare #section on its own - that only works from the home page itself." }
+              - label: "Dropdown items (leave empty for a plain link)"
+                name: "children"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "href", widget: "string" }
+
+  - name: "extra-page-1"
+    label: "Extra Page 1"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below - see cms-activation/ACTIVATION.md for exactly what that guarantees and what it does not."
+    files:
+      - file: "data/pages/custom-1.json"
+        label: "Extra Page 1"
+        name: "extra-page-1"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 1. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-1.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false,
+              hint: "The big heading at the top of the page, and the browser tab title." }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+
+  - name: "extra-page-2"
+    label: "Extra Page 2"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below."
+    files:
+      - file: "data/pages/custom-2.json"
+        label: "Extra Page 2"
+        name: "extra-page-2"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 2. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-2.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+
+  - name: "extra-page-3"
+    label: "Extra Page 3"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below."
+    files:
+      - file: "data/pages/custom-3.json"
+        label: "Extra Page 3"
+        name: "extra-page-3"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 3. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-3.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }
+
+  - name: "extra-page-4"
+    label: "Extra Page 4"
+    description: "A blank page you can fill in and publish whenever it is ready. It has no nav tab and cannot be found on the site until Published is switched on below."
+    files:
+      - file: "data/pages/custom-4.json"
+        label: "Extra Page 4"
+        name: "extra-page-4"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Extra Page 4. Nothing here shows on the site - no nav tab, no reachable content - until published is set to true. file names the physical page this content belongs to; it must stay custom-4.html." }
+          - { label: "Published (turn this on to make the page live)", name: "published", widget: "boolean", default: false,
+              hint: "Off: nobody can find this page. On: it appears in the top menu and is publicly visible. Safe to flip back off at any time." }
+          - { label: "Menu label", name: "navLabel", widget: "string", required: false,
+              hint: "What appears in the top navigation once published, e.g. Coaches. Required for the page to actually get a menu tab." }
+          - { label: "Page title", name: "pageTitle", widget: "string", required: false }
+          - { label: "Eyebrow (small text above the title)", name: "eyebrow", widget: "string", required: false }
+          - { label: "Intro text", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (optional)", name: "description", widget: "text", required: false }
+              - { label: "Link (optional)", name: "url", widget: "string", required: false }

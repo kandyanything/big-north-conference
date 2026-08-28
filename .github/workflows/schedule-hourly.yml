@@ -1,0 +1,52 @@
+name: Refresh upcoming schedule (hourly)
+
+# The full nightly rebuild (schedule.yml) re-checks all 41 schools' entire
+# season once a night. This runs every hour but only re-checks the next few
+# days, so a same-day reschedule - an AD moving a 6pm kickoff to 4pm - shows
+# up within the hour instead of waiting for 2am. See scripts/update-recent.js
+# for how it splices just that window into data/schedule.json without
+# touching any other date.
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+# Shares a group with the nightly rebuild so the two never race each other's
+# commit-and-push against main.
+concurrency:
+  group: schedule-rebuild
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh the next few days
+        run: node scripts/update-recent.js
+
+      - name: Split into per-month files
+        run: node scripts/split-schedule.js
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "bnc-schedule-bot"
+          git config user.email "actions@github.com"
+          git add data/schedule.json data/schedule/
+          if git diff --cached --quiet; then
+            echo "no change - nothing to publish"
+            exit 0
+          fi
+          GAMES=$(node -e "console.log(require('./data/schedule.json').counts.deduped)")
+          DATES=$(node -e "console.log(require('./data/schedule.json').counts.dates)")
+          git commit -m "Hourly schedule refresh: ${GAMES} games across ${DATES} dates"
+          git push

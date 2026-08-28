@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Big North Conference - 41 member high schools in Bergen and Passaic counties, New Jersey. Schedules, standings, news and conference information.">
+    <title>Big North Conference</title>
+    <link rel="canonical" href="https://bignorthconference.org/">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16.png">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#081c2e">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Big North Conference">
+    <meta property="og:title" content="Big North Conference">
+    <meta property="og:description" content="Big North Conference - 41 member high schools in Bergen and Passaic counties, New Jersey. Schedules, standings, news and conference information.">
+    <meta property="og:url" content="https://bignorthconference.org/">
+    <meta property="og:image" content="https://bignorthconference.org/images/social-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Big North Conference">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Big North Conference">
+    <meta name="twitter:description" content="Big North Conference - 41 member high schools in Bergen and Passaic counties, New Jersey. Schedules, standings, news and conference information.">
+    <meta name="twitter:image" content="https://bignorthconference.org/images/social-card.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/redesign.css">
+    <link rel="stylesheet" href="css/redesign-components.css">
+    <link rel="stylesheet" href="css/redesign-sections.css">
+    <script>document.documentElement.className += ' js-reveal';</script>
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="wrap">
+            <span><strong>BNC</strong> &nbsp;Bergen &amp; Passaic County Athletics</span>
+            <nav class="topbar-links" aria-label="Utility">
+                <a href="info.html">Conference Info</a>
+                <a href="links.html">External Links</a>
+                <a href="websites.html">School Websites</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="masthead">
+        <div class="masthead-strip" aria-hidden="true"></div>
+        <div class="wrap">
+            <a class="masthead-brand" href="index.html" aria-label="Big North Conference home">
+                <img class="masthead-logo" src="images/bnc-logo-footer.png" alt="Big North Conference logo">
+                <span class="masthead-text">
+                    <span class="name">Big North Conference</span>
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <nav class="mainnav" aria-label="Primary">
+        <div class="wrap">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+            <ul class="navlist" id="primary-menu"></ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="wrap hero-inner">
+            <div>
+                <div class="eyebrow">Bergen &amp; Passaic County</div>
+                <h1>Big North Conference Athletics</h1>
+                <p>Forty-one public and private high schools across Bergen and Passaic counties, competing with a shared commitment to sportsmanship and education-based athletics.</p>
+                <div class="hero-actions">
+                    <a class="btn" href="#member-schools">View Schedules</a>
+                    <a class="btn btn--ghost" href="#bnc-vision">Watch BNC Vision</a>
+                </div>
+            </div>
+            <div class="hero-facts">
+                <div class="hero-fact"><b>41</b><span>Member Schools</span></div>
+                <div class="hero-fact"><b>2</b><span>Counties</span></div>
+                <div class="hero-fact"><b>20+</b><span>Sports</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="band njac-today" id="today">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Conference Schedule</div>
+                    <h2>Today at a Glance</h2>
+                </div>
+                <a class="today-more" href="calendar.html">Full Calendar</a>
+            </div>
+            <p class="today-lede"></p>
+            <div class="today-days" role="tablist" aria-label="Upcoming days"></div>
+            <div class="today-panel"></div>
+        </div>
+    </section>
+
+    <section class="band band--navy njac-vision" id="bnc-vision" data-limit="7">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Game Video</div>
+                    <h2>BNC Vision</h2>
+                </div>
+                <a class="vision-more" href="videos.html">All Videos</a>
+            </div>
+            <div class="vision-feature"></div>
+            <div class="vision-grid"></div>
+        </div>
+    </section>
+
+    <section class="band band--tint njac-news" id="bnc-news">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Around the Conference</div>
+                    <h2>BNC News</h2>
+                </div>
+                <div class="news-nav">
+                    <button type="button" class="news-prev" aria-label="Previous news" hidden>&#8249;</button>
+                    <button type="button" class="news-next" aria-label="Next news" hidden>&#8250;</button>
+                </div>
+            </div>
+            <div class="news-track"></div>
+            <div class="news-dots" hidden></div>
+        </div>
+    </section>
+
+    <section class="band band--sky" id="member-schools">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Athletics</div>
+                    <h2>Individual School Schedules</h2>
+                </div>
+                <a class="btn" href="schools.html">All Schools &amp; Links</a>
+            </div>
+            <div class="schools-grid">
+                    <a class="school-tile" href="https://267731.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/holy-angels.png" alt="Academy of the Holy Angels logo" onerror="this.style.display='none'">
+                        <span class="nm">Academy of the Holy Angels</span>
+                    </a>
+                    <a class="school-tile" href="https://53078.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/bergen-catholic.png" alt="Bergen Catholic High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Bergen Catholic</span>
+                    </a>
+                    <a class="school-tile" href="https://53076.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/bergen-tech.png" alt="Bergen County Technical High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Bergen County Technical</span>
+                    </a>
+                    <a class="school-tile" href="https://53075.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/bergenfield.png" alt="Bergenfield High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Bergenfield</span>
+                    </a>
+                    <a class="school-tile" href="https://61096.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/cliffside-park.png" alt="Cliffside Park High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Cliffside Park</span>
+                    </a>
+                    <a class="school-tile" href="https://61094.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/clifton.png" alt="Clifton High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Clifton</span>
+                    </a>
+                    <a class="school-tile" href="https://72819.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/depaul-catholic.png" alt="DePaul Catholic High School logo" onerror="this.style.display='none'">
+                        <span class="nm">DePaul Catholic</span>
+                    </a>
+                    <a class="school-tile" href="https://72430.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/don-bosco.png" alt="Don Bosco Prep logo" onerror="this.style.display='none'">
+                        <span class="nm">Don Bosco Prep</span>
+                    </a>
+                    <a class="school-tile" href="https://73613.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/dumont.png" alt="Dumont High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Dumont</span>
+                    </a>
+                    <a class="school-tile" href="https://73688.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/dwight-morrow.png" alt="Dwight Morrow High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Dwight Morrow</span>
+                    </a>
+                    <a class="school-tile" href="https://73811.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/eastside.png" alt="Eastside High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Eastside (Paterson)</span>
+                    </a>
+                    <a class="school-tile" href="https://70744.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/fair-lawn.png" alt="Fair Lawn High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Fair Lawn</span>
+                    </a>
+                    <a class="school-tile" href="https://71775.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/fort-lee.png" alt="Fort Lee High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Fort Lee</span>
+                    </a>
+                    <a class="school-tile" href="https://65277.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/hackensack.png" alt="Hackensack High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Hackensack</span>
+                    </a>
+                    <a class="school-tile" href="https://63289.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/immaculate-heart.png" alt="Immaculate Heart Academy logo" onerror="this.style.display='none'">
+                        <span class="nm">Immaculate Heart Academy</span>
+                    </a>
+                    <a class="school-tile" href="https://63220.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/indian-hills.png" alt="Indian Hills High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Indian Hills</span>
+                    </a>
+                    <a class="school-tile" href="https://64742.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/kennedy.png" alt="John F. Kennedy High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Kennedy (Paterson)</span>
+                    </a>
+                    <a class="school-tile" href="https://76429.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/lakeland.png" alt="Lakeland Regional High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Lakeland</span>
+                    </a>
+                    <a class="school-tile" href="https://74488.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/mahwah.png" alt="Mahwah High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Mahwah</span>
+                    </a>
+                    <a class="school-tile" href="https://52474.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/northern-highlands.png" alt="Northern Highlands Regional High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Northern Highlands</span>
+                    </a>
+                    <a class="school-tile" href="https://51847.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/nv-demarest.png" alt="Northern Valley Regional HS Demarest logo" onerror="this.style.display='none'">
+                        <span class="nm">NV&mdash;Demarest</span>
+                    </a>
+                    <a class="school-tile" href="https://51859.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/nv-old-tappan.png" alt="Northern Valley Regional HS Old Tappan logo" onerror="this.style.display='none'">
+                        <span class="nm">NV&mdash;Old Tappan</span>
+                    </a>
+                    <a class="school-tile" href="https://49231.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/paramus-catholic.png" alt="Paramus Catholic High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Paramus Catholic</span>
+                    </a>
+                    <a class="school-tile" href="https://49218.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/paramus.png" alt="Paramus High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Paramus</span>
+                    </a>
+                    <a class="school-tile" href="https://49161.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/pascack-hills.png" alt="Pascack Hills High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Pascack Hills</span>
+                    </a>
+                    <a class="school-tile" href="https://49156.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/pascack-valley.png" alt="Pascack Valley High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Pascack Valley</span>
+                    </a>
+                    <a class="school-tile" href="https://49182.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/passaic-county-tech.png" alt="Passaic County Technical Institute logo" onerror="this.style.display='none'">
+                        <span class="nm">Passaic County Tech</span>
+                    </a>
+                    <a class="school-tile" href="https://49194.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/passaic.png" alt="Passaic High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Passaic</span>
+                    </a>
+                    <a class="school-tile" href="https://49107.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/passaic-valley.png" alt="Passaic Valley High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Passaic Valley</span>
+                    </a>
+                    <a class="school-tile" href="https://69376.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/ramapo.png" alt="Ramapo High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Ramapo</span>
+                    </a>
+                    <a class="school-tile" href="https://69396.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/ramsey.png" alt="Ramsey High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Ramsey</span>
+                    </a>
+                    <a class="school-tile" href="https://68878.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/ridgefield-park.png" alt="Ridgefield Park High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Ridgefield Park</span>
+                    </a>
+                    <a class="school-tile" href="https://68855.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/ridgewood.png" alt="Ridgewood High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Ridgewood</span>
+                    </a>
+                    <a class="school-tile" href="https://68932.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/river-dell.png" alt="River Dell Regional High School logo" onerror="this.style.display='none'">
+                        <span class="nm">River Dell</span>
+                    </a>
+                    <a class="school-tile" href="https://162616.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/st-joseph.png" alt="Saint Joseph Regional High School logo" onerror="this.style.display='none'">
+                        <span class="nm">St. Joseph Regional</span>
+                    </a>
+                    <a class="school-tile" href="https://77831.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/teaneck.png" alt="Teaneck High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Teaneck</span>
+                    </a>
+                    <a class="school-tile" href="https://77936.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/tenafly.png" alt="Tenafly High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Tenafly</span>
+                    </a>
+                    <a class="school-tile" href="https://55817.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/wayne-hills.png" alt="Wayne Hills High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Wayne Hills</span>
+                    </a>
+                    <a class="school-tile" href="https://55829.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/wayne-valley.png" alt="Wayne Valley High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Wayne Valley</span>
+                    </a>
+                    <a class="school-tile" href="https://55625.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/west-milford.png" alt="West Milford High School logo" onerror="this.style.display='none'">
+                        <span class="nm">West Milford</span>
+                    </a>
+                    <a class="school-tile" href="https://53240.digitalsports.com/" target="_blank" rel="noopener">
+                        <img src="images/logos/optimized/westwood.png" alt="Westwood Regional Senior High School logo" onerror="this.style.display='none'">
+                        <span class="nm">Westwood</span>
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="band band--navy njac-standings" id="standings">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Conference Standings</div>
+                    <h2>Standings</h2>
+                </div>
+                <span class="standings-season"></span>
+            </div>
+            <p class="standings-intro">Conference standings are published by NJ.com. Choose a sport to open its current Big North table.</p>
+            <div class="standings-groups"></div>
+        </div>
+    </section>
+
+    <section class="band njac-leadership" id="leadership">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Conference</div>
+                    <h2>BNC Leadership</h2>
+                </div>
+            </div>
+            <div class="leadership-grid"></div>
+        </div>
+    </section>
+
+    <section class="band band--tint njac-directory" id="directory">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Contacts</div>
+                    <h2>Athletic Directors</h2>
+                </div>
+            </div>
+            <div class="directory-head">
+                <span class="directory-count"></span>
+            </div>
+            <div class="directory-grid"></div>
+        </div>
+    </section>
+
+    <section class="band njac-honors" id="honors">
+        <div class="wrap">
+            <div class="band-head">
+                <div>
+                    <div class="eyebrow">Recognition</div>
+                    <h2>Honors</h2>
+                </div>
+            </div>
+            <div class="honors-grid"></div>
+        </div>
+    </section>
+
+    <section class="band band--tint" id="about">
+        <div class="wrap split">
+            <div>
+                <div class="eyebrow" style="color:var(--red);font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin-bottom:6px;">About Us</div>
+                <h2 style="padding-bottom:12px;position:relative;">Our Conference</h2>
+                <p>The Big North Conference is comprised of 41 public and private high schools located in Bergen and Passaic counties in New Jersey. Our member schools are dedicated to promoting excellence in athletics and sportsmanship.</p>
+                <p>The conference strives to promote fair competition among member schools, provide opportunities for student-athletes to develop their skills, foster positive relationships between schools and communities, and maintain high standards of integrity in all athletic programs.</p>
+                <p>All Big North Conference member schools belong to the New Jersey State Interscholastic Athletic Association (NJSIAA) and compete in accordance with NJSIAA rules and regulations.</p>
+            </div>
+            <aside class="factcard">
+                <h3>Conference at a Glance</h3>
+                <dl>
+                    <dt>Schools</dt><dd>41 public and private</dd>
+                    <dt>Counties</dt><dd>Bergen, Passaic</dd>
+                    <dt>Affiliation</dt><dd>NJSIAA</dd>
+                    <dt>Contact</dt><dd>info@bignorth.powermediallc.org</dd>
+                </dl>
+                <p style="margin-top:18px;margin-bottom:0;font-size:.93rem;color:var(--muted);">For conference information, contact your school&rsquo;s athletic director.</p>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-cols">
+                <div class="footer-brand">
+                    <img src="images/bnc-logo.png" alt="">
+                    <div>
+                        <h4>Big North Conference</h4>
+                        <p style="margin:0;font-size:.93rem;">Bergen &amp; Passaic County Athletics. Serving 41 member high schools in New Jersey.</p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#member-schools">Member Schools</a></li>
+                        <li><a href="calendar.html">Conference Calendar</a></li>
+                        <li><a href="websites.html">School Websites</a></li>
+                        <li><a href="info.html">Conference Information</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="links.html">External Links</a></li>
+                        <li><a href="https://www.njsiaa.org/" target="_blank" rel="noopener">NJSIAA</a></li>
+                        <li><a href="#bnc-vision">BNC Vision</a></li>
+                        <li><a href="#bnc-news">BNC News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Big North Conference. All rights reserved.</span>
+                <span>Bergen &middot; Passaic</span>
+                <a class="atq-credit" href="https://athlitiq.com" target="_blank" rel="noopener">
+                    <span>Built by</span>
+                    <svg viewBox="0 0 584 102" role="img" aria-label="Athlitiq"><defs><linearGradient id="sil-ftr" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="102"><stop offset="0" stop-color="#ffffff"/><stop offset="0.26" stop-color="#d5dbdf"/><stop offset="0.46" stop-color="#828c93"/><stop offset="0.54" stop-color="#f2f5f7"/><stop offset="0.78" stop-color="#aeb7bd"/><stop offset="1" stop-color="#737d84"/></linearGradient><linearGradient id="blu-ftr" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="102"><stop offset="0" stop-color="#d8eaf6"/><stop offset="0.3" stop-color="#7bafd4"/><stop offset="0.5" stop-color="#4f89b2"/><stop offset="0.6" stop-color="#aed2e8"/><stop offset="1" stop-color="#5f9ac1"/></linearGradient></defs><g fill="url(#sil-ftr)"><path d="M0 100 L30 0 L46 0 L76 100 L56 100 L38 38 L20 100 Z M22 64 H54 V82 H22 Z"/><path d="M92 0 H158 V20 H135 V100 H115 V20 H92 Z"/><path d="M174 0 H194 V40 H220 V0 H240 V100 H220 V60 H194 V100 H174 Z"/><path d="M256 0 H276 V80 H312 V100 H256 Z"/><path d="M328 0 H348 V100 H328 Z"/><path d="M364 0 H430 V20 H407 V100 H387 V20 H364 Z"/></g><g fill="url(#blu-ftr)" fill-rule="evenodd"><path d="M446 0 H466 V100 H446 Z"/><path d="M482 50 A50 50 0 1 1 582 50 A50 50 0 1 1 482 50 Z M502 50 A30 30 0 1 0 562 50 A30 30 0 1 0 502 50 Z"/><path d="M530 62 L544 48 L584 88 L570 102 Z"/></g></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/redesign-hero.js"></script>
+    <script src="js/redesign-today.js"></script>
+    <script src="js/redesign-vision.js"></script>
+    <script src="js/redesign-news.js"></script>
+    <script src="js/redesign-standings.js"></script>
+    <script src="js/redesign-honors.js"></script>
+    <script src="js/redesign-leadership.js"></script>
+    <script src="js/redesign-directory.js"></script>
+    <script src="js/redesign-logostrip.js"></script>
+    <script src="js/nav-render.js"></script>
+    <script src="js/redesign-reveal.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "_comment": "Big North Conference top navigation. Built fresh on every page by js/nav-render.js. 'href' uses the full portable form so the renderer can detect same-page anchors and convert them to smooth-scroll links. A top-level item with 'children' becomes a dropdown; one without is a plain link.",
+  "items": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "School Schedules", "href": "index.html#member-schools" },
+    { "label": "Conference Schedule", "href": "calendar.html" },
+    {
+      "label": "Member Schools",
+      "href": "index.html#member-schools",
+      "children": [
+        { "label": "Schedules by School", "href": "index.html#member-schools" },
+        { "label": "Conference Calendar", "href": "calendar.html" },
+        { "label": "School Websites", "href": "websites.html" }
+      ]
+    },
+    {
+      "label": "Standings",
+      "href": "index.html#standings",
+      "children": [
+        { "label": "All Sports", "href": "index.html#standings" },
+        { "label": "Honors", "href": "index.html#honors" },
+        { "label": "Conference Leadership", "href": "index.html#leadership" }
+      ]
+    },
+    {
+      "label": "Media",
+      "href": "index.html#bnc-vision",
+      "children": [
+        { "label": "BNC Vision", "href": "index.html#bnc-vision" },
+        { "label": "All Videos", "href": "videos.html" },
+        { "label": "BNC News", "href": "index.html#bnc-news" }
+      ]
+    },
+    {
+      "label": "Conference",
+      "href": "info.html",
+      "children": [
+        { "label": "Athletic Directors", "href": "index.html#directory" },
+        { "label": "About the BNC", "href": "info.html" },
+        { "label": "School Websites", "href": "websites.html" },
+        { "label": "External Links", "href": "links.html" }
+      ]
+    }
+  ]
+}
