@@ -1,18 +1,45 @@
 {
-  "_comment": "Conference standings links by sport. Each sport links to the NJ.com standings table for that sport in the Big North. Update URLs each season. Groups map to seasons (fall/winter/spring).",
-  "season": "2025-26",
-  "groups": [
+  "_comment": "Conference standings are published by NJ.com. An entry's URL is built from baseUrl + slug + season + conference, where 'season' falls back to defaultSeason and 'conference' to defaultConference (Big North). Sports NJ.com does not group under Big North point at the body that does: football at the Super Football Conference (SFC), lacrosse at NJILL/NJIGLL. A sport with neither 'slug' nor 'url' is listed but not clickable - NJ.com has no Big North table for girls soccer, field hockey or ice hockey. Update defaultSeason each year.",
+  "defaultSeason": "2026-2027",
+  "baseUrl": "https://highschoolsports.nj.com",
+  "defaultConference": "Big North",
+  "seasons": [
     {
-      "label": "Fall",
-      "sports": []
+      "name": "Fall",
+      "sports": [
+        { "label": "Football", "slug": "football", "conference": "SFC" },
+        { "label": "Boys Soccer", "slug": "boyssoccer" },
+        { "label": "Girls Soccer" },
+        { "label": "Field Hockey" },
+        { "label": "Girls Tennis", "slug": "girlstennis" },
+        { "label": "Girls Volleyball", "slug": "girlsvolleyball" }
+      ]
     },
     {
-      "label": "Winter",
-      "sports": []
+      "name": "Winter",
+      "sports": [
+        { "label": "Boys Basketball", "slug": "boysbasketball" },
+        { "label": "Girls Basketball", "slug": "girlsbasketball" },
+        { "label": "Ice Hockey" },
+        { "label": "Wrestling", "slug": "wrestling" },
+        { "label": "Boys Swimming", "slug": "boysswimming" },
+        { "label": "Girls Swimming", "slug": "girlsswimming" },
+        { "label": "Boys Bowling", "slug": "boysbowling" },
+        { "label": "Girls Bowling", "slug": "girlsbowling" }
+      ]
     },
     {
-      "label": "Spring",
-      "sports": []
+      "name": "Spring",
+      "sports": [
+        { "label": "Baseball", "slug": "baseball" },
+        { "label": "Softball", "slug": "softball" },
+        { "label": "Boys Lacrosse", "slug": "boyslacrosse", "conference": "NJILL" },
+        { "label": "Girls Lacrosse", "slug": "girlslacrosse", "conference": "NJIGLL" },
+        { "label": "Boys Tennis", "slug": "boystennis" },
+        { "label": "Boys Volleyball", "slug": "boysvolleyball" },
+        { "label": "Boys Golf", "slug": "boysgolf" },
+        { "label": "Girls Golf", "slug": "girlsgolf" }
+      ]
     }
   ]
 }
