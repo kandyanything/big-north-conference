@@ -19,13 +19,18 @@ const path = require('path');
 const sharp = require('sharp');
 
 const ROOT = path.join(__dirname, '..');
-const SEAL = path.join(ROOT, 'images', 'njac-logo.png');
+const SEAL = path.join(ROOT, 'images', 'bnc-logo-footer.png');
 const ICONS = path.join(ROOT, 'images', 'icons');
 
-const NAVY = '#12275a';
-const NAVY_DEEP = '#0b1a3a';
-const NAVY_LIT = '#1b3c86';
-const RED = '#c8102e';
+// The site's black-and-silver palette. Legacy names kept so the drawing code
+// below reads unchanged: NAVY is the dark tab-favicon field, RED the silver
+// ring/accent. The compass sits on a SILVER tile at large sizes because its
+// black-and-white linework would half-vanish on a dark field.
+const NAVY = '#0d0e10';
+const NAVY_DEEP = '#000000';
+const NAVY_LIT = '#2a2e35';
+const RED = '#c3c9d1';
+const SILVER = '#c3c9d1';
 
 // Oswald is a web font, and Arial Narrow turned out not to be available to the
 // renderer either - the headline fell back to full-width Arial and ran off the
@@ -79,17 +84,19 @@ function mark(size) {
         '<circle cx="' + r + '" cy="' + r + '" r="' + inner + '" fill="' + NAVY + '"/>' +
         '<text x="' + r + '" y="' + (r + fontSize * 0.35) + '" text-anchor="middle" ' +
         'font-family="' + CONDENSED + '" font-size="' + fontSize + '" font-weight="bold" ' +
-        'fill="#ffffff" letter-spacing="' + (-size * 0.015) + '">NJAC</text>' +
+        'fill="#ffffff" letter-spacing="' + (-size * 0.015) + '">BNC</text>' +
         '</svg>');
 }
 
-// The seal on a navy field, for home screens and app icons.
+// The compass on a silver field, for home screens and app icons. Silver rather
+// than the dark tab colour because the compass linework is black-and-white and
+// would half-disappear on a dark field.
 async function sealOn(size) {
     const pad = Math.round(size * 0.10);
     const inner = await sharp(SEAL)
         .resize(size - pad * 2, size - pad * 2, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
         .png().toBuffer();
-    return sharp({ create: { width: size, height: size, channels: 4, background: NAVY } })
+    return sharp({ create: { width: size, height: size, channels: 4, background: SILVER } })
         .composite([{ input: inner, top: pad, left: pad }])
         .png().toBuffer();
 }
@@ -121,8 +128,8 @@ function ico(frames) {
 }
 
 async function card() {
-    const L1 = 'NORTHWEST JERSEY';
-    const L2 = 'ATHLETIC CONFERENCE';
+    const L1 = 'BIG NORTH';
+    const L2 = 'CONFERENCE';
     const head = await fitSize([L1, L2], HEAD_W, 88);
     console.log('  headline fits at ' + head + 'px');
     return Buffer.from(
@@ -134,8 +141,8 @@ async function card() {
         '<stop offset="100%" stop-color="' + NAVY_LIT + '"/>' +
         '</linearGradient>' +
         '<radialGradient id="glow" cx="0.12" cy="0" r="0.75">' +
-        '<stop offset="0%" stop-color="#3b82f6" stop-opacity="0.34"/>' +
-        '<stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>' +
+        '<stop offset="0%" stop-color="#c3c9d1" stop-opacity="0.22"/>' +
+        '<stop offset="100%" stop-color="#c3c9d1" stop-opacity="0"/>' +
         '</radialGradient>' +
         '</defs>' +
         '<rect width="1200" height="630" fill="url(#bg)"/>' +
@@ -148,11 +155,11 @@ async function card() {
         'fill="#ffffff">' + L2 + '</text>' +
         '<rect x="' + HEAD_X + '" y="382" width="96" height="7" fill="' + RED + '"/>' +
         '<text x="' + HEAD_X + '" y="448" font-family="Arial, Helvetica, sans-serif" font-size="30" ' +
-        'fill="#b9c8e8">39 member high schools</text>' +
+        'fill="#c3c9d1">41 member high schools</text>' +
         '<text x="' + HEAD_X + '" y="492" font-family="Arial, Helvetica, sans-serif" font-size="30" ' +
-        'fill="#b9c8e8">Morris · Sussex · Warren counties</text>' +
+        'fill="#c3c9d1">Bergen · Passaic counties</text>' +
         '<text x="' + HEAD_X + '" y="562" font-family="Arial, Helvetica, sans-serif" font-size="26" ' +
-        'font-weight="bold" fill="#ffffff" letter-spacing="2">NWJERSEYAC.ORG</text>' +
+        'font-weight="bold" fill="#ffffff" letter-spacing="2">BIGNORTHCONFERENCE.COM</text>' +
         '</svg>');
 }
 
