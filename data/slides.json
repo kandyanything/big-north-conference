@@ -1,4 +1,14 @@
 {
-  "_comment": "Hero photo slides for the Ken Burns slider. Each entry: image (path under images/photos/), alt, caption (optional). Supply Big North conference photos - do not reuse NJAC images.",
-  "slides": []
+  "_comment": "Hero photo slides for the Ken Burns slider on the homepage. intervalMs sets the rotation speed. Each slide: image (path under images/photos/), alt, and optional heading/text/link for an overlaid caption.",
+  "intervalMs": 5000,
+  "slides": [
+    { "image": "images/photos/football.jpg", "alt": "Big North Conference football" },
+    { "image": "images/photos/girls-soccer.jpg", "alt": "Big North Conference girls soccer" },
+    { "image": "images/photos/boys-soccer.jpg", "alt": "Big North Conference boys soccer" },
+    { "image": "images/photos/field-hockey.jpg", "alt": "Big North Conference field hockey" },
+    { "image": "images/photos/girls-tennis.jpg", "alt": "Big North Conference girls tennis" },
+    { "image": "images/photos/girls-volleyball.jpg", "alt": "Big North Conference girls volleyball" },
+    { "image": "images/photos/boys-cross-country.jpg", "alt": "Big North Conference boys cross country" },
+    { "image": "images/photos/girls-cross-country.jpg", "alt": "Big North Conference girls cross country" }
+  ]
 }
