@@ -1,4 +1,17 @@
 {
-  "_comment": "Conference game videos. Each entry: title, youtube_id (or url), date (YYYY-MM-DD), thumbnail (optional), sport (optional).",
-  "videos": []
+  "_comment": "BNC Vision. Only entries in 'videos' are rendered. 'id' is the YouTube video id - the part after youtube.com/watch?v= , /live/ or /embed/ . The first video runs large as the feature; the rest fill the grid beneath it (homepage shows up to 7 = 1 feature + 6 grid; videos.html shows all). Optional 'thumb' picks the preview image: omit it for the uploader's graphic, or use 'hq1'/'hq2'/'hq3' for an auto-captured frame, or a full image URL. Order here is the order shown.",
+  "videos": [
+    {
+      "id": "1FSDgoTQhFE",
+      "title": "Football: DePaul vs Red Bank Catholic",
+      "date": "2026-08-24",
+      "sport": "Football"
+    },
+    {
+      "id": "RCrou1dHvIM",
+      "title": "Bergen County Girls Basketball Final: Ramapo vs Demarest",
+      "date": "2026-02-22",
+      "sport": "Girls Basketball"
+    }
+  ]
 }
