@@ -1,14 +1,16 @@
 name: Rebuild conference schedule
 
-# Cron runs in UTC and does not observe daylight saving, so a single fixed time
-# drifts by an hour twice a year. Two triggers are registered - 06:00 and 07:00
-# UTC - and the job exits immediately unless it is actually 02:00 in New York.
-# That lands on 2am Eastern all year while still doing only one real run a night.
+# A FULL rebuild re-fetches every school from source, so it is self-correcting:
+# it can never erode existing games the way the incremental "next few days"
+# splice could. It runs every 3 hours (this is a public repo, so Actions minutes
+# are unlimited), which means schedule changes - new games, reschedules,
+# cancellations - show up within a few hours, and the 2am slot is simply one of
+# these runs. The sanity check refuses to publish a build that came back
+# suspiciously thin (a flaky source), so a bad run just waits for the next one.
 on:
   schedule:
-    - cron: '0 6 * * *'    # 02:00 EDT (summer)
-    - cron: '0 7 * * *'    # 02:00 EST (winter)
-  workflow_dispatch:        # and on demand
+    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+  workflow_dispatch:         # and on demand
 
 concurrency:
   group: schedule-rebuild
@@ -22,51 +24,29 @@ jobs:
       contents: write
 
     steps:
-      - name: Is it 2am in New York?
-        id: gate
-        run: |
-          HOUR=$(TZ=America/New_York date +%H)
-          echo "New York time: $(TZ=America/New_York date '+%Y-%m-%d %H:%M %Z')"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "manual run - proceeding"
-            echo "run=yes" >> "$GITHUB_OUTPUT"
-          elif [ "$HOUR" = "02" ]; then
-            echo "proceeding"
-            echo "run=yes" >> "$GITHUB_OUTPUT"
-          else
-            echo "not 2am Eastern - this is the other cron trigger, skipping"
-            echo "run=no" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/checkout@v4
-        if: steps.gate.outputs.run == 'yes'
 
       - uses: actions/setup-node@v4
-        if: steps.gate.outputs.run == 'yes'
         with:
           node-version: '20'
 
       # keep the committed version so the guard can compare against it
       - name: Snapshot the current schedule
-        if: steps.gate.outputs.run == 'yes'
         run: cp data/schedule.json /tmp/previous-schedule.json || echo "no previous build"
 
       - name: Fetch every school
-        if: steps.gate.outputs.run == 'yes'
         run: node scripts/build-schedule.js
 
       # A build can succeed while returning far too little, if a source changes
-      # shape. Fail here rather than publishing a gutted calendar.
+      # shape or fails. Fail here rather than publishing a gutted calendar - the
+      # next run three hours later will try again.
       - name: Sanity check
-        if: steps.gate.outputs.run == 'yes'
         run: node scripts/check-schedule.js /tmp/previous-schedule.json
 
       - name: Split into per-month files
-        if: steps.gate.outputs.run == 'yes'
         run: node scripts/split-schedule.js
 
       - name: Commit if anything changed
-        if: steps.gate.outputs.run == 'yes'
         run: |
           git config user.name  "bnc-schedule-bot"
           git config user.email "actions@github.com"
@@ -77,5 +57,5 @@ jobs:
           fi
           GAMES=$(node -e "console.log(require('./data/schedule.json').counts.deduped)")
           DATES=$(node -e "console.log(require('./data/schedule.json').counts.dates)")
-          git commit -m "Nightly schedule rebuild: ${GAMES} games across ${DATES} dates"
+          git commit -m "Schedule rebuild: ${GAMES} games across ${DATES} dates"
           git push

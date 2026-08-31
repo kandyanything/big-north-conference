@@ -1,18 +1,19 @@
-name: Refresh upcoming schedule (hourly)
+name: Refresh upcoming schedule (DISABLED)
 
-# The full nightly rebuild (schedule.yml) re-checks all 41 schools' entire
-# season once a night. This runs every hour but only re-checks the next few
-# days, so a same-day reschedule - an AD moving a 6pm kickoff to 4pm - shows
-# up within the hour instead of waiting for 2am. See scripts/update-recent.js
-# for how it splices just that window into data/schedule.json without
-# touching any other date.
+# DISABLED ON PURPOSE. This incremental "next few days" refresh
+# (scripts/update-recent.js) re-fetched only the nearest days and SPLICED them
+# in - but whenever a source hiccupped it removed those games instead of keeping
+# them. With the full nightly rebuild not committing, it quietly hollowed out the
+# nearest days (Sept 1-2 dropped to zero).
+#
+# The full rebuild (schedule.yml) now runs every 3 hours instead. A full rebuild
+# is self-correcting and CANNOT erode, so it replaces this job. This file is kept
+# for reference and manual runs only; do NOT restore the cron trigger without
+# first fixing the erosion in update-recent.js (it must never drop a game just
+# because a single source returned thin).
 on:
-  schedule:
-    - cron: '0 * * * *'
   workflow_dispatch:
 
-# Shares a group with the nightly rebuild so the two never race each other's
-# commit-and-push against main.
 concurrency:
   group: schedule-rebuild
   cancel-in-progress: false
@@ -46,7 +47,5 @@ jobs:
             echo "no change - nothing to publish"
             exit 0
           fi
-          GAMES=$(node -e "console.log(require('./data/schedule.json').counts.deduped)")
-          DATES=$(node -e "console.log(require('./data/schedule.json').counts.dates)")
-          git commit -m "Hourly schedule refresh: ${GAMES} games across ${DATES} dates"
+          git commit -m "Hourly schedule refresh (manual)"
           git push
