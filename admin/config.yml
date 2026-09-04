@@ -59,8 +59,10 @@ collections:
           - { label: "Button link (optional)", name: "linkUrl", widget: "string", required: false,
               hint: "Where the button goes, e.g. schools.html or a full https:// link. Leave blank for no button." }
           - { label: "Button label (optional)", name: "linkLabel", widget: "string", required: false, default: "Learn More" }
-          - { label: "How often to show it", name: "frequency", widget: "select", default: "once",
-              options: [ { label: "Once per visitor (normal news)", value: "once" }, { label: "Every visit (emergencies only)", value: "always" } ] }
+          - { label: "How long to keep showing it", name: "mode", widget: "select", default: "once",
+              options: [ { label: "Once per visitor (shows one time, then gone for them)", value: "once" }, { label: "Until they acknowledge it (returns each visit until they click 'Don't show again')", value: "acknowledge" }, { label: "Until a date (comes down automatically on the date below)", value: "untilDate" } ] }
+          - { label: "Take it down on this date", name: "endDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, required: false,
+              hint: "Only used with the 'Until a date' option above - the pop-up stops showing after this day. Leave blank otherwise." }
 
   - name: "directory"
     label: "Athletic Directors"
