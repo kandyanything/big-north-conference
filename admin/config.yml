@@ -38,6 +38,30 @@ public_folder: "images/uploads"
 # There is no separate password or account system for this editor to manage.
 
 collections:
+  - name: "announcement"
+    label: "Announcement Pop-up"
+    description: "A message that pops up when someone opens the site - for important news (e.g. all-conference teams posted) or an emergency. Turn it on, write the message, save. Turn it off when it is no longer needed."
+    files:
+      - file: "data/announcement.json"
+        label: "Announcement"
+        name: "announcement"
+        fields:
+          - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
+              default: "Site-wide announcement pop-up. 'active' shows/hides it. Change 'id' whenever you post a NEW message so people who dismissed the last one see the new one. frequency 'once' shows a message a single time per visitor; 'always' shows it every visit (emergencies only)." }
+          - { label: "Show the pop-up", name: "active", widget: "boolean", default: false,
+              hint: "On: visitors see this message when they open the site. Off: no pop-up shows at all." }
+          - { label: "Message ID", name: "id", widget: "string",
+              hint: "Change this to a new value (e.g. all-conf-fall-2026) every time you post a NEW message, so people who already dismissed the previous one will see this one." }
+          - { label: "Small label above the title (optional)", name: "eyebrow", widget: "string", required: false,
+              hint: "e.g. Announcement, Alert, Reminder. Leave blank for none." }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Message", name: "body", widget: "text", required: false }
+          - { label: "Button link (optional)", name: "linkUrl", widget: "string", required: false,
+              hint: "Where the button goes, e.g. schools.html or a full https:// link. Leave blank for no button." }
+          - { label: "Button label (optional)", name: "linkLabel", widget: "string", required: false, default: "Learn More" }
+          - { label: "How often to show it", name: "frequency", widget: "select", default: "once",
+              options: [ { label: "Once per visitor (normal news)", value: "once" }, { label: "Every visit (emergencies only)", value: "always" } ] }
+
   - name: "directory"
     label: "Athletic Directors"
     description: "Contact info shown on the home page directory. Add or remove a school entirely from code, not here - this only edits the fields for schools already listed."

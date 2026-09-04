@@ -1,0 +1,11 @@
+{
+  "_comment": "Site-wide pop-up shown when someone opens the site. active:true shows it, false hides it. Change 'id' whenever you post a NEW message so people who dismissed the last one see the new one. frequency: 'once' = shown a single time per visitor (normal news); 'always' = shown every visit (emergencies only). eyebrow/linkUrl/linkLabel are optional; leave linkUrl empty for no button.",
+  "active": true,
+  "id": "welcome-2026",
+  "eyebrow": "Announcement",
+  "title": "Welcome to the New Big North Site",
+  "body": "Browse every school's schedule, follow standings, and watch BNC Vision — all season long.",
+  "linkUrl": "#member-schools",
+  "linkLabel": "View Schedules",
+  "frequency": "once"
+}
