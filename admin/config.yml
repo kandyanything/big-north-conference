@@ -47,7 +47,7 @@ collections:
         name: "announcement"
         fields:
           - { label: "Internal note (do not edit)", name: "_comment", widget: "hidden",
-              default: "Site-wide announcement pop-up. 'active' shows/hides it. Change 'id' whenever you post a NEW message so people who dismissed the last one see the new one. frequency 'once' shows a message a single time per visitor; 'always' shows it every visit (emergencies only)." }
+              default: "Site-wide announcement pop-up. 'active' shows/hides it. Change 'id' whenever you post a NEW message so people who dismissed the last one see the new one. 'mode' controls how long it keeps showing: 'once' = one time per visitor; 'acknowledge' = returns each visit until they click 'Don't show again'; 'untilDate' = shows until 'endDate' passes, then comes down on its own." }
           - { label: "Show the pop-up", name: "active", widget: "boolean", default: false,
               hint: "On: visitors see this message when they open the site. Off: no pop-up shows at all." }
           - { label: "Message ID", name: "id", widget: "string",
