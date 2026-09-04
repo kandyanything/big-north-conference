@@ -386,6 +386,15 @@
     transition: color .18s ease;
 }
 
+.atq-credit .atq-logo {
+    height: 22px;
+    width: auto;
+    display: block;
+    transition: opacity .18s ease;
+}
+.atq-credit:hover .atq-logo,
+.atq-credit:focus-visible .atq-logo { opacity: .85; }
+
 .atq-credit:hover svg,
 .atq-credit:focus-visible svg { color: #e6ebee; }
 
