@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // between seasons - say so plainly rather than quietly showing another
         // day's fixtures under a heading that claims otherwise.
         if (dates[0] !== today) {
-            lede.textContent = 'No NJAC games today. Here is what is coming up.';
+            lede.textContent = 'No BNC games today. Here is what is coming up.';
             lede.hidden = false;
         } else {
             lede.hidden = true;
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // a name to its distinguishing words so an opponent can be recognised as a
     // conference member however its own school chose to write it.
     //
-    // Checked against the full directory: no two NJAC schools reduce to the same
+    // Checked against the full directory: no two BNC schools reduce to the same
     // string, so this cannot put one school's crest on another's row.
     function normSchool(s) {
         return String(s || '')

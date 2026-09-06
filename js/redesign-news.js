@@ -1,4 +1,4 @@
-// NJAC News (redesign): a slider. Stories scroll horizontally a page at a time,
+// BNC News (redesign): a slider. Stories scroll horizontally a page at a time,
 // with arrows and dots. The section hides itself when news.json is empty rather
 // than leaving a bare heading on the page.
 document.addEventListener('DOMContentLoaded', function () {

@@ -1,4 +1,4 @@
-// NJAC Honors: championships, scholar athletes and other recognition.
+// BNC Honors: championships, scholar athletes and other recognition.
 // Hides itself while honors.json is empty so the page shows no bare heading.
 document.addEventListener('DOMContentLoaded', function () {
     var section = document.querySelector('.njac-honors');

@@ -1,4 +1,4 @@
-// Conference Schedule: a month grid, click a day to see every NJAC game that
+// Conference Schedule: a month grid, click a day to see every BNC game that
 // day in chronological order.
 //
 // Loads data/schedule/index.json for the grid (small - just which dates have

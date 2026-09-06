@@ -1,4 +1,4 @@
-// NJAC Vision (redesign): the first video runs large as a feature, the rest
+// BNC Vision (redesign): the first video runs large as a feature, the rest
 // sit in a grid beneath it.
 //
 // Tiles are thumbnails rather than embedded players - ten iframes would load
@@ -44,11 +44,11 @@ document.addEventListener('DOMContentLoaded', function () {
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'vision-thumb';
-        btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'NJAC game'));
+        btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'BNC game'));
 
         var img = document.createElement('img');
         img.src = thumbUrl(v, big);
-        img.alt = v.title || 'NJAC game video';
+        img.alt = v.title || 'BNC game video';
         img.loading = big ? 'eager' : 'lazy';
         img.onerror = function () {
             // maxresdefault is not generated for every upload
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.addEventListener('click', function () {
             var frame = document.createElement('iframe');
             frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
-            frame.title = v.title || 'NJAC game video';
+            frame.title = v.title || 'BNC game video';
             frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
             frame.referrerPolicy = 'strict-origin-when-cross-origin';
             frame.allowFullscreen = true;
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var meta = document.createElement('div');
         meta.className = 'vision-meta';
         var h3 = document.createElement('h3');
-        h3.textContent = v.title || 'NJAC game';
+        h3.textContent = v.title || 'BNC game';
         meta.appendChild(h3);
         if (v.sport || v.date) {
             var p = document.createElement('p');

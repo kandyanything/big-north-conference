@@ -1,4 +1,4 @@
-// Build the favicons, touch icons and social sharing card from the NJAC seal.
+// Build the favicons, touch icons and social sharing card from the BNC seal.
 //
 // Run by hand when the seal or the wording changes:
 //   NODE_PATH=<somewhere with sharp> node scripts/build-brand-images.js
@@ -10,7 +10,7 @@
 // Two different marks, on purpose. The seal carries its name around the rim,
 // and at 32px that lettering collapses into noise - it is simply too detailed
 // to survive a browser tab. Small sizes therefore use a purpose-drawn mark that
-// keeps the seal's structure, a red ring around a navy field, with NJAC large
+// keeps the seal's structure, a red ring around a navy field, with BNC large
 // enough to read. Anything 180px or larger shows the real seal, where the
 // detail is an asset rather than mush.
 

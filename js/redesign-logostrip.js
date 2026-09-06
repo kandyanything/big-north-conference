@@ -1,6 +1,6 @@
 // School logos drifting right to left behind the masthead.
 //
-// The illusion is that the logos pass *behind* the NJAC seal and the wordmark:
+// The illusion is that the logos pass *behind* the BNC seal and the wordmark:
 // they fade out as they reach the end of "Conference", cross the brand unseen,
 // and reappear in the gap to the left of the seal before fading off the edge.
 //

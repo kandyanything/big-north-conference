@@ -1,9 +1,9 @@
 /* ==========================================================================
-   NJAC redesign - feature video, news slider, standings, honors
+   BNC redesign - feature video, news slider, standings, honors
    Loaded after redesign-components.css and overrides the pieces that changed.
    ========================================================================== */
 
-/* ---------- NJAC Vision: one feature, then a grid ---------- */
+/* ---------- BNC Vision: one feature, then a grid ---------- */
 .vision-feature { margin-bottom: 22px; }
 
 .vision-feature .vision-item {
@@ -48,7 +48,7 @@
 .vision-grid .vision-play { width: 56px; height: 56px; }
 .vision-grid .vision-play::after { border-width: 10px 0 10px 16px; }
 
-/* ---------- NJAC News: slider ---------- */
+/* ---------- BNC News: slider ---------- */
 .news-nav { display: flex; gap: 8px; flex-shrink: 0; }
 
 .news-nav button {
@@ -477,7 +477,7 @@
     .directory-card { flex-direction: column; }
 }
 
-/* ---------- NJAC leadership ---------- */
+/* ---------- BNC leadership ---------- */
 .leadership-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

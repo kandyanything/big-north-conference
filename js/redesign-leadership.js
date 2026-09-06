@@ -1,4 +1,4 @@
-// NJAC Leadership: the conference's executive officers.
+// BNC Leadership: the conference's executive officers.
 // Hides itself if leadership.json is empty, like the other data-driven sections.
 document.addEventListener('DOMContentLoaded', function () {
     var section = document.querySelector('.njac-leadership');
