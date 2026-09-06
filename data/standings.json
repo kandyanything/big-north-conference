@@ -7,38 +7,114 @@
     {
       "name": "Fall",
       "sports": [
-        { "label": "Football", "slug": "football", "conference": "SFC" },
-        { "label": "Boys Soccer", "slug": "boyssoccer" },
-        { "label": "Girls Soccer", "slug": "girlssoccer", "conference": "Big-North" },
-        { "label": "Field Hockey" },
-        { "label": "Girls Tennis", "slug": "girlstennis" },
-        { "label": "Girls Volleyball", "slug": "girlsvolleyball" }
+        {
+          "label": "Football",
+          "slug": "football",
+          "conference": "SFC"
+        },
+        {
+          "label": "Boys Soccer",
+          "slug": "boyssoccer"
+        },
+        {
+          "label": "Girls Soccer",
+          "slug": "girlssoccer",
+          "conference": "Big-North"
+        },
+        {
+          "label": "Field Hockey"
+        },
+        {
+          "label": "Girls Tennis",
+          "slug": "girlstennis"
+        },
+        {
+          "label": "Girls Volleyball",
+          "slug": "girlsvolleyball"
+        },
+        {
+          "label": "Boys Cross Country",
+          "url": "https://nj.milesplit.com/"
+        },
+        {
+          "label": "Girls Cross Country",
+          "url": "https://nj.milesplit.com/"
+        }
       ]
     },
     {
       "name": "Winter",
       "sports": [
-        { "label": "Boys Basketball", "slug": "boysbasketball" },
-        { "label": "Girls Basketball", "slug": "girlsbasketball" },
-        { "label": "Ice Hockey" },
-        { "label": "Wrestling", "slug": "wrestling" },
-        { "label": "Boys Swimming", "slug": "boysswimming" },
-        { "label": "Girls Swimming", "slug": "girlsswimming" },
-        { "label": "Boys Bowling", "slug": "boysbowling" },
-        { "label": "Girls Bowling", "slug": "girlsbowling" }
+        {
+          "label": "Boys Basketball",
+          "slug": "boysbasketball"
+        },
+        {
+          "label": "Girls Basketball",
+          "slug": "girlsbasketball"
+        },
+        {
+          "label": "Ice Hockey"
+        },
+        {
+          "label": "Wrestling",
+          "slug": "wrestling"
+        },
+        {
+          "label": "Boys Swimming",
+          "slug": "boysswimming"
+        },
+        {
+          "label": "Girls Swimming",
+          "slug": "girlsswimming"
+        },
+        {
+          "label": "Boys Bowling",
+          "slug": "boysbowling"
+        },
+        {
+          "label": "Girls Bowling",
+          "slug": "girlsbowling"
+        }
       ]
     },
     {
       "name": "Spring",
       "sports": [
-        { "label": "Baseball", "slug": "baseball" },
-        { "label": "Softball", "slug": "softball" },
-        { "label": "Boys Lacrosse", "slug": "boyslacrosse", "conference": "NJILL" },
-        { "label": "Girls Lacrosse", "slug": "girlslacrosse", "conference": "NJIGLL" },
-        { "label": "Boys Tennis", "slug": "boystennis" },
-        { "label": "Boys Volleyball", "slug": "boysvolleyball" },
-        { "label": "Boys Golf", "slug": "boysgolf" },
-        { "label": "Girls Golf", "slug": "girlsgolf" }
+        {
+          "label": "Baseball",
+          "slug": "baseball"
+        },
+        {
+          "label": "Softball",
+          "slug": "softball"
+        },
+        {
+          "label": "Boys Lacrosse",
+          "slug": "boyslacrosse",
+          "conference": "NJILL"
+        },
+        {
+          "label": "Girls Lacrosse",
+          "slug": "girlslacrosse",
+          "conference": "NJIGLL"
+        },
+        {
+          "label": "Boys Tennis",
+          "slug": "boystennis"
+        },
+        {
+          "label": "Boys Volleyball",
+          "slug": "boysvolleyball"
+        },
+        {
+          "label": "Boys Golf",
+          "slug": "boysgolf"
+        },
+        {
+          "label": "Girls Golf",
+          "slug": "girlsgolf"
+        }
       ]
     }
   ]
