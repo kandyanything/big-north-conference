@@ -35,7 +35,10 @@ const xml = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').re
 const VTZ = ['BEGIN:VTIMEZONE', 'TZID:America/New_York',
   'BEGIN:DAYLIGHT', 'TZOFFSETFROM:-0500', 'TZOFFSETTO:-0400', 'TZNAME:EDT', 'DTSTART:19700308T020000', 'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU', 'END:DAYLIGHT',
   'BEGIN:STANDARD', 'TZOFFSETFROM:-0400', 'TZOFFSETTO:-0500', 'TZNAME:EST', 'DTSTART:19701101T020000', 'RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU', 'END:STANDARD', 'END:VTIMEZONE'];
-const DTSTAMP = (doc.generated || new Date().toISOString()).replace(/[-:]/g, '').replace(/\.\d+/, '').slice(0, 15) + 'Z';
+// Fixed DTSTAMP so an unchanged feed stays byte-identical build-to-build — no
+// git churn across the ~2000 team feeds. It's the calendar object's creation
+// stamp, not a refresh signal (clients re-fetch by URL / HTTP caching).
+const DTSTAMP = '20250801T000000Z';
 
 function vevent(g) {
   const ymd = g.date.replace(/-/g, '');
@@ -110,11 +113,39 @@ for (const k of Object.keys(combos).sort()) {
   sportLevelFeeds.push({ sport, level, name: level + ' ' + sport, slug, path: 'feeds/sports/' + slug + '.ics', rss: 'feeds/sports/' + slug + '.xml', games: combos[k].length });
 }
 
+// ---- per-team feeds: one school's sport (all levels) and each sport+level ----
+// Lets someone subscribe to exactly their team, e.g. "<School> Boys Soccer
+// Varsity". Only combos that actually have games are written. The tree is
+// emitted to feeds/teams.json (loaded lazily by the subscribe drawer).
+const orderLv = ['Varsity', 'Junior Varsity', 'Freshman', 'Middle School'];
+const teamSchools = [];
+let teamCount = 0;
+for (const s of SCHOOLS) {
+  const list = schoolGames(s.name);
+  if (!list.length) continue;
+  const bySport = {};
+  for (const g of list) (bySport[g.sport] = bySport[g.sport] || []).push(g);
+  const dir = path.join(OUT, 'teams', s.slug);
+  fs.mkdirSync(dir, { recursive: true });
+  const sportsOut = [];
+  for (const sport of Object.keys(bySport).sort()) {
+    const sl = slugify(sport);
+    fs.writeFileSync(path.join(dir, sl + '.ics'), calendar(CONF + ' — ' + s.name + ' ' + sport, bySport[sport])); teamCount++;
+    const byLevel = {};
+    for (const g of bySport[sport]) if (g.level) (byLevel[g.level] = byLevel[g.level] || []).push(g);
+    const levels = Object.keys(byLevel).sort((a, b) => (orderLv.indexOf(a) + 1 || 9) - (orderLv.indexOf(b) + 1 || 9));
+    for (const lv of levels) { fs.writeFileSync(path.join(dir, sl + '--' + slugify(lv) + '.ics'), calendar(CONF + ' — ' + s.name + ' ' + lv + ' ' + sport, byLevel[lv])); teamCount++; }
+    sportsOut.push({ name: sport, slug: sl, levels: levels.map(lv => ({ name: lv, slug: slugify(lv) })) });
+  }
+  teamSchools.push({ name: s.name, slug: s.slug, sports: sportsOut });
+}
+fs.writeFileSync(path.join(OUT, 'teams.json'), JSON.stringify({ conference: CONF, base: 'feeds/teams', schools: teamSchools }) + '\n');
+
 const upCount = games.filter(g => { const t0 = new Date().toISOString().slice(0, 10); const h = new Date(); h.setDate(h.getDate() + 21); return g.date >= t0 && g.date <= h.toISOString().slice(0, 10); }).length;
 fs.writeFileSync(path.join(OUT, 'rss.xml'), rssFor(CONF + ' — Upcoming Games', 'Upcoming games across all ' + CONF + ' schools.', games, 21, 600));
 
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({
-  conference: CONF, generated: doc.generated, all: 'feeds/all.ics', rss: 'feeds/rss.xml',
+  conference: CONF, generated: doc.generated, all: 'feeds/all.ics', rss: 'feeds/rss.xml', teams: 'feeds/teams.json',
   schools: schoolFeeds, sports: sportFeeds, sportLevels: sportLevelFeeds,
 }, null, 2) + '\n');
-console.log(`feeds for ${CONF}: all.ics (${games.length}), ${schoolFeeds.length} schools, ${sportFeeds.length} sports, ${sportLevelFeeds.length} sport+level, rss (${Math.min(upCount, 600)})`);
+console.log(`feeds for ${CONF}: all.ics (${games.length}), ${schoolFeeds.length} schools, ${sportFeeds.length} sports, ${sportLevelFeeds.length} sport+level, ${teamCount} team feeds, rss (${Math.min(upCount, 600)})`);
