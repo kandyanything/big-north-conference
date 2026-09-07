@@ -49,7 +49,7 @@
       '<a class="csub-a" data-k="download" download>Download .ics</a>' +
       '</div>' +
       '<div class="csub-copy"><input type="text" class="csub-url" readonly aria-label="Feed URL"><button type="button" class="csub-copybtn">Copy</button></div>' +
-      '<p class="csub-foot">Prefer a reader? <a href="feeds/rss.xml">Follow by RSS</a>. On Google Calendar use <em>Other calendars → From URL</em> and paste the link.</p>' +
+      '<p class="csub-foot">Prefer a reader? <a class="csub-rss" href="feeds/rss.xml">Follow by RSS</a>. On Google Calendar use <em>Other calendars → From URL</em> and paste the link.</p>' +
       '</div>';
     document.body.appendChild(back);
 
@@ -74,6 +74,16 @@
       }
       return MAN.all || 'feeds/all.ics';
     }
+    function feedRss() {
+      var v = scope.value, lv = level.value;
+      if (v.indexOf('school:') === 0) { var sc = SCH[v.slice(7)]; return sc && sc.rss ? sc.rss : MAN.rss; }
+      if (v.indexOf('sport:') === 0) {
+        var sp = SPO[v.slice(6)];
+        if (sp && lv) { var m = (MAN.sportLevels || []).filter(function (x) { return x.sport === sp.name && x.level === lv; })[0]; if (m && m.rss) return m.rss; }
+        return sp && sp.rss ? sp.rss : MAN.rss;
+      }
+      return MAN.rss || 'feeds/rss.xml';
+    }
     function refresh() {
       $('.csub-lvl', back).hidden = scope.value.indexOf('sport:') !== 0;
       var p = feedPath(), https = absUrl(p), webcal = https.replace(/^https?:/, 'webcal:');
@@ -82,6 +92,7 @@
       $('[data-k="google"]', back).href = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcal);
       $('[data-k="download"]', back).href = p;
       $('.csub-url', back).value = https;
+      var rss = $('.csub-rss', back); if (rss) rss.href = feedRss();
     }
     scope.addEventListener('change', refresh); level.addEventListener('change', refresh); refresh();
 
@@ -109,11 +120,25 @@
     });
   }
   function norm(s) { return String(s || '').toLowerCase().replace(/\b(high school|high|school|regional|the|academy)\b/g, '').replace(/[^a-z0-9]/g, ''); }
+  function baseSport(s) { return String(s || '').replace(/^(Boys|Girls|Coed)\s+/, ''); }
+  function pageVal(sel) { var e = document.querySelector(sel); return e && e.value ? e.value : ''; }
   function doPrint(scope, level, SCH, SPO) {
     loadGames().then(function (all) {
-      var v = scope.value, lv = level.value, label = 'All schools · all sports', filt = function () { return true; };
-      if (v.indexOf('school:') === 0) { var sc = SCH[v.slice(7)]; if (sc) { label = sc.name; var k = norm(sc.name); filt = function (g) { return norm(g.school) === k || norm(g.opponent) === k; }; } }
-      else if (v.indexOf('sport:') === 0) { var sp = SPO[v.slice(6)]; if (sp) { label = (lv ? lv + ' ' : '') + sp.name; filt = function (g) { return g.sport === sp.name && (!lv || g.level === lv); }; } }
+      var v = scope.value, lv = level.value, lbl = [], filters = [];
+      // drawer scope (subscribe selector)
+      if (v.indexOf('school:') === 0) { var sc = SCH[v.slice(7)]; if (sc) { lbl.push(sc.name); var k = norm(sc.name); filters.push(function (g) { return norm(g.school) === k || norm(g.opponent) === k; }); } }
+      else if (v.indexOf('sport:') === 0) { var sp = SPO[v.slice(6)]; if (sp) { lbl.push((lv ? lv + ' ' : '') + sp.name); filters.push(function (g) { return g.sport === sp.name && (!lv || g.level === lv); }); } }
+      // honor the calendar page's own filters so Print matches what's on screen
+      var pSport = pageVal('.cal-f-sport'), pGender = pageVal('.cal-f-gender'), pLevel = pageVal('.cal-f-level'), pKind = pageVal('.cal-f-kind'), pBrowse = pageVal('.cal-sport');
+      if (pSport) filters.push(function (g) { return baseSport(g.sport) === pSport; });
+      else if (pBrowse) { filters.push(function (g) { return g.sport === pBrowse; }); }
+      if (pGender) filters.push(function (g) { return (g.gender || '') === pGender; });
+      if (pLevel) filters.push(function (g) { return g.level === pLevel; });
+      if (pKind) filters.push(function (g) { return (g.kind || 'Game') === pKind; });
+      var pageLbl = [pLevel, pGender, pSport || pBrowse].filter(Boolean).join(' ');
+      if (pageLbl) lbl.push(pageLbl);
+      var label = lbl.join(' · ') || 'All schools · all sports';
+      var filt = filters.length ? function (g) { return filters.every(function (f) { return f(g); }); } : function () { return true; };
       var today = new Date().toISOString().slice(0, 10);
       var games = all.filter(function (g) { return g.date >= today && filt(g); })
         .sort(function (a, b) { return a.date === b.date ? (a.time || '99:99').localeCompare(b.time || '99:99') : a.date.localeCompare(b.date); });

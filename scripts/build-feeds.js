@@ -68,41 +68,53 @@ function schoolGames(name) {
   return games.filter(g => norm(g.school) === k || norm(g.opponent) === k || (g.schools || []).some(s => norm(s) === k));
 }
 
+// RSS for any slice of games. Conference feed is short-window/high-cap; the
+// per-school and per-sport feeds look further ahead so a single team's page
+// isn't nearly empty.
+const nowUTC = new Date().toUTCString();
+function rssFor(title, desc, list, days, cap) {
+  const t0 = new Date().toISOString().slice(0, 10);
+  const h = new Date(); h.setDate(h.getDate() + days);
+  const t1 = h.toISOString().slice(0, 10);
+  const up = list.filter(g => g.date >= t0 && g.date <= t1)
+    .sort((a, b) => (a.date === b.date ? (a.time || '99:99').localeCompare(b.time || '99:99') : a.date.localeCompare(b.date)));
+  const items = up.slice(0, cap).map(g => {
+    const line = `${g.school} ${g.home === false ? 'at' : 'vs'} ${g.opponent || 'TBD'} — ${[g.level, g.gender, g.sport].filter(Boolean).join(' ')}`;
+    const when = new Date(`${g.date}T${g.time || '00:00'}:00-04:00`).toUTCString();
+    return `    <item>\n      <title>${xml(line)}</title>\n      <description>${xml(g.date + (g.timeLabel ? ' ' + g.timeLabel : '') + ' — ' + (g.status || 'Scheduled'))}</description>\n      <pubDate>${when}</pubDate>\n      <guid isPermaLink="false">${xml(g.id || line)}</guid>\n    </item>`;
+  }).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>${xml(title)}</title>\n    <link>/</link>\n    <description>${xml(desc)}</description>\n    <lastBuildDate>${nowUTC}</lastBuildDate>\n${items}\n  </channel>\n</rss>\n`;
+}
+
 fs.writeFileSync(path.join(OUT, 'all.ics'), calendar(CONF + ' — Full Schedule', games));
 const schoolFeeds = [];
 for (const s of SCHOOLS) {
   const list = schoolGames(s.name);
   fs.writeFileSync(path.join(OUT, 'schools', s.slug + '.ics'), calendar(CONF + ' — ' + s.name, list));
-  schoolFeeds.push({ name: s.name, slug: s.slug, path: 'feeds/schools/' + s.slug + '.ics', games: list.length });
+  fs.writeFileSync(path.join(OUT, 'schools', s.slug + '.xml'), rssFor(CONF + ' — ' + s.name, 'Upcoming games for ' + s.name + '.', list, 60, 200));
+  schoolFeeds.push({ name: s.name, slug: s.slug, path: 'feeds/schools/' + s.slug + '.ics', rss: 'feeds/schools/' + s.slug + '.xml', games: list.length });
 }
 const sportFeeds = [];
 for (const sport of [...new Set(games.map(g => g.sport))].sort()) {
   const slug = slugify(sport), list = games.filter(g => g.sport === sport);
   fs.writeFileSync(path.join(OUT, 'sports', slug + '.ics'), calendar(CONF + ' — ' + sport, list));
-  sportFeeds.push({ name: sport, slug, path: 'feeds/sports/' + slug + '.ics', games: list.length });
+  fs.writeFileSync(path.join(OUT, 'sports', slug + '.xml'), rssFor(CONF + ' — ' + sport, 'Upcoming ' + sport + ' games across ' + CONF + '.', list, 60, 300));
+  sportFeeds.push({ name: sport, slug, path: 'feeds/sports/' + slug + '.ics', rss: 'feeds/sports/' + slug + '.xml', games: list.length });
 }
 const sportLevelFeeds = [], combos = {};
 for (const g of games) { if (g.level) { const k = g.sport + '||' + g.level; (combos[k] = combos[k] || []).push(g); } }
 for (const k of Object.keys(combos).sort()) {
   const [sport, level] = k.split('||'), slug = slugify(level) + '--' + slugify(sport);
   fs.writeFileSync(path.join(OUT, 'sports', slug + '.ics'), calendar(CONF + ' — ' + level + ' ' + sport, combos[k]));
-  sportLevelFeeds.push({ sport, level, name: level + ' ' + sport, slug, path: 'feeds/sports/' + slug + '.ics', games: combos[k].length });
+  fs.writeFileSync(path.join(OUT, 'sports', slug + '.xml'), rssFor(CONF + ' — ' + level + ' ' + sport, 'Upcoming ' + level + ' ' + sport + ' games.', combos[k], 60, 300));
+  sportLevelFeeds.push({ sport, level, name: level + ' ' + sport, slug, path: 'feeds/sports/' + slug + '.ics', rss: 'feeds/sports/' + slug + '.xml', games: combos[k].length });
 }
 
-const today = new Date().toISOString().slice(0, 10);
-const horizon = new Date(); horizon.setDate(horizon.getDate() + 21);
-const soon = horizon.toISOString().slice(0, 10);
-const upcoming = games.filter(g => g.date >= today && g.date <= soon)
-  .sort((a, b) => (a.date === b.date ? (a.time || '99:99').localeCompare(b.time || '99:99') : a.date.localeCompare(b.date)));
-const items = upcoming.slice(0, 600).map(g => {
-  const title = `${g.school} ${g.home === false ? 'at' : 'vs'} ${g.opponent || 'TBD'} — ${[g.level, g.gender, g.sport].filter(Boolean).join(' ')}`;
-  const when = new Date(`${g.date}T${g.time || '00:00'}:00-04:00`).toUTCString();
-  return `    <item>\n      <title>${xml(title)}</title>\n      <description>${xml(g.date + (g.timeLabel ? ' ' + g.timeLabel : '') + ' — ' + (g.status || 'Scheduled'))}</description>\n      <pubDate>${when}</pubDate>\n      <guid isPermaLink="false">${xml(g.id || title)}</guid>\n    </item>`;
-}).join('\n');
-fs.writeFileSync(path.join(OUT, 'rss.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>${xml(CONF)} — Upcoming Games</title>\n    <link>/</link>\n    <description>Upcoming games across all ${xml(CONF)} schools.</description>\n    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>\n${items}\n  </channel>\n</rss>\n`);
+const upCount = games.filter(g => { const t0 = new Date().toISOString().slice(0, 10); const h = new Date(); h.setDate(h.getDate() + 21); return g.date >= t0 && g.date <= h.toISOString().slice(0, 10); }).length;
+fs.writeFileSync(path.join(OUT, 'rss.xml'), rssFor(CONF + ' — Upcoming Games', 'Upcoming games across all ' + CONF + ' schools.', games, 21, 600));
 
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({
   conference: CONF, generated: doc.generated, all: 'feeds/all.ics', rss: 'feeds/rss.xml',
   schools: schoolFeeds, sports: sportFeeds, sportLevels: sportLevelFeeds,
 }, null, 2) + '\n');
-console.log(`feeds for ${CONF}: all.ics (${games.length}), ${schoolFeeds.length} schools, ${sportFeeds.length} sports, ${sportLevelFeeds.length} sport+level, rss (${Math.min(upcoming.length, 600)})`);
+console.log(`feeds for ${CONF}: all.ics (${games.length}), ${schoolFeeds.length} schools, ${sportFeeds.length} sports, ${sportLevelFeeds.length} sport+level, rss (${Math.min(upCount, 600)})`);
