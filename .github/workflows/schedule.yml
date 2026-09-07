@@ -44,13 +44,15 @@ jobs:
         run: node scripts/check-schedule.js /tmp/previous-schedule.json
 
       - name: Split into per-month files
-        run: node scripts/split-schedule.js
+        run: |
+          node scripts/split-schedule.js
+          node scripts/build-feeds.js
 
       - name: Commit if anything changed
         run: |
           git config user.name  "bnc-schedule-bot"
           git config user.email "actions@github.com"
-          git add data/schedule.json data/schedule/
+          git add data/schedule.json data/schedule/ feeds
           if git diff --cached --quiet; then
             echo "no change - nothing to publish"
             exit 0

@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Boys (Sub Varsity) Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2633:7513163@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260905T093000
+DTEND;TZID=America/New_York:20260905T113000
+SUMMARY:Hackensack High School vs Ridgewood High School (Boys (Sub Varsit
+ y) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7441302@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Hackensack High School at Northern Highlands Regional High School
+  (Boys (Sub Varsity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7555359@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Cliffside Park High School vs Ridgefield Memorial High School (Bo
+ ys (Sub Varsity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7609964@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Cliffside Park High School at North Arlington High School (Boys (
+ Sub Varsity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7568224@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Hackensack High School at Columbia High School (Boys (Sub Varsity
+ ) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7568183@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260928T161500
+DTEND;TZID=America/New_York:20260928T181500
+SUMMARY:Hackensack High School vs Montclair High School (Boys (Sub Varsit
+ y) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7555508@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Cliffside Park High School vs Kearny High School (Boys (Sub Varsi
+ ty) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7555540@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Cliffside Park High School at Memorial High School (Boys (Sub Var
+ sity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7603458@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Hackensack High School vs Passaic High School (Boys (Sub Varsity)
+  Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7603402@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Hackensack High School vs Northern Valley Regional High (Boys (Su
+ b Varsity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7555520@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261012T163000
+DTEND;TZID=America/New_York:20261012T183000
+SUMMARY:Cliffside Park High School vs Ridgefield Memorial High School (Bo
+ ys (Sub Varsity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7589074@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Cliffside Park High School at Hasbrouck Heights High School (Boys
+  (Sub Varsity) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7568203@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Hackensack High School vs Eastside High School (Boys (Sub Varsity
+ ) Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7556013@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Hackensack High School at Clifton High School (Boys (Sub Varsity)
+  Football)
+DESCRIPTION:Boys (Sub Varsity) Football - Away - 4:15 PM
+END:VEVENT
+END:VCALENDAR

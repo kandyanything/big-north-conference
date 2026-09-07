@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Girls (9) Soccer
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2669:7593397@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260831T123000
+DTEND;TZID=America/New_York:20260831T143000
+SUMMARY:Immaculate Heart Academy at Ridgewood High School (Girls (9) Socc
+ er)
+DESCRIPTION:Girls (9) Soccer - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7526248@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Immaculate Heart Academy at Pascack Valley High School (Girls (9)
+  Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7386058@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Immaculate Heart Academy at Northern Highlands Regional High Scho
+ ol (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7509183@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Immaculate Heart Academy at Madison High School (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7612083@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Immaculate Heart Academy vs Ramapo High School (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7570370@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Immaculate Heart Academy vs Fair Lawn High School (Girls (9) Socc
+ er)
+DESCRIPTION:Girls (9) Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7568796@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Immaculate Heart Academy at Passaic County Technical Institute (G
+ irls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7522707@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Immaculate Heart Academy at Ramapo High School (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7441726@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Immaculate Heart Academy vs Northern Highlands Regional High Scho
+ ol (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7433104@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Immaculate Heart Academy vs Ramsey High School (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7569322@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Immaculate Heart Academy at Ramsey High School (Girls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7571043@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Immaculate Heart Academy at Livingston High School (Girls (9) Soc
+ cer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7560020@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Immaculate Heart Academy at Passaic County Technical Institute (G
+ irls (9) Soccer)
+DESCRIPTION:Girls (9) Soccer - Away - 4:15 PM
+END:VEVENT
+END:VCALENDAR

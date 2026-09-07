@@ -1,0 +1,547 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Junior Varsity Baseball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2793:7458735@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20261223T161500
+DTEND;TZID=America/New_York:20261223T181500
+SUMMARY:Pascack Valley High School at Emerson Jr-Sr High School (Junior V
+ arsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7601460@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Wayne Valley High School vs Pompton Lakes High School (Junior Var
+ sity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7548443@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270322T161500
+DTEND;TZID=America/New_York:20270322T181500
+SUMMARY:Passaic County Technical Institute vs Westwood Regional Senior Hi
+ gh School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7548458@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270329T161500
+DTEND;TZID=America/New_York:20270329T181500
+SUMMARY:Passaic County Technical Institute vs West Essex High School (Jun
+ ior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577893@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Hackensack High School vs John F Kennedy High School (Junior Vars
+ ity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7529381@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Lakeland Regional High School vs Ramsey High School (Junior Varsi
+ ty Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7534927@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
+ ol (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7526069@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Passaic High School at Ridgewood High School (Junior Varsity Boys
+  Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7529388@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270405T161500
+DTEND;TZID=America/New_York:20270405T181500
+SUMMARY:Mahwah High School at Ramsey High School (Junior Varsity Boys Bas
+ eball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7534937@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270405T161500
+DTEND;TZID=America/New_York:20270405T181500
+SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7529393@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270406T161500
+DTEND;TZID=America/New_York:20270406T181500
+SUMMARY:Mahwah High School vs Ramsey High School (Junior Varsity Boys Bas
+ eball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7526070@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270407T161500
+DTEND;TZID=America/New_York:20270407T181500
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577912@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
+SUMMARY:Hackensack High School vs Bloomfield High School (Junior Varsity 
+ Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577917@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Hackensack High School at Northern Valley Regional High (Junior V
+ arsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7577917@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Hackensack High Schoo
+ l (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7534942@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270409T161500
+DTEND;TZID=America/New_York:20270409T181500
+SUMMARY:Northern Highlands Regional High School at Wayne Valley High Scho
+ ol (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7566325@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270410T110000
+DTEND;TZID=America/New_York:20270410T130000
+SUMMARY:Northern Highlands Regional High School vs Glen Rock High School 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7529399@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270412T161500
+DTEND;TZID=America/New_York:20270412T181500
+SUMMARY:Pascack Hills High School vs Ramsey High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7577925@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:Fair Lawn High School at Hackensack High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7526129@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270413T161500
+DTEND;TZID=America/New_York:20270413T181500
+SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Boys 
+ Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7577929@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Fair Lawn High School vs Hackensack High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7534946@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270414T161500
+DTEND;TZID=America/New_York:20270414T181500
+SUMMARY:DePaul Catholic High School at Northern Highlands Regional High S
+ chool (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7548463@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270415T161500
+DTEND;TZID=America/New_York:20270415T181500
+SUMMARY:Pascack Valley High School at Passaic County Technical Institute 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577932@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270416T160000
+DTEND;TZID=America/New_York:20270416T180000
+SUMMARY:Hackensack High School at Eastside High School (Junior Varsity Bo
+ ys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7526145@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270416T161500
+DTEND;TZID=America/New_York:20270416T181500
+SUMMARY:Bergen County Technical High School at Ridgewood High School (Jun
+ ior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7534952@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270416T161500
+DTEND;TZID=America/New_York:20270416T181500
+SUMMARY:Indian Hills High School vs Northern Highlands Regional High Scho
+ ol (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577936@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:Hackensack High School vs Ramapo High School (Junior Varsity Boys
+  Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7534956@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270419T161500
+DTEND;TZID=America/New_York:20270419T181500
+SUMMARY:Fair Lawn High School at Northern Highlands Regional High School 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577942@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270421T160000
+DTEND;TZID=America/New_York:20270421T180000
+SUMMARY:Hackensack High School at Ramapo High School (Junior Varsity Boys
+  Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7534963@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270421T161500
+DTEND;TZID=America/New_York:20270421T181500
+SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577944@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270423T160000
+DTEND;TZID=America/New_York:20270423T180000
+SUMMARY:Hackensack High School vs Westwood Regional Senior High School (J
+ unior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7529400@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270423T161500
+DTEND;TZID=America/New_York:20270423T181500
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Ju
+ nior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7526160@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270423T161500
+DTEND;TZID=America/New_York:20270423T181500
+SUMMARY:Pascack Valley High School at Ridgewood High School (Junior Varsi
+ ty Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577953@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270424T110000
+DTEND;TZID=America/New_York:20270424T130000
+SUMMARY:Hackensack High School at Wood-Ridge/Wallington (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7572114@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270424T110000
+DTEND;TZID=America/New_York:20270424T130000
+SUMMARY:Lakeland Regional High School at Kittatinny Regional High School 
+ (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7529401@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270426T161500
+DTEND;TZID=America/New_York:20270426T181500
+SUMMARY:Ramsey High School at Westwood Regional Senior High School (Junio
+ r Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577957@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:Hackensack High School at Ridgewood High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7526169@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270427T161500
+DTEND;TZID=America/New_York:20270427T181500
+SUMMARY:Hackensack High School at Ridgewood High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7534985@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270427T161500
+DTEND;TZID=America/New_York:20270427T181500
+SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
+ nior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577962@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Hackensack High School vs Ridgewood High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7534992@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270428T161500
+DTEND;TZID=America/New_York:20270428T181500
+SUMMARY:Northern Highlands Regional High School at Ramapo High School (Ju
+ nior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7577969@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:Hackensack High School at Teaneck High School (Junior Varsity Boy
+ s Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7535000@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270430T161500
+DTEND;TZID=America/New_York:20270430T181500
+SUMMARY:Bergen County Technical High School at Northern Highlands Regiona
+ l High School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7529402@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270430T161500
+DTEND;TZID=America/New_York:20270430T181500
+SUMMARY:Ramsey High School at Ridgefield Park High School (Junior Varsity
+  Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7577973@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270501T100000
+DTEND;TZID=America/New_York:20270501T120000
+SUMMARY:Bergen County Technical High School at Hackensack High School (Ju
+ nior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7526179@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270503T161500
+DTEND;TZID=America/New_York:20270503T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Bo
+ ys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7535015@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270503T161500
+DTEND;TZID=America/New_York:20270503T181500
+SUMMARY:Hackensack High School vs Northern Highlands Regional High School
+  (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7529403@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270503T161500
+DTEND;TZID=America/New_York:20270503T181500
+SUMMARY:Ramsey High School at River Dell Regional High School (Junior Var
+ sity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7535025@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270505T161500
+DTEND;TZID=America/New_York:20270505T181500
+SUMMARY:Hackensack High School at Northern Highlands Regional High School
+  (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7535033@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270507T161500
+DTEND;TZID=America/New_York:20270507T181500
+SUMMARY:Northern Highlands Regional High School at River Dell Regional Hi
+ gh School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7526195@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270507T161500
+DTEND;TZID=America/New_York:20270507T181500
+SUMMARY:Ramsey High School at Ridgewood High School (Junior Varsity Boys 
+ Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7548489@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270512T161500
+DTEND;TZID=America/New_York:20270512T181500
+SUMMARY:DePaul Catholic High School at Passaic County Technical Institute
+  (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7553128@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270513T161500
+DTEND;TZID=America/New_York:20270513T181500
+SUMMARY:Northern Highlands Regional High School at Waldwick High School (
+ Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7581862@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270513T161500
+DTEND;TZID=America/New_York:20270513T181500
+SUMMARY:Passaic County Technical Institute vs Chatham High School (Junior
+  Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7535038@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270517T161500
+DTEND;TZID=America/New_York:20270517T181500
+SUMMARY:Mahwah High School at Northern Highlands Regional High School (Ju
+ nior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7578021@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270519T160000
+DTEND;TZID=America/New_York:20270519T180000
+SUMMARY:Clifton High School at Hackensack High School (Junior Varsity Boy
+ s Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7535042@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270519T161500
+DTEND;TZID=America/New_York:20270519T181500
+SUMMARY:Northern Highlands Regional High School vs Westwood Regional Seni
+ or High School (Junior Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7526204@big-north-conference
+DTSTAMP:20260906T231002Z
+DTSTART;TZID=America/New_York:20270519T161500
+DTEND;TZID=America/New_York:20270519T181500
+SUMMARY:Ridgewood High School vs Saint Joseph Regional High School (Junio
+ r Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR

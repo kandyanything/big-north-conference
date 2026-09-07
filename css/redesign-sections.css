@@ -875,3 +875,46 @@
     .score-track { animation: none; flex-wrap: nowrap; overflow-x: auto; }
 }
 @media (max-width: 600px) { .score-card { min-width: 176px; } }
+
+/* ---------- subscribe / export / print panel (redesign-subscribe.js) ---------- */
+.csub-bar { display: flex; flex-wrap: wrap; gap: 10px; margin: 2px 0 22px; }
+.csub-btn { display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-body); font-weight: 600; font-size: .92rem; padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--white); color: var(--navy-800); cursor: pointer; text-decoration: none; transition: all .15s; }
+.csub-btn:hover { border-color: var(--red); color: var(--red); }
+.csub-btn--primary { background: var(--red); border-color: var(--red); color: #fff; }
+.csub-btn--primary:hover { filter: brightness(1.08); color: #fff; }
+.csub-back { position: fixed; inset: 0; z-index: 99991; background: rgba(10,15,25,.55); display: flex; align-items: center; justify-content: center; padding: 20px; }
+.csub-back[hidden] { display: none; }
+.csub-card { position: relative; width: 100%; max-width: 460px; background: #fff; border-radius: 15px; padding: 26px 28px 22px; box-shadow: var(--shadow-lg); font-family: var(--font-body); }
+.csub-x { position: absolute; top: 12px; right: 15px; border: 0; background: none; font-size: 1.8rem; line-height: 1; color: #9aa2ad; cursor: pointer; }
+.csub-x:hover { color: #333; }
+.csub-h { font-family: var(--font-display); text-transform: uppercase; color: var(--navy-800); margin: 0 0 8px; font-size: 1.5rem; }
+.csub-lede { color: var(--muted); font-size: .94rem; margin: 0 0 18px; }
+.csub-pick { margin-bottom: 16px; }
+.csub-pick label { display: block; font-size: .76rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.csub-pick select { width: 100%; font: inherit; font-size: 1rem; padding: 11px 13px; border: 1px solid var(--line); border-radius: 9px; background: #fff; color: var(--ink); }
+.csub-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-bottom: 12px; }
+.csub-a { display: flex; align-items: center; justify-content: center; text-align: center; font-weight: 600; font-size: .92rem; color: var(--navy-800); text-decoration: none; border: 1.5px solid var(--line); border-radius: 10px; padding: 13px 10px; transition: all .15s; }
+.csub-a:hover { border-color: var(--red); background: #fbf8f8; }
+.csub-copy { display: flex; gap: 8px; margin-bottom: 12px; }
+.csub-url { flex: 1; font-size: .8rem; color: var(--muted); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; overflow: hidden; text-overflow: ellipsis; }
+.csub-copybtn { font: inherit; font-weight: 600; font-size: .85rem; padding: 8px 14px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--navy-700); cursor: pointer; }
+.csub-copybtn:hover { border-color: var(--red); color: var(--red); }
+.csub-foot { font-size: .83rem; color: var(--muted); margin: 0; }
+.csub-foot em { font-style: normal; font-weight: 600; color: var(--ink); }
+@media (max-width: 520px) { .csub-actions { grid-template-columns: 1fr; } }
+
+#csub-print-area { display: none; }
+@media print {
+  body > *:not(#csub-print-area) { display: none !important; }
+  #csub-print-area { display: block !important; color: #000; font-family: var(--font-body); }
+  .csub-print-head h1 { font-family: var(--font-display); font-size: 21pt; margin: 0 0 2pt; text-transform: uppercase; }
+  .csub-print-head h2 { font-family: var(--font-display); font-size: 13pt; color: #333; margin: 0 0 3pt; }
+  .csub-print-head p { font-size: 9pt; color: #555; margin: 0 0 12pt; border-bottom: 2pt solid #000; padding-bottom: 8pt; }
+  .csub-pd { font-family: var(--font-display); font-size: 11.5pt; margin: 12pt 0 3pt; text-transform: uppercase; page-break-after: avoid; }
+  .csub-pt { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  .csub-pt td { padding: 3.5pt 8pt 3.5pt 0; border-bottom: .5pt solid #d8d8d8; vertical-align: top; }
+  .csub-pt tr { page-break-inside: avoid; }
+  .csub-pt-t { width: 62pt; white-space: nowrap; font-weight: 700; }
+  .csub-pt-m span { color: #777; font-size: 8.5pt; padding: 0 2pt; }
+  .csub-pt-x { width: 150pt; color: #444; text-align: right; }
+}
