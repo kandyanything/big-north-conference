@@ -19,6 +19,22 @@ const doc = JSON.parse(fs.readFileSync(SRC, 'utf8'));
 const games = doc.games || [];
 if (!games.length) throw new Error('schedule.json has no games - refusing to publish an empty calendar');
 
+// Collapse each school's varied spellings (its own DigitalSports/Arbiter page
+// vs. how it's written as an opponent elsewhere, e.g. "Lyndhurst" vs "Lyndhurst
+// High School") to one canonical roster name. Otherwise exact-match filters drop
+// a team's away games and it shows under two names. Applies to every sport,
+// level and gender.
+const _roster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'schools.json'), 'utf8'));
+const SLUG2NAME = {};
+(_roster.schools || _roster).forEach(function (s) { const sl = s.slug || logoSlug(s.name); if (sl) SLUG2NAME[sl] = s.name; });
+function canonical(name) { if (!name) return name; const sl = logoSlug(name); return (sl && SLUG2NAME[sl]) || name; }
+for (const g of games) {
+    g.school = canonical(g.school);
+    if (g.opponent) g.opponent = canonical(g.opponent);
+    if (Array.isArray(g.schools)) g.schools = g.schools.map(canonical);
+}
+fs.writeFileSync(SRC, JSON.stringify(doc) + '\n');
+
 fs.mkdirSync(OUT, { recursive: true });
 
 // clear out months that no longer have games, so a stale file cannot linger
