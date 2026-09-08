@@ -11,7 +11,7 @@
   var INDEX = null, FEEDMAN = null, SCHOOL_PATH = {}, SPORT_BY_SLUG = {};
   var TEAMS = null, TEAMS_BY_SLUG = {};
   var CONF = 'Conference';
-  var state = { view: 'upcoming', sport: '', school: '', level: '', q: '', days: 10 };
+  var state = { view: 'upcoming', sport: '', school: '', level: '', date: '', q: '', days: 10 };
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -74,10 +74,11 @@
     if (state.sport && g.sport !== state.sport) return false;
     if (state.level && g.level !== state.level) return false;
     if (state.school && g.school !== state.school && g.opponent !== state.school) return false;
+    if (state.date && g.date !== state.date) return false;
     if (state.q) { var q = state.q.toLowerCase(); if ((g.school || '').toLowerCase().indexOf(q) < 0 && (g.opponent || '').toLowerCase().indexOf(q) < 0) return false; }
     return true;
   }
-  function hasFilter() { return !!(state.sport || state.school || state.level || state.q); }
+  function hasFilter() { return !!(state.sport || state.school || state.level || state.date || state.q); }
 
   // ---- render ----
   function render() {
@@ -92,19 +93,30 @@
   function gameEl(g, past) {
     var el = document.createElement('div');
     el.className = 'game' + (g.status ? ' is-off' : '') + (past ? ' is-past' : '');
-    var away = g.home === false;
+    // Always render Away @ Home; neutral-site games use "vs" with original order.
+    var isAway = g.home === false, isHome = g.home === true, neutral = !isAway && !isHome;
+    var teamA, logoA, teamB, logoB, sep;
+    if (isAway) {
+      teamA = g.school;            logoA = g.schoolLogo;
+      teamB = g.opponent || 'TBD'; logoB = g.oppLogo; sep = '@';
+    } else if (isHome) {
+      teamA = g.opponent || 'TBD'; logoA = g.oppLogo;
+      teamB = g.school;            logoB = g.schoolLogo; sep = '@';
+    } else {
+      teamA = g.school;            logoA = g.schoolLogo;
+      teamB = g.opponent || 'TBD'; logoB = g.oppLogo; sep = 'vs';
+    }
     el.innerHTML =
-      '<div class="game-time">' + (g.timeLabel ? esc(g.timeLabel) : 'TBA') + '<small>' + (away ? 'Away' : 'Home') + '</small></div>' +
+      '<div class="game-time">' + (g.timeLabel ? esc(g.timeLabel) : 'TBA') + '</div>' +
       '<div class="game-match"><div class="game-teams">' +
-      teamHtml(g.school, g.schoolLogo, !away) +
-      '<span class="vs">' + (away ? 'at' : 'vs') + '</span>' +
-      teamHtml(g.opponent || 'TBD', g.oppLogo, away) + '</div>' +
+      teamHtml(teamA, logoA, false) +
+      '<span class="vs">' + sep + '</span>' +
+      teamHtml(teamB, logoB, false) + '</div>' +
       '<div class="game-meta">' +
       '<span class="pill pill--sport">' + esc([g.gender, g.sport].filter(Boolean).join(' ')) + '</span>' +
       (g.level ? '<span class="pill">' + esc(g.level) + '</span>' : '') +
       (g.status ? '<span class="pill pill--off">' + esc(g.status) + '</span>' : '') +
-      '</div></div>' +
-      '<div class="game-side ' + (away ? '' : 'home') + '">' + (away ? '@ ' : 'vs ') + '</div>';
+      '</div></div>';
     return el;
   }
   // Shared agenda renderer for both views. `games` is already filtered + sorted.
@@ -126,7 +138,10 @@
     more.hidden = shown.length >= dates.length;
   }
   function renderUpcoming() {
-    renderAgenda($('.view-upcoming', root), ALL.filter(function (g) { return g.date >= TODAY && match(g); }).sort(byDateTime));
+    var games = state.date
+      ? ALL.filter(function (g) { return match(g); })
+      : ALL.filter(function (g) { return g.date >= TODAY && match(g); });
+    renderAgenda($('.view-upcoming', root), games.sort(byDateTime));
   }
   function renderFull() {
     var wrap = $('.view-full', root), hint = $('.full-hint', wrap);
@@ -240,8 +255,11 @@
       var lab = dayLabel(d);
       html += '<h3 class="print-day">' + esc((lab.today ? 'Today — ' : '') + DOW[parseDate(d).getDay()] + ', ' + lab.sub.replace(/^[A-Za-z]+ · /, '')) + '</h3><table class="print-tbl"><tbody>';
       byDate[d].forEach(function (g) {
-        var vs = g.home === false ? 'at' : 'vs';
-        html += '<tr><td class="pt-time">' + esc(g.timeLabel || 'TBA') + '</td><td class="pt-match">' + esc(g.school) + ' <span>' + vs + '</span> ' + esc(g.opponent || 'TBD') + '</td><td class="pt-meta">' + esc([g.level, g.gender, g.sport].filter(Boolean).join(' ')) + (g.status ? ' — ' + esc(g.status) : '') + '</td></tr>';
+        var tA, tB, sep;
+        if (g.home === false) { tA = g.school; tB = g.opponent || 'TBD'; sep = '@'; }
+        else if (g.home === true) { tA = g.opponent || 'TBD'; tB = g.school; sep = '@'; }
+        else { tA = g.school; tB = g.opponent || 'TBD'; sep = 'vs'; }
+        html += '<tr><td class="pt-time">' + esc(g.timeLabel || 'TBA') + '</td><td class="pt-match">' + esc(tA) + ' <span>' + sep + '</span> ' + esc(tB) + '</td><td class="pt-meta">' + esc([g.level, g.gender, g.sport].filter(Boolean).join(' ')) + (g.status ? ' — ' + esc(g.status) : '') + '</td></tr>';
       });
       html += '</tbody></table>';
     });
@@ -270,8 +288,8 @@
       el.addEventListener(ev, function () { state[el.dataset.filter] = el.value; state.days = initialDays(); render(); });
     });
     $('[data-clear]', root).addEventListener('click', function () {
-      state.sport = state.school = state.level = state.q = ''; state.days = initialDays();
-      ['#f-sport', '#f-school', '#f-level', '#f-search'].forEach(function (s) { var el = $(s, root); if (el) el.value = ''; });
+      state.sport = state.school = state.level = state.date = state.q = ''; state.days = initialDays();
+      ['#f-sport', '#f-school', '#f-level', '#f-date', '#f-search'].forEach(function (s) { var el = $(s, root); if (el) el.value = ''; });
       render();
     });
     $$('.load-more', root).forEach(function (b) { b.addEventListener('click', function () { state.days += 20; render(); }); });

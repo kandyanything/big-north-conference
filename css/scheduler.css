@@ -79,6 +79,7 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23666b74' d='M6 8 0 0h12z'/%3E%3C/svg%3E");
     background-repeat: no-repeat; background-position: right 11px center; }
 .njsched .filter--school { flex: 1; min-width: 180px; }
+.njsched .filter--date { min-width: 150px; cursor: pointer; }
 .njsched .filter-clear { background: none; border: 0; color: var(--accent); font-weight: 600; font-size: .88rem; cursor: pointer; padding: 6px; }
 .njsched .controls-right { margin-left: auto; display: flex; gap: 10px; }
 
