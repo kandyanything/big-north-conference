@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Ridgewood High School Gymnastics
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2833:7513188@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T163000
+DTEND;TZID=America/New_York:20260916T183000
+SUMMARY:Ridgewood High School at Montclair High School (Varsity Girls Gym
+ nastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7513189@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Passaic Valley High School vs Ridgewood High School (Varsity Girl
+ s Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7513211@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T170000
+DTEND;TZID=America/New_York:20260925T190000
+SUMMARY:Pascack Hills High School at Ridgewood High School (Varsity Girls
+  Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7591830@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T170000
+DTEND;TZID=America/New_York:20260929T190000
+SUMMARY:Ridgewood High School vs Mount Olive High School (Varsity Girls G
+ ymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7527557@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T173000
+DTEND;TZID=America/New_York:20261001T193000
+SUMMARY:Ridgewood High School at Randolph High School (Varsity Girls Gymn
+ astics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7603453@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T173000
+DTEND;TZID=America/New_York:20261001T193000
+SUMMARY:Ridgewood High School at Morris Catholic High School (Varsity Gir
+ ls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7514299@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T163000
+DTEND;TZID=America/New_York:20261009T183000
+SUMMARY:Academy of the Holy Angels at Ridgewood High School (Varsity Girl
+ s Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7591398@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T163000
+DTEND;TZID=America/New_York:20261009T183000
+SUMMARY:Ridgewood High School vs Roxbury High School (Varsity Girls Gymna
+ stics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7514290@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T163000
+DTEND;TZID=America/New_York:20261013T183000
+SUMMARY:Ramapo High School at Ridgewood High School (Varsity Girls Gymnas
+ tics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7567156@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T170000
+DTEND;TZID=America/New_York:20261016T190000
+SUMMARY:Indian Hills High School at Ridgewood High School (Varsity Girls 
+ Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7603493@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T170000
+DTEND;TZID=America/New_York:20261019T190000
+SUMMARY:Ridgewood High School vs Morris Catholic High School (Varsity Gir
+ ls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7527563@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T170000
+DTEND;TZID=America/New_York:20261019T190000
+SUMMARY:Ridgewood High School vs Randolph High School (Varsity Girls Gymn
+ astics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 5:00 PM
+END:VEVENT
+END:VCALENDAR

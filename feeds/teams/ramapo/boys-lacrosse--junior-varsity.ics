@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Ramapo High School Junior Varsity Boy
+ s Lacrosse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2793:7583168@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T161500
+DTEND;TZID=America/New_York:20270402T181500
+SUMMARY:Pascack Valley High School vs Ramapo High School (Junior Varsity 
+ Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583163@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T190000
+DTEND;TZID=America/New_York:20270406T210000
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys 
+ Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7583169@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T161500
+DTEND;TZID=America/New_York:20270408T181500
+SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
+ nior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583167@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T173000
+DTEND;TZID=America/New_York:20270413T193000
+SUMMARY:Ramapo High School at Saint Joseph Regional High School (Junior V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583170@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T130000
+DTEND;TZID=America/New_York:20270417T150000
+SUMMARY:Ramapo High School vs Wayne Valley High School (Junior Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7583164@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T190000
+DTEND;TZID=America/New_York:20270420T210000
+SUMMARY:Bergen Catholic High School at Ramapo High School (Junior Varsity
+  Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7583165@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T190000
+DTEND;TZID=America/New_York:20270427T210000
+SUMMARY:Don Bosco Prep at Ramapo High School (Junior Varsity Boys Boys La
+ crosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583166@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T173000
+DTEND;TZID=America/New_York:20270504T193000
+SUMMARY:Ramapo High School at Mountain Lakes High School (Junior Varsity 
+ Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583171@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T190000
+DTEND;TZID=America/New_York:20270518T210000
+SUMMARY:Ramapo High School vs West Milford High School (Junior Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7583172@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T190000
+DTEND;TZID=America/New_York:20270520T210000
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramapo High School (J
+ unior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583172@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T190000
+DTEND;TZID=America/New_York:20270520T210000
+SUMMARY:Ramapo High School at Northern Valley Regional High (Junior Varsi
+ ty Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
+END:VEVENT
+END:VCALENDAR

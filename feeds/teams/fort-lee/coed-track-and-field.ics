@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Fort Lee High School Coed Track and F
+ ield
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2573:7613173@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T160000
+DTEND;TZID=America/New_York:20270323T180000
+SUMMARY:Cliffside Park High School at Fort Lee High School (Varsity Coed 
+ Coed Track and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7596202@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T160000
+DTEND;TZID=America/New_York:20270330T180000
+SUMMARY:Bergenfield High School at Fort Lee High School (Varsity Coed Coe
+ d Track and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7596212@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Fort Lee High School vs Dumont High School (Varsity Coed Coed Tra
+ ck and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7596215@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
+SUMMARY:Fort Lee High School vs Ridgefield Park High School (Varsity Coed
+  Coed Track and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7613364@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Fort Lee High School at TBD (Varsity Coed Coed Track and Field)
+DESCRIPTION:Varsity Coed Coed Track and Field - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7518213@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T161500
+DTEND;TZID=America/New_York:20270513T181500
+SUMMARY:Fort Lee High School at Hawthorne High School (Middle School Coed
+  Coed Track and Field)
+DESCRIPTION:Middle School Coed Coed Track and Field - Away - 4:15 PM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Paramus High School Freshman Girls Ba
+ sketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2613:7423137@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Fair Lawn High School at Paramus High School (Freshman Girls Girl
+ s Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423137@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Paramus High School vs Fair Lawn High School (Freshman Girls Girl
+ s Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7423138@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Northern Valley Regional HS - Demarest vs Paramus High School (Fr
+ eshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423138@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Paramus High School at Northern Valley Regional High (Freshman Gi
+ rls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423141@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T161500
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:Paramus High School vs Pascack Valley High School (Freshman Girls
+  Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423142@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Paramus High School at Teaneck High School (Freshman Girls Girls 
+ Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7423142@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Teaneck High School vs Paramus High School (Freshman Girls Girls 
+ Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423144@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Paramus High School vs River Dell Regional High School (Freshman 
+ Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423145@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:Paramus High School at Pascack Hills High School (Freshman Girls 
+ Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7509399@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T161500
+DTEND;TZID=America/New_York:20270203T181500
+SUMMARY:Paramus High School at Eastern Christian (Freshman Girls Girls Ba
+ sketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423147@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T161500
+DTEND;TZID=America/New_York:20270204T181500
+SUMMARY:Paramus High School vs Tenafly High School (Freshman Girls Girls 
+ Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423149@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Paramus High School at Pascack Valley High School (Freshman Girls
+  Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7423149@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Pascack Valley High School vs Paramus High School (Freshman Girls
+  Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7509400@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270212T161500
+DTEND;TZID=America/New_York:20270212T181500
+SUMMARY:Paramus High School vs Eastern Christian (Freshman Girls Girls Ba
+ sketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423150@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T161500
+DTEND;TZID=America/New_York:20270216T181500
+SUMMARY:Paramus High School vs Teaneck High School (Freshman Girls Girls 
+ Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR

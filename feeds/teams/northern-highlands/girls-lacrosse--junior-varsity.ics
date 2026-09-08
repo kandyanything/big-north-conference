@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Northern Highlands Regional High Scho
+ ol Junior Varsity Girls Lacrosse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2770:7607970@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T180000
+DTEND;TZID=America/New_York:20270330T200000
+SUMMARY:Northern Highlands Regional High School vs Summit High School (Ju
+ nior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614063@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T180000
+DTEND;TZID=America/New_York:20270413T200000
+SUMMARY:Northern Highlands Regional High School vs New Providence High Sc
+ hool (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614071@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T161500
+DTEND;TZID=America/New_York:20270420T181500
+SUMMARY:Northern Highlands Regional High School at Madison High School (J
+ unior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614086@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T113000
+DTEND;TZID=America/New_York:20270424T133000
+SUMMARY:Northern Highlands Regional High School vs West Morris Central Hi
+ gh School (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614091@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T180000
+DTEND;TZID=America/New_York:20270427T200000
+SUMMARY:Northern Highlands Regional High School vs Montclair High School 
+ (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614094@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T161500
+DTEND;TZID=America/New_York:20270429T181500
+SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
+ hool (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7614101@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T113000
+DTEND;TZID=America/New_York:20270501T133000
+SUMMARY:Immaculate Heart Academy at Northern Highlands Regional High Scho
+ ol (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614106@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T161500
+DTEND;TZID=America/New_York:20270504T181500
+SUMMARY:Northern Highlands Regional High School at Glen Rock High School 
+ (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7614112@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T161500
+DTEND;TZID=America/New_York:20270518T181500
+SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
+ (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7614115@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270522T113000
+DTEND;TZID=America/New_York:20270522T133000
+SUMMARY:Northern Highlands Regional High School vs West Essex High School
+  (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
+END:VEVENT
+END:VCALENDAR

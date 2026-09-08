@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Academy of the Holy Angels Girls Cros
+ s Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:43369:7525872@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T074500
+DTEND;TZID=America/New_York:20260912T094500
+SUMMARY:Academy of the Holy Angels vs Multiple Opponents (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 7:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7606597@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Academy of the Holy Angels vs Multiple Opponents (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7606598@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Academy of the Holy Angels vs Multiple Opponents (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7516203@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T163000
+DTEND;TZID=America/New_York:20260930T183000
+SUMMARY:Academy of the Holy Angels vs Immaculate Heart Academy (Varsity G
+ irls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7516203@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T163000
+DTEND;TZID=America/New_York:20260930T183000
+SUMMARY:Immaculate Heart Academy at Academy of the Holy Angels (Junior Va
+ rsity Girls Girls Cross Country)
+DESCRIPTION:Junior Varsity Girls Girls Cross Country - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7497179@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T171000
+DTEND;TZID=America/New_York:20260930T191000
+SUMMARY:Academy of the Holy Angels at Paramus Catholic High School (Varsi
+ ty Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 5:10 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7516204@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T151000
+DTEND;TZID=America/New_York:20261008T171000
+SUMMARY:Academy of the Holy Angels vs Immaculate Heart Academy (Varsity G
+ irls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 3:10 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7497182@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T163000
+DTEND;TZID=America/New_York:20261008T183000
+SUMMARY:Academy of the Holy Angels at Paramus Catholic High School (Varsi
+ ty Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:30 PM
+END:VEVENT
+END:VCALENDAR

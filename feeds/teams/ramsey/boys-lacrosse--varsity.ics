@@ -1,0 +1,199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Ramsey High School Varsity Boys Lacro
+ sse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2823:7512915@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T163000
+DTEND;TZID=America/New_York:20270330T183000
+SUMMARY:Ramsey High School at Glen Rock High School (Varsity Boys Boys La
+ crosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7586551@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T163000
+DTEND;TZID=America/New_York:20270402T183000
+SUMMARY:Paramus High School vs Ramsey High School (Varsity Boys Boys Lacr
+ osse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586554@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T163000
+DTEND;TZID=America/New_York:20270405T183000
+SUMMARY:Ramsey High School at West Milford High School (Varsity Boys Boys
+  Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7512929@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T163000
+DTEND;TZID=America/New_York:20270410T183000
+SUMMARY:Northern Valley Regional HS - Old Tappan at Ramsey High School (V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7512929@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T163000
+DTEND;TZID=America/New_York:20270410T183000
+SUMMARY:Ramsey High School vs Northern Valley Regional High (Varsity Boys
+  Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7512933@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T163000
+DTEND;TZID=America/New_York:20270413T183000
+SUMMARY:Ramsey High School vs Tenafly High School (Varsity Boys Boys Lacr
+ osse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7512937@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T110000
+DTEND;TZID=America/New_York:20270417T130000
+SUMMARY:Pascack Valley High School vs Ramsey High School (Varsity Boys Bo
+ ys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7512975@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T163000
+DTEND;TZID=America/New_York:20270420T183000
+SUMMARY:Ramsey High School at Wayne Valley High School (Varsity Boys Boys
+  Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7512951@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T163000
+DTEND;TZID=America/New_York:20270427T183000
+SUMMARY:Mahwah High School at Ramsey High School (Varsity Boys Boys Lacro
+ sse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7586556@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T163000
+DTEND;TZID=America/New_York:20270429T183000
+SUMMARY:Northern Highlands Regional High School at Ramsey High School (Va
+ rsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7586563@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T163000
+DTEND;TZID=America/New_York:20270503T183000
+SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
+  Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586568@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586570@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586572@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586573@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586574@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586576@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586578@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Ramsey High School at TBD (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586564@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T163000
+DTEND;TZID=America/New_York:20270518T183000
+SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Varsi
+ ty Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7586566@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T163000
+DTEND;TZID=America/New_York:20270520T183000
+SUMMARY:Ramsey High School at Saint Joseph Regional High School (Varsity 
+ Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+END:VCALENDAR
