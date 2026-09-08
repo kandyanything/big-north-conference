@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — DePaul Catholic High School Freshman 
+ Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2585:7584100@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260822T103000
+DTEND;TZID=America/New_York:20260822T123000
+SUMMARY:DePaul Catholic High School at Ramapo High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7506333@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:DePaul Catholic High School at Seton Hall Prep School (Freshman B
+ oys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7506334@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:DePaul Catholic High School at Saint Joseph Regional High School 
+ (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7506336@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T093000
+DTEND;TZID=America/New_York:20260926T113000
+SUMMARY:DePaul Catholic High School at Delbarton School (Freshman Boys Fo
+ otball)
+DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7506324@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T093000
+DTEND;TZID=America/New_York:20261003T113000
+SUMMARY:DePaul Catholic High School vs Red Bank Catholic High School (Fre
+ shman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7506339@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:DePaul Catholic High School at Pope John XXIII High School (Fresh
+ man Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7506341@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T093000
+DTEND;TZID=America/New_York:20261017T113000
+SUMMARY:DePaul Catholic High School vs Don Bosco Prep (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7380953@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T093000
+DTEND;TZID=America/New_York:20261031T113000
+SUMMARY:Bergen Catholic High School at DePaul Catholic High School (Fresh
+ man Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
+END:VEVENT
+END:VCALENDAR

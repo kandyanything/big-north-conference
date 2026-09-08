@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — Paramus High School Boys Lacrosse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2788:7514412@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Paramus High School at Pascack Hills High School (Varsity Boys Bo
+ ys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7514412@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Pascack Hills High School vs Paramus High School (Varsity Boys Bo
+ ys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7586551@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T163000
+DTEND;TZID=America/New_York:20270402T183000
+SUMMARY:Paramus High School vs Ramsey High School (Varsity Boys Boys Lacr
+ osse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7587370@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T180000
+DTEND;TZID=America/New_York:20270402T200000
+SUMMARY:Paramus High School vs Ramsey High School (Junior Varsity Boys Bo
+ ys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7514415@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Paramus High School at Westwood Regional Senior High School (Vars
+ ity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2939:7514415@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Westwood Regional Senior High School vs Paramus High School (Vars
+ ity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7514416@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T180000
+DTEND;TZID=America/New_York:20270413T200000
+SUMMARY:Paramus High School vs River Dell Regional High School (Varsity B
+ oys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7514435@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Paramus High School at Pequannock Township High School (Varsity B
+ oys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7514436@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T180000
+DTEND;TZID=America/New_York:20270427T200000
+SUMMARY:Paramus High School vs Wayne Hills High School (Varsity Boys Boys
+  Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+END:VCALENDAR

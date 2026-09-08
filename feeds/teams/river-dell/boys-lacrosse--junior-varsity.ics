@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — River Dell Regional High School Junio
+ r Varsity Boys Lacrosse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2834:7610150@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T183000
+DTEND;TZID=America/New_York:20270330T203000
+SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
+ School (Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7610052@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T180000
+DTEND;TZID=America/New_York:20270402T200000
+SUMMARY:Lakeland Regional High School vs River Dell Regional High School 
+ (Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7610155@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T183000
+DTEND;TZID=America/New_York:20270406T203000
+SUMMARY:River Dell Regional High School vs Wayne Hills High School (Junio
+ r Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7610061@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T183000
+DTEND;TZID=America/New_York:20270408T203000
+SUMMARY:Pascack Valley High School at River Dell Regional High School (Ju
+ nior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7610070@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T113000
+DTEND;TZID=America/New_York:20270417T133000
+SUMMARY:Fair Lawn High School at River Dell Regional High School (Junior 
+ Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7610163@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T180000
+DTEND;TZID=America/New_York:20270420T200000
+SUMMARY:Pascack Hills High School vs River Dell Regional High School (Jun
+ ior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7610173@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T183000
+DTEND;TZID=America/New_York:20270427T203000
+SUMMARY:River Dell Regional High School vs Pequannock Township High Schoo
+ l (Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7610076@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T180000
+DTEND;TZID=America/New_York:20270429T200000
+SUMMARY:Paramus Catholic High School vs River Dell Regional High School (
+ Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7610089@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T180000
+DTEND;TZID=America/New_York:20270503T200000
+SUMMARY:Indian Hills High School vs River Dell Regional High School (Juni
+ or Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7610124@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T183000
+DTEND;TZID=America/New_York:20270505T203000
+SUMMARY:Mahwah High School at River Dell Regional High School (Junior Var
+ sity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7610135@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T183000
+DTEND;TZID=America/New_York:20270520T203000
+SUMMARY:River Dell Regional High School vs Wayne Valley High School (Juni
+ or Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:30 PM
+END:VEVENT
+END:VCALENDAR

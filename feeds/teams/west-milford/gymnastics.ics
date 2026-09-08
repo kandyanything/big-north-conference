@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Big North Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big North Conference — West Milford High School Gymnastics
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2931:7486968@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T173000
+DTEND;TZID=America/New_York:20260910T193000
+SUMMARY:West Milford High School vs Randolph High School (Varsity Girls G
+ ymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7519342@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
+ s Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7486970@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T170000
+DTEND;TZID=America/New_York:20260924T190000
+SUMMARY:Academy of the Holy Angels at West Milford High School (Varsity G
+ irls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7504601@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
+ ls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7588627@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:West Milford High School vs Roxbury High School (Varsity Girls Gy
+ mnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7486971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T163000
+DTEND;TZID=America/New_York:20261006T183000
+SUMMARY:Indian Hills High School vs West Milford High School (Varsity Gir
+ ls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7486972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T163000
+DTEND;TZID=America/New_York:20261007T183000
+SUMMARY:West Milford High School vs Mount Olive High School (Varsity Girl
+ s Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7486973@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T163000
+DTEND;TZID=America/New_York:20261012T183000
+SUMMARY:Passaic Valley High School vs West Milford High School (Varsity G
+ irls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+END:VCALENDAR
