@@ -23,13 +23,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2670:7567094@big-north-conference
+UID:ds:2670:7619993@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T170000
 DTEND;TZID=America/New_York:20260914T190000
 SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity G
  irls Gymnastics)
 DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7619993@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Passaic Valley High School vs Roxbury High School (Varsity Girls 
+ Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7587712@big-north-conference
