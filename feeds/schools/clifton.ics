@@ -917,15 +917,6 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Freshm
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7516308@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Passaic County Technical Institute at Clifton High School (Varsit
- y Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7516360@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T173000
@@ -1048,15 +1039,6 @@ DTEND;TZID=America/New_York:20260926T110000
 SUMMARY:Clifton High School at Wayne Valley High School (Freshman Boys Fo
  otball)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7535966@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Freshm
- an Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7566027@big-north-conference
@@ -1266,7 +1248,7 @@ SUMMARY:Clifton High School vs Montclair High School (Freshman Boys Footb
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7546046@big-north-conference
+UID:ds:2574:7585514@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
 DTEND;TZID=America/New_York:20261003T120000
@@ -1282,24 +1264,6 @@ DTEND;TZID=America/New_York:20261003T120000
 SUMMARY:Clifton High School vs Wayne Hills High School (Freshman Boys Boy
  s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7445586@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T130000
-DTEND;TZID=America/New_York:20261003T150000
-SUMMARY:Clifton High School at Wayne Hills High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7445587@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T130000
-DTEND;TZID=America/New_York:20261003T150000
-SUMMARY:Clifton High School at Wayne Hills High School (Junior Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7546013@big-north-conference
@@ -1320,13 +1284,22 @@ SUMMARY:Clifton High School at Montclair High School (Varsity Boys Footba
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7555971@big-north-conference
+UID:ds:2574:7445586@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Clifton High School vs Montclair High School (Junior Varsity Boys
-  Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20261003T130000
+DTEND;TZID=America/New_York:20261003T150000
+SUMMARY:Clifton High School at Wayne Hills High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7445587@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T130000
+DTEND;TZID=America/New_York:20261003T150000
+SUMMARY:Clifton High School at Wayne Hills High School (Junior Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7556310@big-north-conference
@@ -1338,6 +1311,15 @@ SUMMARY:Clifton High School vs Passaic County Technical Institute (Junior
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2574:7555971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Clifton High School vs Montclair High School (Junior Varsity Boys
+  Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2574:7516411@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1345,6 +1327,15 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Clifton High School at Passaic County Technical Institute (Varsit
  y Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7564951@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Clifton High School at Lakeland Regional High School (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7527861@big-north-conference
@@ -1365,24 +1356,6 @@ SUMMARY:Clifton High School vs Kinnelon High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7564951@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Clifton High School at Lakeland Regional High School (Freshman Gi
- rls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7516417@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Clifton High School vs Lakeland Regional High School (Var-JV Girl
- s Girls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7548461@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -1399,6 +1372,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Clifton High School at John F. Kennedy High School (Junior Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7516417@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Clifton High School vs Lakeland Regional High School (Var-JV Girl
+ s Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7516417@big-north-conference
@@ -1428,15 +1410,6 @@ SUMMARY:Cliffside Park High School vs Clifton High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7557335@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Clifton High School vs Mount Saint Dominic Academy (Var-JV Girls 
- Girls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7564954@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -1444,6 +1417,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Clifton High School at Mount Saint Dominic Academy (Freshman Girl
  s Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7557335@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Clifton High School vs Mount Saint Dominic Academy (Var-JV Girls 
+ Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7545816@big-north-conference
@@ -1500,15 +1482,6 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7537490@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Clifton High School vs Dumont High School (Freshman Girls Girls V
- olleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7539107@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
@@ -1525,6 +1498,15 @@ DTEND;TZID=America/New_York:20261009T181500
 SUMMARY:Clifton High School at Dumont High School (Var-JV Girls Girls Vol
  leyball)
 DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7537490@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Clifton High School vs Dumont High School (Freshman Girls Girls V
+ olleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7542113@big-north-conference
@@ -1598,6 +1580,24 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Freshm
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2574:7565967@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Clifton High School vs Pequannock Township High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7526346@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Clifton High School vs Wayne Valley High School (Var-JV Girls Gir
+ ls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2574:7474314@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
@@ -1623,33 +1623,6 @@ DTEND;TZID=America/New_York:20261013T181500
 SUMMARY:Clifton High School at Wayne Valley High School (Freshman Girls G
  irls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7526346@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Clifton High School vs Wayne Valley High School (Var-JV Girls Gir
- ls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7565967@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Clifton High School vs Pequannock Township High School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7474316@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Freshm
- an Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7526346@big-north-conference
@@ -2028,15 +2001,6 @@ SUMMARY:Clifton High School vs Passaic County Technical Institute (Freshm
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7516335@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Varsit
- y Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7516361@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T173000
@@ -2260,15 +2224,6 @@ DTEND;TZID=America/New_York:20270107T181500
 SUMMARY:Clifton High School at Passaic County Technical Institute (Freshm
  an Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7530048@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Boys (
- 9) Basketball)
-DESCRIPTION:Boys (9) Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7530049@big-north-conference

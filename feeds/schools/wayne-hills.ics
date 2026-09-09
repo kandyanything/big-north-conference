@@ -59,15 +59,6 @@ SUMMARY:Wayne Hills High School vs Union City High School (Freshman Boys
 DESCRIPTION:Freshman Boys Football - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7531068@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Fr
- eshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7494419@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T100000
@@ -84,6 +75,15 @@ DTEND;TZID=America/New_York:20260825T120000
 SUMMARY:Wayne Hills High School vs Mount Saint Dominic Academy (Junior Va
  rsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7531068@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Fr
+ eshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7567912@big-north-conference
@@ -392,22 +392,22 @@ SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7462916@big-north-conference
+UID:ds:2925:7462916@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Pascack Valley High School vs Wayne Hills High School (Varsity Gi
+SUMMARY:Wayne Hills High School at Pascack Valley High School (Varsity Gi
  rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7494489@big-north-conference
+UID:ds:2925:7494489@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Pascack Valley High School vs Wayne Hills High School (Junior Var
+SUMMARY:Wayne Hills High School at Pascack Valley High School (Junior Var
  sity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7385498@big-north-conference
@@ -473,13 +473,13 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7414054@big-north-conference
+UID:ds:2925:7414054@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
+SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Va
  rsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7445550@big-north-conference
@@ -509,31 +509,31 @@ SUMMARY:Wayne Hills High School vs Kinnelon High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7614665@big-north-conference
+UID:ds:2925:7614665@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Passaic County Technical Institute vs Wayne Hills High School (Fr
+SUMMARY:Wayne Hills High School at Passaic County Technical Institute (Fr
  eshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7414583@big-north-conference
+UID:ds:2925:7414583@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
+SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Va
  rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7472890@big-north-conference
+UID:ds:2925:7472890@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T173000
 DTEND;TZID=America/New_York:20260909T193000
-SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Ju
+SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Ju
  nior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7525845@big-north-conference
@@ -851,22 +851,22 @@ SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
 DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7525710@big-north-conference
+UID:ds:2925:7525710@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T160000
 DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Pascack Valley High School vs Wayne Hills High School (Junior Var
+SUMMARY:Wayne Hills High School at Pascack Valley High School (Junior Var
  sity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7496270@big-north-conference
+UID:ds:2925:7496270@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
 DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Pascack Valley High School at Wayne Hills High School (Varsity Gi
+SUMMARY:Wayne Hills High School vs Pascack Valley High School (Varsity Gi
  rls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7451270@big-north-conference
@@ -1202,13 +1202,13 @@ SUMMARY:John F. Kennedy High School at Wayne Hills High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7516410@big-north-conference
+UID:ds:2925:7516410@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Passaic County Technical Institute vs Wayne Hills High School (Ju
+SUMMARY:Wayne Hills High School at Passaic County Technical Institute (Ju
  nior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7418808@big-north-conference
@@ -1220,13 +1220,13 @@ SUMMARY:Wayne Hills High School at Westwood Regional Senior High School (
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7496274@big-north-conference
+UID:ds:2925:7496274@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
+SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Va
  rsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7495924@big-north-conference
@@ -1319,7 +1319,7 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7546046@big-north-conference
+UID:ds:2574:7585514@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T100000
 DTEND;TZID=America/New_York:20261003T120000
@@ -1335,6 +1335,15 @@ DTEND;TZID=America/New_York:20261003T120000
 SUMMARY:Clifton High School vs Wayne Hills High School (Freshman Boys Boy
  s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7546013@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T130000
+DTEND;TZID=America/New_York:20261003T150000
+SUMMARY:Clifton High School vs Wayne Hills High School (Varsity Boys Boys
+  Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7445586@big-north-conference
@@ -1355,33 +1364,6 @@ SUMMARY:Clifton High School at Wayne Hills High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7546013@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T130000
-DTEND;TZID=America/New_York:20261003T150000
-SUMMARY:Clifton High School vs Wayne Hills High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2792:7518231@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Pascack Hills High School vs Wayne Hills High School (Freshman Gi
- rls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2792:7518229@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Pascack Hills High School vs Wayne Hills High School (Varsity Gir
- ls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7496275@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1400,6 +1382,24 @@ SUMMARY:Passaic Valley High School at Wayne Hills High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2925:7518229@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Wayne Hills High School at Pascack Hills High School (Varsity Gir
+ ls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7518231@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Wayne Hills High School at Pascack Hills High School (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7519282@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T163000
@@ -1409,13 +1409,13 @@ SUMMARY:Wayne Hills High School vs Roxbury High School (Varsity Girls Gym
 DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7518230@big-north-conference
+UID:ds:2925:7518230@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T173000
 DTEND;TZID=America/New_York:20261005T193000
-SUMMARY:Pascack Hills High School vs Wayne Hills High School (Junior Vars
+SUMMARY:Wayne Hills High School at Pascack Hills High School (Junior Vars
  ity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7542898@big-north-conference

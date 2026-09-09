@@ -77,13 +77,13 @@ SUMMARY:Bergenfield High School at Saint Dominic Academy (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7623123@big-north-conference
+UID:ds:2834:7623123@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T173000
 DTEND;TZID=America/New_York:20261209T193000
-SUMMARY:Pascack Valley High School vs River Dell Regional High School (Ju
+SUMMARY:River Dell Regional High School at Pascack Valley High School (Ju
  nior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7533179@big-north-conference
@@ -329,15 +329,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Immaculate Heart Academ
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7542552@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T103000
-DTEND;TZID=America/New_York:20261219T123000
-SUMMARY:Passaic County Technical Institute vs North Bergen High School (J
- unior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7540830@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
@@ -455,13 +446,13 @@ SUMMARY:Northern Valley Regional HS - Demarest at Indian Hills High Schoo
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7525380@big-north-conference
+UID:ds:2833:7525380@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:Passaic County Technical Institute at Ridgewood High School (Juni
+SUMMARY:Ridgewood High School vs Passaic County Technical Institute (Juni
  or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7526177@big-north-conference
@@ -707,13 +698,13 @@ SUMMARY:Dumont High School vs Ridgefield Park High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7593791@big-north-conference
+UID:ds:2834:7593791@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T174500
 DTEND;TZID=America/New_York:20270107T194500
-SUMMARY:Pascack Hills High School at River Dell Regional High School (Jun
+SUMMARY:River Dell Regional High School vs Pascack Hills High School (Jun
  ior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7596387@big-north-conference
@@ -797,24 +788,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Teaneck High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512709@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
-  (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7526197@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Pascack Valley High School at Tenafly High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7593808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
@@ -833,6 +806,15 @@ SUMMARY:Teaneck High School at Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2890:7526197@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:Tenafly High School vs Pascack Valley High School (Junior Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7540341@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
@@ -842,13 +824,22 @@ SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530111@big-north-conference
+UID:ds:2939:7512709@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:Westwood Regional Senior High School at Pascack Hills High School
+  (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7530111@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
 DTEND;TZID=America/New_York:20270112T200000
-SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
+SUMMARY:Passaic High School at Passaic County Technical Institute (Junior
   Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7593547@big-north-conference
@@ -905,13 +896,13 @@ SUMMARY:Paramus High School vs Pascack Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512711@big-north-conference
+UID:ds:2823:7512711@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Pascack Hills High School vs Ramsey High School (Junior Varsity G
+SUMMARY:Ramsey High School at Pascack Hills High School (Junior Varsity G
  irls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7526357@big-north-conference
@@ -966,15 +957,6 @@ DTEND;TZID=America/New_York:20270116T120000
 SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
  ool (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7556739@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T100000
-DTEND;TZID=America/New_York:20270116T120000
-SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Juni
- or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7594091@big-north-conference
@@ -1139,22 +1121,13 @@ SUMMARY:Northern Valley Regional HS - Demarest at Ridgewood High School (
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7526237@big-north-conference
+UID:ds:2822:7530114@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
-SUMMARY:Pascack Hills High School at Tenafly High School (Junior Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7530114@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T173000
-DTEND;TZID=America/New_York:20270119T193000
-SUMMARY:Passaic County Technical Institute vs Ramapo High School (Junior 
+SUMMARY:Ramapo High School at Passaic County Technical Institute (Junior 
  Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7556730@big-north-conference
@@ -1163,6 +1136,15 @@ DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
 SUMMARY:Ridgewood High School vs Northern Valley Regional High (Junior Va
  rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2890:7526237@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T193000
+SUMMARY:Tenafly High School vs Pascack Hills High School (Junior Varsity 
+ Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1580,21 +1562,21 @@ SUMMARY:Paramus High School vs Tenafly High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512719@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Pascack Hills High School vs River Dell Regional High School (Jun
- ior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7540408@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T173000
 DTEND;TZID=America/New_York:20270204T193000
 SUMMARY:Passaic Valley High School at Wayne Valley High School (Junior Va
  rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7512719@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T173000
+DTEND;TZID=America/New_York:20270204T193000
+SUMMARY:River Dell Regional High School at Pascack Hills High School (Jun
+ ior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1670,15 +1652,6 @@ SUMMARY:Northern Valley Regional HS - Demarest at Teaneck High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7526282@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T173000
-DTEND;TZID=America/New_York:20270209T193000
-SUMMARY:Pascack Valley High School vs Tenafly High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7594105@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T173000
@@ -1695,6 +1668,15 @@ DTEND;TZID=America/New_York:20270209T193000
 SUMMARY:Teaneck High School vs Northern Valley Regional High (Junior Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2890:7526282@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T173000
+DTEND;TZID=America/New_York:20270209T193000
+SUMMARY:Tenafly High School at Pascack Valley High School (Junior Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7594103@big-north-conference
@@ -1805,15 +1787,6 @@ SUMMARY:Paramus High School at Pascack Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7423243@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
-SUMMARY:Pascack Valley High School vs Paramus High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7622693@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270212T173000
@@ -1893,15 +1866,6 @@ DTEND;TZID=America/New_York:20270216T193000
 SUMMARY:Paramus High School vs Teaneck High School (Junior Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7556742@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T173000
-DTEND;TZID=America/New_York:20270216T193000
-SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
- or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7479448@big-north-conference

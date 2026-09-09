@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2793:7458734@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261223T180000
-DTEND;TZID=America/New_York:20261223T200000
-SUMMARY:Pascack Valley High School at Emerson Jr-Sr High School (Varsity 
- Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7585389@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270322T161500
-DTEND;TZID=America/New_York:20270322T181500
-SUMMARY:Pascack Valley High School at Cresskill High School (Varsity Boys
-  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7573115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T161500
@@ -69,15 +51,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Pascack Valley High Sch
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7568067@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270504T161500
-DTEND;TZID=America/New_York:20270504T181500
-SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
- ity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7568094@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270505T161500
@@ -85,14 +58,5 @@ DTEND;TZID=America/New_York:20270505T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
  ool (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7568094@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270505T161500
-DTEND;TZID=America/New_York:20270505T181500
-SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
- ity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR

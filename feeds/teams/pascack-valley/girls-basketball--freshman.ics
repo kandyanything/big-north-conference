@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2793:7623186@big-north-conference
+UID:ds:2834:7623186@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T161500
 DTEND;TZID=America/New_York:20261209T181500
-SUMMARY:Pascack Valley High School vs River Dell Regional High School (Fr
+SUMMARY:River Dell Regional High School at Pascack Valley High School (Fr
  eshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7423141@big-north-conference
@@ -49,14 +49,5 @@ DTEND;VALUE=DATE:20270212
 SUMMARY:Paramus High School at Pascack Valley High School (Freshman Girls
   Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7423149@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
-SUMMARY:Pascack Valley High School vs Paramus High School (Freshman Girls
-  Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home
 END:VEVENT
 END:VCALENDAR

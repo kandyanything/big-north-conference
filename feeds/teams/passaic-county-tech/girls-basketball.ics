@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2794:7485061@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T161500
-DTEND;TZID=America/New_York:20261210T181500
-SUMMARY:Passaic County Technical Institute vs Eastern Christian (Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7542549@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T100000
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Passaic County Technical Institute vs Mount Saint Dominic Academy
-  (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7530084@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T161500
@@ -69,51 +51,6 @@ SUMMARY:Northern Highlands Regional High School at Passaic County Technic
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7556325@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T090000
-DTEND;TZID=America/New_York:20261219T110000
-SUMMARY:Passaic County Technical Institute vs North Bergen High School (F
- reshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7542552@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T103000
-DTEND;TZID=America/New_York:20261219T123000
-SUMMARY:Passaic County Technical Institute vs North Bergen High School (J
- unior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7542551@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T120000
-DTEND;TZID=America/New_York:20261219T140000
-SUMMARY:Passaic County Technical Institute vs North Bergen High School (V
- arsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7525379@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T161500
-DTEND;TZID=America/New_York:20261222T181500
-SUMMARY:Passaic County Technical Institute at Ridgewood High School (Vars
- ity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7525381@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T161500
-DTEND;TZID=America/New_York:20261222T181500
-SUMMARY:Passaic County Technical Institute at Ridgewood High School (Fres
- hman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7525379@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T161500
@@ -123,13 +60,13 @@ SUMMARY:Ridgewood High School vs Passaic County Technical Institute (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7525380@big-north-conference
+UID:ds:2833:7525380@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:Passaic County Technical Institute at Ridgewood High School (Juni
+SUMMARY:Ridgewood High School vs Passaic County Technical Institute (Juni
  or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7530099@big-north-conference
@@ -150,58 +87,49 @@ SUMMARY:Bergen County Technical High School at Passaic County Technical I
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530110@big-north-conference
+UID:ds:2795:7530110@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
 DTEND;TZID=America/New_York:20270112T183000
-SUMMARY:Passaic County Technical Institute vs Passaic High School (Varsit
+SUMMARY:Passaic High School at Passaic County Technical Institute (Varsit
  y Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530111@big-north-conference
+UID:ds:2795:7530111@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
 DTEND;TZID=America/New_York:20270112T200000
-SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
+SUMMARY:Passaic High School at Passaic County Technical Institute (Junior
   Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7614684@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270118T113000
-DTEND;TZID=America/New_York:20270118T133000
-SUMMARY:Passaic County Technical Institute at Linden High School (Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7530113@big-north-conference
+UID:ds:2822:7530113@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
-SUMMARY:Passaic County Technical Institute vs Ramapo High School (Varsity
+SUMMARY:Ramapo High School at Passaic County Technical Institute (Varsity
   Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530115@big-north-conference
+UID:ds:2822:7530115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
-SUMMARY:Passaic County Technical Institute vs Ramapo High School (Freshma
+SUMMARY:Ramapo High School at Passaic County Technical Institute (Freshma
  n Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530114@big-north-conference
+UID:ds:2822:7530114@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
-SUMMARY:Passaic County Technical Institute vs Ramapo High School (Junior 
+SUMMARY:Ramapo High School at Passaic County Technical Institute (Junior 
  Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7531027@big-north-conference
