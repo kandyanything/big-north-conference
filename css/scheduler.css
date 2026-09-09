@@ -159,6 +159,12 @@
     .njsched .view-toggle { grid-template-columns: 1fr; gap: 8px; }
     .njsched .filters { flex-direction: column; width: 100%; }
     .njsched .filter, .njsched .filter--school { width: 100%; min-width: unset; flex: none; box-sizing: border-box; }
+    .njsched .filters label.visually-hidden {
+        position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal;
+        display: block; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+        color: var(--faint); margin-top: 8px;
+    }
+    .njsched .filters label.visually-hidden:first-child { margin-top: 0; }
     .njsched .controls-right { margin-left: 0; width: 100%; }
     .njsched .controls-right .btn { flex: 1; }
     .njsched .game { grid-template-columns: 72px 1fr; }
