@@ -788,15 +788,6 @@ SUMMARY:Ramsey High School at Wayne Hills High School (Varsity Girls Fiel
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7526214@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T161500
-DTEND;TZID=America/New_York:20260918T181500
-SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
- ty Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7410530@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T161500
@@ -813,6 +804,15 @@ DTEND;TZID=America/New_York:20260918T181500
 SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Gir
  ls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7526214@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T173000
+DTEND;TZID=America/New_York:20260918T193000
+SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7585426@big-north-conference
@@ -1445,15 +1445,6 @@ SUMMARY:Wayne Hills High School at West Milford High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7501716@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:DePaul Catholic High School vs Wayne Hills High School (Varsity G
- irls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7568652@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -1461,6 +1452,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:DePaul Catholic High School at Wayne Hills High School (Freshman 
  Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7501716@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:DePaul Catholic High School vs Wayne Hills High School (Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7462843@big-north-conference
@@ -2111,31 +2111,22 @@ SUMMARY:Wayne Hills High School vs Paramus High School (Varsity Boys Ice
 DESCRIPTION:Varsity Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7542617@big-north-conference
+UID:ds:2689:7623926@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T173000
-DTEND;TZID=America/New_York:20261216T193000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior 
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Junior 
  Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7542624@big-north-conference
+UID:ds:2689:7623925@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T183000
-DTEND;TZID=America/New_York:20261216T203000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
+DTSTART;TZID=America/New_York:20261216T180000
+DTEND;TZID=America/New_York:20261216T200000
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
   Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7542624@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T183000
-DTEND;TZID=America/New_York:20261216T203000
-SUMMARY:Wayne Hills High School at Lakeland Regional High School (Junior 
- Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517021@big-north-conference
@@ -2210,6 +2201,24 @@ SUMMARY:Wayne Hills High School at Paramus High School (Varsity Boys Ice
 DESCRIPTION:Varsity Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7623987@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Paramus Catholic High School vs Wayne Hills High School (Varsity 
+ Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7623987@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Wayne Hills High School at Paramus Catholic High School (Varsity 
+ Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7607958@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T100000
@@ -2253,6 +2262,15 @@ DTEND;TZID=America/New_York:20270105T073000
 SUMMARY:Passaic Valley High School vs Wayne Hills High School (Junior Var
  sity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7624013@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T180000
+DTEND;TZID=America/New_York:20270106T200000
+SUMMARY:Passaic Valley High School vs Wayne Hills High School (Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7540914@big-north-conference

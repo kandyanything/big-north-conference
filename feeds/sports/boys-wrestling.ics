@@ -319,6 +319,15 @@ SUMMARY:Hackensack High School at Northern Highlands Regional High School
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7623926@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Junior 
+ Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7552690@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T170000
@@ -337,13 +346,13 @@ SUMMARY:Tenafly High School at Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7542617@big-north-conference
+UID:ds:2689:7623925@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T173000
-DTEND;TZID=America/New_York:20261216T193000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior 
- Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20261216T180000
+DTEND;TZID=America/New_York:20261216T200000
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
+  Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7511559@big-north-conference
@@ -382,15 +391,6 @@ SUMMARY:Hackensack High School at Northern Highlands Regional High School
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7542624@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T183000
-DTEND;TZID=America/New_York:20261216T203000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
-  Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7550724@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T183000
@@ -407,15 +407,6 @@ DTEND;TZID=America/New_York:20261216T203000
 SUMMARY:Tenafly High School at Northern Valley Regional High (Varsity Boy
  s Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7542624@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T183000
-DTEND;TZID=America/New_York:20261216T203000
-SUMMARY:Wayne Hills High School at Lakeland Regional High School (Junior 
- Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7562068@big-north-conference
@@ -733,12 +724,30 @@ SUMMARY:Northern Valley Regional HS - Demarest at Northern Highlands Regi
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7623987@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Paramus Catholic High School vs Wayne Hills High School (Varsity 
+ Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7508747@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Paramus High School at Bayonne High School (Varsity Boys Boys Wre
  stling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7623987@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Wayne Hills High School at Paramus Catholic High School (Varsity 
+ Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
@@ -902,6 +911,15 @@ DTEND;TZID=America/New_York:20270106T200000
 SUMMARY:Passaic County Technical Institute vs Ridgewood High School (Juni
  or Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7624013@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T180000
+DTEND;TZID=America/New_York:20270106T200000
+SUMMARY:Passaic Valley High School vs Wayne Hills High School (Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7592634@big-north-conference
