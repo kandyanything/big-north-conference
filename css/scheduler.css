@@ -157,6 +157,8 @@
 /* ---------- responsive ---------- */
 @media (max-width: 640px) {
     .njsched .view-toggle { grid-template-columns: 1fr; gap: 8px; }
+    .njsched .filters { flex-direction: column; width: 100%; }
+    .njsched .filter, .njsched .filter--school { width: 100%; min-width: unset; flex: none; box-sizing: border-box; }
     .njsched .controls-right { margin-left: 0; width: 100%; }
     .njsched .controls-right .btn { flex: 1; }
     .njsched .game { grid-template-columns: 72px 1fr; }
@@ -165,6 +167,30 @@
     .njsched .sub { max-width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .njsched * { animation: none !important; transition: none !important; } }
+
+/* ---------- GoFan ticket link ---------- */
+.njsched .ticket-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #c41e1e;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 11px 4px 8px;
+    border-radius: 5px;
+    border: 1.5px solid #0a2463;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    transition: background .14s, border-color .14s;
+    white-space: nowrap;
+    margin-left: 4px;
+    line-height: 1;
+}
+.njsched .ticket-link:hover,
+.njsched .ticket-link:focus-visible { background: #0a2463; border-color: #c41e1e; }
+.njsched .ticket-link svg { width: 15px; height: 15px; flex-shrink: 0; }
 
 /* ---------- printable schedule (global — only #sched-print-area shows) ---------- */
 #sched-print-area { display: none; }
