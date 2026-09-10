@@ -24,22 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7526089@big-north-conference
+UID:ds:2793:7526089@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T120000
 DTEND;TZID=America/New_York:20260824T140000
-SUMMARY:Ridgewood High School at Pascack Valley High School (Varsity Girl
+SUMMARY:Pascack Valley High School vs Ridgewood High School (Varsity Girl
  s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7526094@big-north-conference
+UID:ds:2793:7526094@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T120000
 DTEND;TZID=America/New_York:20260824T140000
-SUMMARY:Ridgewood High School at Pascack Valley High School (Junior Varsi
+SUMMARY:Pascack Valley High School vs Ridgewood High School (Junior Varsi
  ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7555026@big-north-conference
@@ -60,6 +60,24 @@ SUMMARY:Immaculate Heart Academy vs Pascack Valley High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7477026@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T140000
+DTEND;TZID=America/New_York:20260828T160000
+SUMMARY:Pascack Valley High School at Glen Rock High School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7473804@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T160000
+DTEND;TZID=America/New_York:20260828T180000
+SUMMARY:Pascack Valley High School at Glen Rock High School (Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7542657@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T161500
@@ -69,40 +87,49 @@ SUMMARY:Bergenfield High School vs Pascack Valley High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7410306@big-north-conference
+UID:ds:2793:7410306@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T161500
 DTEND;TZID=America/New_York:20260902T181500
-SUMMARY:Tenafly High School at Pascack Valley High School (Varsity Girls 
+SUMMARY:Pascack Valley High School vs Tenafly High School (Varsity Girls 
  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7410307@big-north-conference
+UID:ds:2793:7410307@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Tenafly High School at Pascack Valley High School (Junior Varsity
+SUMMARY:Pascack Valley High School vs Tenafly High School (Junior Varsity
   Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7462916@big-north-conference
+UID:ds:2793:7462916@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Wayne Hills High School at Pascack Valley High School (Varsity Gi
+SUMMARY:Pascack Valley High School vs Wayne Hills High School (Varsity Gi
  rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7494489@big-north-conference
+UID:ds:2793:7494489@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
 DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Wayne Hills High School at Pascack Valley High School (Junior Var
+SUMMARY:Pascack Valley High School vs Wayne Hills High School (Junior Var
  sity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7526248@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Pascack Valley High School vs Immaculate Heart Academy (Freshman 
+ Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7535571@big-north-conference
@@ -121,6 +148,24 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Pascack Valley High Sch
  ool (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7535571@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7536623@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
+ or Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7410241@big-north-conference
@@ -150,6 +195,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Pascack Valley High S
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7555122@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Juni
+ or Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7555116@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T183000
@@ -157,6 +211,33 @@ DTEND;TZID=America/New_York:20260916T203000
 SUMMARY:Northern Valley Regional HS - Old Tappan at Pascack Valley High S
  chool (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7555116@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T183000
+DTEND;TZID=America/New_York:20260916T203000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7509622@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T123000
+DTEND;TZID=America/New_York:20260919T143000
+SUMMARY:Pascack Hills High School vs Pascack Valley High School (Junior V
+ arsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7510627@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T140000
+DTEND;TZID=America/New_York:20260919T160000
+SUMMARY:Pascack Hills High School vs Pascack Valley High School (Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7537638@big-north-conference
@@ -177,31 +258,40 @@ SUMMARY:Lakeland Regional High School at Pascack Valley High School (Vars
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507278@big-north-conference
+UID:ds:2793:7555539@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Ridgewood High School vs Pascack Valley High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Pascack Valley High School vs Glen Rock Middle School (Freshman G
+ irls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7385348@big-north-conference
+UID:ds:2793:7385348@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Girl
+SUMMARY:Pascack Valley High School at Ridgewood High School (Varsity Girl
  s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507279@big-north-conference
+UID:ds:2793:7507278@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Pascack Valley High School at Ridgewood High School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7507279@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
 DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Ridgewood High School vs Pascack Valley High School (Freshman Gir
+SUMMARY:Pascack Valley High School at Ridgewood High School (Freshman Gir
  ls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7526178@big-north-conference
@@ -231,22 +321,31 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Pascack Valley High S
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7533993@big-north-conference
+UID:ds:2793:7526258@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Westwood Regional Senior High School vs Pascack Valley High Schoo
- l (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20260928T161500
+DTEND;TZID=America/New_York:20260928T181500
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Fres
+ hman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7533996@big-north-conference
+UID:ds:2793:7533993@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Westwood Regional Senior High School vs Pascack Valley High Schoo
+SUMMARY:Pascack Valley High School at Westwood Regional Senior High Schoo
+ l (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7533996@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Pascack Valley High School at Westwood Regional Senior High Schoo
  l (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7545376@big-north-conference
@@ -258,22 +357,49 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Pascack Valley High Sch
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7410330@big-north-conference
+UID:ds:2793:7545376@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T161500
+DTEND;TZID=America/New_York:20261002T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Fres
+ hman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7501790@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Pascack Valley High School at Waldwick High School (Junior Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7499295@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T160000
+DTEND;TZID=America/New_York:20261003T180000
+SUMMARY:Pascack Valley High School vs Waldwick High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7410330@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T153000
 DTEND;TZID=America/New_York:20261005T173000
-SUMMARY:Tenafly High School vs Pascack Valley High School (Junior Varsity
+SUMMARY:Pascack Valley High School at Tenafly High School (Junior Varsity
   Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7410329@big-north-conference
+UID:ds:2793:7410329@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T183000
 DTEND;TZID=America/New_York:20261005T203000
-SUMMARY:Tenafly High School vs Pascack Valley High School (Varsity Girls 
+SUMMARY:Pascack Valley High School at Tenafly High School (Varsity Girls 
  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7536633@big-north-conference
@@ -285,6 +411,15 @@ SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7536633@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Juni
+ or Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7535616@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T183000
@@ -294,6 +429,15 @@ SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7535616@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T183000
+DTEND;TZID=America/New_York:20261007T203000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7559825@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T161500
@@ -301,6 +445,15 @@ DTEND;TZID=America/New_York:20261016T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
  ool (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7559825@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Fres
+ hman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7513717@big-north-conference
@@ -321,6 +474,24 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7513717@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7513718@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
+ or Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7545398@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T161500
@@ -330,22 +501,31 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7460939@big-north-conference
+UID:ds:2793:7545398@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T161500
-DTEND;TZID=America/New_York:20261022T181500
-SUMMARY:Teaneck High School vs Pascack Valley High School (Varsity Girls 
- Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Fres
+ hman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7460995@big-north-conference
+UID:ds:2793:7460939@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T161500
 DTEND;TZID=America/New_York:20261022T181500
-SUMMARY:Teaneck High School vs Pascack Valley High School (Junior Varsity
+SUMMARY:Pascack Valley High School at Teaneck High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7460995@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:Pascack Valley High School at Teaneck High School (Junior Varsity
   Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7407180@big-north-conference

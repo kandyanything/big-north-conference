@@ -23,22 +23,49 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2890:7405303@big-north-conference
+UID:ds:2792:7558139@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T190000
-DTEND;TZID=America/New_York:20260910T210000
-SUMMARY:Tenafly High School vs Pascack Hills High School (Varsity Boys Fo
- otball)
+DTSTART;TZID=America/New_York:20260827T180000
+DTEND;TZID=America/New_York:20260827T200000
+SUMMARY:Pascack Hills High School vs Kittatinny Regional High School (Var
+ sity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7592035@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:Pascack Hills High School at Pascack Hills/Valley (Junior Varsity
+  Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7458921@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T190000
+DTEND;TZID=America/New_York:20260904T210000
+SUMMARY:Pascack Hills High School vs Belleville High School (Varsity Boys
+  Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7509555@big-north-conference
+UID:ds:2792:7405303@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T190000
+DTEND;TZID=America/New_York:20260910T210000
+SUMMARY:Pascack Hills High School at Tenafly High School (Varsity Boys Fo
+ otball)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7509555@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Tenafly High School vs Pascack Hills High School (Junior Varsity 
+SUMMARY:Pascack Hills High School at Tenafly High School (Junior Varsity 
  Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7578672@big-north-conference
@@ -68,6 +95,15 @@ SUMMARY:Northern Valley Regional HS - Demarest at Pascack Hills High Scho
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2792:7509542@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T130000
+DTEND;TZID=America/New_York:20260926T150000
+SUMMARY:Pascack Hills High School vs Northern Valley Regional High (Varsi
+ ty Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7493566@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T190000
@@ -86,21 +122,21 @@ SUMMARY:Fort Lee High School vs Pascack Hills High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7392808@big-north-conference
+UID:ds:2792:7392808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T180000
 DTEND;TZID=America/New_York:20261008T200000
-SUMMARY:Ridgefield Park High School vs Pascack Hills High School (Varsity
+SUMMARY:Pascack Hills High School at Ridgefield Park High School (Varsity
   Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7509560@big-north-conference
+UID:ds:2792:7509560@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Ridgefield Park High School at Pascack Hills High School (Freshma
+SUMMARY:Pascack Hills High School vs Ridgefield Park High School (Freshma
  n Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 END:VCALENDAR

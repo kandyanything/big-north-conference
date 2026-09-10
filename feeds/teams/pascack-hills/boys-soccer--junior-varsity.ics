@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2792:7579666@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T110000
+DTEND;TZID=America/New_York:20260825T130000
+SUMMARY:Pascack Hills High School at Henry P Becton Regional High School 
+ (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7440502@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T120000
+SUMMARY:Pascack Hills High School at Cresskill High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7540189@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T160000
@@ -33,31 +51,40 @@ SUMMARY:Paramus High School at Pascack Hills High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7511743@big-north-conference
+UID:ds:2792:7525858@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T161500
-DTEND;TZID=America/New_York:20260902T181500
-SUMMARY:Westwood Regional Senior High School at Pascack Hills High School
-  (Junior Varsity Boys Boys Soccer)
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Pascack Hills High School at Pascack Valley High School (Junior V
+ arsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7437589@big-north-conference
+UID:ds:2792:7511743@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:River Dell Regional High School vs Pascack Hills High School (Jun
- ior Varsity Boys Boys Soccer)
+DTSTART;TZID=America/New_York:20260902T161500
+DTEND;TZID=America/New_York:20260902T181500
+SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
+  (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7406990@big-north-conference
+UID:ds:2792:7437589@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Pascack Hills High School at River Dell Regional High School (Jun
+ ior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7406990@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Tenafly High School vs Pascack Hills High School (Junior Varsity 
+SUMMARY:Pascack Hills High School at Tenafly High School (Junior Varsity 
  Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7611495@big-north-conference
@@ -69,13 +96,13 @@ SUMMARY:Mahwah High School at Pascack Hills High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7546934@big-north-conference
+UID:ds:2792:7546934@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T150000
 DTEND;TZID=America/New_York:20260919T170000
-SUMMARY:Ramsey High School vs Pascack Hills High School (Junior Varsity B
+SUMMARY:Pascack Hills High School at Ramsey High School (Junior Varsity B
  oys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 3:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7511744@big-north-conference
@@ -96,6 +123,15 @@ SUMMARY:Northern Highlands Regional High School vs Pascack Hills High Sch
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2792:7511747@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T161500
+DTEND;TZID=America/New_York:20260928T181500
+SUMMARY:Pascack Hills High School at Saint Joseph Regional High School (J
+ unior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2595:7586619@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T161500
@@ -105,22 +141,22 @@ SUMMARY:Dumont High School vs Pascack Hills High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7535764@big-north-conference
+UID:ds:2792:7535764@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Westwood Regional Senior High School vs Pascack Hills High School
+SUMMARY:Pascack Hills High School at Westwood Regional Senior High School
   (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7434376@big-north-conference
+UID:ds:2792:7434376@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:River Dell Regional High School at Pascack Hills High School (Jun
+SUMMARY:Pascack Hills High School vs River Dell Regional High School (Jun
  ior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7608819@big-north-conference
@@ -141,13 +177,22 @@ SUMMARY:Mahwah High School vs Pascack Hills High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7390902@big-north-conference
+UID:ds:2792:7503182@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Pascack Hills High School vs Waldwick High School (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7390902@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
 DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Ramsey High School at Pascack Hills High School (Junior Varsity B
+SUMMARY:Pascack Hills High School vs Ramsey High School (Junior Varsity B
  oys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7459027@big-north-conference

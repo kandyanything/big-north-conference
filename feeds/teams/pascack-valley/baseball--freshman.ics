@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7526165@big-north-conference
+UID:ds:2793:7548464@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T161500
+DTEND;TZID=America/New_York:20270415T181500
+SUMMARY:Pascack Valley High School at Passaic County Technical Institute 
+ (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7526165@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T161500
 DTEND;TZID=America/New_York:20270423T181500
-SUMMARY:Ridgewood High School vs Pascack Valley High School (Freshman Boy
+SUMMARY:Pascack Valley High School at Ridgewood High School (Freshman Boy
  s Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

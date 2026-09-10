@@ -24,13 +24,40 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7610836@big-north-conference
+UID:ds:2793:7525727@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T120000
+SUMMARY:Pascack Valley High School vs Livingston High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7592210@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T093000
+DTEND;TZID=America/New_York:20260829T113000
+SUMMARY:Pascack Valley High School at Nutley High School (Freshman Boys F
+ ootball)
+DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7610836@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:River Dell Regional High School at Pascack Valley High School (Fr
+SUMMARY:Pascack Valley High School vs River Dell Regional High School (Fr
  eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7621052@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Pascack Valley High School at Lenape Valley Regional High School 
+ (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7403716@big-north-conference
@@ -42,13 +69,13 @@ SUMMARY:Paramus High School at Pascack Valley High School (Freshman Boys
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7491376@big-north-conference
+UID:ds:2793:7491376@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:West Milford High School vs Pascack Valley High School (Freshman 
+SUMMARY:Pascack Valley High School at West Milford High School (Freshman 
  Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7574720@big-north-conference
@@ -60,12 +87,21 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422399@big-north-conference
+UID:ds:2793:7574720@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7422399@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
 DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Teaneck High School at Pascack Valley High School (Freshman Boys 
+SUMMARY:Pascack Valley High School vs Teaneck High School (Freshman Boys 
  Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 END:VCALENDAR

@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2793:7543687@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Pascack Valley High School vs Glen Rock Middle School (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7525817@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T160000
@@ -33,13 +42,22 @@ SUMMARY:Fair Lawn High School at Pascack Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7406983@big-north-conference
+UID:ds:2792:7510725@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T183000
+DTEND;TZID=America/New_York:20260831T203000
+SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7406983@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T183000
 DTEND;TZID=America/New_York:20260902T203000
-SUMMARY:Tenafly High School vs Pascack Valley High School (Varsity Boys B
+SUMMARY:Pascack Valley High School at Tenafly High School (Varsity Boys B
  oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7525713@big-north-conference
@@ -49,6 +67,15 @@ DTEND;TZID=America/New_York:20260909T203000
 SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
  ool (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7525713@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T183000
+DTEND;TZID=America/New_York:20260909T203000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7403385@big-north-conference
@@ -69,22 +96,40 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422809@big-north-conference
+UID:ds:2793:7513807@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7445913@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T120000
+DTEND;TZID=America/New_York:20260919T140000
+SUMMARY:Pascack Valley High School at Emerson Jr-Sr High School (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7422809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Teaneck High School vs Pascack Valley High School (Varsity Boys B
+SUMMARY:Pascack Valley High School at Teaneck High School (Varsity Boys B
  oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7544653@big-north-conference
+UID:ds:2793:7544653@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T183000
 DTEND;TZID=America/New_York:20260924T203000
-SUMMARY:Ridgewood High School at Pascack Valley High School (Varsity Boys
+SUMMARY:Pascack Valley High School vs Ridgewood High School (Varsity Boys
   Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7555284@big-north-conference
@@ -96,22 +141,31 @@ SUMMARY:Bergenfield High School at Pascack Valley High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7525728@big-north-conference
+UID:ds:2793:7525728@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Westwood Regional Senior High School at Pascack Valley High Schoo
+SUMMARY:Pascack Valley High School vs Westwood Regional Senior High Schoo
  l (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7407034@big-north-conference
+UID:ds:2793:7525547@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T143000
+DTEND;TZID=America/New_York:20261003T163000
+SUMMARY:Pascack Valley High School vs Montclair High School (Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7407034@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T183000
 DTEND;TZID=America/New_York:20261005T203000
-SUMMARY:Tenafly High School at Pascack Valley High School (Varsity Boys B
+SUMMARY:Pascack Valley High School vs Tenafly High School (Varsity Boys B
  oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7540674@big-north-conference
@@ -123,6 +177,15 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Pascack Valley High Sch
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7540674@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7525733@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T183000
@@ -132,13 +195,22 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Pascack Valley High S
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422817@big-north-conference
+UID:ds:2793:7525733@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T183000
+DTEND;TZID=America/New_York:20261020T203000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7422817@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T183000
 DTEND;TZID=America/New_York:20261022T203000
-SUMMARY:Teaneck High School at Pascack Valley High School (Varsity Boys B
+SUMMARY:Pascack Valley High School vs Teaneck High School (Varsity Boys B
  oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7407098@big-north-conference
@@ -150,12 +222,12 @@ SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:41410:7560052@big-north-conference
+UID:ds:2793:7560052@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
 DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:Saint Joseph Regional High School vs Pascack Valley High School (
+SUMMARY:Pascack Valley High School at Saint Joseph Regional High School (
  Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

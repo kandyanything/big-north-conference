@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2794:7592998@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T160000
+DTEND;TZID=America/New_York:20260827T180000
+SUMMARY:Passaic County Technical Institute at Pompton Lakes High School (
+ Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7516374@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Passaic County Technical Institute at TBD (Junior Varsity Girls G
+ irls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2669:7612652@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -33,13 +51,13 @@ SUMMARY:Immaculate Heart Academy at Passaic County Technical Institute (V
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7516421@big-north-conference
+UID:ds:2794:7516421@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Passaic High School at Passaic County Technical Institute (Varsit
+SUMMARY:Passaic County Technical Institute vs Passaic High School (Varsit
  y Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7556304@big-north-conference
@@ -49,6 +67,15 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Clifton High School at Passaic County Technical Institute (Junior
   Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7516378@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Passaic County Technical Institute at TBD (Junior Varsity Girls G
+ irls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7516377@big-north-conference
@@ -87,6 +114,24 @@ SUMMARY:Fair Lawn High School vs Passaic County Technical Institute (Juni
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2794:7568207@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Passaic County Technical Institute vs Eastern Christian (Varsity 
+ Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7568208@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Passaic County Technical Institute at Eastern Christian (Junior V
+ arsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7527434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -105,6 +150,15 @@ SUMMARY:Bergen County Technical High School vs Passaic County Technical I
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2794:7508043@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T161500
+DTEND;TZID=America/New_York:20260925T181500
+SUMMARY:Passaic County Technical Institute at Ridgewood High School (Vars
+ ity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7508043@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
@@ -114,31 +168,40 @@ SUMMARY:Ridgewood High School vs Passaic County Technical Institute (Juni
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7516404@big-north-conference
+UID:ds:2794:7516404@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T163000
 DTEND;TZID=America/New_York:20260928T183000
-SUMMARY:Passaic High School vs Passaic County Technical Institute (Varsit
+SUMMARY:Passaic County Technical Institute at Passaic High School (Varsit
  y Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7516410@big-north-conference
+UID:ds:2794:7516410@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Wayne Hills High School at Passaic County Technical Institute (Ju
+SUMMARY:Passaic County Technical Institute vs Wayne Hills High School (Ju
  nior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7496274@big-north-conference
+UID:ds:2794:7496274@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Va
+SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
  rsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7622775@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Passaic County Technical Institute at Pompton Lakes High School (
+ Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7556310@big-north-conference

@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2794:7548447@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270324T161500
+DTEND;TZID=America/New_York:20270324T181500
+SUMMARY:Passaic County Technical Institute vs Saint Joseph Regional High 
+ School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7567920@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
@@ -33,13 +42,13 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Saint Joseph Regional H
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:41410:7548929@big-north-conference
+UID:ds:2794:7548929@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T161500
 DTEND;TZID=America/New_York:20270426T181500
-SUMMARY:Saint Joseph Regional High School at Passaic County Technical Ins
- titute (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+SUMMARY:Passaic County Technical Institute vs Saint Joseph Regional High 
+ School (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7570303@big-north-conference

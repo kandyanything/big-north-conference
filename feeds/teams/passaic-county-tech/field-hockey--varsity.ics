@@ -24,13 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2926:7446648@big-north-conference
+UID:ds:2794:7576191@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T093000
+DTEND;TZID=America/New_York:20260825T113000
+SUMMARY:Passaic County Technical Institute at Pequannock Township High Sc
+ hool (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7446648@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T090000
 DTEND;TZID=America/New_York:20260828T110000
-SUMMARY:Wayne Valley High School vs Passaic County Technical Institute (V
+SUMMARY:Passaic County Technical Institute at Wayne Valley High School (V
  arsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 9:00 AM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7454359@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Passaic County Technical Institute at Sparta High School (Varsity
+  Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7516535@big-north-conference
@@ -42,22 +60,31 @@ SUMMARY:Northern Valley Regional HS - Demarest at Passaic County Technica
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7445980@big-north-conference
+UID:ds:2794:7516535@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T161500
+DTEND;TZID=America/New_York:20260902T181500
+SUMMARY:Passaic County Technical Institute vs Northern Valley Regional Hi
+ gh (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7445980@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T090000
 DTEND;TZID=America/New_York:20260905T110000
-SUMMARY:Wayne Valley High School vs Passaic County Technical Institute (V
+SUMMARY:Passaic County Technical Institute at Wayne Valley High School (V
  arsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 9:00 AM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7414054@big-north-conference
+UID:ds:2794:7414054@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Va
+SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
  rsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7516594@big-north-conference
@@ -69,13 +96,31 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Passaic County Techni
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7451217@big-north-conference
+UID:ds:2794:7516594@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Passaic County Technical Institute at Northern Valley Regional Hi
+ gh (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7516609@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:Passaic County Technical Institute at Pompton Lakes High School (
+ Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7451217@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:West Milford High School at Passaic County Technical Institute (V
+SUMMARY:Passaic County Technical Institute vs West Milford High School (V
  arsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386166@big-north-conference
@@ -96,13 +141,22 @@ SUMMARY:Lakeland Regional High School at Passaic County Technical Institu
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7382984@big-north-conference
+UID:ds:2794:7516616@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T161500
+DTEND;TZID=America/New_York:20261002T181500
+SUMMARY:Passaic County Technical Institute at Dwight-Englewood School (Va
+ rsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7516625@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Ramsey High School at Passaic County Technical Institute (Varsity
+SUMMARY:Passaic County Technical Institute vs Ramsey High School (Varsity
   Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7516631@big-north-conference
@@ -114,30 +168,39 @@ SUMMARY:Immaculate Heart Academy vs Passaic County Technical Institute (V
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7516638@big-north-conference
+UID:ds:2794:7516638@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T190000
 DTEND;TZID=America/New_York:20261021T210000
-SUMMARY:Westwood Regional Senior High School at Passaic County Technical 
- Institute (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 7:00 PM
+SUMMARY:Passaic County Technical Institute vs Westwood Regional Senior Hi
+ gh School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7516662@big-north-conference
+UID:ds:2794:7483202@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T161500
-DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:Passaic Valley High School at Passaic County Technical Institute 
- (Varsity Girls Field Hockey)
+DTSTART;TZID=America/New_York:20261023T161500
+DTEND;TZID=America/New_York:20261023T181500
+SUMMARY:Passaic County Technical Institute at Butler High School (Varsity
+  Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7437709@big-north-conference
+UID:ds:2794:7516662@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T161500
+DTEND;TZID=America/New_York:20261028T181500
+SUMMARY:Passaic County Technical Institute vs Passaic Valley High School 
+ (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7437709@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261031T100000
 DTEND;TZID=America/New_York:20261031T120000
-SUMMARY:River Dell Regional High School vs Passaic County Technical Insti
- tute (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
+SUMMARY:Passaic County Technical Institute at River Dell Regional High Sc
+ hool (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR

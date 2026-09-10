@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2822:7579946@big-north-conference
+UID:ds:2794:7579946@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Ramapo High School at Passaic County Technical Institute (Freshma
+SUMMARY:Passaic County Technical Institute vs Ramapo High School (Freshma
  n Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 10:00 AM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7568904@big-north-conference
@@ -51,21 +51,39 @@ SUMMARY:Northern Highlands Regional High School at Passaic County Technic
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7516295@big-north-conference
+UID:ds:2794:7516295@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Wayne Valley High School at Passaic County Technical Institute (F
+SUMMARY:Passaic County Technical Institute vs Wayne Valley High School (F
  reshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7614665@big-north-conference
+UID:ds:2794:7614665@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Wayne Hills High School at Passaic County Technical Institute (Fr
+SUMMARY:Passaic County Technical Institute vs Wayne Hills High School (Fr
  eshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7506500@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Passaic County Technical Institute vs Livingston High School (Fre
+ shman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7422588@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T161500
+DTEND;TZID=America/New_York:20260911T181500
+SUMMARY:Passaic County Technical Institute at Randolph High School (Fresh
+ man Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -78,13 +96,13 @@ SUMMARY:Bergen County Technical High School vs Passaic County Technical I
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7557882@big-north-conference
+UID:ds:2794:7557882@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T163000
 DTEND;TZID=America/New_York:20260916T183000
-SUMMARY:Passaic High School vs Passaic County Technical Institute (Freshm
+SUMMARY:Passaic County Technical Institute at Passaic High School (Freshm
  an Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7516349@big-north-conference
@@ -96,22 +114,22 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Freshm
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7519213@big-north-conference
+UID:ds:2794:7519213@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ramapo High School vs Passaic County Technical Institute (Freshma
+SUMMARY:Passaic County Technical Institute at Ramapo High School (Freshma
  n Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7560104@big-north-conference
+UID:ds:2794:7560104@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Ridgewood High School at Passaic County Technical Institute (Fres
+SUMMARY:Passaic County Technical Institute vs Ridgewood High School (Fres
  hman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7568466@big-north-conference
@@ -120,6 +138,15 @@ DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Fair Lawn High School vs Passaic County Technical Institute (Fres
  hman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7577909@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Passaic County Technical Institute vs Union City High School (Fre
+ shman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -132,13 +159,13 @@ SUMMARY:Bergen County Technical High School vs Passaic County Technical I
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7557904@big-north-conference
+UID:ds:2794:7557904@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T163000
 DTEND;TZID=America/New_York:20261020T183000
-SUMMARY:Passaic High School at Passaic County Technical Institute (Freshm
+SUMMARY:Passaic County Technical Institute vs Passaic High School (Freshm
  an Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:30 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7516354@big-north-conference

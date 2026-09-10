@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2822:7537704@big-north-conference
+UID:ds:2794:7537704@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Ramapo High School at Passaic County Technical Institute (Varsity
+SUMMARY:Passaic County Technical Institute vs Ramapo High School (Varsity
   Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7530016@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T120000
+SUMMARY:Passaic County Technical Institute vs James J Ferris High School 
+ (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7567687@big-north-conference
@@ -51,21 +60,39 @@ SUMMARY:Northern Highlands Regional High School at Passaic County Technic
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7516293@big-north-conference
+UID:ds:2794:7516293@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Wayne Valley High School at Passaic County Technical Institute (V
+SUMMARY:Passaic County Technical Institute vs Wayne Valley High School (V
  arsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7414583@big-north-conference
+UID:ds:2794:7414583@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Wayne Hills High School vs Passaic County Technical Institute (Va
+SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
  rsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7506492@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Passaic County Technical Institute vs Livingston High School (Var
+ sity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7422429@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T161500
+DTEND;TZID=America/New_York:20260911T181500
+SUMMARY:Passaic County Technical Institute vs Randolph High School (Varsi
+ ty Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -78,13 +105,13 @@ SUMMARY:Bergen County Technical High School vs Passaic County Technical I
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7516297@big-north-conference
+UID:ds:2794:7516297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T163000
 DTEND;TZID=America/New_York:20260916T183000
-SUMMARY:Passaic High School vs Passaic County Technical Institute (Varsit
+SUMMARY:Passaic County Technical Institute at Passaic High School (Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7516301@big-north-conference
@@ -93,6 +120,15 @@ DTSTART;TZID=America/New_York:20260918T161500
 DTEND;TZID=America/New_York:20260918T181500
 SUMMARY:Eastside High School at Passaic County Technical Institute (Varsi
  ty Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7516308@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Passaic County Technical Institute at Clifton High School (Varsit
+ y Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -105,31 +141,31 @@ SUMMARY:John F. Kennedy High School at Passaic County Technical Institute
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7521852@big-north-conference
+UID:ds:2794:7521852@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
 DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:River Dell Regional High School vs Passaic County Technical Insti
- tute (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+SUMMARY:Passaic County Technical Institute at River Dell Regional High Sc
+ hool (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7516317@big-north-conference
+UID:ds:2794:7516317@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ramapo High School vs Passaic County Technical Institute (Varsity
+SUMMARY:Passaic County Technical Institute at Ramapo High School (Varsity
   Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7516322@big-north-conference
+UID:ds:2794:7516322@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Ridgewood High School at Passaic County Technical Institute (Vars
+SUMMARY:Passaic County Technical Institute vs Ridgewood High School (Vars
  ity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7568464@big-north-conference
@@ -138,6 +174,15 @@ DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Fair Lawn High School vs Passaic County Technical Institute (Vars
  ity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7515089@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Passaic County Technical Institute vs West Orange High School (Va
+ rsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -159,13 +204,13 @@ SUMMARY:Bergen County Technical High School at Passaic County Technical I
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7516329@big-north-conference
+UID:ds:2794:7516329@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
 DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Passaic High School at Passaic County Technical Institute (Varsit
+SUMMARY:Passaic County Technical Institute vs Passaic High School (Varsit
  y Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7516332@big-north-conference
@@ -174,6 +219,15 @@ DTSTART;TZID=America/New_York:20261022T161500
 DTEND;TZID=America/New_York:20261022T181500
 SUMMARY:Eastside High School vs Passaic County Technical Institute (Varsi
  ty Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7516335@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Passaic County Technical Institute vs Clifton High School (Varsit
+ y Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT

@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2794:7529094@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T100000
+DTEND;TZID=America/New_York:20260817T120000
+SUMMARY:Passaic County Technical Institute at Piscataway High School (Var
+ sity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7529119@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T110000
@@ -31,6 +40,14 @@ DTEND;TZID=America/New_York:20260817T130000
 SUMMARY:Northern Highlands Regional High School vs Passaic County Technic
  al Institute (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7529044@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T200000
+SUMMARY:Passaic County Technical Institute vs TBD (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7389895@big-north-conference
@@ -42,30 +59,243 @@ SUMMARY:Northern Highlands Regional High School vs Passaic County Technic
 DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7528629@big-north-conference
+UID:ds:2794:7591557@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T180000
-DTEND;TZID=America/New_York:20260925T200000
-SUMMARY:Ramapo High School at Passaic County Technical Institute (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Passaic County Technical Institute at Malcolm X Shabazz High Scho
+ ol (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7528631@big-north-conference
+UID:ds:2794:7529227@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Ramapo High School vs Passaic County Technical Institute (Freshma
- n Boys Football)
+DTSTART;TZID=America/New_York:20260903T163000
+DTEND;TZID=America/New_York:20260903T183000
+SUMMARY:Passaic County Technical Institute at Elizabeth High School (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528498@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T180000
+DTEND;TZID=America/New_York:20260904T200000
+SUMMARY:Passaic County Technical Institute vs Malcolm X Shabazz High Scho
+ ol (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528702@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T170000
+DTEND;TZID=America/New_York:20260908T190000
+SUMMARY:Passaic County Technical Institute at Malcolm X Shabazz High Scho
+ ol (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528507@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T180000
+DTEND;TZID=America/New_York:20260911T200000
+SUMMARY:Passaic County Technical Institute vs Bayonne High School (Varsit
+ y Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528817@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T090000
+DTEND;TZID=America/New_York:20260912T110000
+SUMMARY:Passaic County Technical Institute at Bayonne High School (Freshm
+ an Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528733@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Passaic County Technical Institute at Bayonne High School (Junior
+  Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528521@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T190000
+DTEND;TZID=America/New_York:20260918T210000
+SUMMARY:Passaic County Technical Institute at Irvington High School (Vars
+ ity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528826@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Passaic County Technical Institute vs Irvington High School (Fres
+ hman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7528737@big-north-conference
+UID:ds:2794:7528736@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Passaic County Technical Institute vs Irvington High School (Juni
+ or Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528629@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T180000
+DTEND;TZID=America/New_York:20260925T200000
+SUMMARY:Passaic County Technical Institute vs Ramapo High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528631@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Passaic County Technical Institute at Ramapo High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528737@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Ramapo High School vs Passaic County Technical Institute (Junior 
+SUMMARY:Passaic County Technical Institute at Ramapo High School (Junior 
  Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7457407@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:Passaic County Technical Institute at Mount Olive High School (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7457075@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T180000
+DTEND;TZID=America/New_York:20261002T200000
+SUMMARY:Passaic County Technical Institute vs Mount Olive High School (Va
+ rsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7457112@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Passaic County Technical Institute at Mount Olive High School (Ju
+ nior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528644@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T190000
+DTEND;TZID=America/New_York:20261009T210000
+SUMMARY:Passaic County Technical Institute at Union City High School (Var
+ sity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528845@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Passaic County Technical Institute vs Union City High School (Fre
+ shman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528741@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T163000
+DTEND;TZID=America/New_York:20261012T183000
+SUMMARY:Passaic County Technical Institute vs Union City High School (Jun
+ ior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7525684@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Passaic County Technical Institute at Livingston High School (Var
+ sity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7525741@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Passaic County Technical Institute vs Livingston High School (Fre
+ shman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7525762@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Passaic County Technical Institute vs Livingston High School (Jun
+ ior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7528651@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Passaic County Technical Institute vs Columbia High School (Varsi
+ ty Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7532690@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Passaic County Technical Institute vs West Essex High School (Fre
+ shman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7601006@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Passaic County Technical Institute vs TBD (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7601011@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Passaic County Technical Institute vs TBD (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7601016@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T200000
+SUMMARY:Passaic County Technical Institute vs TBD (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR

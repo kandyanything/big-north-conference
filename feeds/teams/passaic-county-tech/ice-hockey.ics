@@ -24,11 +24,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2794:7590388@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Passaic County Technical Institute at Ramapo High School (Varsity
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7590388@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Ramapo High School vs Passaic County Technical Institute (Varsity
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7590399@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Passaic County Technical Institute vs Ramapo High School (Varsity
   Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Ice Hockey - Home
 END:VEVENT
@@ -51,6 +69,24 @@ SUMMARY:Paramus High School vs Passaic County Technical Institute (Varsit
 DESCRIPTION:Varsity Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2794:7515686@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Passaic County Technical Institute at Paramus High School (Varsit
+ y Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7570065@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T173000
+DTEND;TZID=America/New_York:20270110T193000
+SUMMARY:Passaic County Technical Institute at Governor Livingston High Sc
+ hool (Junior Varsity Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Ice Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7515692@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270110
@@ -58,5 +94,14 @@ DTEND;VALUE=DATE:20270111
 SUMMARY:Paramus High School at Passaic County Technical Institute (Varsit
  y Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7515692@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Passaic County Technical Institute vs Paramus High School (Varsit
+ y Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Home
 END:VEVENT
 END:VCALENDAR

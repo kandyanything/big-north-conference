@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2792:7499285@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:Pascack Hills High School vs Waldwick High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7510572@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T161500
@@ -33,31 +42,40 @@ SUMMARY:Northern Valley Regional HS - Demarest at Pascack Hills High Scho
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7509863@big-north-conference
+UID:ds:2792:7510572@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Pascack Hills High School vs Northern Valley Regional High (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7509863@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T190000
 DTEND;TZID=America/New_York:20260902T210000
-SUMMARY:Westwood Regional Senior High School vs Pascack Hills High School
+SUMMARY:Pascack Hills High School at Westwood Regional Senior High School
   (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7434343@big-north-conference
+UID:ds:2792:7434343@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:River Dell Regional High School at Pascack Hills High School (Var
+SUMMARY:Pascack Hills High School vs River Dell Regional High School (Var
  sity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7410319@big-north-conference
+UID:ds:2792:7410319@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T190000
 DTEND;TZID=America/New_York:20260914T210000
-SUMMARY:Tenafly High School at Pascack Hills High School (Varsity Girls G
+SUMMARY:Pascack Hills High School vs Tenafly High School (Varsity Girls G
  irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7509986@big-north-conference
@@ -69,13 +87,22 @@ SUMMARY:Mahwah High School vs Pascack Hills High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7386322@big-north-conference
+UID:ds:2792:7510627@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T140000
+DTEND;TZID=America/New_York:20260919T160000
+SUMMARY:Pascack Hills High School vs Pascack Valley High School (Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7386322@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T190000
 DTEND;TZID=America/New_York:20260922T210000
-SUMMARY:Ramsey High School at Pascack Hills High School (Varsity Girls Gi
+SUMMARY:Pascack Hills High School vs Ramsey High School (Varsity Girls Gi
  rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7437615@big-north-conference
@@ -96,13 +123,13 @@ SUMMARY:Indian Hills High School vs Pascack Hills High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7457158@big-north-conference
+UID:ds:2792:7457158@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ridgefield Park High School vs Pascack Hills High School (Varsity
+SUMMARY:Pascack Hills High School at Ridgefield Park High School (Varsity
   Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7510520@big-north-conference
@@ -114,22 +141,22 @@ SUMMARY:Dumont High School at Pascack Hills High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7510525@big-north-conference
+UID:ds:2792:7510525@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T190000
 DTEND;TZID=America/New_York:20261005T210000
-SUMMARY:Westwood Regional Senior High School at Pascack Hills High School
+SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
   (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7434377@big-north-conference
+UID:ds:2792:7434377@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:River Dell Regional High School vs Pascack Hills High School (Var
+SUMMARY:Pascack Hills High School at River Dell Regional High School (Var
  sity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7510529@big-north-conference
@@ -150,13 +177,13 @@ SUMMARY:Mahwah High School at Pascack Hills High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7386355@big-north-conference
+UID:ds:2792:7386355@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T183000
 DTEND;TZID=America/New_York:20261026T203000
-SUMMARY:Ramsey High School vs Pascack Hills High School (Varsity Girls Gi
+SUMMARY:Pascack Hills High School at Ramsey High School (Varsity Girls Gi
  rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458842@big-north-conference
