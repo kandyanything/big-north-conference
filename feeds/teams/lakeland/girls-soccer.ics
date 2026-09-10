@@ -267,15 +267,6 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7523544@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Lakeland Regional High School vs Hawthorne High School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7537637@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
@@ -283,6 +274,15 @@ DTEND;TZID=America/New_York:20261013T181500
 SUMMARY:Lakeland Regional High School vs Hawthorne High School (Junior Va
  rsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7523544@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Lakeland Regional High School vs Hawthorne High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7413435@big-north-conference
@@ -321,15 +321,6 @@ SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7521971@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Lakeland Regional High School vs Pequannock Township High School 
- (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7537636@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
@@ -339,13 +330,13 @@ SUMMARY:Lakeland Regional High School vs Pequannock Township High School
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7521764@big-north-conference
+UID:ds:2689:7521971@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T161500
-DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:Lakeland Regional High School at Mahwah High School (Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Lakeland Regional High School vs Pequannock Township High School 
+ (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7537635@big-north-conference
@@ -355,5 +346,14 @@ DTEND;TZID=America/New_York:20261028T181500
 SUMMARY:Lakeland Regional High School at Mahwah High School (Junior Varsi
  ty Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7521764@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T161500
+DTEND;TZID=America/New_York:20261028T181500
+SUMMARY:Lakeland Regional High School at Mahwah High School (Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

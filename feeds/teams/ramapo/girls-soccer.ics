@@ -292,15 +292,6 @@ SUMMARY:Ramapo High School at Warwick Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7522559@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
-SUMMARY:Northern Valley Regional HS - Demarest at Ramapo High School (Var
- sity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7522608@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T110000
@@ -319,13 +310,22 @@ SUMMARY:Ramapo High School vs Northern Valley Regional High (Freshman Gir
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7522559@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T130000
+DTEND;TZID=America/New_York:20261003T150000
+SUMMARY:Northern Valley Regional HS - Demarest at Ramapo High School (Var
+ sity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7522559@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
+DTSTART;TZID=America/New_York:20261003T130000
+DTEND;TZID=America/New_York:20261003T150000
 SUMMARY:Ramapo High School vs Northern Valley Regional High (Varsity Girl
  s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 11:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7555910@big-north-conference

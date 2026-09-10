@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2592:7625561@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T161500
+DTEND;TZID=America/New_York:20270318T181500
+SUMMARY:Don Bosco Prep at Northern Highlands Regional High School (Junior
+  Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7625564@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T161500
+DTEND;TZID=America/New_York:20270318T181500
+SUMMARY:Don Bosco Prep at Northern Highlands Regional High School (Freshm
+ an Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2592:7573118@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270409T161500

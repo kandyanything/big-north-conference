@@ -1598,15 +1598,6 @@ SUMMARY:Cliffside Park High School at Memorial High School (Boys (Sub Var
 DESCRIPTION:Boys (Sub Varsity) Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396721@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
-SUMMARY:Cliffside Park High School at Hackensack High School (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7410254@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T110000
@@ -1614,6 +1605,15 @@ DTEND;TZID=America/New_York:20261003T130000
 SUMMARY:Cliffside Park High School at Hackensack High School (Freshman Bo
  ys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396721@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T130000
+SUMMARY:Cliffside Park High School at Hackensack High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7396010@big-north-conference
@@ -1679,15 +1679,6 @@ SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396087@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Cliffside Park High School vs Mahwah High School (Var-JV Girls Gi
- rls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7401488@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -1695,6 +1686,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Cliffside Park High School vs Mahwah High School (Freshman Girls 
  Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396087@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Cliffside Park High School vs Mahwah High School (Var-JV Girls Gi
+ rls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7396087@big-north-conference
@@ -1724,15 +1724,6 @@ SUMMARY:Cliffside Park High School at Fort Lee High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396040@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Cliffside Park High School vs Fort Lee High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7544958@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
@@ -1749,6 +1740,24 @@ DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Cliffside Park High School vs Clifton High School (Junior Varsity
   Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396040@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Cliffside Park High School vs Fort Lee High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7501432@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Cliffside Park High School at Maywood Middle School (Middle Schoo
+ l Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7499263@big-north-conference
@@ -1769,15 +1778,6 @@ SUMMARY:Cliffside Park High School vs Secaucus High School (Middle School
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7501432@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Cliffside Park High School at Maywood Middle School (Middle Schoo
- l Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7592522@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
@@ -1787,22 +1787,13 @@ SUMMARY:Cliffside Park High School vs Weehawken High School (Middle Schoo
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7395775@big-north-conference
+UID:ds:2573:7576594@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
 DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Cliffside Park High School at Ridgefield Park High School (Varsit
- y Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2573:7499992@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Cliffside Park High School at Passaic High School (Middle School 
- Girls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Cliffside Park High School at Ridgefield Park High School (Middle
+  School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7536790@big-north-conference
@@ -1814,13 +1805,22 @@ SUMMARY:Cliffside Park High School at Rutherford High School (Freshman Gi
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7576594@big-north-conference
+UID:ds:2573:7499992@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
 DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Cliffside Park High School at Ridgefield Park High School (Middle
-  School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
+SUMMARY:Cliffside Park High School at Passaic High School (Middle School 
+ Girls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7395775@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Cliffside Park High School at Ridgefield Park High School (Varsit
+ y Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7502540@big-north-conference
@@ -1931,15 +1931,6 @@ SUMMARY:Cliffside Park High School vs North Bergen High School (Middle Sc
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396088@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Var-JV G
- irls Girls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7401489@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -1947,6 +1938,15 @@ DTEND;TZID=America/New_York:20261015T181500
 SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Freshman
   Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396088@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Var-JV G
+ irls Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7396088@big-north-conference
@@ -1984,15 +1984,6 @@ SUMMARY:Cliffside Park High School at Harrison High School (Middle School
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7477377@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Cliffside Park High School at TBD (Varsity Coed Coed Cross Countr
- y)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7589074@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
@@ -2000,6 +1991,15 @@ DTEND;TZID=America/New_York:20261017T110000
 SUMMARY:Cliffside Park High School at Hasbrouck Heights High School (Boys
   (Sub Varsity) Football)
 DESCRIPTION:Boys (Sub Varsity) Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7477377@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Cliffside Park High School at TBD (Varsity Coed Coed Cross Countr
+ y)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7545051@big-north-conference
@@ -2038,24 +2038,6 @@ SUMMARY:Cliffside Park High School vs North Bergen High School (Freshman
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396016@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cliffside Park High School vs Ridgefield Park High School (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2573:7396041@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cliffside Park High School at Ridgefield Park High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396072@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
@@ -2074,6 +2056,15 @@ SUMMARY:Cliffside Park High School vs Ridgefield Park High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2573:7401483@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Cliffside Park High School at Dumont High School (Freshman Girls 
+ Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7396895@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
@@ -2083,13 +2074,22 @@ SUMMARY:Cliffside Park High School at Rutherford High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7401483@big-north-conference
+UID:ds:2573:7396016@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
 DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Cliffside Park High School at Dumont High School (Freshman Girls 
- Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Cliffside Park High School vs Ridgefield Park High School (Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396041@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Cliffside Park High School at Ridgefield Park High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7396072@big-north-conference
@@ -2173,15 +2173,6 @@ SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396089@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T161500
-DTEND;TZID=America/New_York:20261022T181500
-SUMMARY:Cliffside Park High School vs Bergenfield High School (Var-JV Gir
- ls Girls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396727@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T161500
@@ -2189,6 +2180,15 @@ DTEND;TZID=America/New_York:20261022T181500
 SUMMARY:Cliffside Park High School at Dwight Morrow High School (Junior V
  arsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396089@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:Cliffside Park High School vs Bergenfield High School (Var-JV Gir
+ ls Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7396898@big-north-conference
@@ -2271,15 +2271,6 @@ SUMMARY:Cliffside Park High School at Dumont High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396017@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Cliffside Park High School vs Dumont High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396073@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T161500
@@ -2296,6 +2287,15 @@ DTEND;TZID=America/New_York:20261027T181500
 SUMMARY:Cliffside Park High School vs Dumont High School (Junior Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396017@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Cliffside Park High School vs Dumont High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2832:7396073@big-north-conference
@@ -2316,15 +2316,6 @@ SUMMARY:Cliffside Park High School at Dumont High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396018@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T161500
-DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:Cliffside Park High School vs Fair Lawn High School (Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396043@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
@@ -2332,6 +2323,15 @@ DTEND;TZID=America/New_York:20261029T181500
 SUMMARY:Cliffside Park High School at Fair Lawn High School (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396018@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T161500
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:Cliffside Park High School vs Fair Lawn High School (Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7396726@big-north-conference
@@ -2361,15 +2361,6 @@ SUMMARY:Cliffside Park High School at Fort Lee High School (Var-JV Girls
 DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7401491@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T161500
-DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:Cliffside Park High School at Fort Lee High School (Freshman Girl
- s Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7410256@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
@@ -2377,6 +2368,15 @@ DTEND;TZID=America/New_York:20261029T181500
 SUMMARY:Cliffside Park High School at Fair Lawn High School (Freshman Boy
  s Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7401491@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T161500
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:Cliffside Park High School at Fort Lee High School (Freshman Girl
+ s Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7397016@big-north-conference

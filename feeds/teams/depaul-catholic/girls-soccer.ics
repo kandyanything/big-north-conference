@@ -59,6 +59,15 @@ SUMMARY:DePaul Catholic High School vs Immaculate Heart Academy (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2585:7626022@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T110000
+DTEND;TZID=America/New_York:20260912T130000
+SUMMARY:DePaul Catholic High School at Immaculate Heart Academy (Junior V
+ arsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:43369:7474429@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -75,15 +84,6 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Academy of the Holy Angels vs DePaul Catholic High School (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2585:7513361@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T161500
-DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:DePaul Catholic High School vs Paramus Catholic High School (Juni
- or Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7513326@big-north-conference
@@ -239,15 +239,6 @@ SUMMARY:DePaul Catholic High School at Paramus Catholic High School (Vars
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7513720@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T161500
-DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:DePaul Catholic High School at Northern Valley Regional High (Var
- sity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7513721@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
@@ -257,15 +248,6 @@ SUMMARY:DePaul Catholic High School at Northern Valley Regional High (Jun
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7513720@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T161500
-DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:Northern Valley Regional HS - Old Tappan vs DePaul Catholic High 
- School (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2772:7513721@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
@@ -273,5 +255,23 @@ DTEND;TZID=America/New_York:20261029T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs DePaul Catholic High 
  School (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7513720@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:DePaul Catholic High School at Northern Valley Regional High (Var
+ sity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7513720@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Northern Valley Regional HS - Old Tappan vs DePaul Catholic High 
+ School (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR
