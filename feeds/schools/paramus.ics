@@ -912,14 +912,6 @@ SUMMARY:Paramus High School at Tenafly High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7591969@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T084500
-DTEND;TZID=America/New_York:20260919T104500
-SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 8:45 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7621549@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
@@ -954,6 +946,14 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:Paramus High School at Hoboken High School (Varsity Girls Girls S
  occer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7591969@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T113000
+DTEND;TZID=America/New_York:20260919T133000
+SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7410324@big-north-conference
@@ -2224,29 +2224,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515608@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261204T121400
-DTEND;TZID=America/New_York:20261204T141400
+DTSTART;TZID=America/New_York:20261204T204500
+DTEND;TZID=America/New_York:20261204T224500
 SUMMARY:Paramus High School at Wayne Hills High School (Varsity Boys Ice 
  Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away - 12:14 PM
+DESCRIPTION:Varsity Boys Ice Hockey - Away - 8:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7515617@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTSTART;TZID=America/New_York:20261206T154500
+DTEND;TZID=America/New_York:20261206T174500
 SUMMARY:Lakeland Regional High School vs Paramus High School (Varsity Boy
  s Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7515617@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Paramus High School at Lakeland Regional High School (Varsity Boy
- s Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Ice Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7613985@big-north-conference
@@ -2274,6 +2265,15 @@ DTEND;TZID=America/New_York:20261209T181500
 SUMMARY:Northern Highlands Regional High School vs Paramus High School (F
  reshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7632833@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T161500
+DTEND;TZID=America/New_York:20261211T181500
+SUMMARY:Paramus High School at Ridgewood High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7628829@big-north-conference
@@ -2321,24 +2321,6 @@ SUMMARY:Paramus High School at Nanuet School District (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7515620@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Ice Hocke
- y)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7515620@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Ramapo High School vs Paramus High School (Varsity Boys Ice Hocke
- y)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7628851@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
@@ -2375,22 +2357,13 @@ SUMMARY:Paramus High School at Nanuet School District (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7515622@big-north-conference
+UID:ds:2788:7632679@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:Paramus High School at Wayne Hills High School (Varsity Boys Ice 
+DTSTART;TZID=America/New_York:20261213T184500
+DTEND;TZID=America/New_York:20261213T204500
+SUMMARY:Paramus High School vs Wayne Hills High School (Varsity Boys Ice 
  Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7515622@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:Wayne Hills High School vs Paramus High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Ice Hockey - Home - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7449305@big-north-conference
@@ -2570,24 +2543,6 @@ DTEND;VALUE=DATE:20261220
 SUMMARY:Paramus High School at Long Branch High School (Varsity Boys Boys
   Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7515628@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
-SUMMARY:Paramus High School vs Wayne Hills High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7515628@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
-SUMMARY:Wayne Hills High School at Paramus High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7423043@big-north-conference

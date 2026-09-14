@@ -26,20 +26,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:2689:7515617@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTSTART;TZID=America/New_York:20261206T154500
+DTEND;TZID=America/New_York:20261206T174500
 SUMMARY:Lakeland Regional High School vs Paramus High School (Varsity Boy
  s Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7515617@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Paramus High School at Lakeland Regional High School (Varsity Boy
- s Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Ice Hockey - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7590390@big-north-conference
