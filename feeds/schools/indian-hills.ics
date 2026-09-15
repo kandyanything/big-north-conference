@@ -976,15 +976,6 @@ SUMMARY:Indian Hills High School vs Pequannock Township High School (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7547206@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Indian Hills High School at Pequannock Township High School (Juni
- or Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7547213@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -992,6 +983,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Indian Hills High School at Pequannock Township High School (Fres
  hman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7547206@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T171500
+DTEND;TZID=America/New_York:20260924T191500
+SUMMARY:Indian Hills High School at Pequannock Township High School (Juni
+ or Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7511062@big-north-conference
@@ -1255,15 +1255,6 @@ SUMMARY:Indian Hills High School vs Glen Rock High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7510624@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T161500
-DTEND;TZID=America/New_York:20261002T181500
-SUMMARY:Indian Hills High School vs Wayne Hills High School (Varsity Girl
- s Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7493645@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T161500
@@ -1280,6 +1271,15 @@ DTEND;TZID=America/New_York:20261002T181500
 SUMMARY:Indian Hills High School at Wayne Hills High School (Junior Varsi
  ty Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7510624@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T161500
+DTEND;TZID=America/New_York:20261002T181500
+SUMMARY:Indian Hills High School vs Wayne Hills High School (Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7567411@big-north-conference
@@ -1371,13 +1371,22 @@ SUMMARY:Indian Hills High School at Lakeland Regional High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7537627@big-north-conference
+UID:ds:2670:7511127@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Indian Hills High School vs Lakeland Regional High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Indian Hills High School vs Paramus Catholic High School (Varsity
+  Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7515185@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Indian Hills High School at Paramus Catholic High School (Freshma
+ n Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7516765@big-north-conference
@@ -1407,22 +1416,13 @@ SUMMARY:Indian Hills High School at Lakeland Regional High School (Freshm
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7515185@big-north-conference
+UID:ds:2670:7537627@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Indian Hills High School at Paramus Catholic High School (Freshma
- n Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7511127@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Indian Hills High School vs Paramus Catholic High School (Varsity
-  Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+SUMMARY:Indian Hills High School vs Lakeland Regional High School (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7486971@big-north-conference
@@ -1506,7 +1506,7 @@ SUMMARY:Indian Hills High School vs Ramapo High School (Varsity Girls Gym
 DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7511861@big-north-conference
+UID:ds:2670:7451234@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T183000
 DTEND;TZID=America/New_York:20261008T203000
@@ -1586,15 +1586,6 @@ SUMMARY:Academy of the Holy Angels at Indian Hills High School (Varsity G
 DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7511164@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Indian Hills High School vs Wayne Hills High School (Freshman Gir
- ls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7415040@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -1602,6 +1593,15 @@ DTEND;TZID=America/New_York:20261015T181500
 SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
  s Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7511164@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Indian Hills High School vs Wayne Hills High School (Freshman Gir
+ ls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7472896@big-north-conference
@@ -1667,15 +1667,6 @@ SUMMARY:Dumont High School at Indian Hills High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7515682@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7496425@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T161500
@@ -1692,6 +1683,15 @@ DTEND;TZID=America/New_York:20261019T181500
 SUMMARY:Indian Hills High School at Wayne Hills High School (Junior Varsi
  ty Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7515682@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7508822@big-north-conference
@@ -1802,15 +1802,6 @@ SUMMARY:Hackensack High School vs Indian Hills High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 7:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7515987@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T090000
-DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Indian Hills High School at Waldwick High School (Freshman Girls 
- Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7503988@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
@@ -1818,6 +1809,15 @@ DTEND;TZID=America/New_York:20261024T110000
 SUMMARY:Indian Hills High School vs Waldwick High School (Junior Varsity 
  Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7515987@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Indian Hills High School at Waldwick High School (Freshman Girls 
+ Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7502054@big-north-conference
@@ -1829,15 +1829,6 @@ SUMMARY:Indian Hills High School vs Leonia High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7567464@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Indian Hills High School vs TBA NJ (Varsity Coed Coed Cross Count
- ry)
-DESCRIPTION:Varsity Coed Coed Cross Country - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7515595@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
@@ -1845,6 +1836,15 @@ DTEND;TZID=America/New_York:20261024T120000
 SUMMARY:Indian Hills High School vs New Milford High School (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7567464@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Indian Hills High School vs TBA NJ (Varsity Coed Coed Cross Count
+ ry)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7503836@big-north-conference
@@ -1910,15 +1910,6 @@ SUMMARY:Indian Hills High School vs TBA NJ (Varsity Coed Coed Cross Count
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7511172@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Indian Hills High School vs Wayne Valley High School (Freshman Gi
- rls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7511131@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T161500
@@ -1926,6 +1917,15 @@ DTEND;TZID=America/New_York:20261027T181500
 SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Gir
  ls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7511172@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Indian Hills High School vs Wayne Valley High School (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7511132@big-north-conference
@@ -2079,6 +2079,15 @@ DTEND;TZID=America/New_York:20261219T123000
 SUMMARY:Indian Hills High School at Ramsey High School (Varsity Girls Gir
  ls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7634818@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T110000
+DTEND;TZID=America/New_York:20261219T130000
+SUMMARY:Indian Hills High School at Ramsey High School (Junior Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7440806@big-north-conference
@@ -2270,6 +2279,15 @@ SUMMARY:Indian Hills High School vs Bergen Charter (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7635376@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Indian Hills High School vs Pompton Lakes High School (Varsity Bo
+ ys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7578710@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -2394,6 +2412,15 @@ DTEND;TZID=America/New_York:20270127T203000
 SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Boy
  s Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7636368@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T161500
+DTEND;TZID=America/New_York:20270201T181500
+SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Gir
+ ls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7540806@big-north-conference
@@ -2556,6 +2583,15 @@ DTEND;TZID=America/New_York:20270402T181500
 SUMMARY:Indian Hills High School at Northern Highlands Regional High Scho
  ol (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7636362@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T161500
+DTEND;TZID=America/New_York:20270407T181500
+SUMMARY:Indian Hills High School vs River Dell Regional High School (Vars
+ ity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7534951@big-north-conference

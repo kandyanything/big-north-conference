@@ -1756,24 +1756,6 @@ SUMMARY:Ramapo High School at TBD (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7564651@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Fair Lawn High School vs Ramapo High School (Junior Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7564652@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Fair Lawn High School vs Ramapo High School (Freshman Boys Boys S
- occer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7522561@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
@@ -1799,6 +1781,24 @@ DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Fair Lawn High School at Ramapo High School (Freshman Girls Girls
   Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7564651@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Fair Lawn High School vs Ramapo High School (Junior Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7564652@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Fair Lawn High School vs Ramapo High School (Freshman Boys Boys S
+ occer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7551884@big-north-conference
@@ -2346,18 +2346,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590384@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
+DTSTART;TZID=America/New_York:20261204T183000
+DTEND;TZID=America/New_York:20261204T203000
 SUMMARY:Ramapo High School vs Ramsey High School (Varsity Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7590384@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Ramsey High School at Ramapo High School (Varsity Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590385@big-north-conference
@@ -2665,20 +2657,30 @@ SUMMARY:Ramapo High School vs TBD (Varsity Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7590394@big-north-conference
+UID:ds:2822:7635368@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:Ramapo High School at Ramsey High School (Varsity Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+DTSTART;TZID=America/New_York:20261221T160000
+DTEND;TZID=America/New_York:20261221T180000
+SUMMARY:Ramapo High School at Pompton Lakes High School (Varsity Boys Boy
+ s Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7590394@big-north-conference
+UID:ds:2822:7635460@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:Ramsey High School vs Ramapo High School (Varsity Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+DTSTART;TZID=America/New_York:20261221T160000
+DTEND;TZID=America/New_York:20261221T180000
+SUMMARY:Ramapo High School at Pompton Lakes High School (Varsity Girls Gi
+ rls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7590394@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T200000
+DTEND;TZID=America/New_York:20261223T220000
+SUMMARY:Ramapo High School at Ramsey High School (Varsity Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590398@big-north-conference

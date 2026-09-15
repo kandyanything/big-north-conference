@@ -1439,15 +1439,6 @@ SUMMARY:DePaul Catholic High School at Paramus High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7513367@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T130000
-DTEND;TZID=America/New_York:20261003T150000
-SUMMARY:DePaul Catholic High School vs Paramus High School (Junior Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7591984@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261003
@@ -2950,11 +2941,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515687@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
+DTSTART;TZID=America/New_York:20270108T200000
+DTEND;TZID=America/New_York:20270108T220000
 SUMMARY:Paramus High School vs Ramsey High School (Varsity Boys Ice Hocke
  y)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Ice Hockey - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515945@big-north-conference
@@ -2973,15 +2964,6 @@ DTEND;VALUE=DATE:20270109
 SUMMARY:Paramus High School at Manville High School (Junior Varsity Boys 
  Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7515687@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
-SUMMARY:Ramsey High School at Paramus High School (Varsity Boys Ice Hocke
- y)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7508864@big-north-conference
