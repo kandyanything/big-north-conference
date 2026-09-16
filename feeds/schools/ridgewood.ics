@@ -835,11 +835,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7544020@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T133000
-DTEND;TZID=America/New_York:20260919T153000
+DTSTART;TZID=America/New_York:20260919T140000
+DTEND;TZID=America/New_York:20260919T160000
 SUMMARY:Ridgewood High School vs Westwood Regional Senior High School (Va
  rsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 1:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7385347@big-north-conference
@@ -867,6 +867,15 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Ramapo High School vs Ridgewood High School (Freshman Boys Boys S
  occer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7508098@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls 
+ Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7507295@big-north-conference
@@ -1040,6 +1049,15 @@ SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7514441@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T161500
+DTEND;TZID=America/New_York:20260925T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Freshman Girls Gi
+ rls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7507279@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
@@ -1083,15 +1101,6 @@ DTEND;TZID=America/New_York:20260925T181500
 SUMMARY:River Dell Regional High School vs Ridgewood High School (Junior 
  Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7514441@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T163000
-DTEND;TZID=America/New_York:20260925T183000
-SUMMARY:Fair Lawn High School at Ridgewood High School (Freshman Girls Gi
- rls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7513211@big-north-conference
@@ -1515,15 +1524,6 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Passaic High School at Ridgewood High School (Freshman Girls Girl
  s Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7508098@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls 
- Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7508099@big-north-conference
@@ -2219,22 +2219,13 @@ SUMMARY:Ridgewood High School vs Ramapo High School (Varsity Boys Ice Hoc
 DESCRIPTION:Varsity Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7632932@big-north-conference
+UID:ds:2833:7632934@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T161500
 DTEND;TZID=America/New_York:20261210T181500
-SUMMARY:Ridgewood High School vs Montville Township High School (Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7632934@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
 SUMMARY:Ridgewood High School vs Montville Township High School (Girls (9
  ) Basketball)
-DESCRIPTION:Girls (9) Basketball - Home - 4:30 PM
+DESCRIPTION:Girls (9) Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7632933@big-north-conference
@@ -2244,6 +2235,15 @@ DTEND;TZID=America/New_York:20261210T193000
 SUMMARY:Ridgewood High School vs Montville Township High School (Junior V
  arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7632932@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T210000
+SUMMARY:Ridgewood High School vs Montville Township High School (Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7632833@big-north-conference
@@ -3229,6 +3229,24 @@ DTEND;TZID=America/New_York:20270216T193000
 SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Boys 
  Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7639757@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T193000
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7639756@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T190000
+DTEND;TZID=America/New_York:20270216T210000
+SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls 
+ Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7578173@big-north-conference

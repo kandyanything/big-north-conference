@@ -1421,15 +1421,6 @@ SUMMARY:DePaul Catholic High School at Paramus High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7407166@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
-SUMMARY:DePaul Catholic High School vs Paramus High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7513255@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T130000
@@ -1528,15 +1519,6 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Paramus High School (
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7407173@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T183000
-DTEND;TZID=America/New_York:20261005T203000
-SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7407089@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T183000
@@ -1544,6 +1526,15 @@ DTEND;TZID=America/New_York:20261005T203000
 SUMMARY:Paramus High School at Northern Valley Regional High (Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7407173@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T183000
+DTEND;TZID=America/New_York:20261005T203000
+SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7509075@big-north-conference
@@ -2208,8 +2199,7 @@ UID:ds:2788:7515608@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T204500
 DTEND;TZID=America/New_York:20261204T224500
-SUMMARY:Paramus High School at Wayne Hills High School (Varsity Boys Ice 
- Hockey)
+SUMMARY:Paramus High School at Wayne Hockey (Varsity Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Ice Hockey - Away - 8:45 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2352,9 +2342,26 @@ UID:ds:2788:7632679@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T184500
 DTEND;TZID=America/New_York:20261213T204500
-SUMMARY:Paramus High School vs Wayne Hills High School (Varsity Boys Ice 
- Hockey)
+SUMMARY:Paramus High School vs Wayne Hockey (Varsity Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Ice Hockey - Home - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7632679@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T184500
+DTEND;TZID=America/New_York:20261213T204500
+SUMMARY:Wayne Hills High School at Paramus High School (Varsity Boys Ice 
+ Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Away - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7632679@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T184500
+DTEND;TZID=America/New_York:20261213T204500
+SUMMARY:Wayne Valley High School at Paramus High School (Varsity Boys Ice
+  Hockey)
+DESCRIPTION:Varsity Boys Ice Hockey - Away - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7449305@big-north-conference

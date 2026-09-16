@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2670:7639197@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T161500
+DTEND;TZID=America/New_York:20261211T181500
+SUMMARY:Indian Hills High School at Bergen County Technical High School (
+ Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7636685@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
@@ -31,5 +40,32 @@ DTEND;TZID=America/New_York:20270108T181500
 SUMMARY:Northern Highlands Regional High School vs Bergen County Technica
  l High School (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7639533@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T161500
+DTEND;TZID=America/New_York:20270113T181500
+SUMMARY:Teaneck High School at Bergen County Technical High School (Varsi
+ ty Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7639627@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T161500
+DTEND;TZID=America/New_York:20270201T181500
+SUMMARY:Ramapo High School vs Bergen County Technical High School (Varsit
+ y Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7639632@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T163000
+DTEND;TZID=America/New_York:20270203T183000
+SUMMARY:Lakeland Regional High School vs Bergen County Technical High Sch
+ ool (Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
 END:VEVENT
 END:VCALENDAR
