@@ -9,7 +9,7 @@ name: Rebuild conference schedule
 # suspiciously thin (a flaky source), so a bad run just waits for the next one.
 on:
   schedule:
-    - cron: '0 0,3,6,9,12,15,16,17,18,19,21 * * *'   # every 3 hours (UTC)
+    - cron: '0 */3 * * *'   # every 3 hours (UTC)
   workflow_dispatch:         # and on demand
 
 concurrency:
