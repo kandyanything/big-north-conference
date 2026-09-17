@@ -1638,11 +1638,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7451286@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
+DTSTART;TZID=America/New_York:20261008T170000
+DTEND;TZID=America/New_York:20261008T190000
 SUMMARY:Passaic Valley High School at West Milford High School (Varsity G
  irls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7451234@big-north-conference
@@ -2276,9 +2276,18 @@ UID:ds:2823:7635017@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261206T200000
 DTEND;TZID=America/New_York:20261206T220000
-SUMMARY:Ramsey High School vs West Milford High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home - 8:00 PM
+SUMMARY:Ramsey High School vs West Milford High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7635017@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T200000
+DTEND;TZID=America/New_York:20261206T220000
+SUMMARY:West Milford High School at Ramsey High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7609136@big-north-conference
@@ -2330,9 +2339,18 @@ UID:ds:2823:7635031@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T200000
 DTEND;TZID=America/New_York:20261213T220000
-SUMMARY:Ramsey High School at West Milford High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away - 8:00 PM
+SUMMARY:Ramsey High School at West Milford High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7635031@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T200000
+DTEND;TZID=America/New_York:20261213T220000
+SUMMARY:West Milford High School vs Ramsey High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7422831@big-north-conference
@@ -2384,18 +2402,18 @@ UID:ds:2788:7515625@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-SUMMARY:Paramus High School at West Milford High School (Varsity Boys Ice
-  Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+SUMMARY:Paramus High School at West Milford High School (Varsity Boys Boy
+ s Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7515625@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-SUMMARY:West Milford High School vs Paramus High School (Varsity Boys Ice
-  Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+SUMMARY:West Milford High School vs Paramus High School (Varsity Coed Coe
+ d Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517069@big-north-conference
@@ -2474,27 +2492,36 @@ UID:ds:2823:7635263@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T200000
 DTEND;TZID=America/New_York:20270102T220000
-SUMMARY:Ramsey High School vs West Milford High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home - 8:00 PM
+SUMMARY:Ramsey High School vs West Milford High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7635263@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270102T200000
+DTEND;TZID=America/New_York:20270102T220000
+SUMMARY:West Milford High School at Ramsey High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590402@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-SUMMARY:Ramapo High School vs West Milford High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+SUMMARY:Ramapo High School vs West Milford High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7590402@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-SUMMARY:West Milford High School at Ramapo High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+SUMMARY:West Milford High School at Ramapo High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7540419@big-north-conference
@@ -2708,18 +2735,18 @@ UID:ds:2822:7590411@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7590411@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-SUMMARY:West Milford High School vs Ramapo High School (Varsity Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+SUMMARY:West Milford High School vs Ramapo High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7546470@big-north-conference
@@ -2771,18 +2798,18 @@ UID:ds:2788:7515702@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
-SUMMARY:Paramus High School vs West Milford High School (Varsity Boys Ice
-  Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Home
+SUMMARY:Paramus High School vs West Milford High School (Varsity Boys Boy
+ s Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7515702@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
-SUMMARY:West Milford High School at Paramus High School (Varsity Boys Ice
-  Hockey)
-DESCRIPTION:Varsity Boys Ice Hockey - Away
+SUMMARY:West Milford High School at Paramus High School (Varsity Coed Coe
+ d Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7561823@big-north-conference
@@ -2792,6 +2819,15 @@ DTEND;TZID=America/New_York:20270130T120000
 SUMMARY:West Milford High School at Belleville High School (Varsity Boys 
  Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7640407@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T163000
+DTEND;TZID=America/New_York:20270201T183000
+SUMMARY:West Milford High School at Butler High School (Varsity Coed Coed
+  Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7539145@big-north-conference
