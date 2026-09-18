@@ -1003,15 +1003,6 @@ SUMMARY:Indian Hills High School vs West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7510732@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Indian Hills High School vs Mahwah High School (Junior Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7511071@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T173000
@@ -1082,6 +1073,15 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Indian Hills High School vs Kittatinny Regional High School (Juni
  or Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7510732@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T161500
+DTEND;TZID=America/New_York:20260928T181500
+SUMMARY:Indian Hills High School vs Mahwah High School (Junior Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7570967@big-north-conference
@@ -1174,6 +1174,15 @@ SUMMARY:Indian Hills High School vs Paramus High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7510613@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Indian Hills High School vs Ramsey High School (Varsity Girls Gir
+ ls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7422773@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
@@ -1181,15 +1190,6 @@ DTEND;TZID=America/New_York:20260930T181500
 SUMMARY:Indian Hills High School at Ramsey High School (Junior Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7387101@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Indian Hills High School vs Ramsey High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7504602@big-north-conference
@@ -2162,22 +2162,13 @@ SUMMARY:Indian Hills High School vs Ramsey High School (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7459242@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T103000
-DTEND;TZID=America/New_York:20261219T123000
-SUMMARY:Indian Hills High School at Ramsey High School (Varsity Girls Gir
- ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7634818@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T110000
-DTEND;TZID=America/New_York:20261219T130000
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
 SUMMARY:Indian Hills High School at Ramsey High School (Junior Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7440806@big-north-conference
@@ -2187,6 +2178,15 @@ DTEND;TZID=America/New_York:20261219T133000
 SUMMARY:Indian Hills High School vs Ramsey High School (Junior Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7459242@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T113000
+DTEND;TZID=America/New_York:20261219T133000
+SUMMARY:Indian Hills High School at Ramsey High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7440732@big-north-conference
@@ -2331,6 +2331,15 @@ DTEND;TZID=America/New_York:20270105T193000
 SUMMARY:Indian Hills High School at Lakeland Regional High School (Junior
   Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7644844@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T161500
+DTEND;TZID=America/New_York:20270106T181500
+SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
+ s Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7542637@big-north-conference
@@ -2549,13 +2558,22 @@ SUMMARY:Indian Hills High School at Morristown High School (Junior Varsit
 DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 8:10 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7644903@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T170000
+DTEND;TZID=America/New_York:20270122T190000
+SUMMARY:Indian Hills High School at Ramsey High School (Junior Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7459204@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T190000
-DTEND;TZID=America/New_York:20270122T210000
+DTSTART;TZID=America/New_York:20270122T180000
+DTEND;TZID=America/New_York:20270122T200000
 SUMMARY:Indian Hills High School at Ramsey High School (Varsity Boys Boys
   Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7631410@big-north-conference
@@ -2952,5 +2970,23 @@ DTEND;TZID=America/New_York:20270505T194500
 SUMMARY:Indian Hills High School at Emerson Jr-Sr High School (Junior Var
  sity Girls Girls Lacrosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7644694@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T163000
+DTEND;TZID=America/New_York:20270518T183000
+SUMMARY:Bergen County Technical High School at Indian Hills High School (
+ Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7644695@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T180000
+DTEND;TZID=America/New_York:20270518T200000
+SUMMARY:Bergen County Technical High School at Indian Hills High School (
+ Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -966,15 +966,6 @@ SUMMARY:Indian Hills High School at Mahwah High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7510732@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Indian Hills High School vs Mahwah High School (Junior Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7546814@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
@@ -1045,6 +1036,15 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Mahwah High School at Franklin Ave Middle School (Middle School G
  irls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7510732@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T161500
+DTEND;TZID=America/New_York:20260928T181500
+SUMMARY:Indian Hills High School vs Mahwah High School (Junior Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7528776@big-north-conference
@@ -1172,12 +1172,13 @@ SUMMARY:Lakeland Regional High School vs Mahwah High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7521735@big-north-conference
+UID:ds:2689:7521735@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Mahwah High School vs TBD (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+SUMMARY:Lakeland Regional High School at Mahwah High School (Freshman Boy
+ s Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7534069@big-north-conference
@@ -2457,11 +2458,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7634848@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T110000
-DTEND;TZID=America/New_York:20270116T130000
+DTSTART;TZID=America/New_York:20270116T100000
+DTEND;TZID=America/New_York:20270116T120000
 SUMMARY:Mahwah High School at Ramsey High School (Junior Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7440811@big-north-conference
@@ -2473,6 +2474,15 @@ SUMMARY:Mahwah High School vs Ramsey High School (Junior Varsity Boys Boy
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2706:7459250@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T113000
+DTEND;TZID=America/New_York:20270116T133000
+SUMMARY:Mahwah High School at Ramsey High School (Varsity Girls Girls Bas
+ ketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2706:7440761@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T130000
@@ -2480,15 +2490,6 @@ DTEND;TZID=America/New_York:20270116T150000
 SUMMARY:Mahwah High School vs Ramsey High School (Varsity Boys Boys Baske
  tball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2706:7459250@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T130000
-DTEND;TZID=America/New_York:20270116T150000
-SUMMARY:Mahwah High School at Ramsey High School (Varsity Girls Girls Bas
- ketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7540250@big-north-conference
@@ -2653,15 +2654,6 @@ SUMMARY:Mahwah High School at River Dell Regional High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7634754@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T130900
-DTEND;TZID=America/New_York:20270216T150900
-SUMMARY:Mahwah High School vs Ramsey High School (Varsity Girls Girls Bas
- ketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:09 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7441104@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T160000
@@ -2696,6 +2688,15 @@ DTEND;TZID=America/New_York:20270216T210000
 SUMMARY:Mahwah High School at Ramsey High School (Varsity Boys Boys Baske
  tball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7634754@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T190000
+DTEND;TZID=America/New_York:20270216T210000
+SUMMARY:Mahwah High School vs Ramsey High School (Varsity Girls Girls Bas
+ ketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7636993@big-north-conference

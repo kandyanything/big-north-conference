@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:32754:7645200@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T163000
+DTEND;TZID=America/New_York:20261208T183000
+SUMMARY:Bergen County Technical High School vs Dwight Morrow High School 
+ (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7645207@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T163000
+DTEND;TZID=America/New_York:20261210T183000
+SUMMARY:Bergen County Technical High School vs Bogota High School (Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7564180@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T163000
@@ -49,15 +67,6 @@ DTEND;TZID=America/New_York:20261221T183000
 SUMMARY:Bergen County Technical High School at Tenafly High School (Varsi
  ty Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7642113@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T163000
-DTEND;TZID=America/New_York:20261222T183000
-SUMMARY:Bergen County Technical High School vs Immaculate Heart Academy (
- Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7643489@big-north-conference
@@ -154,15 +163,6 @@ UID:ds:32754:7643557@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T163000
 DTEND;TZID=America/New_York:20270126T183000
-SUMMARY:Bergen County Technical High School at Leonia High School (Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7536885@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T163000
-DTEND;TZID=America/New_York:20270127T183000
 SUMMARY:Bergen County Technical High School at Leonia High School (Varsit
  y Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
