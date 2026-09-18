@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2770:7636657@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T161500
+DTEND;TZID=America/New_York:20261211T181500
+SUMMARY:Northern Highlands Regional High School vs Passaic County Technic
+ al Institute (Varsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2796:7640391@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T163000
@@ -38,6 +47,15 @@ DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
 SUMMARY:Passaic Valley High School at Passaic County Technical Institute 
  (Varsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7644497@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T161500
+DTEND;TZID=America/New_York:20270108T181500
+SUMMARY:West Milford High School at Wayne Valley High School (Varsity Coe
+ d Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT

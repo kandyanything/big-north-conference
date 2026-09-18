@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2794:7450170@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T093000
-DTEND;TZID=America/New_York:20260825T113000
-SUMMARY:Passaic County Technical Institute at Pequannock Township High Sc
- hool (Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7612245@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T161500
@@ -606,6 +597,15 @@ DTEND;TZID=America/New_York:20270424T183000
 SUMMARY:Academy of the Holy Angels at River Dell Regional High School (Va
  rsity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7644211@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T161500
+DTEND;TZID=America/New_York:20270426T181500
+SUMMARY:Passaic County Technical Institute vs Passaic Valley High School 
+ (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7614090@big-north-conference

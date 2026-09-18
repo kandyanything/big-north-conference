@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2794:7450170@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T093000
-DTEND;TZID=America/New_York:20260825T113000
-SUMMARY:Passaic County Technical Institute at Pequannock Township High Sc
- hool (Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7605282@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T163000
@@ -49,6 +40,15 @@ DTEND;TZID=America/New_York:20270416T200000
 SUMMARY:Passaic County Technical Institute vs Pompton Lakes High School (
  Junior Varsity Girls Girls Lacrosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7644211@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T161500
+DTEND;TZID=America/New_York:20270426T181500
+SUMMARY:Passaic County Technical Institute vs Passaic Valley High School 
+ (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7609335@big-north-conference
