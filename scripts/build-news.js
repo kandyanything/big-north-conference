@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 /**
  * scripts/build-news.js
  *
@@ -8,16 +8,16 @@
  *   node scripts/build-news.js [--dry] [--explain]
  *
  * Based on the press wire logic in the Athlitiq platform (cataldij/athlitiq).
- * No database — output is a committed JSON file refreshed on the same 3-hour
+ * No database â€” output is a committed JSON file refreshed on the same 3-hour
  * cron as the schedule rebuild.
  */
 
-// ─── CONFERENCE CONFIGURATION ─────────────────────────────────────────────────
+// â”€â”€â”€ CONFERENCE CONFIGURATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const CONF_NAME    = 'Big North Conference';
-const CONF_SHORT   = 'BNC';           // case-sensitive — used in headline matching
+const CONF_SHORT   = 'BNC';           // case-sensitive â€” used in headline matching
 const EXTRA_QUERIES = [];             // extra Google News search phrases if needed
-const MAX_ITEMS    = 40;              // articles kept in news.json, newest first
-// ─────────────────────────────────────────────────────────────────────────────
+const MAX_ITEMS    = 7;              // articles kept in news.json, newest first
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 const fs   = require('fs');
 const path = require('path');
@@ -31,7 +31,7 @@ const schoolsFile = path.join(__dirname, 'ds-schools.json');
 const DS_SCHOOLS  = fs.existsSync(schoolsFile) ? JSON.parse(fs.readFileSync(schoolsFile, 'utf8')) : [];
 const SCHOOL_NAMES = DS_SCHOOLS.map(s => s.name);
 
-// ─── HTTP ─────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ HTTP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const UA          = 'conference-press/1.0 (+https://athlitiq.com)';
 const REQUEST_CAP = 60;
 const MIN_GAP_MS  = 1600;
@@ -51,11 +51,11 @@ async function politeFetch(url, init) {
     return fetch(url, { ...init, headers: { 'User-Agent': UA, ...(init?.headers ?? {}) } });
 }
 
-// ─── TEXT UTILITIES ───────────────────────────────────────────────────────────
+// â”€â”€â”€ TEXT UTILITIES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const NAMED_ENTITIES = {
     amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
-    rsquo: '’', lsquo: '‘', ldquo: '“', rdquo: '”',
-    mdash: '—', ndash: '–', hellip: '…',
+    rsquo: 'â€™', lsquo: 'â€˜', ldquo: 'â€œ', rdquo: 'â€',
+    mdash: 'â€”', ndash: 'â€“', hellip: 'â€¦',
 };
 
 function decodeEntities(s) {
@@ -83,7 +83,7 @@ function makePreview(text, title) {
     if (s.length > 200) {
         const cut = s.slice(0, 199);
         const sp  = cut.lastIndexOf(' ');
-        s = (sp > 0 ? cut.slice(0, sp) : cut) + '…';
+        s = (sp > 0 ? cut.slice(0, sp) : cut) + 'â€¦';
     }
     if (title && s === decodeEntities(title).trim()) return null;
     return s;
@@ -114,7 +114,7 @@ function stripTracking(url) {
     } catch { return url; }
 }
 
-// ─── SOURCES & FILTERING ──────────────────────────────────────────────────────
+// â”€â”€â”€ SOURCES & FILTERING â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const HOUSE_FEEDS = [
     'https://www.nj.com/arc/outboundfeeds/rss/category/highschoolsports/?outputType=xml',
     'https://www.onnj.com/category/onnj-sports/highschool/feed/',
@@ -125,10 +125,11 @@ const HOUSE_SOURCES = [
     'nj.com', 'dailyrecord.com', 'northjersey.com', 'tapinto.net', 'patch.com',
     'newjerseyhills.com', 'njherald.com', 'mycentraljersey.com', 'app.com',
     'insidernj.com', 'nj1015.com', 'nfhs.org', 'onnj.com', 'wrnjradio.com',
+    'maxpreps.com',
 ];
 
 const DENY_HOSTS = [
-    'maxpreps.com', 'nfhsnetwork.com', 'hudl.com', 'arbiterlive.com',
+    'nfhsnetwork.com', 'hudl.com', 'arbiterlive.com',
     'digitalsports.com', 'si.com', 'athlitiq.com',
 ];
 
@@ -147,6 +148,7 @@ const OUTLET_NAMES = {
     'mycentraljersey.com': 'MyCentralJersey',
     'onnj.com':            'On New Jersey',
     'wrnjradio.com':       'WRNJ Radio',
+    'maxpreps.com':        'MaxPreps',
 };
 
 function outletNameFor(host) {
@@ -178,7 +180,7 @@ function isArticleUrl(url) {
     return true;
 }
 
-// ─── SCHOOL NAME EXPANSION ────────────────────────────────────────────────────
+// â”€â”€â”€ SCHOOL NAME EXPANSION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const BARE_SUFFIXES = [' Regional High School', ' High School', ' Regional'];
 
 function bareSchoolNames(names) {
@@ -204,7 +206,7 @@ function bareSchoolNames(names) {
     return out;
 }
 
-// ─── RELEVANCE ────────────────────────────────────────────────────────────────
+// â”€â”€â”€ RELEVANCE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const COUNTIES_FP  = /New Jersey Association of Counties|NJAC Foundation/i;
 const NJ_MARKER    = /\bN\.?J\.?\b/;
 const NJ_FULL      = /new jersey/i;
@@ -257,7 +259,7 @@ function classify(title, preview, url) {
     return { schoolName };
 }
 
-// ─── RSS PARSER ───────────────────────────────────────────────────────────────
+// â”€â”€â”€ RSS PARSER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function grabTag(chunk, tag) {
     const cdata = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]>\\s*</${tag}>`, 'i');
     const plain = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, 'i');
@@ -289,7 +291,7 @@ function parseRss(xml) {
     return out;
 }
 
-// ─── OG FETCH ─────────────────────────────────────────────────────────────────
+// â”€â”€â”€ OG FETCH â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function metaTag(html, prop) {
     const a = new RegExp(`<meta[^>]+(?:property|name)=["']${prop}["'][^>]*content=["']([^"']*)["']`, 'i');
     const b = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+(?:property|name)=["']${prop}["']`, 'i');
@@ -309,8 +311,8 @@ async function fetchOg(url) {
     } catch { return null; }
 }
 
-// ─── GOOGLE NEWS DECODE ───────────────────────────────────────────────────────
-// Verbatim from cataldij/athlitiq scraper/press.ts — verified working Sep 2026.
+// â”€â”€â”€ GOOGLE NEWS DECODE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// Verbatim from cataldij/athlitiq scraper/press.ts â€” verified working Sep 2026.
 async function decodeGoogleNewsUrl(id) {
     try {
         const page = await (await politeFetch(`https://news.google.com/rss/articles/${id}`)).text();
@@ -336,16 +338,16 @@ async function decodeGoogleNewsUrl(id) {
     } catch { return null; }
 }
 
-// ─── DATE ─────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ DATE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function toDateStr(val) {
     if (!val) return null;
     const d = val instanceof Date ? val : new Date(val);
     return isNaN(d) ? null : d.toISOString().slice(0, 10);
 }
 
-// ─── MAIN ─────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ MAIN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 async function main() {
-    console.log(`${CONF_NAME} press wire — ${new Date().toISOString()}`);
+    console.log(`${CONF_NAME} press wire â€” ${new Date().toISOString()}`);
     console.log(`${SCHOOL_NAMES.length} schools  budget cap: ${REQUEST_CAP}`);
 
     const feedCache  = new Map();
@@ -358,8 +360,8 @@ async function main() {
         try {
             const res = await politeFetch(feedUrl);
             if (res.ok) { items = parseRss(await res.text()); feedCache.set(feedUrl, items); }
-            else console.log(`  ⚠ feed ${feedUrl} → ${res.status}`);
-        } catch (e) { console.log(`  ⚠ feed failed: ${e.message}`); }
+            else console.log(`  âš  feed ${feedUrl} â†’ ${res.status}`);
+        } catch (e) { console.log(`  âš  feed failed: ${e.message}`); }
 
         for (const raw of items) {
             const title   = cleanTitle(raw.title, raw.sourceName);
@@ -404,14 +406,14 @@ async function main() {
 
     let decodeSaved = 0;
     for (const q of queries) {
-        if (budget >= REQUEST_CAP) { console.log('  ⚠ budget reached — stopping Google queries'); break; }
+        if (budget >= REQUEST_CAP) { console.log('  âš  budget reached â€” stopping Google queries'); break; }
         const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(`${q} when:7d`)}&hl=en-US&gl=US&ceid=US:en`;
         let items = [];
         try {
             const res = await politeFetch(rssUrl);
             if (res.ok) items = parseRss(await res.text());
-            else console.log(`  ⚠ Google News "${q}" → ${res.status}`);
-        } catch (e) { console.log(`  ⚠ Google News "${q}" failed: ${e.message}`); continue; }
+            else console.log(`  âš  Google News "${q}" â†’ ${res.status}`);
+        } catch (e) { console.log(`  âš  Google News "${q}" failed: ${e.message}`); continue; }
 
         for (const raw of items) {
             const title      = cleanTitle(raw.title, raw.sourceName);
@@ -429,7 +431,7 @@ async function main() {
 
             const idM = raw.link.match(/rss\/articles\/([^?]+)/);
             if (!idM) continue;
-            if (budget + 2 > REQUEST_CAP) { console.log('  ⚠ budget reached — stopping decode'); break; }
+            if (budget + 2 > REQUEST_CAP) { console.log('  âš  budget reached â€” stopping decode'); break; }
 
             const finalUrl = await decodeGoogleNewsUrl(idM[1]);
             if (!finalUrl) continue;
@@ -483,7 +485,7 @@ async function main() {
     console.log(`${sorted.length} articles in output (max ${MAX_ITEMS})`);
 
     if (DRY) {
-        console.log('\ndry run — not writing');
+        console.log('\ndry run â€” not writing');
         sorted.slice(0, 8).forEach(n =>
             console.log(`  [${(n.outlet || '?').padEnd(18)}] ${n.date}  ${n.school ? '('+n.school+') ' : ''}${n.title.slice(0,65)}`));
         return;
