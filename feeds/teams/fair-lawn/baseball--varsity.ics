@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7646353@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270319T161500
+DTEND;TZID=America/New_York:20270319T181500
+SUMMARY:Fair Lawn High School vs Ridgefield Memorial High School (Varsity
+  Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7577922@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T160000
@@ -83,6 +92,15 @@ DTSTART;TZID=America/New_York:20270505T161500
 DTEND;TZID=America/New_York:20270505T181500
 SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Boys Base
  ball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7646350@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T161500
+DTEND;TZID=America/New_York:20270514T181500
+SUMMARY:Fair Lawn High School at Ridgefield Memorial High School (Varsity
+  Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2585:7646156@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T180000
+DTEND;TZID=America/New_York:20270106T200000
+SUMMARY:DePaul Catholic High School at Saint Joseph Regional High School 
+ (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7646186@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100100
+DTEND;TZID=America/New_York:20270109T120100
+SUMMARY:DePaul Catholic High School at Saint Joseph Regional High School 
+ (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:01 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7646186@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100100
+DTEND;TZID=America/New_York:20270109T120100
+SUMMARY:Paramus Catholic High School at Saint Joseph Regional High School
+  (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:01 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7592691@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T100000

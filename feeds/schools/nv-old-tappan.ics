@@ -1113,6 +1113,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Highlands Re
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2772:7530258@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Highlands Re
+ gional High School (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7385764@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -1160,38 +1169,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7440915@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T180000
-DTEND;TZID=America/New_York:20260922T200000
-SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Highlands Re
- gional High School (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2772:7530258@big-north-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T183000
 DTEND;TZID=America/New_York:20260922T203000
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Highlands Re
- gional High School (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2772:7525357@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Northern Valley Regional HS - Old Tappan vs Wayne Valley High Sch
- ool (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2772:7551827@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramapo High School (J
- unior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+ gional High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7456692@big-north-conference
@@ -1221,13 +1203,22 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Ramapo High School (V
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7456691@big-north-conference
+UID:ds:2772:7551827@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T174500
-DTEND;TZID=America/New_York:20260923T194500
-SUMMARY:Northern Valley Regional HS - Old Tappan vs Tenafly High School (
- Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:45 PM
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramapo High School (J
+ unior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7525357@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Wayne Valley High Sch
+ ool (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7525378@big-north-conference
@@ -1239,13 +1230,13 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Wayne Valley High Sch
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7595796@big-north-conference
+UID:ds:2772:7456691@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Northern Valley Regional HS - Old Tappan at Teaneck High School (
- Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20260923T174500
+DTEND;TZID=America/New_York:20260923T194500
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Tenafly High School (
+ Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7513708@big-north-conference
@@ -1273,6 +1264,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan at Teaneck High School (
  Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7595796@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Northern Valley Regional HS - Old Tappan at Teaneck High School (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7451157@big-north-conference
