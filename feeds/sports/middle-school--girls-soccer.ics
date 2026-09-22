@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2573:7500850@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T160000
-DTEND;TZID=America/New_York:20260923T180000
-SUMMARY:Cliffside Park High School vs Fort Lee High School (Middle School
-  Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7551998@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -39,6 +30,15 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Bergenfield High School at Teaneck Community Charter School (Midd
  le School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7648206@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Cliffside Park High School vs North Bergen High School (Middle Sc
+ hool Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7582287@big-north-conference
@@ -66,15 +66,6 @@ DTEND;TZID=America/New_York:20260925T180000
 SUMMARY:Mahwah High School vs Holdrum Middle School (Middle School Girls 
  Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7547132@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Passaic High School vs Dwight-Englewood School (Middle School Gir
- ls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2832:7600569@big-north-conference
@@ -192,6 +183,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Mahwah High School at Glen Rock Middle School (Middle School Girl
  s Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7547132@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T163000
+DTEND;TZID=America/New_York:20261007T183000
+SUMMARY:Passaic High School vs Dwight-Englewood School (Middle School Gir
+ ls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7552480@big-north-conference

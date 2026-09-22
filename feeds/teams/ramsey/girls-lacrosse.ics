@@ -23,13 +23,85 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2823:7647313@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T163000
+DTEND;TZID=America/New_York:20270329T183000
+SUMMARY:Ramsey High School vs Montville Township High School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7647319@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T180000
+DTEND;TZID=America/New_York:20270329T200000
+SUMMARY:Ramsey High School vs Montville Township High School (Junior Vars
+ ity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7607979@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270407T161500
-DTEND;TZID=America/New_York:20270407T181500
+DTSTART;TZID=America/New_York:20270407T163000
+DTEND;TZID=America/New_York:20270407T183000
 SUMMARY:Northern Highlands Regional High School at Ramsey High School (Va
  rsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7647338@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T180000
+DTEND;TZID=America/New_York:20270407T200000
+SUMMARY:Ramsey High School vs Northern Highlands Regional High School (Ju
+ nior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7647344@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T163000
+DTEND;TZID=America/New_York:20270412T183000
+SUMMARY:Fair Lawn High School at Ramsey High School (Varsity Girls Girls 
+ Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7647346@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T180000
+DTEND;TZID=America/New_York:20270412T200000
+SUMMARY:Fair Lawn High School at Ramsey High School (Junior Varsity Girls
+  Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7647349@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T110000
+DTEND;TZID=America/New_York:20270417T130000
+SUMMARY:Academy of the Holy Angels at Ramsey High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7647352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T123000
+DTEND;TZID=America/New_York:20270417T143000
+SUMMARY:Academy of the Holy Angels at Ramsey High School (Junior Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7647357@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T110000
+DTEND;TZID=America/New_York:20270424T130000
+SUMMARY:Mahwah High School at Ramsey High School (Varsity Girls Girls Lac
+ rosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7621668@big-north-conference
@@ -43,19 +115,37 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7613588@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270507T160000
-DTEND;TZID=America/New_York:20270507T180000
+DTSTART;TZID=America/New_York:20270507T163000
+DTEND;TZID=America/New_York:20270507T183000
 SUMMARY:Ramsey High School vs Jefferson Township High School (Varsity Gir
  ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7613754@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270507T173000
-DTEND;TZID=America/New_York:20270507T193000
+DTSTART;TZID=America/New_York:20270507T180000
+DTEND;TZID=America/New_York:20270507T200000
 SUMMARY:Ramsey High School vs Jefferson Township High School (Junior Vars
  ity Girls Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7647375@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T163000
+DTEND;TZID=America/New_York:20270517T183000
+SUMMARY:Ramsey High School vs Rutherford High School (Varsity Girls Girls
+  Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7647376@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T180000
+DTEND;TZID=America/New_York:20270517T200000
+SUMMARY:Ramsey High School vs Rutherford High School (Junior Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2793:7648270@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T163000
+DTEND;TZID=America/New_York:20261204T183000
+SUMMARY:Pascack Valley High School vs Pearl River High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:43369:7564097@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
@@ -84,15 +93,6 @@ DTEND;TZID=America/New_York:20261208T193000
 SUMMARY:Ridgewood High School vs Glen Rock High School (Junior Varsity Gi
  rls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7645205@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T180000
-DTEND;TZID=America/New_York:20261208T200000
-SUMMARY:Bergen County Technical High School vs Dwight Morrow High School 
- (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7537033@big-north-conference
@@ -725,6 +725,15 @@ SUMMARY:Bergen County Technical High School at Garfield High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7528771@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T173000
+DTEND;TZID=America/New_York:20270104T193000
+SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
+ (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7546524@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
@@ -993,6 +1002,15 @@ DTEND;TZID=America/New_York:20270108T193000
 SUMMARY:West Milford High School at Kinnelon High School (Junior Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7647285@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T180000
+DTEND;TZID=America/New_York:20270108T200000
+SUMMARY:Fort Lee High School at Hoboken High School (Junior Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7564430@big-north-conference
@@ -1771,8 +1789,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7643601@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T180000
-DTEND;TZID=America/New_York:20270126T200000
+DTSTART;TZID=America/New_York:20270127T180000
+DTEND;TZID=America/New_York:20270127T200000
 SUMMARY:Bergen County Technical High School at Leonia High School (Junior
   Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
@@ -2109,15 +2127,6 @@ DTEND;TZID=America/New_York:20270206T120000
 SUMMARY:Ramsey High School at Park Ridge High School (Junior Varsity Girl
  s Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7528771@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T161500
-DTEND;TZID=America/New_York:20270206T181500
-SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
- (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7633837@big-north-conference

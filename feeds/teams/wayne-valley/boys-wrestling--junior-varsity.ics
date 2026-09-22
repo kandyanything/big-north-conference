@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2926:7648558@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261206T170000
+DTEND;TZID=America/New_York:20261206T190000
+SUMMARY:Wayne Valley High School at Passaic Valley High School (Junior Va
+ rsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2926:7540539@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20270106T193000
 SUMMARY:Wayne Valley High School vs West Milford High School (Junior Vars
  ity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7648461@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T170000
+DTEND;TZID=America/New_York:20270113T190000
+SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
+ ty Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7540546@big-north-conference

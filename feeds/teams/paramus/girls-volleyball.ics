@@ -581,6 +581,15 @@ SUMMARY:Paramus High School at Pascack Valley High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7538908@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T161500
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Ju
+ nior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7542094@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
@@ -590,13 +599,13 @@ SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Fr
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7542643@big-north-conference
+UID:ds:2788:7538908@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
 DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
- rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Paramus High School vs Northern Valley Regional High (Junior Vars
+ ity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7542094@big-north-conference
@@ -608,48 +617,21 @@ SUMMARY:Paramus High School vs Northern Valley Regional High (Freshman Gi
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7542643@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T173000
+DTEND;TZID=America/New_York:20261029T193000
+SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
+ rsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7542643@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T161500
-DTEND;TZID=America/New_York:20261029T181500
+DTSTART;TZID=America/New_York:20261029T173000
+DTEND;TZID=America/New_York:20261029T193000
 SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
  ls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2771:7538908@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T173000
-DTEND;TZID=America/New_York:20261029T193000
-SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Ju
- nior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7538908@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T173000
-DTEND;TZID=America/New_York:20261029T193000
-SUMMARY:Paramus High School vs Northern Valley Regional High (Junior Vars
- ity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7409862@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Paramus High School at Teaneck High School (Freshman Girls Girls 
- Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2888:7409862@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Teaneck High School vs Paramus High School (Freshman Girls Girls 
- Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 END:VCALENDAR

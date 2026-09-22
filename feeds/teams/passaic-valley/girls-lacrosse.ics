@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2796:7648349@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T163000
+DTEND;TZID=America/New_York:20270318T183000
+SUMMARY:Passaic Valley High School at Hoboken High School (Varsity Girls 
+ Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7648337@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270322T160000
+DTEND;TZID=America/New_York:20270322T180000
+SUMMARY:Paramus Catholic High School vs Passaic Valley High School (Varsi
+ ty Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7620364@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T161500
@@ -76,6 +94,15 @@ DTEND;TZID=America/New_York:20270415T181500
 SUMMARY:Passaic Valley High School at Mary Help Of Christians Academy (Va
  rsity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7648418@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270418T163000
+DTEND;TZID=America/New_York:20270418T183000
+SUMMARY:Passaic Valley High School at Rutgers Prep School (Varsity Girls 
+ Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7620441@big-north-conference

@@ -24,22 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2787:7623987@big-north-conference
+UID:ds:2787:7648448@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:Paramus Catholic High School vs Wayne Hills High School (Varsity 
- Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home
+DTSTART;TZID=America/New_York:20261223T170000
+DTEND;TZID=America/New_York:20261223T190000
+SUMMARY:Paramus Catholic High School vs Wayne Hills High School (Junior V
+ arsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7623987@big-north-conference
+UID:ds:2787:7623987@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:Wayne Hills High School at Paramus Catholic High School (Varsity 
+DTSTART;TZID=America/New_York:20261223T180000
+DTEND;TZID=America/New_York:20261223T200000
+SUMMARY:Paramus Catholic High School vs Wayne Hills High School (Varsity 
  Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7646186@big-north-conference
