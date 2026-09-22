@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7649502@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T100000
+DTEND;TZID=America/New_York:20270320T120000
+SUMMARY:Fair Lawn High School vs Pascack Hills High School (Varsity Girls
+  Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7649503@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T113000
+DTEND;TZID=America/New_York:20270320T133000
+SUMMARY:Fair Lawn High School vs Pascack Hills High School (Junior Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2792:7609310@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T161500

@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2796:7648773@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Passaic Valley High School at Irvington High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7612245@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T161500
@@ -48,6 +57,15 @@ DTEND;TZID=America/New_York:20270318T183000
 SUMMARY:Passaic Valley High School at Hoboken High School (Varsity Girls 
  Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7649502@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270320T100000
+DTEND;TZID=America/New_York:20270320T120000
+SUMMARY:Fair Lawn High School vs Pascack Hills High School (Varsity Girls
+  Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7619894@big-north-conference
@@ -482,13 +500,13 @@ SUMMARY:Northern Highlands Regional High School vs Montclair High School
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7620485@big-north-conference
+UID:ds:2796:7648778@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T161500
 DTEND;TZID=America/New_York:20270428T181500
-SUMMARY:Passaic Valley High School vs Irvington High School (Varsity Girl
+SUMMARY:Passaic Valley High School at Irvington High School (Varsity Girl
  s Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7621668@big-north-conference

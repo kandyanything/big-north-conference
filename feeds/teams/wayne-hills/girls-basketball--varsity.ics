@@ -116,20 +116,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7627179@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
+DTSTART;TZID=America/New_York:20270116T110000
+DTEND;TZID=America/New_York:20270116T130000
 SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
  s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7627179@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
-SUMMARY:Wayne Hills High School vs Indian Hills High School (Varsity Girl
- s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7627188@big-north-conference
@@ -186,12 +177,12 @@ SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7627279@big-north-conference
+UID:ds:2670:7649014@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T161500
-DTEND;TZID=America/New_York:20270216T181500
+DTSTART;TZID=America/New_York:20270216T190000
+DTEND;TZID=America/New_York:20270216T210000
 SUMMARY:Indian Hills High School vs Wayne Hills High School (Varsity Girl
  s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 END:VCALENDAR
