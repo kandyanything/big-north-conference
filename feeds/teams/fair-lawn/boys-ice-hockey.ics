@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7652303@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T200000
+DTEND;TZID=America/New_York:20261207T220000
+SUMMARY:Fair Lawn High School vs River Dell Regional High School (Varsity
+  Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7590389@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261213
@@ -48,5 +57,14 @@ DTEND;TZID=America/New_York:20270125T220000
 SUMMARY:Fair Lawn High School vs West Windsor-Plainsboro High School Nort
  h (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7652313@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T201500
+DTEND;TZID=America/New_York:20270129T221500
+SUMMARY:Fair Lawn High School at River Dell Regional High School (Varsity
+  Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 END:VCALENDAR

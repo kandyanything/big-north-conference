@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2772:7652299@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T194500
+DTEND;TZID=America/New_York:20261205T214500
+SUMMARY:Northern Valley Regional HS - Old Tappan at River Dell Regional H
+ igh School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7604094@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
@@ -40,5 +49,14 @@ DTEND;TZID=America/New_York:20270101T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan at Northern Highlands Re
  gional High School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7652274@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Northern Valley Regional HS - Old Tappan vs River Dell Regional H
+ igh School (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

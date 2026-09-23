@@ -195,10 +195,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590410@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
+DTSTART;TZID=America/New_York:20270115T200000
+DTEND;TZID=America/New_York:20270115T220000
 SUMMARY:Ramapo High School at Wayne Hockey (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590411@big-north-conference
@@ -248,20 +248,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590405@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
+DTSTART;TZID=America/New_York:20270122T200000
+DTEND;TZID=America/New_York:20270122T220000
 SUMMARY:Ramapo High School vs Wayne Hills High School (Varsity Boys Boys 
  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7590405@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:Wayne Hills High School at Ramapo High School (Varsity Boys Boys 
- Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590407@big-north-conference
