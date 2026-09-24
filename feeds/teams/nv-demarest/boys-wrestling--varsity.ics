@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2771:7654089@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T180000
+DTEND;TZID=America/New_York:20261209T200000
+SUMMARY:Northern Valley Regional HS - Demarest vs Ridgewood High School (
+ Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7534292@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
@@ -35,11 +44,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7550724@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T183000
-DTEND;TZID=America/New_York:20261216T203000
+DTSTART;TZID=America/New_York:20261216T180000
+DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Northern Valley Regional HS - Demarest vs Tenafly High School (Va
  rsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7550761@big-north-conference
@@ -80,20 +89,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7423264@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T183000
-DTEND;TZID=America/New_York:20270113T203000
+DTSTART;TZID=America/New_York:20270113T180000
+DTEND;TZID=America/New_York:20270113T200000
 SUMMARY:Northern Valley Regional HS - Demarest vs Paramus High School (Va
  rsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7652777@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T183000
-DTEND;TZID=America/New_York:20270122T203000
+DTSTART;TZID=America/New_York:20270122T180000
+DTEND;TZID=America/New_York:20270122T200000
 SUMMARY:Northern Valley Regional HS - Demarest vs North Bergen High Schoo
  l (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7529972@big-north-conference
@@ -107,11 +116,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7553266@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T183000
-DTEND;TZID=America/New_York:20270127T203000
+DTSTART;TZID=America/New_York:20270127T180000
+DTEND;TZID=America/New_York:20270127T200000
 SUMMARY:Northern Valley Regional HS - Demarest vs Teaneck High School (Va
  rsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7652768@big-north-conference
@@ -148,5 +157,14 @@ DTEND;TZID=America/New_York:20270205T200000
 SUMMARY:Northern Valley Regional HS - Demarest vs Cresskill High School (
  Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7653982@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T100000
+DTEND;TZID=America/New_York:20270206T120000
+SUMMARY:Northern Valley Regional HS - Demarest at Kinnelon High School (V
+ arsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR

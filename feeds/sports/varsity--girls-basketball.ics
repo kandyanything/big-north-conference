@@ -834,11 +834,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7435840@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T153000
-DTEND;TZID=America/New_York:20261219T173000
+DTSTART;TZID=America/New_York:20261219T160000
+DTEND;TZID=America/New_York:20261219T180000
 SUMMARY:Dumont High School at Paramus High School (Varsity Girls Girls Ba
  sketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 3:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7593456@big-north-conference
@@ -2892,15 +2892,6 @@ SUMMARY:Paramus High School at Northern Valley Regional High (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7511400@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T160000
-DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Academy of the Holy Angels at East Orange Campus High School (Var
- sity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7546517@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T161500
@@ -3223,6 +3214,15 @@ DTEND;TZID=America/New_York:20270218T180000
 SUMMARY:Cliffside Park High School vs Clifton High School (Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7479384@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T161500
+DTEND;TZID=America/New_York:20270218T181500
+SUMMARY:Academy of the Holy Angels vs Ridgefield Park High School (Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7530124@big-north-conference
