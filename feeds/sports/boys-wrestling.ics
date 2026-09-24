@@ -23,42 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2771:7594418@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261204T160000
-DTEND;TZID=America/New_York:20261204T180000
-SUMMARY:Northern Valley Regional HS - Demarest vs River Dell Regional Hig
- h School (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7594418@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261204T160000
-DTEND;TZID=America/New_York:20261204T180000
-SUMMARY:River Dell Regional High School at Northern Valley Regional High 
- (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2796:7648558@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261206T170000
-DTEND;TZID=America/New_York:20261206T190000
-SUMMARY:Passaic Valley High School vs Wayne Valley High School (Junior Va
- rsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2796:7648557@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261206T180000
-DTEND;TZID=America/New_York:20261206T200000
-SUMMARY:Passaic Valley High School vs Wayne Valley High School (Varsity B
- oys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7516231@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -425,15 +389,6 @@ DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Pascack Hills High School vs Ramapo High School (Junior Varsity B
  oys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2796:7648625@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T180000
-DTEND;TZID=America/New_York:20261216T200000
-SUMMARY:Passaic Valley High School vs West Milford High School (Varsity B
- oys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7644882@big-north-conference
@@ -899,9 +854,9 @@ UID:ds:2771:7652167@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261230T090000
 DTEND;TZID=America/New_York:20261230T110000
-SUMMARY:Northern Valley Regional HS - Demarest vs Bloomfield High School 
+SUMMARY:Northern Valley Regional HS - Demarest at Bloomfield High School 
  (Junior Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7570055@big-north-conference
@@ -1934,6 +1889,15 @@ SUMMARY:Fort Lee High School vs Secaucus High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7652777@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T183000
+DTEND;TZID=America/New_York:20270122T203000
+SUMMARY:Northern Valley Regional HS - Demarest vs North Bergen High Schoo
+ l (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7505951@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T190000
@@ -2058,6 +2022,15 @@ DTEND;TZID=America/New_York:20270123T163000
 SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Boys Wres
  tling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7653691@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T180000
+DTEND;TZID=America/New_York:20270123T200000
+SUMMARY:Northern Valley Regional HS - Old Tappan at Park Ridge/Emerson (V
+ arsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7423303@big-north-conference
@@ -2355,6 +2328,24 @@ DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Northern Valley Regional HS - Demarest at Lakeland Regional High 
  School (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7652768@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T183000
+DTEND;TZID=America/New_York:20270129T203000
+SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
+ ool (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7652768@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T183000
+DTEND;TZID=America/New_York:20270129T203000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7639171@big-north-conference

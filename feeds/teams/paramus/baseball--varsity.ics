@@ -23,11 +23,11 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2788:7603329@big-north-conference
+UID:ds:2788:7652510@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T161500
 DTEND;TZID=America/New_York:20270329T181500
-SUMMARY:Paramus High School vs Rutherford High School (Varsity Boys Baseb
+SUMMARY:Paramus High School vs Saint Mary High School (Varsity Boys Baseb
  all)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
@@ -47,6 +47,15 @@ DTEND;TZID=America/New_York:20270402T181500
 SUMMARY:Paramus High School vs Dwight-Englewood School (Varsity Boys Base
  ball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7652763@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T120000
+DTEND;TZID=America/New_York:20270403T140000
+SUMMARY:Northern Highlands Regional High School vs Paramus High School (V
+ arsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7573115@big-north-conference
