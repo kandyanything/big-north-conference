@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2823:7656053@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T170000
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Ramsey High School at Garfield High School (Varsity Girls Girls W
+ restling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7645726@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T180000
@@ -75,6 +84,14 @@ DTEND;TZID=America/New_York:20261223T123000
 SUMMARY:Cliffside Park High School at Roselle Park High School (Varsity G
  irls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7656154@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T150000
+DTEND;TZID=America/New_York:20261223T170000
+SUMMARY:Ramsey High School vs TBD (Varsity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7525546@big-north-conference
@@ -228,6 +245,15 @@ DTEND;TZID=America/New_York:20270124T110000
 SUMMARY:River Dell Regional High School at TBA NJ (Varsity Girls Girls Wr
  estling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7656670@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T190000
+DTEND;TZID=America/New_York:20270129T210000
+SUMMARY:Ramsey High School at Ridgefield Park High School (Varsity Girls 
+ Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7585554@big-north-conference
