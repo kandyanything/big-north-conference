@@ -1,0 +1,89 @@
+name: Conference health check
+
+# Weekly health report across all six conference sites, delivered as an issue.
+#
+# It fires on three mornings rather than one. GitHub drops a large share of
+# scheduled runs — often the ones in US business hours — so a single weekly
+# cron would silently skip whole weeks. scripts/health-check.js records the ISO
+# week it last reported and no-ops on the later firings, so three triggers still
+# produce exactly one report per week.
+
+on:
+  schedule:
+    - cron: '17 11 * * 0'   # Sunday
+    - cron: '17 11 * * 1'   # Monday, in case Sunday is dropped
+    - cron: '17 11 * * 2'   # Tuesday, in case both are
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Report even if this week already ran'
+        type: boolean
+        default: false
+
+concurrency:
+  group: health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # to commit data/health-history.json
+      issues: write        # to open or update the weekly issue
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run the health check
+        id: check
+        run: |
+          rm -f health-skip health-problems
+          node scripts/health-check.js ${{ inputs.force && '--force' || '' }}
+          if [ -f health-skip ]; then
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skipped=false" >> "$GITHUB_OUTPUT"
+            echo "problems=$(cat health-problems 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish the report
+        if: steps.check.outputs.skipped == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          WEEK=$(node -e "const d=new Date();const t=new Date(Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate()));t.setUTCDate(t.getUTCDate()+4-(t.getUTCDay()||7));const j=new Date(Date.UTC(t.getUTCFullYear(),0,1));console.log(t.getUTCFullYear()+'-W'+String(Math.ceil(((t-j)/864e5+1)/7)).padStart(2,'0'))")
+          COUNT='${{ steps.check.outputs.problems }}'
+          if [ "$COUNT" = "0" ]; then
+            TITLE="Conference health — $WEEK — all clear"
+          else
+            TITLE="Conference health — $WEEK — $COUNT to look at"
+          fi
+
+          # The report is also attached to the run itself, so it stays readable
+          # even if issue creation is ever turned off.
+          cat health-report.md >> "$GITHUB_STEP_SUMMARY"
+
+          # One issue per week. Re-running the same week edits it rather than
+          # opening a duplicate.
+          EXISTING=$(gh issue list --search "$WEEK in:title" --state all --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" --title "$TITLE" --body-file health-report.md
+            echo "updated issue #$EXISTING"
+          else
+            gh issue create --title "$TITLE" --body-file health-report.md --label "health" || \
+            gh issue create --title "$TITLE" --body-file health-report.md
+          fi
+
+      - name: Remember this week's numbers
+        if: steps.check.outputs.skipped == 'false'
+        run: |
+          rm -f health-skip health-problems health-report.md
+          git config user.name  "Scott Rosenberg"
+          git config user.email "kandyanything@gmail.com"
+          git add data/health-history.json
+          git diff --cached --quiet || git commit -m "Health check $(date -u +%Y-%m-%d)"
+          git push
