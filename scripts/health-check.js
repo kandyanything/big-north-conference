@@ -52,6 +52,7 @@ const SITES = [
     { key: 'skyland', label: 'Skyland', repo: 'skyland-conference' },
     { key: 'ucc', label: 'UCC', repo: 'union-county-conference' },
     { key: 'njic', label: 'NJIC', repo: 'njic-schedule', summaryOnly: 'data/schedule/index.json' },
+    { key: 'olympic', label: 'Olympic', repo: 'olympic-conference' },
 ];
 
 const SAMPLE_SIZE = 12;          // ArbiterLive schools re-tested per week
