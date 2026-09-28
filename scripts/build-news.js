@@ -170,6 +170,11 @@ function isDenyHost(host) {
 const NOT_ARTICLE_SEGS = new Set([
     'school', 'team', 'teams', 'schedule', 'standings', 'scores', 'roster',
     'season', 'stats', 'rankings', 'players',
+    // MaxPreps publishes a page per scheduled fixture, under /game/ for most
+    // sports and /match/ for soccer. The title names a sport and the body is
+    // the schedule sentence, so they clear the sports-term and relevance
+    // gates and arrive looking like news - including fixtures months away.
+    'game', 'games', 'match', 'matches',
 ]);
 const FEED_HOSTS = HOUSE_FEEDS.map(hostOf);
 
@@ -477,7 +482,7 @@ async function main() {
     let existing = [];
     try {
         const raw = JSON.parse(fs.readFileSync(OUT, 'utf8'));
-        existing = (raw.news || []).filter(n => n && n.title && n.url && SPORTS_TERMS_RE.test(n.title));
+        existing = (raw.news || []).filter(n => n && n.title && n.url && SPORTS_TERMS_RE.test(n.title) && isArticleUrl(n.url));
     } catch { /* first run */ }
 
     const merged = new Map(existing.map(n => [n.url, n]));
