@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7470381@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T100000
-DTEND;TZID=America/New_York:20261205T120000
-SUMMARY:Ridgewood High School vs Memorial High School (Junior Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2832:7479488@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T144500
@@ -171,9 +162,9 @@ UID:ds:2616:7658522@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T173000
 DTEND;TZID=America/New_York:20261208T193000
-SUMMARY:Fort Lee High School vs New Milford High School (Junior Varsity B
+SUMMARY:Fort Lee High School at New Milford High School (Junior Varsity B
  oys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7639959@big-north-conference
@@ -895,6 +886,15 @@ SUMMARY:Paramus High School at Fair Lawn High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2573:7660138@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T113000
+DTEND;TZID=America/New_York:20261228T133000
+SUMMARY:Cliffside Park High School at Pascack Hills High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7624450@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T113000
@@ -911,6 +911,15 @@ DTEND;TZID=America/New_York:20261229T110000
 SUMMARY:River Dell Regional High School at Bloomfield High School (Junior
   Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7660160@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T100000
+DTEND;TZID=America/New_York:20261230T120000
+SUMMARY:Cliffside Park High School at TBD (Junior Varsity Boys Boys Baske
+ tball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7607958@big-north-conference

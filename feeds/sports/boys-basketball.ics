@@ -23,22 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7470381@big-north-conference
+UID:ds:2833:7659622@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T100000
-DTEND;TZID=America/New_York:20261205T120000
-SUMMARY:Ridgewood High School vs Memorial High School (Junior Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7470372@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T113000
-DTEND;TZID=America/New_York:20261205T133000
+DTSTART;TZID=America/New_York:20261205T110000
+DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys 
  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2832:7479488@big-north-conference
@@ -266,6 +257,15 @@ SUMMARY:Bergen County Technical High School vs Wood-Ridge High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7659643@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Hackensack High School vs Memorial High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7562938@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T163000
@@ -486,9 +486,9 @@ UID:ds:2616:7658522@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T173000
 DTEND;TZID=America/New_York:20261208T193000
-SUMMARY:Fort Lee High School vs New Milford High School (Junior Varsity B
+SUMMARY:Fort Lee High School at New Milford High School (Junior Varsity B
  oys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7639959@big-north-conference
@@ -1128,6 +1128,15 @@ DTEND;TZID=America/New_York:20261212T133000
 SUMMARY:Fort Lee High School at Emerson Jr-Sr High School (Junior Varsity
   Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7659314@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T170000
+DTEND;TZID=America/New_York:20261212T190000
+SUMMARY:Ramapo High School at Christian Brothers Academy (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7615695@big-north-conference
@@ -2675,6 +2684,24 @@ SUMMARY:River Dell Regional High School vs Tenafly High School (Freshman
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2573:7660137@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T113000
+DTEND;TZID=America/New_York:20261228T133000
+SUMMARY:Cliffside Park High School at Pascack Hills High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7660138@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T113000
+DTEND;TZID=America/New_York:20261228T133000
+SUMMARY:Cliffside Park High School at Pascack Hills High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7624450@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T113000
@@ -2727,6 +2754,23 @@ DTEND;TZID=America/New_York:20261229T123000
 SUMMARY:River Dell Regional High School at Bloomfield High School (Freshm
  an Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7660159@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T100000
+DTEND;TZID=America/New_York:20261230T120000
+SUMMARY:Cliffside Park High School at TBD (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7660160@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T100000
+DTEND;TZID=America/New_York:20261230T120000
+SUMMARY:Cliffside Park High School at TBD (Junior Varsity Boys Boys Baske
+ tball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7602365@big-north-conference
@@ -3781,6 +3825,15 @@ SUMMARY:Eastside High School vs River Dell Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7643678@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T170000
+DTEND;TZID=America/New_York:20270109T190000
+SUMMARY:Ramapo High School at Saint Mary High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7615701@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T183000
@@ -3788,15 +3841,6 @@ DTEND;TZID=America/New_York:20270109T203000
 SUMMARY:Hackensack High School vs Dwight-Englewood School (Varsity Boys B
  oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7643678@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270109
-DTEND;VALUE=DATE:20270110
-SUMMARY:Ramapo High School at Saint Mary High School (Varsity Boys Boys B
- asketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7556200@big-north-conference
@@ -3824,6 +3868,15 @@ DTEND;TZID=America/New_York:20270111T181500
 SUMMARY:Bergenfield High School vs Bergen Charter (Varsity Boys Boys Bask
  etball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7660042@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T163000
+DTEND;TZID=America/New_York:20270111T183000
+SUMMARY:Clifton High School vs Memorial High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7463375@big-north-conference
@@ -6269,6 +6322,15 @@ SUMMARY:River Dell Regional High School at Saint Joseph Regional High Sch
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2890:7659469@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:Tenafly High School vs Don Bosco Prep (Freshman Boys Boys Basketb
+ all)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7651887@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T163000
@@ -7525,6 +7587,15 @@ DTEND;TZID=America/New_York:20270208T181500
 SUMMARY:Passaic Valley High School at Saddle Brook High School (Freshman 
  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7550863@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270208T171500
+DTEND;TZID=America/New_York:20270208T191500
+SUMMARY:Cliffside Park High School vs Kearny High School (Middle School B
+ oys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7564649@big-north-conference
@@ -9264,15 +9335,6 @@ SUMMARY:River Dell Regional High School vs Cresskill High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7550863@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270219T171500
-DTEND;TZID=America/New_York:20270219T191500
-SUMMARY:Cliffside Park High School vs Kearny High School (Middle School B
- oys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2595:7643576@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270219T173000
@@ -9343,6 +9405,15 @@ DTEND;TZID=America/New_York:20270220T140000
 SUMMARY:Hackensack High School vs Franklin High School (Junior Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7659058@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T120000
+DTEND;TZID=America/New_York:20270220T140000
+SUMMARY:Mahwah High School vs Tenafly High School (Varsity Boys Boys Bask
+ etball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7643680@big-north-conference

@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7470372@big-north-conference
+UID:ds:2833:7659622@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T113000
-DTEND;TZID=America/New_York:20261205T133000
+DTSTART;TZID=America/New_York:20261205T110000
+DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys 
  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7439404@big-north-conference
@@ -111,6 +111,15 @@ DTEND;TZID=America/New_York:20261207T181500
 SUMMARY:West Milford High School vs Lyndhurst High School (Varsity Boys B
  oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7659643@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Hackensack High School vs Memorial High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7562938@big-north-conference
@@ -489,6 +498,15 @@ DTEND;TZID=America/New_York:20261212T130000
 SUMMARY:Ramsey High School at Northern Valley Regional High (Varsity Boys
   Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7659314@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T170000
+DTEND;TZID=America/New_York:20261212T190000
+SUMMARY:Ramapo High School at Christian Brothers Academy (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7615695@big-north-conference
@@ -1552,6 +1570,15 @@ SUMMARY:Eastside High School vs River Dell Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7643678@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T170000
+DTEND;TZID=America/New_York:20270109T190000
+SUMMARY:Ramapo High School at Saint Mary High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7615701@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T183000
@@ -1559,15 +1586,6 @@ DTEND;TZID=America/New_York:20270109T203000
 SUMMARY:Hackensack High School vs Dwight-Englewood School (Varsity Boys B
  oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7643678@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270109
-DTEND;VALUE=DATE:20270110
-SUMMARY:Ramapo High School at Saint Mary High School (Varsity Boys Boys B
- asketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7556199@big-north-conference
@@ -1586,6 +1604,15 @@ DTEND;TZID=America/New_York:20270111T181500
 SUMMARY:Bergenfield High School vs Bergen Charter (Varsity Boys Boys Bask
  etball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7660042@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T163000
+DTEND;TZID=America/New_York:20270111T183000
+SUMMARY:Clifton High School vs Memorial High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7463375@big-north-conference
@@ -3566,6 +3593,15 @@ DTEND;TZID=America/New_York:20270220T120000
 SUMMARY:Passaic Valley High School vs West Essex High School (Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7659058@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T120000
+DTEND;TZID=America/New_York:20270220T140000
+SUMMARY:Mahwah High School vs Tenafly High School (Varsity Boys Boys Bask
+ etball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7643680@big-north-conference

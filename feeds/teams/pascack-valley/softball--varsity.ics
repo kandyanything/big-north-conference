@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2793:7660527@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270322T160000
+DTEND;TZID=America/New_York:20270322T180000
+SUMMARY:Pascack Valley High School at Pascack Hills/Valley (Varsity Girls
+  Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7564107@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T161500
@@ -76,5 +85,14 @@ DTEND;TZID=America/New_York:20270503T181500
 SUMMARY:Paramus High School at Pascack Valley High School (Varsity Girls 
  Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7660531@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
+SUMMARY:Pascack Valley High School at Butler High School (Varsity Girls S
+ oftball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -1179,24 +1179,6 @@ SUMMARY:Paramus High School at Passaic High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7650130@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T161500
-DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Paramus High School vs Teaneck High School (Junior Varsity Girls 
- Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7650135@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T161500
-DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Paramus High School at Teaneck High School (Varsity Girls Girls T
- ennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7442309@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T163000
@@ -1224,6 +1206,15 @@ SUMMARY:Dumont High School vs Paramus High School (Varsity Boys Boys Socc
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7650135@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T153000
+DTEND;TZID=America/New_York:20260929T173000
+SUMMARY:Paramus High School vs Teaneck High School (Varsity Girls Girls T
+ ennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2595:7407194@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
@@ -1240,6 +1231,15 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Dumont High School vs Paramus High School (Freshman Girls Girls V
  olleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7650130@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Paramus High School at Teaneck High School (Junior Varsity Girls 
+ Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7409871@big-north-conference
@@ -1568,9 +1568,9 @@ UID:ds:2788:7410086@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Paramus High School vs Teaneck High School (Varsity Girls Girls T
+SUMMARY:Paramus High School at Teaneck High School (Varsity Girls Girls T
  ennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7410270@big-north-conference
@@ -1586,9 +1586,9 @@ UID:ds:2788:7410283@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Paramus High School at Teaneck High School (Junior Varsity Girls 
+SUMMARY:Paramus High School vs Teaneck High School (Junior Varsity Girls 
  Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7594987@big-north-conference
@@ -2409,6 +2409,15 @@ SUMMARY:Teaneck High School vs Paramus High School (Varsity Coed Coed Wre
 DESCRIPTION:Varsity Coed Coed Wrestling - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7660864@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T161500
+DTEND;TZID=America/New_York:20261217T181500
+SUMMARY:Hackensack High School vs Paramus High School (Varsity Coed Coed 
+ Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7422831@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T161500
@@ -2499,6 +2508,15 @@ SUMMARY:Paramus High School vs Ridgefield Park High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7660287@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T134800
+DTEND;TZID=America/New_York:20261219T154800
+SUMMARY:Paramus High School at Marlboro High School (Varsity Boys Boys Wr
+ estling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 1:48 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2595:7435889@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T143000
@@ -2515,15 +2533,6 @@ DTEND;TZID=America/New_York:20261219T180000
 SUMMARY:Dumont High School at Paramus High School (Varsity Girls Girls Ba
  sketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7508711@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Paramus High School at Long Branch High School (Varsity Boys Boys
-  Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7423043@big-north-conference
@@ -3144,6 +3153,15 @@ SUMMARY:Paramus High School vs Lakeland Regional High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7660923@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T130000
+DTEND;TZID=America/New_York:20270116T150000
+SUMMARY:Paramus High School at Teaneck High School (Varsity Girls Girls B
+ asketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7422855@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T161500
@@ -3252,6 +3270,15 @@ SUMMARY:Ramapo High School at Paramus High School (Varsity Boys Boys Ice
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:43369:7423081@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Academy of the Holy Angels at Paramus High School (Varsity Girls 
+ Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:43369:7423237@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
@@ -3259,15 +3286,6 @@ DTEND;TZID=America/New_York:20270119T193000
 SUMMARY:Academy of the Holy Angels at Paramus High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7423081@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T190000
-DTEND;TZID=America/New_York:20270119T210000
-SUMMARY:Academy of the Holy Angels at Paramus High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7422856@big-north-conference
@@ -4323,6 +4341,15 @@ DTEND;TZID=America/New_York:20270415T181500
 SUMMARY:Paramus High School vs Bloomfield High School (Varsity Boys Baseb
  all)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7659425@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T161500
+DTEND;TZID=America/New_York:20270415T181500
+SUMMARY:Paramus High School at Bloomfield High School (Freshman Boys Base
+ ball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7569270@big-north-conference
