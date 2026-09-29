@@ -97,8 +97,21 @@ async function dispatch(env, repo) {
 export default {
   async scheduled(event, env, ctx) {
     const hour = easternHour(new Date(event.scheduledTime));
-    if (hour < FIRST_HOUR || hour > LAST_HOUR) {
-      console.log(`skipped: ${hour}:00 ET is outside the ${FIRST_HOUR}-${LAST_HOUR} window`);
+    // Two cadences, both driven from here because GitHub delivers only about
+    // 55% of the scheduled runs a workflow asks for - measured across five
+    // repos over seven days - and it drops them around the clock, not just in
+    // the window. Evening slots matter too: that is when the next morning's
+    // reschedules get entered.
+    //
+    //   inside 11am-3pm ET : every hour, when same-day changes happen
+    //   outside it         : every third hour, the original cadence
+    //
+    // Gated on the Eastern hour rather than the UTC cron, so the window does
+    // not slide when the clocks change on 1 November.
+    const inWindow = hour >= FIRST_HOUR && hour <= LAST_HOUR;
+    const isBaseSlot = hour % 3 === 0;
+    if (!inWindow && !isBaseSlot) {
+      console.log(`skipped: ${hour}:00 ET is neither in the window nor a 3-hourly slot`);
       return;
     }
     if (!token(env)) {

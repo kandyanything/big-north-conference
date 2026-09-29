@@ -2,7 +2,11 @@ name = "conference-refresh-trigger"
 main = "src/index.js"
 compatibility_date = "2026-05-01"
 
-# One hour wider than the 11 am - 3 pm ET window on purpose: 11 am ET is 15:00
+# Fires every hour; the Worker decides which fires become dispatches - hourly
+# inside 11am-3pm ET, every third hour outside it. Deciding in code rather than
+# in the cron keeps the window correct when the clocks change.
+#
+# Previously 15-20 UTC only. One hour wider than the window on purpose: 11 am ET is 15:00
 # UTC on daylight time and 16:00 UTC on standard time. The Worker checks the
 # real Eastern hour and skips the slots that fall outside the window, so this
 # does not need editing when the clocks change on 1 November.
@@ -11,7 +15,7 @@ compatibility_date = "2026-05-01"
 # GitHub's runner queue is busiest, so a dispatch at :00 waits longest for a
 # machine.
 [triggers]
-crons = ["3 15-20 * * *"]
+crons = ["3 * * * *"]
 
 # The GitHub token is NOT set here. It is a secret, added either with
 #   wrangler secret put GITHUB_TOKEN
