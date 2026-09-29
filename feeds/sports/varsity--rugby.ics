@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2533:7578875@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260913T090000
-DTEND;TZID=America/New_York:20260913T110000
-SUMMARY:Bergen Catholic High School at Christian Brothers Academy (Varsit
- y Boys Rugby)
-DESCRIPTION:Varsity Boys Rugby - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2533:7577360@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260920T090000
@@ -50,10 +41,19 @@ SUMMARY:Bergen Catholic High School at Morris Rugby Club (Varsity Boys Ru
 DESCRIPTION:Varsity Boys Rugby - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2533:7662970@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261018T090000
+DTEND;TZID=America/New_York:20261018T110000
+SUMMARY:Bergen Catholic High School at Christian Brothers Academy (Varsit
+ y Boys Rugby)
+DESCRIPTION:Varsity Boys Rugby - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7578880@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
+DTSTART;TZID=America/New_York:20261025T090000
+DTEND;TZID=America/New_York:20261025T110000
 SUMMARY:Bergen Catholic High School at Christian Brothers Academy (Varsit
  y Boys Rugby)
 DESCRIPTION:Varsity Boys Rugby - Away - 9:00 AM
