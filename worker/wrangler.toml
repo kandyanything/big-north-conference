@@ -1,0 +1,28 @@
+name = "conference-refresh-trigger"
+main = "src/index.js"
+compatibility_date = "2026-05-01"
+
+# One hour wider than the 11 am - 3 pm ET window on purpose: 11 am ET is 15:00
+# UTC on daylight time and 16:00 UTC on standard time. The Worker checks the
+# real Eastern hour and skips the slots that fall outside the window, so this
+# does not need editing when the clocks change on 1 November.
+#
+# Three minutes past the hour, not on it: the top of every hour is when
+# GitHub's runner queue is busiest, so a dispatch at :00 waits longest for a
+# machine.
+[triggers]
+crons = ["3 15-20 * * *"]
+
+# The GitHub token is NOT set here. It is a secret, added either with
+#   wrangler secret put GITHUB_TOKEN
+# or through the dashboard under Settings > Variables and secrets.
+#
+# Fine-grained token, Actions: Read and write, scoped to exactly these four
+# repositories and nothing else:
+#   big-north-conference, nwjerseyac-new, skyland-conference,
+#   union-county-conference
+#
+# NJIC is driven by its own Worker (njic-refresh-trigger) with its own token.
+# SEC and Olympic are deliberately excluded - both are entirely on ArbiterLive,
+# whose robots.txt disallows crawling, so their request volume is not raised
+# until that is settled.
