@@ -42,6 +42,15 @@ SUMMARY:Bergen County Technical High School vs Pascack Valley High School
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7661789@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T161500
+DTEND;TZID=America/New_York:20261211T181500
+SUMMARY:Pascack Valley High School at Cresskill High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7554400@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T161500
@@ -69,6 +78,33 @@ SUMMARY:Pascack Valley High School vs Westwood Regional Senior High Schoo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2772:7661802@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
+ chool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7661802@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7661806@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:Pascack Valley High School at Teaneck High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7556193@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T120000
@@ -89,20 +125,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7422854@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270114
-DTEND;VALUE=DATE:20270115
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
 SUMMARY:Paramus High School at Pascack Valley High School (Varsity Boys B
  oys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7422854@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270114
-DTEND;VALUE=DATE:20270115
-SUMMARY:Pascack Valley High School vs Paramus High School (Varsity Boys B
- oys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7554807@big-north-conference
@@ -211,5 +238,14 @@ DTEND;TZID=America/New_York:20270218T210000
 SUMMARY:Pascack Hills High School vs Pascack Valley High School (Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7661770@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T113000
+DTEND;TZID=America/New_York:20270220T133000
+SUMMARY:Pascack Valley High School vs Ramapo High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 END:VCALENDAR

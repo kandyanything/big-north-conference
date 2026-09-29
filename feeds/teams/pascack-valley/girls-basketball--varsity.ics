@@ -89,11 +89,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7639942@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
 SUMMARY:Pascack Valley High School vs Teaneck High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7526196@big-north-conference
@@ -188,20 +188,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7423091@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
+DTSTART;TZID=America/New_York:20270211T161500
+DTEND;TZID=America/New_York:20270211T181500
 SUMMARY:Paramus High School at Pascack Valley High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7423091@big-north-conference
+UID:ds:2793:7661759@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
-SUMMARY:Pascack Valley High School vs Paramus High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
+DTSTART;TZID=America/New_York:20270213T113000
+DTEND;TZID=America/New_York:20270213T133000
+SUMMARY:Pascack Valley High School vs Hasbrouck Heights High School (Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7556722@big-north-conference
@@ -229,5 +229,14 @@ DTEND;TZID=America/New_York:20270218T181500
 SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7661769@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T130000
+DTEND;TZID=America/New_York:20270220T150000
+SUMMARY:Pascack Valley High School vs Ramapo High School (Varsity Girls G
+ irls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
 END:VEVENT
 END:VCALENDAR
