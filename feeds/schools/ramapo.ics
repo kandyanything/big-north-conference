@@ -2347,20 +2347,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590385@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
+DTSTART;TZID=America/New_York:20261206T204500
+DTEND;TZID=America/New_York:20261206T224500
 SUMMARY:Ramapo High School at Ridgewood High School (Varsity Boys Boys Ic
  e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7590385@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Ridgewood High School vs Ramapo High School (Varsity Boys Boys Ic
- e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7603968@big-north-conference
@@ -2497,7 +2488,7 @@ SUMMARY:Indian Hills High School vs Ramapo High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7640705@big-north-conference
+UID:ds:2670:7666361@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
 DTEND;TZID=America/New_York:20261211T180000
@@ -2535,20 +2526,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7590388@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
+DTSTART;TZID=America/New_York:20261211T200000
+DTEND;TZID=America/New_York:20261211T220000
 SUMMARY:Passaic County Technical Institute at Ramapo High School (Varsity
   Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7590388@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Ramapo High School vs Passaic County Technical Institute (Varsity
-  Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7639801@big-north-conference
@@ -2578,6 +2560,15 @@ SUMMARY:Ramapo High School at Christian Brothers Academy (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7590389@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T164500
+DTEND;TZID=America/New_York:20261213T184500
+SUMMARY:Ramapo High School vs Fair Lawn High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7590389@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261213
@@ -2585,15 +2576,6 @@ DTEND;VALUE=DATE:20261214
 SUMMARY:Fair Lawn High School at Ramapo High School (Varsity Boys Boys Ic
  e Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7590389@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:Ramapo High School vs Fair Lawn High School (Varsity Boys Boys Ic
- e Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7645351@big-north-conference
@@ -3238,19 +3220,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7525390@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T100000
-DTEND;TZID=America/New_York:20270116T120000
+DTSTART;TZID=America/New_York:20270116T093000
+DTEND;TZID=America/New_York:20270116T113000
 SUMMARY:Ramapo High School at Ridgewood High School (Freshman Girls Girls
   Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7525390@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T100000
-DTEND;TZID=America/New_York:20270116T120000
+DTSTART;TZID=America/New_York:20270116T093000
+DTEND;TZID=America/New_York:20270116T113000
 SUMMARY:Ridgewood High School vs Ramapo High School (Girls (9) Basketball)
-DESCRIPTION:Girls (9) Basketball - Home - 10:00 AM
+DESCRIPTION:Girls (9) Basketball - Home - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7641358@big-north-conference
@@ -3262,13 +3244,13 @@ SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7525389@big-north-conference
+UID:ds:2822:7525391@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T120000
-DTEND;TZID=America/New_York:20270116T140000
-SUMMARY:Ramapo High School at Ridgewood High School (Varsity Girls Girls 
- Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
+DTSTART;TZID=America/New_York:20270116T110000
+DTEND;TZID=America/New_York:20270116T130000
+SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7641357@big-north-conference
@@ -3280,13 +3262,13 @@ SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7525391@big-north-conference
+UID:ds:2822:7525389@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T133000
-DTEND;TZID=America/New_York:20270116T153000
-SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Girls
-  Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 1:30 PM
+DTSTART;TZID=America/New_York:20270116T123000
+DTEND;TZID=America/New_York:20270116T143000
+SUMMARY:Ramapo High School at Ridgewood High School (Varsity Girls Girls 
+ Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590411@big-north-conference
