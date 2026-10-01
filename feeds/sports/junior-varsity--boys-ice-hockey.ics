@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7668175@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T201500
+DTEND;TZID=America/New_York:20261201T221500
+SUMMARY:Fair Lawn High School at Pascack Valley High School (Junior Varsi
+ ty Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2592:7660807@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261205T171500
@@ -113,7 +122,7 @@ SUMMARY:Bergen Catholic High School at Ramapo High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7652290@big-north-conference
+UID:ds:2834:7668190@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T204500
 DTEND;TZID=America/New_York:20270114T224500
@@ -129,6 +138,15 @@ DTEND;TZID=America/New_York:20270117T223000
 SUMMARY:Northern Highlands Regional High School at Pascack Hills/Valley (
  Junior Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7668289@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T201500
+DTEND;TZID=America/New_York:20270119T221500
+SUMMARY:Ridgewood High School at Pascack Valley High School (Junior Varsi
+ ty Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7660930@big-north-conference
