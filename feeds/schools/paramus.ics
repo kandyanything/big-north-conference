@@ -3261,38 +3261,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515701@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
+DTSTART;TZID=America/New_York:20270118T184500
+DTEND;TZID=America/New_York:20270118T204500
 SUMMARY:Paramus High School vs Ramapo High School (Varsity Boys Boys Ice 
  Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7590412@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Paramus High School vs Ramapo High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7515701@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Ramapo High School at Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7590412@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Ramapo High School at Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7423081@big-north-conference
@@ -3556,40 +3529,13 @@ SUMMARY:Paramus High School at Pascack Hills High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7515707@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7590408@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
+DTSTART;TZID=America/New_York:20270129T190000
+DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Boys Ice 
  Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7515707@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Ramapo High School vs Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7590408@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Ramapo High School vs Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7508913@big-north-conference
@@ -3825,15 +3771,6 @@ SUMMARY:Paramus High School vs Pascack Valley High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423091@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T161500
-DTEND;TZID=America/New_York:20270211T181500
-SUMMARY:Paramus High School at Pascack Valley High School (Varsity Girls 
- Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7423149@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T161500
@@ -3859,6 +3796,15 @@ DTEND;TZID=America/New_York:20270211T193000
 SUMMARY:Paramus High School at Pascack Valley High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423091@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T190000
+DTEND;TZID=America/New_York:20270211T210000
+SUMMARY:Paramus High School at Pascack Valley High School (Varsity Girls 
+ Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7423092@big-north-conference

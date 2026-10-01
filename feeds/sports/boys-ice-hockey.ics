@@ -86,6 +86,15 @@ SUMMARY:Wayne Valley High School at Madison High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7668034@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T201500
+DTEND;TZID=America/New_York:20261202T221500
+SUMMARY:Pascack Valley High School vs Ramsey High School (Varsity Boys Bo
+ ys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7590384@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T174500
@@ -378,6 +387,15 @@ DTEND;TZID=America/New_York:20261214T223000
 SUMMARY:Northern Highlands Regional High School vs Notre Dame High School
   (West Haven) (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7667870@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T163000
+DTEND;TZID=America/New_York:20261215T183000
+SUMMARY:Ramapo High School vs Pascack Valley High School (Junior Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7635038@big-north-conference
@@ -860,6 +878,15 @@ SUMMARY:Ramapo High School at Princeton High School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2533:7667894@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T163000
+DTEND;TZID=America/New_York:20270112T183000
+SUMMARY:Bergen Catholic High School at Ramapo High School (Junior Varsity
+  Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7602668@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T164500
@@ -949,6 +976,15 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7590411@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T170000
+DTEND;TZID=America/New_York:20270117T190000
+SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7652727@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270117T183000
@@ -976,13 +1012,13 @@ SUMMARY:Northern Highlands Regional High School at Pascack Hills/Valley (
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7590411@big-north-conference
+UID:ds:2788:7515701@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Boys
-  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DTSTART;TZID=America/New_York:20270118T184500
+DTEND;TZID=America/New_York:20270118T204500
+SUMMARY:Paramus High School vs Ramapo High School (Varsity Boys Boys Ice 
+ Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7585217@big-north-conference
@@ -1001,42 +1037,6 @@ DTEND;TZID=America/New_York:20270118T223000
 SUMMARY:Pascack Hills High School at Northern Highlands Regional High Sch
  ool (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7515701@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Paramus High School vs Ramapo High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7590412@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Paramus High School vs Ramapo High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7515701@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Ramapo High School at Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7590412@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:Ramapo High School at Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7594583@big-north-conference
@@ -1121,10 +1121,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590407@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270124
-DTEND;VALUE=DATE:20270125
+DTSTART;TZID=America/New_York:20270124T194500
+DTEND;TZID=America/New_York:20270124T214500
 SUMMARY:Ramapo High School vs TBD (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7651618@big-north-conference
@@ -1172,6 +1172,15 @@ SUMMARY:Wayne Hills High School vs Montclair High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7667951@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T163000
+DTEND;TZID=America/New_York:20270126T183000
+SUMMARY:Ramapo High School vs West Essex High School (Junior Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7604505@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
@@ -1199,6 +1208,15 @@ SUMMARY:Wayne Hills High School vs Newton High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:40 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7590408@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T190000
+DTEND;TZID=America/New_York:20270129T210000
+SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Boys Ice 
+ Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7652313@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T201500
@@ -1206,42 +1224,6 @@ DTEND;TZID=America/New_York:20270129T221500
 SUMMARY:Fair Lawn High School at River Dell Regional High School (Varsity
   Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7515707@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7590408@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Paramus High School at Ramapo High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7515707@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Ramapo High School vs Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7590408@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270130
-SUMMARY:Ramapo High School vs Paramus High School (Varsity Boys Boys Ice 
- Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7598595@big-north-conference
@@ -1331,5 +1313,14 @@ DTEND;TZID=America/New_York:20270208T170500
 SUMMARY:Northern Highlands Regional High School at Gloucester Catholic Hi
  gh School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7667996@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T201500
+DTEND;TZID=America/New_York:20270209T221500
+SUMMARY:Ramapo High School at Pascack Valley High School (Junior Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 END:VCALENDAR

@@ -70,11 +70,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7590411@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
+DTSTART;TZID=America/New_York:20270117T170000
+DTEND;TZID=America/New_York:20270117T190000
 SUMMARY:West Milford High School vs Ramapo High School (Varsity Coed Coed
   Ice Hockey)
-DESCRIPTION:Varsity Coed Coed Ice Hockey - Home
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7515702@big-north-conference
