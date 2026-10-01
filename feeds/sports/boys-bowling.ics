@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2890:7667211@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T085600
+DTEND;TZID=America/New_York:20261130T105600
+SUMMARY:Tenafly High School vs Northern Valley Regional High (Varsity Boy
+ s Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 8:56 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7666297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T161500
@@ -39,6 +48,15 @@ DTEND;TZID=America/New_York:20261203T173000
 SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Boys B
  oys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7667265@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T160000
+DTEND;TZID=America/New_York:20261203T180000
+SUMMARY:Teaneck High School vs Northern Valley Regional High (Varsity Boy
+ s Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7658671@big-north-conference

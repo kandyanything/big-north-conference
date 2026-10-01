@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2771:7667211@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T085600
+DTEND;TZID=America/New_York:20261130T105600
+SUMMARY:Northern Valley Regional HS - Demarest at Tenafly High School (Va
+ rsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 8:56 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7666185@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261130T160000
@@ -50,6 +59,15 @@ SUMMARY:Pascack Valley High School at Paramus High School (Varsity Coed C
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7667265@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T160000
+DTEND;TZID=America/New_York:20261203T180000
+SUMMARY:Northern Valley Regional HS - Demarest at Teaneck High School (Va
+ rsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7666643@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T153000
@@ -75,6 +93,24 @@ DTEND;TZID=America/New_York:20261209T180000
 SUMMARY:Ridgefield Park High School at Fort Lee High School (Varsity Coed
   Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7667305@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Northern Valley Regional HS - Demarest at Pascack Valley High Sch
+ ool (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7667305@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7658697@big-north-conference
