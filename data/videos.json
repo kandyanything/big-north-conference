@@ -1,47 +1,425 @@
 {
-  "_comment": "BNC Vision. Only entries in 'videos' are rendered. 'id' is the YouTube video id - the part after youtube.com/watch?v= , /live/ or /embed/ . The first video runs large as the feature; the rest fill the grid beneath it (homepage shows up to 7 = 1 feature + 6 grid; videos.html shows all). Optional 'thumb' picks the preview image: omit it for the uploader's graphic, or use 'hq1'/'hq2'/'hq3' for an auto-captured frame, or a full image URL. Order here is the order shown.",
+  "_comment": "Big North Vision. NFHS Network broadcasts of member schools, newest first. No \"thumb\" is stored: the renderer derives the broadcast frame from the game id (social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was checked to have one. Rebuild with scripts/build-nfhs-videos.js.",
   "videos": [
     {
-      "id": "1FSDgoTQhFE",
-      "title": "Football: DePaul vs Red Bank Catholic",
-      "date": "2026-08-24",
-      "sport": "Football"
+      "url": "https://www.nfhsnetwork.com/events/cliffside-park-high-school-cliffside-park-nj/gam0f4de2b0dc",
+      "source": "nfhs",
+      "title": "Tenafly vs. Cliffside Park",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
     },
     {
-      "id": "RCrou1dHvIM",
-      "title": "Bergen County Girls Basketball Final: Ramapo vs Demarest",
-      "date": "2026-02-22",
-      "sport": "Girls Basketball"
+      "url": "https://www.nfhsnetwork.com/events/lakeland-regional-high-school-wanaque-nj/game72ef0b69a",
+      "source": "nfhs",
+      "title": "DePaul Catholic vs. Lakeland Reg.",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
     },
     {
-      "id": "inAGATMenrk",
-      "title": "Boys Ice Hockey: Paramus/Mahwah/Lyndhurst vs Parsippany",
-      "date": "2026-02-08",
-      "sport": "Ice Hockey"
+      "url": "https://www.nfhsnetwork.com/events/depaul-catholic-high-school-wayne-nj/gam034d4f14c3",
+      "source": "nfhs",
+      "title": "West Milford vs. DePaul Catholic",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
     },
     {
-      "id": "njjsQ75D7Ow",
-      "title": "Football: Westwood vs Caldwell",
-      "date": "2025-09-20",
-      "sport": "Football"
+      "url": "https://www.nfhsnetwork.com/events/dumont-high-school-dumont-nj/gam9d941c46f1",
+      "source": "nfhs",
+      "title": "Mahwah vs. Dumont",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Girls Volleyball"
     },
     {
-      "id": "kFlcbAaZCes",
-      "title": "Boys Ice Hockey: Clifton vs Morris Knolls/Morris Hills",
-      "date": "2026-02-25",
-      "sport": "Ice Hockey"
+      "url": "https://www.nfhsnetwork.com/events/dumont-high-school-dumont-nj/gama7f8dd4ca5",
+      "source": "nfhs",
+      "title": "Mahwah vs. Dumont",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
     },
     {
-      "id": "EkOURUPM3TA",
-      "title": "NJSIAA Girls Basketball Semifinal: Pingry vs Immaculate Heart",
-      "date": "2026-03-06",
-      "sport": "Girls Basketball"
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gam479b8bb982",
+      "source": "nfhs",
+      "title": "Eastside vs. Fair Lawn",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
     },
     {
-      "id": "TjLkqe3FGu4",
-      "title": "Bergen County Field Hockey Final: Ramsey vs Northern Highlands",
-      "date": "2025-10-26",
-      "sport": "Field Hockey"
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gamae86985a7f",
+      "source": "nfhs",
+      "title": "Waldwick vs. Fair Lawn",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/montclair-high-school-montclair-nj/gam2b439bfaae",
+      "source": "nfhs",
+      "title": "Lakeland Reg. vs. Montclair",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/northern-highlands-high-school-allendale-nj/gamfa0760ce56",
+      "source": "nfhs",
+      "title": "Bergen Catholic vs. N. Highlands",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gam3393826abf",
+      "source": "nfhs",
+      "title": "Pascack Valley vs. Ridgewood",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-milford-high-school-west-milford-nj/gamdaae5576a3",
+      "source": "nfhs",
+      "title": "Pascack Valley vs. West Milford",
+      "date": "2026-10-01",
+      "sport": "Freshman Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramapo-high-school-franklin-lakes-nj/gam06790e9571",
+      "source": "nfhs",
+      "title": "PCT vs. Ramapo",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramapo-high-school-franklin-lakes-nj/gam009d782ce8",
+      "source": "nfhs",
+      "title": "Imm. Heart vs. Ramapo",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gamebdc85cbf8",
+      "source": "nfhs",
+      "title": "Midland Park vs. River Dell",
+      "date": "2026-10-01",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gamf9e86fc16a",
+      "source": "nfhs",
+      "title": "Midland Park vs. River Dell",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/game2e9b9e013",
+      "source": "nfhs",
+      "title": "Bergenfield vs. River Dell",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hasbrouck-heights-high-school-hasbrouck-heights-nj/gamb92047c274",
+      "source": "nfhs",
+      "title": "Tenafly vs. Hasbrouck Hts.",
+      "date": "2026-10-01",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramapo-high-school-franklin-lakes-nj/gamd33542a85d",
+      "source": "nfhs",
+      "title": "Bergenfield vs. Ramapo",
+      "date": "2026-09-30",
+      "sport": "Varsity Boys Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/dumont-high-school-dumont-nj/gam0f82d764e5",
+      "source": "nfhs",
+      "title": "Paramus vs. Dumont",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mahwah-high-school-mahwah-nj/gam1a94afa3c7",
+      "source": "nfhs",
+      "title": "Dwight Morrow vs. Mahwah",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramsey-high-school-ramsey-nj/gamf04e7967a7",
+      "source": "nfhs",
+      "title": "NV Old Tappan vs. Ramsey",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-milford-high-school-west-milford-nj/gamf9447b42fd",
+      "source": "nfhs",
+      "title": "Ramsey vs. West Milford",
+      "date": "2026-09-30",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam0a5c899474",
+      "source": "nfhs",
+      "title": "Dwight-E&#39;wood vs. River Dell",
+      "date": "2026-09-30",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gam443a062a28",
+      "source": "nfhs",
+      "title": "Bergen Catholic vs. Ridgewood",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/cliffside-park-high-school-cliffside-park-nj/gam7f63b6b418",
+      "source": "nfhs",
+      "title": "Fort Lee vs. Cliffside Park",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gam23c9b15c7a",
+      "source": "nfhs",
+      "title": "Clifton vs. Fair Lawn",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gam3fb8590ff0",
+      "source": "nfhs",
+      "title": "Clifton vs. Ridgewood",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gam4e7645d558",
+      "source": "nfhs",
+      "title": "Clifton vs. Ridgewood",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/lakeland-regional-high-school-wanaque-nj/gam74ed78f415",
+      "source": "nfhs",
+      "title": "Clifton vs. Lakeland Reg.",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-milford-high-school-west-milford-nj/gam15d21c70ae",
+      "source": "nfhs",
+      "title": "DePaul Catholic vs. West Milford",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/eastside-high-school-paterson-nj/gamde00fa39db",
+      "source": "nfhs",
+      "title": "DePaul Catholic vs. Eastside",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/depaul-catholic-high-school-wayne-nj/gam05cc6e1cc8",
+      "source": "nfhs",
+      "title": "River Dell vs. DePaul Catholic",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/dumont-high-school-dumont-nj/gam390920d7a3",
+      "source": "nfhs",
+      "title": "Paramus vs. Dumont",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/dumont-high-school-dumont-nj/gam91535e1902",
+      "source": "nfhs",
+      "title": "Ramsey vs. Dumont",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gam968b1fb617",
+      "source": "nfhs",
+      "title": "Dwight Morrow vs. Fair Lawn",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/eastside-high-school-paterson-nj/gama65db3a4ba",
+      "source": "nfhs",
+      "title": "CAPS Paterson vs. Eastside",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gam72231b956e",
+      "source": "nfhs",
+      "title": "Clifton vs. Fair Lawn",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gamcc3bbd72b5",
+      "source": "nfhs",
+      "title": "Norther Valley vs. Fair Lawn",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramapo-high-school-franklin-lakes-nj/gam9f57ddfd1d",
+      "source": "nfhs",
+      "title": "Imm. Heart vs. Ramapo",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/lakeland-regional-high-school-wanaque-nj/gam617d3f046a",
+      "source": "nfhs",
+      "title": "Boonton vs. Lakeland Reg.",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramapo-high-school-franklin-lakes-nj/gamd7c7537499",
+      "source": "nfhs",
+      "title": "Mahwah vs. Ramapo",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gam10ac7e7837",
+      "source": "nfhs",
+      "title": "N. Highlands vs. Ridgewood",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam939c8fb2b7",
+      "source": "nfhs",
+      "title": "NV Demarest vs. River Dell",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/east-side-high-school-newark-nj/gam7199d68a67",
+      "source": "nfhs",
+      "title": "NV Demarest vs. East Side",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gamb6a055798f",
+      "source": "nfhs",
+      "title": "NV Old Tappan vs. River Dell",
+      "date": "2026-09-29",
+      "sport": "Freshman Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gam42988808bd",
+      "source": "nfhs",
+      "title": "Paramus vs. Fair Lawn",
+      "date": "2026-09-29",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-milford-high-school-west-milford-nj/gam9d31f0bf41",
+      "source": "nfhs",
+      "title": "Ramsey vs. West Milford",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam356525421e",
+      "source": "nfhs",
+      "title": "NV Demarest vs. River Dell",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/game2ee5f5002",
+      "source": "nfhs",
+      "title": "Dwight-E&#39;wood vs. River Dell",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam75241bfe12",
+      "source": "nfhs",
+      "title": "Teaneck vs. River Dell",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam81017b1a9d",
+      "source": "nfhs",
+      "title": "Tenafly vs. River Dell",
+      "date": "2026-09-29",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/west-milford-high-school-west-milford-nj/gam595906a766",
+      "source": "nfhs",
+      "title": "Away vs. West Milford",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/eastside-high-school-paterson-nj/gamca4fe85205",
+      "source": "nfhs",
+      "title": "Union City vs. Eastside",
+      "date": "2026-09-28",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gamddd7ec7038",
+      "source": "nfhs",
+      "title": "Snyder vs. Fair Lawn",
+      "date": "2026-09-28",
+      "sport": "Junior Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gamd5bae8907c",
+      "source": "nfhs",
+      "title": "Fair Lawn vs. Ridgewood",
+      "date": "2026-09-28",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/lakeland-regional-high-school-wanaque-nj/gamaed155e5bb",
+      "source": "nfhs",
+      "title": "Passaic Valley vs. Lakeland Reg.",
+      "date": "2026-09-28",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam4be3540074",
+      "source": "nfhs",
+      "title": "PCT vs. River Dell",
+      "date": "2026-09-28",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/river-dell-high-school-oradell-nj/gam5eaf6ce035",
+      "source": "nfhs",
+      "title": "Teaneck vs. River Dell",
+      "date": "2026-09-28",
+      "sport": "Freshman Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ridgewood-high-school-ridgewood-nj/gam6d6df32b5f",
+      "source": "nfhs",
+      "title": "Fair Lawn vs. Ridgewood",
+      "date": "2026-09-26",
+      "sport": "Junior Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/fair-lawn-high-school-fair-lawn-nj/gam0a43d797c4",
+      "source": "nfhs",
+      "title": "Hawthorne vs. Fair Lawn",
+      "date": "2026-09-26",
+      "sport": "Freshman Boys Football"
     }
   ]
 }

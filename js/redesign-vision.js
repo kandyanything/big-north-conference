@@ -1,9 +1,7 @@
-// BNC Vision (redesign): the first video runs large as a feature, the rest
-// sit in a grid beneath it.
-//
-// Tiles are thumbnails rather than embedded players - ten iframes would load
-// the YouTube player ten times on first paint. Clicking a tile swaps that one
-// tile for a real autoplaying iframe, so video plays inline on the page.
+// Big North Vision: feature video + grid of game clips.
+// YouTube entries: provide 'id' (the watch?v= part) — embeds inline on click.
+// NFHS Network entries: provide 'url' and set source:'nfhs' — opens NFHS in
+//   a new tab on click (NFHS blocks iframes on third-party sites).
 document.addEventListener('DOMContentLoaded', function () {
     var section = document.querySelector('.njac-vision');
     if (!section) return;
@@ -15,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/videos.json')
         .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
         .then(function (data) {
-            var videos = (data.videos || []).filter(function (v) { return v && v.id; });
+            // An NFHS entry has a url and NO youtube id. Filtering on v.id alone
+            // silently drops every one of them, which hides the whole section.
+            var videos = (data.videos || []).filter(function (v) { return v && (v.id || v.url); });
             if (!videos.length) { section.style.display = 'none'; return; }
 
-            // data-limit caps how many appear here; the rest live on the all-videos
-            // page, so newer games push older ones off the front without any edit.
             var limit = parseInt(section.dataset.limit, 10);
             var shown = limit > 0 ? videos.slice(0, limit) : videos;
 
@@ -31,39 +29,43 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () { section.style.display = 'none'; });
 
-    // NFHS Network publishes a real frame from the game itself, derivable from
-    // the game id in the event url. These entries are {url, source:'nfhs'} with
-    // no YouTube id, so the template was building i.ytimg.com/vi/undefined/.
-    function nfhsThumb(url) {
-        var m = String(url || '').match(new RegExp('/(gam[a-z0-9]+)(?:[/?#]|$)', 'i'));
-        return m ? 'https://social.nfhsnetwork.com/thumbnails/' + m[1] + '_nfhs_net.jpg' : '';
-    }
-
     function thumbUrl(v, big) {
         if (v.thumb && /^https?:\/\//i.test(v.thumb)) return v.thumb;
-        if (!v.id && v.url) return nfhsThumb(v.url);
-        if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
-        return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
+        if (v.id && !v.url) {
+            if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
+            return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
+        }
+        // NFHS publishes a real frame from the broadcast, named after the game id.
+        if (v.url) {
+            var m = v.url.match(/\/(gam[a-z0-9]+)(?:[\/?#]|$)/i);
+            if (m) return 'https://social.nfhsnetwork.com/thumbnails/' + m[1] + '_nfhs_net.jpg';
+        }
+        return '';
     }
 
     function buildTile(v, big) {
+        var isExternal = !v.id && v.url;
+
         var tile = document.createElement('article');
         tile.className = 'vision-item' + (big ? ' vision-item--feature' : '');
 
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'vision-thumb';
-        btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'BNC game'));
+        btn.setAttribute('aria-label', (isExternal ? 'Watch video: ' : 'Play video: ') + (v.title || 'Big North game'));
 
         var img = document.createElement('img');
         img.src = thumbUrl(v, big);
-        img.alt = v.title || 'BNC game video';
+        img.alt = v.title || 'Big North game video';
         img.loading = big ? 'eager' : 'lazy';
-        img.onerror = function () {
-            // maxresdefault is not generated for every upload
-            this.onerror = null;
-            this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
-        };
+        // maxresdefault is not generated for every YouTube upload. This fallback
+        // must NOT run for NFHS entries or it rewrites a good frame to vi/undefined/.
+        if (v.id && !v.url) {
+            img.onerror = function () {
+                this.onerror = null;
+                this.src = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
+            };
+        }
         btn.appendChild(img);
 
         var play = document.createElement('span');
@@ -71,29 +73,42 @@ document.addEventListener('DOMContentLoaded', function () {
         play.setAttribute('aria-hidden', 'true');
         btn.appendChild(play);
 
+        if (isExternal) {
+            var badge = document.createElement('span');
+            badge.className = 'vision-source-badge';
+            badge.setAttribute('aria-hidden', 'true');
+            badge.textContent = (v.source === 'nfhs' || v.type === 'nfhs') ? 'NFHS Network' : 'Watch';
+            btn.appendChild(badge);
+        }
+
         btn.addEventListener('click', function () {
-            // An NFHS broadcast cannot be embedded the way a YouTube video can,
-            // so send the viewer to the game rather than to a frame that never loads.
-            if (!v.id && v.url) { window.open(v.url, '_blank', 'noopener'); return; }
-            var frame = document.createElement('iframe');
-            frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
-            frame.title = v.title || 'BNC game video';
-            frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-            frame.referrerPolicy = 'strict-origin-when-cross-origin';
-            frame.allowFullscreen = true;
-            frame.setAttribute('frameborder', '0');
-            btn.replaceWith(frame);
+            if (isExternal) {
+                // An NFHS broadcast cannot be framed on a third-party site, so send
+                // the viewer to the game rather than to an iframe that never loads.
+                window.open(v.url, '_blank', 'noopener,noreferrer');
+            } else {
+                var frame = document.createElement('iframe');
+                frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
+                frame.title = v.title || 'Big North game video';
+                frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+                frame.referrerPolicy = 'strict-origin-when-cross-origin';
+                frame.allowFullscreen = true;
+                frame.setAttribute('frameborder', '0');
+                btn.replaceWith(frame);
+            }
         });
 
         var meta = document.createElement('div');
         meta.className = 'vision-meta';
         var h3 = document.createElement('h3');
-        h3.textContent = v.title || 'BNC game';
+        h3.textContent = v.title || 'Big North game';
         meta.appendChild(h3);
-        if (v.sport || v.date) {
+        if (v.sport || v.date || isExternal) {
             var p = document.createElement('p');
             p.className = 'vision-sub';
-            p.textContent = [v.sport, formatDate(v.date)].filter(Boolean).join(' · ');
+            var parts = [v.sport, formatDate(v.date)].filter(Boolean);
+            if (isExternal) parts.push('Opens on NFHS Network ↗');
+            p.textContent = parts.join(' · ');
             meta.appendChild(p);
         }
 

@@ -971,3 +971,33 @@
     .njac-social .social-panel--grid { grid-template-columns: 1fr; }
     .njac-social .social-feed { padding: 10px; }
 }
+
+/* NFHS Network badge overlaid on a broadcast thumbnail. Marks the tiles that
+   leave the site, since an NFHS broadcast cannot be framed here. */
+.vision-source-badge {
+    position: absolute; bottom: 10px; left: 10px;
+    background: rgba(0,0,0,.72); color: #fff;
+    font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+    padding: 3px 8px; border-radius: 3px; pointer-events: none;
+    text-transform: uppercase;
+}
+
+/* Fallback panel when a broadcast has no frame yet. */
+.vision-thumb--nfhs {
+    background: #0b1929;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.vision-thumb--nfhs::before {
+    content: 'NFHS Network';
+    color: rgba(195,201,209,.55);
+    font-size: .8rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
