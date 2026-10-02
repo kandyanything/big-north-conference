@@ -23,73 +23,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2788:7666612@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T153000
-DTEND;TZID=America/New_York:20261203T173000
-SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Boys B
- oys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7666643@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T153000
-DTEND;TZID=America/New_York:20261208T173000
-SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Boy
- s Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7666700@big-north-conference
+UID:ds:2888:7666700@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Paramus High School at Teaneck High School (Varsity Boys Boys Bow
+SUMMARY:Teaneck High School vs Paramus High School (Varsity Boys Boys Bow
+ ling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2890:7666708@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T160000
+DTEND;TZID=America/New_York:20261216T180000
+SUMMARY:Tenafly High School at Paramus High School (Varsity Boys Boys Bow
  ling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7666708@big-north-conference
+UID:ds:2787:7672485@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T160000
-DTEND;TZID=America/New_York:20261216T180000
-SUMMARY:Paramus High School vs Tenafly High School (Varsity Boys Boys Bow
- ling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7666740@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Paramus High School vs TBA NJ (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7666784@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Paramus High School vs TBA NJ (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7668303@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T161500
-DTEND;TZID=America/New_York:20270113T181500
-SUMMARY:Paramus High School at Dumont High School (Varsity Boys Boys Bowl
- ing)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7669362@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T160000
-DTEND;TZID=America/New_York:20270127T180000
-SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Boy
- s Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Paramus Catholic High School at Paramus High School (Varsity Boys
+  Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
