@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:32754:7670808@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T161500
+DTEND;TZID=America/New_York:20261203T181500
+SUMMARY:Bergen County Technical High School vs Passaic High School (Varsi
+ ty Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7665060@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -39,5 +48,14 @@ DTSTART;TZID=America/New_York:20261221T153000
 DTEND;TZID=America/New_York:20261221T173000
 SUMMARY:Passaic High School at Don Bosco Prep (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7670584@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T161500
+DTEND;TZID=America/New_York:20270128T181500
+SUMMARY:Passaic High School at Passaic County Technical Institute (Varsit
+ y Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR
