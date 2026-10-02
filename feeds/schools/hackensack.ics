@@ -1211,15 +1211,6 @@ SUMMARY:Hackensack High School vs Paramus Catholic High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7555910@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Hackensack High School vs Ramapo High School (Varsity Girls Girls
-  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7557413@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1236,6 +1227,15 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Hackensack High School at Ramapo High School (Freshman Boys Boys 
  Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7555910@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Hackensack High School vs Ramapo High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7515408@big-north-conference
@@ -1526,15 +1526,6 @@ SUMMARY:Hackensack High School at Mahwah High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7555846@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T161500
-DTEND;TZID=America/New_York:20261016T181500
-SUMMARY:Hackensack High School vs River Dell Regional High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7557943@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T161500
@@ -1542,6 +1533,15 @@ DTEND;TZID=America/New_York:20261016T181500
 SUMMARY:Hackensack High School vs Mahwah High School (Varsity Girls Girls
   Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7555846@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Hackensack High School vs River Dell Regional High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7557947@big-north-conference
@@ -1616,13 +1616,13 @@ SUMMARY:Hackensack High School at Paramus Catholic High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7385364@big-north-conference
+UID:ds:2633:7514460@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
 DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Hackensack High School at Ridgewood High School (Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Hackensack High School at Ridgewood High School (Junior Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7514459@big-north-conference
@@ -1634,13 +1634,13 @@ SUMMARY:Hackensack High School at Ridgewood High School (Freshman Girls G
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7514460@big-north-conference
+UID:ds:2633:7385364@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T173000
 DTEND;TZID=America/New_York:20261020T193000
-SUMMARY:Hackensack High School at Ridgewood High School (Junior Varsity G
- irls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+SUMMARY:Hackensack High School at Ridgewood High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7385350@big-north-conference
@@ -2316,13 +2316,13 @@ SUMMARY:Hackensack High School at Wayne Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7672546@big-north-conference
+UID:ds:2633:7672546@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Wayne Valley High School vs Hackensack High School (Varsity Girls
+SUMMARY:Hackensack High School at Wayne Valley High School (Varsity Girls
   Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7525306@big-north-conference
@@ -2817,6 +2817,15 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Hackensack High School vs Passaic County Technical Institute (Var
  sity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7672534@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T160000
+DTEND;TZID=America/New_York:20270127T180000
+SUMMARY:Hackensack High School at Ramapo High School (Varsity Boys Boys B
+ owling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7592700@big-north-conference
