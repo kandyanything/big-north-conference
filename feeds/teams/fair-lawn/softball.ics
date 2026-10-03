@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:43369:7673160@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Academy of the Holy Angels at Fair Lawn High School (Varsity Girl
+ s Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7673161@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Academy of the Holy Angels at Fair Lawn High School (Junior Varsi
+ ty Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7535081@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T161500
