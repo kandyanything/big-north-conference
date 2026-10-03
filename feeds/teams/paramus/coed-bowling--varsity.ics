@@ -24,13 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2793:7666612@big-north-conference
+UID:ds:2788:7672439@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T160000
+DTEND;TZID=America/New_York:20261202T180000
+SUMMARY:Paramus High School at Northern Valley Regional High (Varsity Coe
+ d Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7666612@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T153000
 DTEND;TZID=America/New_York:20261203T173000
-SUMMARY:Pascack Valley High School at Paramus High School (Varsity Coed C
+SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Coed C
  oed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672684@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Paramus High School vs Teaneck High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7672706@big-north-conference
@@ -42,6 +60,50 @@ SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7672706@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Coe
+ d Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7666708@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T160000
+DTEND;TZID=America/New_York:20261216T180000
+SUMMARY:Paramus High School vs Tenafly High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7672557@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Dwight Morrow High School vs Paramus High School (Varsity Coed Co
+ ed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672598@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672485@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Paramus High School vs Paramus Catholic High School (Varsity Coed
+  Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2595:7668303@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T161500
@@ -51,12 +113,30 @@ SUMMARY:Dumont High School vs Paramus High School (Varsity Coed Coed Bowl
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7672611@big-north-conference
+UID:ds:2788:7672529@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T150500
+DTEND;TZID=America/New_York:20270114T170500
+SUMMARY:Paramus High School at John F. Kennedy High School (Varsity Coed 
+ Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672611@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:Pascack Valley High School vs Paramus High School (Varsity Coed C
+SUMMARY:Paramus High School at Pascack Valley High School (Varsity Coed C
  oed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672625@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Coe
+ d Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -66,6 +146,33 @@ DTSTART;TZID=America/New_York:20270127T160000
 DTEND;TZID=America/New_York:20270127T180000
 SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
  rsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7669362@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T160000
+DTEND;TZID=America/New_York:20270127T180000
+SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Coe
+ d Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672637@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T160000
+DTEND;TZID=America/New_York:20270128T180000
+SUMMARY:Paramus High School vs Teaneck High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7672650@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T160000
+DTEND;TZID=America/New_York:20270203T180000
+SUMMARY:Paramus High School at Tenafly High School (Varsity Coed Coed Bow
+ ling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
