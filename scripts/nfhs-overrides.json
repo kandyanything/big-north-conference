@@ -1,0 +1,18 @@
+{
+  "_comment": "Schools whose NFHS Network slug cannot be derived from the name. The harvester matches strictly - every distinctive word of the school name must appear as a whole hyphen-separated word in the slug, and no slug may serve two schools - so it refuses rather than guessing, and what it refuses is listed here. Resolve each against the sitemap and pick by event-card count when two records compete. null means the school is genuinely not on NFHS Network.",
+  "conference": "Big North",
+  "overrides": {
+    "Don Bosco Prep": "don-bosco-preparatory-high-school-ramsey-nj",
+    "Hackensack High School": "hackensack-high-school-hackensack-nj",
+    "John F. Kennedy High School": "john-f-kennedy-educational-complex-high-school-paterson-nj",
+    "Northern Valley Regional HS - Demarest": "northern-valley-regional-high-school-demarest-nj",
+    "Northern Valley Regional HS - Old Tappan": "north-valley-regional-high-school-old-tappan-old-tappan-nj",
+    "Paramus High School": "paramus-high-school-paramus-nj",
+    "Passaic County Technical Institute": "passaic-county-tech-high-school-wayne-nj",
+    "Passaic High School": "passaic-high-school-passiac-nj",
+    "Ramsey High School": "ramsey-high-school-ramsey-nj",
+    "River Dell Regional High School": "river-dell-high-school-oradell-nj",
+    "Saint Joseph Regional High School": "st-joseph-regional-high-school-montvale-nj",
+    "Teaneck High School": "teaneck-high-school-teaneck-nj"
+  }
+}

@@ -34,46 +34,28 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const arg = (f, d) => process.argv.includes(f) ? process.argv[process.argv.indexOf(f) + 1] : d;
 const WEEKS = Number(arg('--weeks', 6));
 const MAX = Number(arg('--max', 24));
+const MAP_ONLY = process.argv.includes('--map-only');   // map schools to slugs, then stop
 
-/* Schools whose NFHS name genuinely differs from the conference's. */
-const OVERRIDE = {
-    /* Each of these was refused by the strict matcher and resolved against the
-       sitemap, picking by event-card count where two records competed. */
+/* Per-site configuration. The only thing that differs between conferences is
+   which school names NFHS files under a different slug, so that lives in
+   scripts/nfhs-overrides.json and this script is identical on every site.
 
-    // no slug found by the matcher, because NFHS names it "preparatory"
-    'Don Bosco Prep':                           'don-bosco-preparatory-high-school-ramsey-nj',
+     { "conference": "Big North",
+       "overrides": { "Don Bosco Prep": "don-bosco-preparatory-high-school-ramsey-nj",
+                      "Mater Dei High School": null } }
 
-    // "hackensack" also matches two charter/tech schools in the same town
-    'Hackensack High School':                   'hackensack-high-school-hackensack-nj',
-
-    // Big North's JFK is PATERSON. The Woodbridge JFK is a GMC school.
-    'John F. Kennedy High School':              'john-f-kennedy-educational-complex-high-school-paterson-nj',
-
-    // NFHS spells Old Tappan "north-valley" (not northern) and repeats the town
-    'Northern Valley Regional HS - Demarest':   'northern-valley-regional-high-school-demarest-nj',
-    'Northern Valley Regional HS - Old Tappan': 'north-valley-regional-high-school-old-tappan-old-tappan-nj',
-
-    // "paramus" also matches Paramus Catholic, Bergen Tech and Frisch
-    'Paramus High School':                      'paramus-high-school-paramus-nj',
-
-    // PCTI is in WAYNE, and NFHS files it under the short name
-    'Passaic County Technical Institute':       'passaic-county-tech-high-school-wayne-nj',
-
-    // NFHS misspells the town as "passiac"
-    'Passaic High School':                      'passaic-high-school-passiac-nj',
-
-    // "ramsey" also matches Don Bosco Prep, which is in Ramsey
-    'Ramsey High School':                       'ramsey-high-school-ramsey-nj',
-
-    // the district record has 1 event card, the school 20
-    'River Dell Regional High School':          'river-dell-high-school-oradell-nj',
-
-    // SJR is in Montvale; NFHS abbreviates Saint to St
-    'Saint Joseph Regional High School':        'st-joseph-regional-high-school-montvale-nj',
-
-    // "teaneck" also matches Community High School in Teaneck
-    'Teaneck High School':                      'teaneck-high-school-teaneck-nj',
-};
+   null means the school is genuinely not on NFHS Network, which is different
+   from being absent (absent = the strict matcher resolves it unaided). */
+const CFG_PATH = path.join(__dirname, 'nfhs-overrides.json');
+let CFG = { conference: '', overrides: {} };
+try {
+    CFG = JSON.parse(fs.readFileSync(CFG_PATH, 'utf8'));
+} catch (e) {
+    if (fs.existsSync(CFG_PATH)) { console.error('  nfhs-overrides.json is unreadable: ' + e.message); process.exit(1); }
+    console.log('  no scripts/nfhs-overrides.json - relying on the strict matcher alone');
+}
+const OVERRIDE = CFG.overrides || {};
+const CONF = CFG.conference || 'Conference';
 
 /* The level/gender/sport shown on an event card, e.g. "Varsity Girls Soccer".
    It sits between the end of the card anchor and the broadcast run time. Two
@@ -156,6 +138,7 @@ const words = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' '
     }
     console.log(`  mapped ${map.length}/${schools.length}`);
     unmapped.forEach(u => console.log(`    unmapped: ${u}`));
+    if (MAP_ONLY) return;
 
     /* ---- 3. harvest recent games ---- */
     const cutoff = new Date(Date.now() - WEEKS * 7 * 864e5);
@@ -200,10 +183,11 @@ const words = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' '
     console.log(`  ${kept.length} have an aired broadcast frame`);
 
     fs.writeFileSync(path.join(ROOT, 'data', 'videos.json'), JSON.stringify({
-        _comment: 'Big North Vision. NFHS Network broadcasts of member schools, newest first. '
+        _comment: CONF + ' Vision. NFHS Network broadcasts of member schools, newest first. '
             + 'No "thumb" is stored: the renderer derives the broadcast frame from the game id '
             + '(social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was '
             + 'checked to have one. Rebuild with scripts/build-nfhs-videos.js.',
+        generated: new Date().toISOString(),
         videos: kept,
     }, null, 2) + '\n', 'utf8');
     console.log(`  wrote data/videos.json`);
