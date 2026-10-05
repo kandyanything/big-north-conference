@@ -1278,15 +1278,6 @@ SUMMARY:Indian Hills High School vs Paramus High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7568637@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:DePaul Catholic High School vs Paramus High School (Freshman Girl
- s Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7407195@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
@@ -1294,6 +1285,15 @@ DTEND;TZID=America/New_York:20261001T181500
 SUMMARY:DePaul Catholic High School at Paramus High School (Varsity Girls
   Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7409856@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:DePaul Catholic High School at Paramus High School (Freshman Girl
+ s Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7409872@big-north-conference
@@ -1604,18 +1604,18 @@ UID:ds:2788:7410086@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Paramus High School at Teaneck High School (Varsity Girls Girls T
+SUMMARY:Paramus High School vs Teaneck High School (Varsity Girls Girls T
  ennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7410283@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Paramus High School vs Teaneck High School (Junior Varsity Girls 
+SUMMARY:Paramus High School at Teaneck High School (Junior Varsity Girls 
  Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7410270@big-north-conference
@@ -2312,6 +2312,15 @@ SUMMARY:Paramus High School at Nanuet School District (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7674192@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T203000
+DTEND;TZID=America/New_York:20261211T223000
+SUMMARY:Paramus High School at Ramsey High School (Varsity Boys Boys Ice 
+ Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7628851@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
@@ -2510,20 +2519,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515625@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
 SUMMARY:Paramus High School at West Milford High School (Varsity Boys Boy
  s Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7515625@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
 SUMMARY:West Milford High School vs Paramus High School (Varsity Coed Coe
  d Ice Hockey)
-DESCRIPTION:Varsity Coed Coed Ice Hockey - Home
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7442107@big-north-conference
@@ -2687,13 +2696,12 @@ SUMMARY:Paramus High School vs Fair Lawn High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7515636@big-north-conference
+UID:ds:2788:7674328@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:Paramus Catholic High School at Paramus High School (Varsity Boys
-  Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DTSTART;TZID=America/New_York:20261223T170000
+DTEND;TZID=America/New_York:20261223T190000
+SUMMARY:Paramus High School vs TBA NJ (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7508747@big-north-conference
@@ -2703,15 +2711,6 @@ DTEND;VALUE=DATE:20261224
 SUMMARY:Paramus High School at Bayonne High School (Varsity Boys Boys Wre
  stling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7515636@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:Paramus High School vs Paramus Catholic High School (Varsity Boys
-  Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7668505@big-north-conference
@@ -2741,12 +2740,12 @@ SUMMARY:Ridgewood High School vs Paramus High School (Varsity Boys Boys I
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7515676@big-north-conference
+UID:ds:2788:7674357@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20261229
-SUMMARY:Paramus High School vs TBD (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+DTSTART;TZID=America/New_York:20261228T203000
+DTEND;TZID=America/New_York:20261228T223000
+SUMMARY:Paramus High School vs TBA NJ (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7508771@big-north-conference

@@ -44,11 +44,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515625@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
 SUMMARY:Paramus High School at West Milford High School (Varsity Boys Boy
  s Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590402@big-north-conference
