@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7676491@big-north-conference
+UID:ds:2834:7676610@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T161500
+DTEND;TZID=America/New_York:20261201T181500
+SUMMARY:River Dell Regional High School at Ramsey High School (Varsity Co
+ ed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7676491@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T181500
-SUMMARY:River Dell Regional High School at Mahwah High School (Varsity Co
+SUMMARY:Mahwah High School vs River Dell Regional High School (Varsity Co
  ed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7676505@big-north-conference
@@ -69,6 +78,15 @@ SUMMARY:River Dell Regional High School at Hackensack High School (Varsit
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2834:7676625@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T161500
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Bowl
+ ing)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7675686@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
@@ -87,13 +105,13 @@ SUMMARY:River Dell Regional High School at Lakeland Regional High School
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7676544@big-north-conference
+UID:ds:2770:7676544@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T161500
 DTEND;TZID=America/New_York:20270115T181500
-SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
+SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
  gh School (Varsity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7676548@big-north-conference
@@ -105,13 +123,13 @@ SUMMARY:River Dell Regional High School at Ramsey High School (Varsity Co
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7676554@big-north-conference
+UID:ds:2706:7676554@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T161500
 DTEND;TZID=America/New_York:20270120T181500
-SUMMARY:River Dell Regional High School at Mahwah High School (Varsity Co
+SUMMARY:Mahwah High School vs River Dell Regional High School (Varsity Co
  ed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7676562@big-north-conference
@@ -123,13 +141,13 @@ SUMMARY:River Dell Regional High School at Paramus Catholic High School (
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7676569@big-north-conference
+UID:ds:2792:7676569@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T161500
 DTEND;TZID=America/New_York:20270127T181500
-SUMMARY:River Dell Regional High School at Pascack Hills High School (Var
+SUMMARY:Pascack Hills High School vs River Dell Regional High School (Var
  sity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7676573@big-north-conference

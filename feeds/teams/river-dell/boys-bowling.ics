@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2823:7676610@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T161500
+DTEND;TZID=America/New_York:20261201T181500
+SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Bo
+ ys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2926:7671570@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -33,12 +42,39 @@ SUMMARY:Wayne Valley High School vs River Dell Regional High School (Vars
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7676528@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T161500
+DTEND;TZID=America/New_York:20261216T181500
+SUMMARY:Hackensack High School vs River Dell Regional High School (Varsit
+ y Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7676539@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T161500
+DTEND;TZID=America/New_York:20270113T181500
+SUMMARY:Lakeland Regional High School vs River Dell Regional High School 
+ (Varsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2823:7676548@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
 SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Bo
  ys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7676562@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T161500
+DTEND;TZID=America/New_York:20270122T181500
+SUMMARY:Paramus Catholic High School vs River Dell Regional High School (
+ Varsity Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR
