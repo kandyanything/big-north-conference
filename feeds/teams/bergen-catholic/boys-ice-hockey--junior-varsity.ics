@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2533:7673568@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Bergen Catholic High School at Saint Peters Prep (Junior Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7668606@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T193000
@@ -33,6 +42,33 @@ SUMMARY:Bergen Catholic High School at Seton Hall Prep School (Junior Var
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2533:7673575@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T181500
+DTEND;TZID=America/New_York:20261219T201500
+SUMMARY:Bergen Catholic High School at Don Bosco Prep (Junior Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673578@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T173000
+DTEND;TZID=America/New_York:20261222T193000
+SUMMARY:Bergen Catholic High School at Iona Preparatory School (Junior Va
+ rsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673581@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T150000
+DTEND;TZID=America/New_York:20270107T170000
+SUMMARY:Bergen Catholic High School vs Saint Peters Prep (Junior Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7667894@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
@@ -40,5 +76,41 @@ DTEND;TZID=America/New_York:20270112T183000
 SUMMARY:Bergen Catholic High School at Ramapo High School (Junior Varsity
   Boys Boys Ice Hockey)
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673590@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T164500
+DTEND;TZID=America/New_York:20270117T184500
+SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School 
+ (Junior Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673598@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T150000
+DTEND;TZID=America/New_York:20270125T170000
+SUMMARY:Bergen Catholic High School vs Westfield High School (Junior Vars
+ ity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673599@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T151500
+DTEND;TZID=America/New_York:20270128T171500
+SUMMARY:Bergen Catholic High School vs Seton Hall Prep School (Junior Var
+ sity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673602@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T164500
+DTEND;TZID=America/New_York:20270201T184500
+SUMMARY:Bergen Catholic High School at Westfield High School (Junior Vars
+ ity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:45 PM
 END:VEVENT
 END:VCALENDAR
