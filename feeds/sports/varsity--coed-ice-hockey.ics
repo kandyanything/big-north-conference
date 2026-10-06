@@ -97,11 +97,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7515702@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
+DTSTART;TZID=America/New_York:20270122T180000
+DTEND;TZID=America/New_York:20270122T200000
 SUMMARY:West Milford High School at Paramus High School (Varsity Coed Coe
  d Ice Hockey)
-DESCRIPTION:Varsity Coed Coed Ice Hockey - Away
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7598595@big-north-conference
