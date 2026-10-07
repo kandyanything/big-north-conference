@@ -1717,15 +1717,6 @@ SUMMARY:Paramus High School vs West Side High School (Varsity Boys Footba
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7542730@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Paramus High School at New Milford High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7410088@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
@@ -1753,13 +1744,13 @@ SUMMARY:Paramus High School at Teaneck High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7409858@big-north-conference
+UID:ds:2788:7409858@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
 DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Teaneck High School vs Paramus High School (Freshman Girls Girls 
+SUMMARY:Paramus High School at Teaneck High School (Freshman Girls Girls 
  Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7407200@big-north-conference
@@ -1769,15 +1760,6 @@ DTEND;TZID=America/New_York:20261015T193000
 SUMMARY:Paramus High School at Teaneck High School (Varsity Girls Girls V
  olleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7409858@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Paramus High School at Teaneck High School (Freshman Girls Girls 
- Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7409843@big-north-conference
@@ -1939,6 +1921,15 @@ DTEND;TZID=America/New_York:20261022T181500
 SUMMARY:Paramus High School vs Tenafly High School (Junior Varsity Girls 
  Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2890:7407042@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:Tenafly High School vs Paramus High School (Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7409876@big-north-conference
@@ -2937,6 +2928,15 @@ SUMMARY:Paramus High School vs Paramus Catholic High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7659015@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T170000
+DTEND;TZID=America/New_York:20270106T190000
+SUMMARY:Paramus High School at Elizabeth High School (Varsity Girls Girls
+  Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7423344@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
@@ -3548,22 +3548,13 @@ SUMMARY:Paramus High School at Don Bosco Prep (Varsity Boys Boys Wrestlin
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7422859@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T161500
-DTEND;TZID=America/New_York:20270126T181500
-SUMMARY:Paramus High School vs Pascack Hills High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7422899@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T161500
-DTEND;TZID=America/New_York:20270126T181500
+DTSTART;TZID=America/New_York:20270126T160000
+DTEND;TZID=America/New_York:20270126T180000
 SUMMARY:Paramus High School vs Pascack Hills High School (Freshman Boys B
  oys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7423085@big-north-conference
@@ -3600,6 +3591,15 @@ DTEND;TZID=America/New_York:20270126T193000
 SUMMARY:Paramus High School at Pascack Hills High School (Junior Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7422859@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Paramus High School vs Pascack Hills High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7669362@big-north-conference

@@ -1636,20 +1636,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7681041@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T072400
-DTEND;TZID=America/New_York:20270127T092400
-SUMMARY:Paramus Catholic High School vs Saint Joseph Regional High School
-  (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 7:24 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:41410:7681041@big-north-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T150000
 DTEND;TZID=America/New_York:20270127T170000
-SUMMARY:Saint Joseph Regional High School at Paramus Catholic High School
+SUMMARY:Paramus Catholic High School vs Saint Joseph Regional High School
   (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:00 PM
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7681678@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T190000
+DTEND;TZID=America/New_York:20270127T210000
+SUMMARY:Paramus Catholic High School vs Big North Conference Regional (Va
+ rsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7670169@big-north-conference
@@ -1920,15 +1920,6 @@ DTEND;TZID=America/New_York:20270423T181500
 SUMMARY:Paramus Catholic High School at Passaic County Technical Institut
  e (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2787:7681501@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270423T161500
-DTEND;TZID=America/New_York:20270423T181500
-SUMMARY:Paramus Catholic High School at Passaic County Technical Institut
- e (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7648887@big-north-conference

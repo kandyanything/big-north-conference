@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2689:7682837@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270315T160000
+DTEND;TZID=America/New_York:20270315T180000
+SUMMARY:Lakeland Regional High School vs Pompton Lakes High School (Junio
+ r Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7682838@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270315T160000
+DTEND;TZID=America/New_York:20270315T180000
+SUMMARY:Lakeland Regional High School vs Pompton Lakes High School (Varsi
+ ty Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7528481@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
@@ -57,6 +75,15 @@ DTEND;TZID=America/New_York:20270409T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Lakeland Regional High 
  School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7682842@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T110000
+DTEND;TZID=America/New_York:20270417T130000
+SUMMARY:Lakeland Regional High School vs Pompton Lakes High School (Varsi
+ ty Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7572113@big-north-conference

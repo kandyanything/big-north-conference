@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2926:7682844@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T161500
+DTEND;TZID=America/New_York:20270317T181500
+SUMMARY:Wayne Valley High School at Roxbury High School (Varsity Boys Boy
+ s Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7682845@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T174500
+DTEND;TZID=America/New_York:20270317T194500
+SUMMARY:Wayne Valley High School vs TBD (Junior Varsity Boys Boys Lacross
+ e)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2926:7613769@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270323T161500
@@ -30,6 +48,15 @@ DTEND;TZID=America/New_York:20270323T181500
 SUMMARY:Wayne Valley High School vs Jefferson Township High School (Varsi
  ty Boys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7682881@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T174500
+DTEND;TZID=America/New_York:20270323T194500
+SUMMARY:Wayne Valley High School vs Jefferson Township High School (Junio
+ r Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7667056@big-north-conference
@@ -102,6 +129,15 @@ DTEND;TZID=America/New_York:20270501T150000
 SUMMARY:Northern Highlands Regional High School vs Wayne Valley High Scho
  ol (Junior Varsity Boys Boys Lacrosse)
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7626658@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T130000
+DTEND;TZID=America/New_York:20270501T150000
+SUMMARY:Wayne Valley High School at Northern Highlands Regional High Scho
+ ol (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7610130@big-north-conference
