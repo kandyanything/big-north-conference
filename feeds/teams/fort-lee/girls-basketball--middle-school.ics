@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2616:7681083@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T161500
+DTEND;TZID=America/New_York:20270120T181500
+SUMMARY:Fort Lee High School vs Harrison/Washington MS (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681085@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T161500
+DTEND;TZID=America/New_York:20270122T181500
+SUMMARY:Fort Lee High School vs Secaucus High School (Middle School Girls
+  Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7641915@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T163000
@@ -33,6 +51,42 @@ SUMMARY:Fort Lee High School at North Bergen High School (Middle School G
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2616:7681089@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T161500
+DTEND;TZID=America/New_York:20270201T181500
+SUMMARY:Fort Lee High School at Fairview Middle School (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681092@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T161500
+DTEND;TZID=America/New_York:20270203T181500
+SUMMARY:Fort Lee High School vs Kearny High School (Middle School Girls G
+ irls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681093@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T161500
+DTEND;TZID=America/New_York:20270205T181500
+SUMMARY:Fort Lee High School at Weehawken High School (Middle School Girl
+ s Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681095@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270208T161500
+DTEND;TZID=America/New_York:20270208T181500
+SUMMARY:Fort Lee High School at Hoboken High School (Middle School Girls 
+ Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7525013@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270210T170000
@@ -40,5 +94,23 @@ DTEND;TZID=America/New_York:20270210T190000
 SUMMARY:Cliffside Park High School vs Fort Lee High School (Middle School
   Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681096@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270212T161500
+DTEND;TZID=America/New_York:20270212T181500
+SUMMARY:Fort Lee High School at Harrison/Washington MS (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681097@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270219T161500
+DTEND;TZID=America/New_York:20270219T181500
+SUMMARY:Fort Lee High School at Secaucus High School (Middle School Girls
+  Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

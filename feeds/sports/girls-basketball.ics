@@ -554,15 +554,6 @@ SUMMARY:Cliffside Park High School at Leonia High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7651991@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
-SUMMARY:John F. Kennedy High School vs Weequahic High School (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7521260@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T173000
@@ -949,22 +940,22 @@ SUMMARY:Academy of the Holy Angels vs Passaic Charter (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7628745@big-north-conference
+UID:ds:2925:7628745@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T163000
 DTEND;TZID=America/New_York:20261215T183000
-SUMMARY:John F. Kennedy High School vs Wayne Hills High School (Varsity G
+SUMMARY:Wayne Hills High School at John F. Kennedy High School (Varsity G
  irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7628888@big-north-conference
+UID:ds:2925:7628888@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T163000
 DTEND;TZID=America/New_York:20261215T183000
-SUMMARY:John F. Kennedy High School vs Wayne Hills High School (Junior Va
+SUMMARY:Wayne Hills High School at John F. Kennedy High School (Junior Va
  rsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7540214@big-north-conference
@@ -1381,6 +1372,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at River Dell Regional H
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7623102@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:Paramus Catholic High School at Pascack Valley High School (Junio
+ r Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7593781@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
@@ -1480,6 +1480,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at River Dell Regional H
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7623059@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T113000
+DTEND;TZID=America/New_York:20261219T133000
+SUMMARY:Paramus Catholic High School at Pascack Valley High School (Varsi
+ ty Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7593782@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
@@ -1507,15 +1516,6 @@ SUMMARY:Fort Lee High School at Mahwah High School (Varsity Girls Girls B
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7525373@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T120000
-DTEND;TZID=America/New_York:20261219T140000
-SUMMARY:John F. Kennedy High School at Ridgewood High School (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7449752@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T120000
@@ -1540,6 +1540,15 @@ DTSTART;TZID=America/New_York:20261219T120000
 DTEND;TZID=America/New_York:20261219T140000
 SUMMARY:Ramapo High School vs Wayne Valley High School (Varsity Girls Gir
  ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7525373@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T120000
+DTEND;TZID=America/New_York:20261219T140000
+SUMMARY:Ridgewood High School vs John F. Kennedy High School (Varsity Gir
+ ls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1579,13 +1588,13 @@ SUMMARY:Tenafly High School vs Lyndhurst High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7525377@big-north-conference
+UID:ds:2833:7525377@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T133000
 DTEND;TZID=America/New_York:20261219T153000
-SUMMARY:John F. Kennedy High School at Ridgewood High School (Junior Vars
+SUMMARY:Ridgewood High School vs John F. Kennedy High School (Junior Vars
  ity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 1:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7435889@big-north-conference
@@ -4189,6 +4198,15 @@ SUMMARY:Bergenfield High School vs Thomas Jefferson Middle School (Middle
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2616:7681083@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T161500
+DTEND;TZID=America/New_York:20270120T181500
+SUMMARY:Fort Lee High School vs Harrison/Washington MS (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7531027@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -4429,6 +4447,15 @@ DTSTART;TZID=America/New_York:20270122T161500
 DTEND;TZID=America/New_York:20270122T181500
 SUMMARY:Bergenfield High School vs Benjamin Franklin Middle School (Middl
  e School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681085@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T161500
+DTEND;TZID=America/New_York:20270122T181500
+SUMMARY:Fort Lee High School vs Secaucus High School (Middle School Girls
+  Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -5070,6 +5097,15 @@ SUMMARY:Bergenfield High School vs Ridgefield Park High School (Middle Sc
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2616:7681089@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T161500
+DTEND;TZID=America/New_York:20270201T181500
+SUMMARY:Fort Lee High School at Fairview Middle School (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7516504@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270201T163000
@@ -5428,6 +5464,15 @@ DTEND;TZID=America/New_York:20270203T181500
 SUMMARY:Bergenfield High School at Palisades Park Jr High School (Middle 
  School Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681092@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T161500
+DTEND;TZID=America/New_York:20270203T181500
+SUMMARY:Fort Lee High School vs Kearny High School (Middle School Girls G
+ irls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7509399@big-north-conference
@@ -5826,6 +5871,15 @@ SUMMARY:Cliffside Park High School vs Secaucus High School (Middle School
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2616:7681093@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T161500
+DTEND;TZID=America/New_York:20270205T181500
+SUMMARY:Fort Lee High School at Weehawken High School (Middle School Girl
+ s Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7643602@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270205T163000
@@ -5923,6 +5977,15 @@ DTEND;TZID=America/New_York:20270208T181500
 SUMMARY:Cliffside Park High School vs Kearny High School (Middle School G
  irls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681095@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270208T161500
+DTEND;TZID=America/New_York:20270208T181500
+SUMMARY:Fort Lee High School at Hoboken High School (Middle School Girls 
+ Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7633836@big-north-conference
@@ -6546,6 +6609,15 @@ SUMMARY:Bergenfield High School vs Bogota Middle School (Middle School Gi
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2616:7681096@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270212T161500
+DTEND;TZID=America/New_York:20270212T181500
+SUMMARY:Fort Lee High School at Harrison/Washington MS (Middle School Gir
+ ls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7550941@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270212T171500
@@ -7156,6 +7228,15 @@ DTEND;TZID=America/New_York:20270219T180000
 SUMMARY:Cliffside Park High School at Ridgefield Memorial High School (Va
  rsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7681097@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270219T161500
+DTEND;TZID=America/New_York:20270219T181500
+SUMMARY:Fort Lee High School at Secaucus High School (Middle School Girls
+  Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7540466@big-north-conference

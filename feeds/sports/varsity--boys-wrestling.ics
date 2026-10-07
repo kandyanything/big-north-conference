@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2787:7681149@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T173000
+DTEND;TZID=America/New_York:20261207T193000
+SUMMARY:Paramus Catholic High School vs College Achieve Paterson Charter 
+ School (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7516231@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -355,13 +364,13 @@ SUMMARY:Bergenfield High School at Ridgefield Park High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7516779@big-north-conference
+UID:ds:2595:7516779@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
-SUMMARY:Fort Lee High School vs John F. Kennedy High School (Varsity Boys
-  Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+SUMMARY:Dumont High School at Fort Lee High School (Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7662983@big-north-conference
@@ -786,15 +795,6 @@ SUMMARY:Westwood Regional Senior High School vs New Milford High School (
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7671692@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270102T160000
-DTEND;TZID=America/New_York:20270102T180000
-SUMMARY:Paramus Catholic High School vs Pope John XXIII High School (Vars
- ity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7570308@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T183000
@@ -1205,6 +1205,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Tenafly High School (
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7681440@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T190000
+DTEND;TZID=America/New_York:20270113T210000
+SUMMARY:Paramus Catholic High School at Saint John Vianney High School (V
+ arsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2823:7459201@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T190000
@@ -1445,6 +1454,15 @@ DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
 SUMMARY:Fair Lawn High School vs Mahwah High School (Varsity Boys Boys Wr
  estling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7681514@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T190000
+DTEND;TZID=America/New_York:20270120T210000
+SUMMARY:Paramus Catholic High School vs Saint Joseph Regional High School
+  (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2131,6 +2149,15 @@ SUMMARY:Dumont High School vs Westwood Regional Senior High School (Varsi
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2533:7674085@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T150000
+DTEND;TZID=America/New_York:20270130T170000
+SUMMARY:Bergen Catholic High School at Paramus Catholic High School (Vars
+ ity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2585:7646204@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T180000
@@ -2138,15 +2165,6 @@ DTEND;TZID=America/New_York:20270130T200000
 SUMMARY:DePaul Catholic High School at Red Bank Catholic High School (Var
  sity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7674085@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270130T190000
-DTEND;TZID=America/New_York:20270130T210000
-SUMMARY:Bergen Catholic High School at Paramus Catholic High School (Vars
- ity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7648907@big-north-conference
@@ -2165,15 +2183,6 @@ DTEND;TZID=America/New_York:20270203T140000
 SUMMARY:River Dell Regional High School at TBA NJ (Varsity Boys Boys Wres
  tling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2595:7505963@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270203T173000
-DTEND;TZID=America/New_York:20270203T193000
-SUMMARY:Dumont High School at Fort Lee High School (Varsity Boys Boys Wre
- stling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7561854@big-north-conference
