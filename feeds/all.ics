@@ -56931,15 +56931,6 @@ SUMMARY:Bergenfield High School vs Paramus Catholic High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7683677@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T173000
-DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:Bergenfield High School vs Paramus Catholic High School (Junior V
- arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7476063@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
@@ -57192,13 +57183,13 @@ SUMMARY:Wayne Valley High School vs Hanover Park High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7683936@big-north-conference
+UID:ds:2534:7683936@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173900
 DTEND;TZID=America/New_York:20261222T193900
-SUMMARY:Paramus Catholic High School vs Bergenfield High School (Junior V
+SUMMARY:Bergenfield High School at Paramus Catholic High School (Junior V
  arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:39 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:39 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7569663@big-north-conference
@@ -59890,6 +59881,15 @@ DTEND;TZID=America/New_York:20270106T203000
 SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Boy
  s Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7683993@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T190000
+DTEND;TZID=America/New_York:20270106T210000
+SUMMARY:Fair Lawn High School at Mahwah High School (Varsity Girls Girls 
+ Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7505946@big-north-conference
@@ -67669,6 +67669,24 @@ SUMMARY:Lakeland Regional High School vs Wallkill Valley Regional High Sc
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7683953@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Northern Valley Regional HS - Demarest at Paramus Catholic High S
+ chool (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7683953@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Paramus Catholic High School vs Northern Valley Regional High (Ju
+ nior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2792:7655385@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T100000
@@ -68306,15 +68324,6 @@ SUMMARY:Bergen Catholic High School at Gloucester Catholic High School (V
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7683831@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T053000
-DTEND;TZID=America/New_York:20270126T073000
-SUMMARY:Dumont High School at Paramus Catholic High School (Junior Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7676640@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T143600
@@ -68872,6 +68881,15 @@ SUMMARY:Clifton High School at DePaul Catholic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2595:7683831@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Dumont High School at Paramus Catholic High School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7593773@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
@@ -69104,6 +69122,15 @@ DTEND;TZID=America/New_York:20270126T210000
 SUMMARY:Clifton High School at DePaul Catholic High School (Varsity Boys 
  Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2595:7683962@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Dumont High School at Paramus Catholic High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7638355@big-north-conference
@@ -69655,7 +69682,7 @@ SUMMARY:Mahwah High School vs Ramsey High School (Varsity Boys Boys Wrest
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7674815@big-north-conference
+UID:ds:2770:7683943@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T190000
 DTEND;TZID=America/New_York:20270127T210000
@@ -71903,15 +71930,6 @@ SUMMARY:Cliffside Park High School at Indian Hills High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7683853@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T053000
-DTEND;TZID=America/New_York:20270204T073000
-SUMMARY:Academy of the Holy Angels at Paramus Catholic High School (Junio
- r Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7658343@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T160000
@@ -72295,6 +72313,15 @@ DTSTART;TZID=America/New_York:20270204T173000
 DTEND;TZID=America/New_York:20270204T193000
 SUMMARY:Mahwah High School at TBD (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7683853@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T173000
+DTEND;TZID=America/New_York:20270204T193000
+SUMMARY:Academy of the Holy Angels at Paramus Catholic High School (Junio
+ r Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7517092@big-north-conference
@@ -72756,15 +72783,6 @@ SUMMARY:Ramsey High School vs Pope John XXIII High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7683634@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T060000
-DTEND;TZID=America/New_York:20270205T080000
-SUMMARY:Paramus Catholic High School at Hudson Catholic High School (Vars
- ity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2834:7595212@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270205T120000
@@ -72943,6 +72961,15 @@ DTEND;TZID=America/New_York:20270205T200000
 SUMMARY:Northern Valley Regional HS - Demarest vs Cresskill High School (
  Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7683634@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T180000
+DTEND;TZID=America/New_York:20270205T200000
+SUMMARY:Paramus Catholic High School at Hudson Catholic High School (Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7677577@big-north-conference
