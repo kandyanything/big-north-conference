@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2787:7683430@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T113000
-DTEND;TZID=America/New_York:20261019T133000
-SUMMARY:Paramus Catholic High School at Pascack Valley High School (Varsi
- ty Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2793:7648235@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T163000
@@ -536,6 +527,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramsey High School (V
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7683339@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Paramus Catholic High School at West Milford High School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7542549@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
@@ -569,15 +569,6 @@ DTSTART;TZID=America/New_York:20261212T110000
 DTEND;TZID=America/New_York:20261212T130000
 SUMMARY:DePaul Catholic High School at Marlboro High School (Varsity Girl
  s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2787:7683339@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T110000
-DTEND;TZID=America/New_York:20261212T130000
-SUMMARY:Paramus Catholic High School at West Milford High School (Varsity
-  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -1426,6 +1417,15 @@ SUMMARY:Hackensack High School at Ramapo High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2669:7683665@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:Immaculate Heart Academy vs Paramus Catholic High School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7648958@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
@@ -1504,6 +1504,15 @@ DTSTART;TZID=America/New_York:20270107T190000
 DTEND;TZID=America/New_York:20270107T210000
 SUMMARY:DePaul Catholic High School vs Immaculate Heart Academy (Varsity 
  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7683526@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Fair Lawn High School vs Paramus Catholic High School (Varsity Gi
+ rls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2164,15 +2173,6 @@ SUMMARY:Eastside High School vs Wayne Hills High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7505851@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T161500
-DTEND;TZID=America/New_York:20270119T181500
-SUMMARY:Fort Lee High School at Paramus Catholic High School (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7661830@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
@@ -2233,6 +2233,15 @@ DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
 SUMMARY:Fair Lawn High School at Indian Hills High School (Varsity Girls 
  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7683569@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T190000
+DTEND;TZID=America/New_York:20270119T210000
+SUMMARY:Fort Lee High School at Paramus Catholic High School (Varsity Gir
+ ls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2369,6 +2378,15 @@ DTEND;TZID=America/New_York:20270121T183000
 SUMMARY:Dwight Morrow High School vs Passaic Charter (Varsity Girls Girls
   Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7683571@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T180000
+DTEND;TZID=America/New_York:20270121T200000
+SUMMARY:John F. Kennedy High School vs Paramus Catholic High School (Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517046@big-north-conference
@@ -3000,6 +3018,15 @@ SUMMARY:Paramus High School vs Tenafly High School (Varsity Girls Girls B
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7683634@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T060000
+DTEND;TZID=America/New_York:20270205T080000
+SUMMARY:Paramus Catholic High School at Hudson Catholic High School (Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2595:7672195@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270205T140900
@@ -3216,6 +3243,15 @@ SUMMARY:Paramus High School at Northern Valley Regional High (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7683629@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T060000
+DTEND;TZID=America/New_York:20270211T080000
+SUMMARY:Paramus Catholic High School vs Paramus High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7546517@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T161500
@@ -3313,6 +3349,15 @@ DTEND;TZID=America/New_York:20270211T210000
 SUMMARY:Hackensack High School vs Northern Highlands Regional High School
   (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7683614@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T190000
+DTEND;TZID=America/New_York:20270211T210000
+SUMMARY:Immaculate Heart Academy at Paramus Catholic High School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7540437@big-north-conference
