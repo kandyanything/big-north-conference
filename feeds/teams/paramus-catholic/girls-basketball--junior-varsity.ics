@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2787:7683927@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T173000
+DTEND;TZID=America/New_York:20261216T193000
+SUMMARY:Paramus Catholic High School at West Orange High School (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2787:7623102@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
@@ -40,6 +49,15 @@ DTEND;TZID=America/New_York:20261222T193000
 SUMMARY:Bergenfield High School vs Paramus Catholic High School (Junior V
  arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7683936@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T173900
+DTEND;TZID=America/New_York:20261222T193900
+SUMMARY:Paramus Catholic High School vs Bergenfield High School (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:39 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7683731@big-north-conference
@@ -78,13 +96,13 @@ SUMMARY:Academy of the Holy Angels vs Paramus Catholic High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7683802@big-north-conference
+UID:ds:2616:7683802@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
-SUMMARY:Paramus Catholic High School vs Fort Lee High School (Junior Vars
+SUMMARY:Fort Lee High School at Paramus Catholic High School (Junior Vars
  ity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7683812@big-north-conference
@@ -114,13 +132,22 @@ SUMMARY:Paramus Catholic High School vs Northern Valley Regional High (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7683831@big-north-conference
+UID:ds:2595:7683831@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T053000
 DTEND;TZID=America/New_York:20270126T073000
-SUMMARY:Paramus Catholic High School vs Dumont High School (Junior Varsit
+SUMMARY:Dumont High School at Paramus Catholic High School (Junior Varsit
  y Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7683853@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T053000
+DTEND;TZID=America/New_York:20270204T073000
+SUMMARY:Academy of the Holy Angels at Paramus Catholic High School (Junio
+ r Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517080@big-north-conference
@@ -130,5 +157,23 @@ DTEND;TZID=America/New_York:20270209T193000
 SUMMARY:DePaul Catholic High School vs Paramus Catholic High School (Juni
  or Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2669:7683876@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Immaculate Heart Academy at Paramus Catholic High School (Junior 
+ Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7683914@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T173000
+DTEND;TZID=America/New_York:20270218T193000
+SUMMARY:Mahwah High School at Paramus Catholic High School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR
