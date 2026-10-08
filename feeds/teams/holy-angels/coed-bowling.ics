@@ -26,20 +26,38 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:32754:7671540@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T161500
-DTEND;TZID=America/New_York:20261208T181500
+DTSTART;TZID=America/New_York:20261208T154500
+DTEND;TZID=America/New_York:20261208T174500
 SUMMARY:Bergen County Technical High School vs Academy of the Holy Angels
   (Varsity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7684412@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T154500
+DTEND;TZID=America/New_York:20261210T174500
+SUMMARY:Clifton High School at Academy of the Holy Angels (Varsity Coed C
+ oed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7684415@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T154500
+DTEND;TZID=America/New_York:20261217T174500
+SUMMARY:Pascack Valley High School at Academy of the Holy Angels (Varsity
+  Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7668193@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T161500
-DTEND;TZID=America/New_York:20270105T181500
+DTSTART;TZID=America/New_York:20270105T154500
+DTEND;TZID=America/New_York:20270105T174500
 SUMMARY:Dumont High School at Academy of the Holy Angels (Varsity Coed Co
  ed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7671643@big-north-conference
@@ -49,5 +67,14 @@ DTEND;TZID=America/New_York:20270126T181500
 SUMMARY:Bergen County Technical High School vs Academy of the Holy Angels
   (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7684421@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T154500
+DTEND;TZID=America/New_York:20270128T174500
+SUMMARY:Clifton High School at Academy of the Holy Angels (Varsity Coed C
+ oed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
 END:VEVENT
 END:VCALENDAR
