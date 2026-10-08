@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2604:7685464@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T154500
+DTEND;TZID=America/New_York:20261201T174500
+SUMMARY:Eastside High School at Academy of the Holy Angels (Varsity Coed 
+ Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7671540@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T154500
@@ -57,6 +66,15 @@ DTSTART;TZID=America/New_York:20270105T154500
 DTEND;TZID=America/New_York:20270105T174500
 SUMMARY:Dumont High School at Academy of the Holy Angels (Varsity Coed Co
  ed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2604:7685472@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T154500
+DTEND;TZID=America/New_York:20270119T174500
+SUMMARY:Eastside High School at Academy of the Holy Angels (Varsity Coed 
+ Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
