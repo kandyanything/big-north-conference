@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2796:7688062@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Passaic Valley High School vs Wayne Valley High School (Varsity C
+ oed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2796:7645344@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
@@ -31,6 +40,24 @@ DTEND;TZID=America/New_York:20261211T180000
 SUMMARY:Passaic Valley High School at Ramapo High School (Varsity Coed Co
  ed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7688064@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T161500
+DTEND;TZID=America/New_York:20261214T181500
+SUMMARY:Passaic Valley High School at Fair Lawn High School (Varsity Coed
+  Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7688188@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T161500
+DTEND;TZID=America/New_York:20261221T181500
+SUMMARY:Passaic Valley High School vs Don Bosco Prep (Varsity Coed Coed F
+ encing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7640391@big-north-conference
@@ -51,6 +78,42 @@ SUMMARY:Passaic Valley High School at Passaic County Technical Institute
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2796:7688084@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T161500
+DTEND;TZID=America/New_York:20270111T181500
+SUMMARY:Passaic Valley High School vs Lakeland Regional High School (Vars
+ ity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7688091@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T123000
+DTEND;TZID=America/New_York:20270113T143000
+SUMMARY:Passaic Valley High School vs Pompton Lakes High School (Varsity 
+ Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7688278@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270118T183000
+DTEND;TZID=America/New_York:20270118T203000
+SUMMARY:Passaic Valley High School at Academy of the Holy Angels (Varsity
+  Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7688095@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T123000
+DTEND;TZID=America/New_York:20270120T143000
+SUMMARY:Passaic Valley High School vs Indian Hills High School (Varsity C
+ oed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2796:7636698@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -58,5 +121,14 @@ DTEND;TZID=America/New_York:20270121T181500
 SUMMARY:Passaic Valley High School at Northern Highlands Regional High Sc
  hool (Varsity Coed Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7688111@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T161500
+DTEND;TZID=America/New_York:20270129T181500
+SUMMARY:Passaic Valley High School vs Wayne Hills High School (Varsity Co
+ ed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR
