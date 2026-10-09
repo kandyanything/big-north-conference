@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7596257@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T093000
-DTEND;TZID=America/New_York:20260831T113000
-SUMMARY:River Dell Regional High School at Montclair High School (Varsity
-  Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7377759@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -60,13 +51,13 @@ SUMMARY:Pascack Valley High School at River Dell Regional High School (Va
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7446311@big-north-conference
+UID:ds:2939:7446311@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
+SUMMARY:Westwood Regional Senior High School at River Dell Regional High 
  School (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7528503@big-north-conference
@@ -105,15 +96,6 @@ SUMMARY:Pascack Hills High School vs River Dell Regional High School (Var
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7633698@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T073000
-DTEND;TZID=America/New_York:20260919T093000
-SUMMARY:River Dell Regional High School at TBA NJ (Varsity Girls Girls Te
- nnis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 7:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7619897@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -141,31 +123,13 @@ SUMMARY:Ridgefield Park High School vs River Dell Regional High School (V
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7664749@big-north-conference
+UID:ds:2939:7664749@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
+SUMMARY:Westwood Regional Senior High School at River Dell Regional High 
  School (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7654683@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
-SUMMARY:River Dell Regional High School at TBA NJ (Varsity Girls Girls Te
- nnis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7670481@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:River Dell Regional High School vs West Morris Central High Schoo
- l (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7446387@big-north-conference
@@ -184,15 +148,6 @@ DTEND;TZID=America/New_York:20261008T170000
 SUMMARY:Northern Valley Regional HS - Demarest vs River Dell Regional Hig
  h School (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7681462@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T150000
-DTEND;TZID=America/New_York:20261008T170000
-SUMMARY:River Dell Regional High School at Northern Valley Regional High 
- (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7446396@big-north-conference
