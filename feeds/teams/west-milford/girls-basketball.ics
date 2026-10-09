@@ -51,22 +51,22 @@ SUMMARY:Paramus Catholic High School at West Milford High School (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423040@big-north-conference
+UID:ds:2931:7423230@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:Paramus High School at West Milford High School (Varsity Girls Gi
- rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:West Milford High School vs Paramus High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7423040@big-north-conference
+UID:ds:2788:7423040@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:West Milford High School vs Paramus High School (Varsity Girls Gi
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:Paramus High School at West Milford High School (Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517069@big-north-conference
@@ -213,6 +213,15 @@ SUMMARY:Wayne Hills High School vs West Milford High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2931:7456286@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270118T163000
+DTEND;TZID=America/New_York:20270118T183000
+SUMMARY:West Milford High School at Pompton Lakes High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7546503@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
@@ -267,15 +276,6 @@ SUMMARY:Mahwah High School vs West Milford High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7627268@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T161500
-DTEND;TZID=America/New_York:20270211T181500
-SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
- s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7627372@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T173000
@@ -283,5 +283,14 @@ DTEND;TZID=America/New_York:20270211T193000
 SUMMARY:Wayne Hills High School at West Milford High School (Junior Varsi
  ty Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7627268@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T190000
+DTEND;TZID=America/New_York:20270211T210000
+SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR
