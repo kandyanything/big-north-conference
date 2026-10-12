@@ -71,11 +71,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7651322@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T160000
-DTEND;TZID=America/New_York:20261214T180000
+DTSTART;TZID=America/New_York:20261214T163000
+DTEND;TZID=America/New_York:20261214T183000
 SUMMARY:Bergen County Technical High School vs Elmwood Park Memorial High
   School (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7690149@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T180000
+DTEND;TZID=America/New_York:20261214T200000
+SUMMARY:Bergen County Technical High School vs Elmwood Park Memorial High
+  School (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7652349@big-north-conference
@@ -319,6 +328,33 @@ DTEND;TZID=America/New_York:20270121T210000
 SUMMARY:Bergen County Technical High School at Hackensack High School (Va
  rsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7680872@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T093000
+DTEND;TZID=America/New_York:20270123T113000
+SUMMARY:Bergen County Technical High School vs West Milford High School (
+ Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7680866@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T110000
+DTEND;TZID=America/New_York:20270123T130000
+SUMMARY:West Milford High School at Bergen County Technical High School (
+ Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7690153@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T123000
+DTEND;TZID=America/New_York:20270123T143000
+SUMMARY:West Milford High School at Bergen County Technical High School (
+ Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7651889@big-north-conference
