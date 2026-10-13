@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2834:7666522@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T161500
+DTEND;TZID=America/New_York:20270317T181500
+SUMMARY:River Dell Regional High School at Waldwick High School (Varsity 
+ Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7666531@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270319T161500
+DTEND;TZID=America/New_York:20270319T181500
+SUMMARY:River Dell Regional High School vs Cresskill High School (Varsity
+  Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7666549@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270320T100000
@@ -60,6 +78,15 @@ SUMMARY:Fort Lee High School vs River Dell Regional High School (Varsity
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2834:7666573@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T161500
+DTEND;TZID=America/New_York:20270406T181500
+SUMMARY:River Dell Regional High School vs Saint Joseph Regional High Sch
+ ool (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2597:7666579@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270409T161500
@@ -69,22 +96,22 @@ SUMMARY:Dwight Morrow High School vs River Dell Regional High School (Var
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7666586@big-north-conference
+UID:ds:2834:7666586@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T161500
 DTEND;TZID=America/New_York:20270412T181500
-SUMMARY:Westwood Regional Senior High School at River Dell Regional High 
+SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
  School (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7666589@big-north-conference
+UID:ds:2834:7666589@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T161500
 DTEND;TZID=America/New_York:20270414T181500
-SUMMARY:Westwood Regional Senior High School vs River Dell Regional High 
+SUMMARY:River Dell Regional High School at Westwood Regional Senior High 
  School (Varsity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7666592@big-north-conference
@@ -94,6 +121,15 @@ DTEND;TZID=America/New_York:20270416T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs River Dell Regional H
  igh School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7666592@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T161500
+DTEND;TZID=America/New_York:20270416T181500
+SUMMARY:River Dell Regional High School at Northern Valley Regional High 
+ (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7666598@big-north-conference
@@ -121,6 +157,15 @@ DTEND;TZID=America/New_York:20270423T181500
 SUMMARY:Northern Valley Regional HS - Demarest at River Dell Regional Hig
  h School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7567994@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T161500
+DTEND;TZID=America/New_York:20270423T181500
+SUMMARY:River Dell Regional High School vs Northern Valley Regional High 
+ (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7666608@big-north-conference

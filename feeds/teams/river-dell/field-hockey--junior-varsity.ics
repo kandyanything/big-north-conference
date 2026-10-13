@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2939:7504240@big-north-conference
+UID:ds:2834:7504240@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T090000
 DTEND;TZID=America/New_York:20260828T110000
-SUMMARY:Westwood Regional Senior High School vs River Dell Regional High 
+SUMMARY:River Dell Regional High School at Westwood Regional Senior High 
  School (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 9:00 AM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7437711@big-north-conference
@@ -42,6 +42,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at River Dell Regional H
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2834:7437711@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T174500
+DTEND;TZID=America/New_York:20260903T194500
+SUMMARY:River Dell Regional High School vs Northern Valley Regional High 
+ (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7386211@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T173000
@@ -51,12 +60,21 @@ SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7437717@big-north-conference
+UID:ds:2834:7437717@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T174500
 DTEND;TZID=America/New_York:20260918T194500
-SUMMARY:West Milford High School at River Dell Regional High School (Juni
+SUMMARY:River Dell Regional High School vs West Milford High School (Juni
  or Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7437718@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T174500
+DTEND;TZID=America/New_York:20260923T194500
+SUMMARY:River Dell Regional High School at Pompton Lakes High School (Jun
+ ior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -69,6 +87,15 @@ SUMMARY:Ramsey High School at River Dell Regional High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2834:7437723@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T174500
+DTEND;TZID=America/New_York:20260929T194500
+SUMMARY:River Dell Regional High School vs Dwight-Englewood School (Junio
+ r Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7437729@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -78,40 +105,67 @@ SUMMARY:Northern Valley Regional HS - Demarest vs River Dell Regional Hig
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7437731@big-north-conference
+UID:ds:2834:7437729@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:River Dell Regional High School at Northern Valley Regional High 
+ (Junior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7437731@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T174500
 DTEND;TZID=America/New_York:20261008T194500
-SUMMARY:Wayne Valley High School at River Dell Regional High School (Juni
+SUMMARY:River Dell Regional High School vs Wayne Valley High School (Juni
  or Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7574635@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T174500
+DTEND;TZID=America/New_York:20261009T194500
+SUMMARY:River Dell Regional High School at Columbia High School (Junior V
+ arsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7536696@big-north-conference
+UID:ds:2834:7536696@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T163000
 DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Westwood Regional Senior High School at River Dell Regional High 
+SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
  School (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7437733@big-north-conference
+UID:ds:2834:7574630@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T093000
+DTEND;TZID=America/New_York:20261017T113000
+SUMMARY:River Dell Regional High School vs Columbia High School (Junior V
+ arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7437733@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T173000
 DTEND;TZID=America/New_York:20261019T193000
-SUMMARY:Westwood Regional Senior High School vs River Dell Regional High 
+SUMMARY:River Dell Regional High School at Westwood Regional Senior High 
  School (Junior Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7437743@big-north-conference
+UID:ds:2834:7437743@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T174500
 DTEND;TZID=America/New_York:20261023T194500
-SUMMARY:Wayne Hills High School vs River Dell Regional High School (Junio
+SUMMARY:River Dell Regional High School at Wayne Hills High School (Junio
  r Varsity Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7437748@big-north-conference
