@@ -131,11 +131,12 @@ SUMMARY:Bergen County Technical High School vs Tenafly High School (Varsi
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7432081@big-north-conference
+UID:ds:32754:7690657@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:Bergen County Technical High School at TBD (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:Bergen County Technical High School at James J Ferris High School
+  (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR

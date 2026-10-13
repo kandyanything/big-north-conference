@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2796:7688062@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T160000
-DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Passaic Valley High School vs Wayne Valley High School (Varsity C
- oed Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7645344@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
@@ -66,6 +57,15 @@ DTEND;TZID=America/New_York:20261214T181500
 SUMMARY:Passaic Valley High School at Fair Lawn High School (Varsity Coed
   Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7690793@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Passaic Valley High School vs Eagle Academy of Newark (Varsity Co
+ ed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7689459@big-north-conference
@@ -160,11 +160,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7688091@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T123000
-DTEND;TZID=America/New_York:20270113T143000
+DTSTART;TZID=America/New_York:20270113T160000
+DTEND;TZID=America/New_York:20270113T180000
 SUMMARY:Passaic Valley High School vs Pompton Lakes High School (Varsity 
  Coed Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Home - 12:30 PM
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7690391@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Passaic Valley High School vs Wayne Valley High School (Varsity C
+ oed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7688278@big-north-conference
