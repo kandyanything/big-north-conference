@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2689:7691837@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T163000
+DTEND;TZID=America/New_York:20270318T183000
+SUMMARY:Lakeland Regional High School at Mahwah High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2706:7651172@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270322T161500
@@ -31,6 +40,24 @@ DTEND;TZID=America/New_York:20270322T181500
 SUMMARY:Mahwah High School at Glen Rock High School (Varsity Girls Girls 
  Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7691659@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T163000
+DTEND;TZID=America/New_York:20270331T183000
+SUMMARY:Mahwah High School vs Hoboken High School (Varsity Girls Girls La
+ crosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7691735@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T163000
+DTEND;TZID=America/New_York:20270413T183000
+SUMMARY:Mahwah High School vs West Milford High School (Varsity Girls Gir
+ ls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7647357@big-north-conference
