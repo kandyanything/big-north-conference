@@ -87,6 +87,15 @@ SUMMARY:Teaneck High School vs Wayne Valley High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2888:7695452@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T183000
+DTEND;TZID=America/New_York:20261214T203000
+SUMMARY:Teaneck High School vs Wayne Valley High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2890:7540214@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -202,15 +211,6 @@ DTEND;TZID=America/New_York:20270107T193000
 SUMMARY:Passaic Valley High School vs Wayne Valley High School (Junior Va
  rsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7685136@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T174500
-DTEND;TZID=America/New_York:20270107T194500
-SUMMARY:Wayne Valley High School vs TBD (Junior Varsity Girls Girls Baske
- tball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7540321@big-north-conference
@@ -438,14 +438,6 @@ SUMMARY:Wayne Valley High School at Morris Knolls High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7685154@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T161500
-DTEND;TZID=America/New_York:20270202T181500
-SUMMARY:Wayne Valley High School vs TBD (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7685152@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T161500
@@ -455,13 +447,22 @@ SUMMARY:Wayne Valley High School at West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7685153@big-north-conference
+UID:ds:2926:7695539@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T174500
-DTEND;TZID=America/New_York:20270202T194500
-SUMMARY:Wayne Valley High School vs TBD (Junior Varsity Girls Girls Baske
- tball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Wayne Valley High School at West Milford High School (Freshman Gi
+ rls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7695541@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T173000
+DTEND;TZID=America/New_York:20270202T193000
+SUMMARY:Wayne Valley High School at West Milford High School (Junior Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7540407@big-north-conference
