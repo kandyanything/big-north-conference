@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2795:7695115@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T150000
+DTEND;TZID=America/New_York:20261201T170000
+SUMMARY:Passaic High School at Clifton High School (Varsity Coed Coed Swi
+ mming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7660844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T161500
@@ -48,6 +57,15 @@ DTEND;TZID=America/New_York:20261203T181500
 SUMMARY:Hackensack High School vs Ridgewood High School (Varsity Coed Coe
  d Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7694878@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T200000
+DTEND;TZID=America/New_York:20261203T220000
+SUMMARY:Ramapo High School at Ramsey High School (Varsity Coed Coed Swimm
+ ing)
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7693655@big-north-conference
@@ -149,6 +167,14 @@ SUMMARY:Hackensack High School vs West Milford High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2823:7694895@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261226T090000
+DTEND;TZID=America/New_York:20261226T110000
+SUMMARY:Ramsey High School vs TBD (Varsity Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7693687@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T153000
@@ -201,6 +227,15 @@ DTEND;TZID=America/New_York:20270107T171500
 SUMMARY:Passaic High School vs Passaic County Technical Institute (Varsit
  y Coed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7694958@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T194500
+DTEND;TZID=America/New_York:20270107T214500
+SUMMARY:Paramus High School vs Ramapo High School (Varsity Coed Coed Swim
+ ming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7694368@big-north-conference
@@ -316,5 +351,13 @@ DTEND;VALUE=DATE:20270124
 SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Swim
  ming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7694933@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T170000
+DTEND;TZID=America/New_York:20270128T190000
+SUMMARY:Ramsey High School vs TBD (Varsity Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 5:00 PM
 END:VEVENT
 END:VCALENDAR
