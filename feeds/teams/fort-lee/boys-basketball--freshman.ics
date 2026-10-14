@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2616:7636218@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Fort Lee High School at Northern Valley Regional High (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7636218@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
@@ -33,31 +42,40 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Fort Lee High School (F
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7441090@big-north-conference
+UID:ds:2616:7649364@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T161500
+DTEND;TZID=America/New_York:20261208T181500
+SUMMARY:Fort Lee High School vs New Milford High School (Freshman Boys Bo
+ ys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7441090@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Ramsey High School vs Fort Lee High School (Freshman Boys Boys Ba
+SUMMARY:Fort Lee High School at Ramsey High School (Freshman Boys Boys Ba
  sketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7564318@big-north-conference
+UID:ds:2616:7564318@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
-SUMMARY:Mahwah High School at Fort Lee High School (Freshman Boys Boys Ba
+SUMMARY:Fort Lee High School vs Mahwah High School (Freshman Boys Boys Ba
  sketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7564435@big-north-conference
+UID:ds:2616:7564435@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Pascack Hills High School at Fort Lee High School (Freshman Boys 
+SUMMARY:Fort Lee High School vs Pascack Hills High School (Freshman Boys 
  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7546493@big-north-conference
