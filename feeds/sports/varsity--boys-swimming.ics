@@ -86,13 +86,13 @@ SUMMARY:Northern Highlands Regional High School at Hackensack High School
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7660748@big-north-conference
+UID:ds:2823:7693391@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
-SUMMARY:Wayne Hills High School at Ramsey High School (Varsity Boys Boys 
+DTSTART;TZID=America/New_York:20261215T200000
+DTEND;TZID=America/New_York:20261215T220000
+SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Boys Boys 
  Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7692952@big-north-conference
@@ -200,6 +200,15 @@ DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
 SUMMARY:Bergen Catholic High School at Paramus Catholic High School (Vars
  ity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7693336@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Don Bosco Prep at Wayne Hills High School (Varsity Boys Boys Swim
+ ming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
