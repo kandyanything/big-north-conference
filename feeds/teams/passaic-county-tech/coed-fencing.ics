@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2794:7640168@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T161500
+DTEND;TZID=America/New_York:20261209T181500
+SUMMARY:Passaic County Technical Institute vs Wayne Hills High School (Va
+ rsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7636657@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T161500
@@ -31,6 +40,24 @@ DTEND;TZID=America/New_York:20261211T181500
 SUMMARY:Northern Highlands Regional High School vs Passaic County Technic
  al Institute (Varsity Coed Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7640179@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T161500
+DTEND;TZID=America/New_York:20261216T181500
+SUMMARY:Passaic County Technical Institute vs Pompton Lakes High School (
+ Varsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7640384@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T163000
+DTEND;TZID=America/New_York:20261218T183000
+SUMMARY:Passaic County Technical Institute at Butler High School (Varsity
+  Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7659499@big-north-conference
@@ -42,12 +69,57 @@ SUMMARY:Bergen County Technical High School vs Passaic County Technical I
 DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7640185@big-north-conference
+UID:ds:2794:7640185@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
-SUMMARY:Passaic Valley High School at Passaic County Technical Institute 
+SUMMARY:Passaic County Technical Institute vs Passaic Valley High School 
  (Varsity Coed Coed Fencing)
-DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7640190@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T161500
+DTEND;TZID=America/New_York:20270113T181500
+SUMMARY:Passaic County Technical Institute vs Wayne Valley High School (V
+ arsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7640197@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270118T161500
+DTEND;TZID=America/New_York:20270118T181500
+SUMMARY:Passaic County Technical Institute vs Ramapo High School (Varsity
+  Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7640199@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T161500
+DTEND;TZID=America/New_York:20270120T181500
+SUMMARY:Passaic County Technical Institute vs Lakeland Regional High Scho
+ ol (Varsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7640202@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T161500
+DTEND;TZID=America/New_York:20270125T181500
+SUMMARY:Passaic County Technical Institute vs Indian Hills High School (V
+ arsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7663986@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T161500
+DTEND;TZID=America/New_York:20270203T181500
+SUMMARY:Passaic County Technical Institute vs Morris Knolls High School (
+ Varsity Coed Coed Fencing)
+DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR

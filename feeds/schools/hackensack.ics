@@ -1112,6 +1112,15 @@ SUMMARY:Hackensack High School at Ridgewood High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7671511@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T161500
+DTEND;TZID=America/New_York:20261002T181500
+SUMMARY:Hackensack High School vs Tenafly High School (Middle School Coed
+  Coed Volleyball)
+DESCRIPTION:Middle School Coed Coed Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2890:7671511@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T161500
@@ -2021,13 +2030,22 @@ SUMMARY:Hackensack High School vs Plainfield High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7659643@big-north-conference
+UID:ds:2633:7695954@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T163000
 DTEND;TZID=America/New_York:20261207T183000
 SUMMARY:Hackensack High School vs Memorial High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7695955@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T180000
+DTEND;TZID=America/New_York:20261207T200000
+SUMMARY:Hackensack High School vs Memorial High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7615693@big-north-conference
@@ -2066,6 +2084,15 @@ SUMMARY:Hackensack High School at Franklin High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7640803@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Hackensack High School at Franklin High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7660856@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T161500
@@ -2091,15 +2118,6 @@ DTEND;TZID=America/New_York:20261210T190000
 SUMMARY:Hackensack High School at Franklin High School (Junior Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2633:7640803@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:Hackensack High School at Franklin High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7564083@big-north-conference
@@ -2201,14 +2219,6 @@ SUMMARY:Hackensack High School vs Paramus High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7619706@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T163000
-DTEND;TZID=America/New_York:20261217T183000
-SUMMARY:Hackensack High School vs TBD (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7619704@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T163000
@@ -2218,6 +2228,15 @@ SUMMARY:Hackensack High School at Passaic High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2795:7696004@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T163000
+DTEND;TZID=America/New_York:20261217T183000
+SUMMARY:Passaic High School vs Hackensack High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7593355@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
@@ -2225,15 +2244,6 @@ DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Hackensack High School vs Passaic High School (Junior Varsity Gir
  ls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2633:7619705@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T180000
-DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Hackensack High School vs TBD (Junior Varsity Boys Boys Basketbal
- l)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7593354@big-north-conference
@@ -2378,15 +2388,6 @@ DTEND;TZID=America/New_York:20270106T181500
 SUMMARY:Paramus Catholic High School at Hackensack High School (Varsity B
  oys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2787:7693055@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T161500
-DTEND;TZID=America/New_York:20270106T181500
-SUMMARY:Paramus Catholic High School at Hackensack High School (Varsity G
- irls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7592634@big-north-conference
