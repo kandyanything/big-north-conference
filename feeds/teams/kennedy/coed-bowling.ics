@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2676:7686310@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T154500
+DTEND;TZID=America/New_York:20261203T174500
+SUMMARY:John F. Kennedy High School at Passaic County Technical Institute
+  (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7671538@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T161500
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20261208T181500
 SUMMARY:Bergen County Technical High School vs John F. Kennedy High Schoo
  l (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7668264@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T153000
+DTEND;TZID=America/New_York:20270112T173000
+SUMMARY:John F. Kennedy High School at Don Bosco Prep (Varsity Coed Coed 
+ Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7671639@big-north-conference
