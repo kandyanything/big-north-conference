@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2832:7658695@big-north-conference
+UID:ds:2616:7682795@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T160000
+DTEND;TZID=America/New_York:20261130T180000
+SUMMARY:Fort Lee High School vs Cliffside Park High School (Varsity Coed 
+ Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7658695@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Ridgefield Park High School at Fort Lee High School (Varsity Coed
+SUMMARY:Fort Lee High School vs Ridgefield Park High School (Varsity Coed
   Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7658697@big-north-conference
@@ -42,6 +51,15 @@ SUMMARY:Dumont High School at Fort Lee High School (Varsity Coed Coed Bow
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2616:7673791@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Fort Lee High School vs Immaculate Heart Academy (Varsity Coed Co
+ ed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7673791@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -51,22 +69,58 @@ SUMMARY:Passaic High School at Fort Lee High School (Varsity Coed Coed Bo
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7658717@big-north-conference
+UID:ds:2616:7686341@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T154500
+DTEND;TZID=America/New_York:20261221T174500
+SUMMARY:Fort Lee High School at Academy of the Holy Angels (Varsity Coed 
+ Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7658711@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T160000
+DTEND;TZID=America/New_York:20270104T180000
+SUMMARY:Fort Lee High School vs Bergen Catholic High School (Varsity Coed
+  Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7658717@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T160000
 DTEND;TZID=America/New_York:20270108T180000
-SUMMARY:Pascack Valley High School at Fort Lee High School (Varsity Coed 
+SUMMARY:Fort Lee High School vs Pascack Valley High School (Varsity Coed 
  Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7658732@big-north-conference
+UID:ds:2616:7658722@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T160000
+DTEND;TZID=America/New_York:20270113T180000
+SUMMARY:Fort Lee High School vs Teaneck High School (Varsity Coed Coed Bo
+ wling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7682862@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Fort Lee High School vs Cliffside Park High School (Varsity Coed 
+ Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7658732@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T160000
 DTEND;TZID=America/New_York:20270127T180000
-SUMMARY:Ridgefield Park High School at Fort Lee High School (Varsity Coed
+SUMMARY:Fort Lee High School vs Ridgefield Park High School (Varsity Coed
   Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7658751@big-north-conference
