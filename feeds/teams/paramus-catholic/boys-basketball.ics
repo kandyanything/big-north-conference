@@ -51,6 +51,24 @@ SUMMARY:Paramus Catholic High School at Saint Joseph Regional High School
 DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7697508@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Paramus Catholic High School at Saint Joseph Regional High School
+  (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7697524@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Paramus Catholic High School at Saint Joseph Regional High School
+  (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2787:7696058@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -78,6 +96,15 @@ SUMMARY:Paramus Catholic High School at Christian Brothers Academy (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7696155@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T161500
+DTEND;TZID=America/New_York:20261217T181500
+SUMMARY:Paramus Catholic High School vs Dwight Morrow High School (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2597:7696127@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
@@ -85,15 +112,6 @@ DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Dwight Morrow High School at Paramus Catholic High School (Junior
   Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2787:7696155@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T173000
-DTEND;TZID=America/New_York:20261217T193000
-SUMMARY:Paramus Catholic High School vs Dwight Morrow High School (Freshm
- an Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7695957@big-north-conference
@@ -276,6 +294,15 @@ SUMMARY:Paramus Catholic High School vs Pascack Valley High School (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2787:7697517@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T190000
+DTEND;TZID=America/New_York:20270122T210000
+SUMMARY:Paramus Catholic High School vs College Achieve Asbury (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7673866@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T160000
@@ -330,40 +357,40 @@ SUMMARY:Dumont High School vs Paramus Catholic High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7696993@big-north-conference
+UID:ds:2592:7696993@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T160000
 DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:Paramus Catholic High School at Don Bosco Prep (Freshman Boys Boy
+SUMMARY:Don Bosco Prep vs Paramus Catholic High School (Freshman Boys Boy
  s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7696989@big-north-conference
+UID:ds:2592:7696989@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T173000
 DTEND;TZID=America/New_York:20270202T193000
-SUMMARY:Paramus Catholic High School at Don Bosco Prep (Varsity Boys Boys
+SUMMARY:Don Bosco Prep vs Paramus Catholic High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7696972@big-north-conference
+UID:ds:2592:7696972@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T190000
 DTEND;TZID=America/New_York:20270202T210000
-SUMMARY:Paramus Catholic High School at Don Bosco Prep (Varsity Boys Boys
+SUMMARY:Don Bosco Prep vs Paramus Catholic High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7697000@big-north-conference
+UID:ds:2787:7697118@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270205T193000
 DTEND;TZID=America/New_York:20270205T213000
-SUMMARY:Paramus Catholic High School vs Hudson Catholic High School (Fres
- hman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 7:30 PM
+SUMMARY:Paramus Catholic High School vs Hudson Catholic High School (Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517093@big-north-conference
@@ -384,11 +411,29 @@ SUMMARY:DePaul Catholic High School at Paramus Catholic High School (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:41410:7697199@big-north-conference
+UID:ds:2787:7697411@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Paramus Catholic High School vs Saint Joseph Regional High School
+  (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7697402@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Paramus Catholic High School vs Saint Joseph Regional High School
+  (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7697294@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T190000
 DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Saint Joseph Regional High School at Paramus Catholic High School
+SUMMARY:Paramus Catholic High School at Saint Joseph Regional High School
   (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
@@ -445,5 +490,14 @@ DTEND;TZID=America/New_York:20270218T210000
 SUMMARY:Mahwah High School vs Paramus Catholic High School (Freshman Boys
   Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7697421@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270219T193000
+DTEND;TZID=America/New_York:20270219T213000
+SUMMARY:Paramus Catholic High School vs Paramus High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:30 PM
 END:VEVENT
 END:VCALENDAR
