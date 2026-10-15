@@ -2368,11 +2368,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7693507@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T190000
-DTEND;TZID=America/New_York:20261017T210000
+DTSTART;TZID=America/New_York:20261017T163000
+DTEND;TZID=America/New_York:20261017T183000
 SUMMARY:Ramsey High School vs Ridgewood High School (Varsity Boys Boys So
  ccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7409981@big-north-conference
@@ -3374,6 +3374,24 @@ SUMMARY:Indian Hills High School vs Ramsey High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7667445@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T161500
+DTEND;TZID=America/New_York:20261221T181500
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Va
+ rsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7667448@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T161500
+DTEND;TZID=America/New_York:20261221T181500
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Va
+ rsity Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7692367@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T161500
@@ -3381,24 +3399,6 @@ DTEND;TZID=America/New_York:20261221T181500
 SUMMARY:Northern Highlands Regional High School at Ramsey High School (Va
  rsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7667445@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T161500
-DTEND;TZID=America/New_York:20261221T181500
-SUMMARY:Ramsey High School at Northern Highlands Regional High School (Va
- rsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7667448@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T161500
-DTEND;TZID=America/New_York:20261221T181500
-SUMMARY:Ramsey High School at Northern Highlands Regional High School (Va
- rsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7644892@big-north-conference
@@ -4153,6 +4153,15 @@ SUMMARY:Passaic Valley High School at Ramsey High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2792:7696786@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T160000
+DTEND;TZID=America/New_York:20270125T180000
+SUMMARY:Pascack Hills High School vs Ramsey High School (Varsity Coed Uni
+ fied Bowling)
+DESCRIPTION:Varsity Coed Unified Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2823:7632504@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T201000
@@ -4252,13 +4261,13 @@ SUMMARY:Mahwah High School vs Ramsey High School (Varsity Boys Boys Wrest
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7683943@big-north-conference
+UID:ds:2706:7683943@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T190000
 DTEND;TZID=America/New_York:20270127T210000
-SUMMARY:Ramsey High School at Mahwah High School (Varsity Girls Girls Wre
+SUMMARY:Mahwah High School vs Ramsey High School (Varsity Girls Girls Wre
  stling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7676637@big-north-conference
