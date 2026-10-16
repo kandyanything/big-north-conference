@@ -24,31 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2925:7637797@big-north-conference
+UID:ds:2939:7637797@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T163000
 DTEND;TZID=America/New_York:20261208T183000
-SUMMARY:Wayne Hills High School vs Westwood Regional Senior High School (
+SUMMARY:Westwood Regional Senior High School at Wayne Hills High School (
  Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637897@big-north-conference
+UID:ds:2939:7637897@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T163000
 DTEND;TZID=America/New_York:20261208T183000
-SUMMARY:Wayne Hills High School vs Westwood Regional Senior High School (
+SUMMARY:Westwood Regional Senior High School at Wayne Hills High School (
  Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637794@big-north-conference
+UID:ds:2939:7637794@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T180000
 DTEND;TZID=America/New_York:20261208T200000
-SUMMARY:Wayne Hills High School vs Westwood Regional Senior High School (
+SUMMARY:Westwood Regional Senior High School at Wayne Hills High School (
  Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7632837@big-north-conference
@@ -58,15 +58,6 @@ DTEND;TZID=America/New_York:20261211T181500
 SUMMARY:Ridgewood High School at Wayne Hills High School (Junior Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7632833@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T161500
-DTEND;TZID=America/New_York:20261211T181500
-SUMMARY:Wayne Hills High School at Ridgewood High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517083@big-north-conference
@@ -141,24 +132,6 @@ SUMMARY:Clifton High School at Wayne Hills High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7607958@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270102T100000
-DTEND;TZID=America/New_York:20270102T120000
-SUMMARY:Wayne Hills High School vs Passaic Charter (Junior Varsity Boys B
- oys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7607957@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270102T120000
-DTEND;TZID=America/New_York:20270102T140000
-SUMMARY:Wayne Hills High School vs Passaic Charter (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7578654@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T041500
@@ -213,67 +186,31 @@ SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637865@big-north-conference
+UID:ds:2926:7637865@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Boy
- s Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7637814@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
- ty Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7637518@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7637881@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Wayne Hills High School at West Milford High School (Freshman Boy
+SUMMARY:Wayne Valley High School at Wayne Hills High School (Freshman Boy
  s Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637821@big-north-conference
+UID:ds:2926:7637814@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T173000
-DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Wayne Hills High School at West Milford High School (Junior Varsi
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:Wayne Valley High School at Wayne Hills High School (Junior Varsi
  ty Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637588@big-north-conference
+UID:ds:2926:7637518@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T190000
-DTEND;TZID=America/New_York:20270114T210000
-SUMMARY:Wayne Hills High School at West Milford High School (Varsity Boys
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Wayne Valley High School at Wayne Hills High School (Varsity Boys
   Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7637889@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T160000
-DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:Wayne Hills High School vs Eastside High School (Freshman Boys Bo
- ys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7637832@big-north-conference
@@ -319,60 +256,6 @@ DTEND;TZID=America/New_York:20270121T210000
 SUMMARY:Indian Hills High School vs Wayne Hills High School (Varsity Boys
   Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7637892@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T160000
-DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Ramapo High School vs Wayne Hills High School (Freshman Boys Boys
-  Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7637838@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T173000
-DTEND;TZID=America/New_York:20270126T193000
-SUMMARY:Ramapo High School vs Wayne Hills High School (Junior Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7637651@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T190000
-DTEND;TZID=America/New_York:20270126T210000
-SUMMARY:Ramapo High School vs Wayne Hills High School (Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7568442@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270130T100000
-DTEND;TZID=America/New_York:20270130T120000
-SUMMARY:Wayne Hills High School vs Wallkill Valley Regional High School (
- Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7568397@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270130T113000
-DTEND;TZID=America/New_York:20270130T133000
-SUMMARY:Wayne Hills High School vs Wallkill Valley Regional High School (
- Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7561546@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270130T130000
-DTEND;TZID=America/New_York:20270130T150000
-SUMMARY:Wayne Hills High School vs Wallkill Valley Regional High School (
- Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7582606@big-north-conference
@@ -429,56 +312,29 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7539166@big-north-conference
+UID:ds:2926:7539166@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T161500
 DTEND;TZID=America/New_York:20270209T181500
-SUMMARY:Wayne Hills High School at Wayne Valley High School (Freshman Boy
+SUMMARY:Wayne Valley High School vs Wayne Hills High School (Freshman Boy
  s Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7539158@big-north-conference
+UID:ds:2926:7539158@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T173000
 DTEND;TZID=America/New_York:20270209T193000
-SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
- ty Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7539157@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T190000
-DTEND;TZID=America/New_York:20270209T210000
-SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7637893@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T160000
-DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Wayne Hills High School vs West Milford High School (Freshman Boy
- s Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7637844@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T173000
-DTEND;TZID=America/New_York:20270211T193000
-SUMMARY:Wayne Hills High School vs West Milford High School (Junior Varsi
+SUMMARY:Wayne Valley High School vs Wayne Hills High School (Junior Varsi
  ty Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637662@big-north-conference
+UID:ds:2926:7539157@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T190000
-DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Wayne Hills High School vs West Milford High School (Varsity Boys
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:Wayne Valley High School vs Wayne Hills High School (Varsity Boys
   Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT

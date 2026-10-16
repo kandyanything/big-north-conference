@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2931:7449276@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T090000
-DTEND;TZID=America/New_York:20260824T110000
-SUMMARY:West Milford High School at Pompton Lakes High School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2795:7545912@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T100000
@@ -40,14 +31,6 @@ DTEND;TZID=America/New_York:20260826T120000
 SUMMARY:Passaic High School at West Milford High School (Varsity Boys Boy
  s Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7586962@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T100000
-DTEND;TZID=America/New_York:20260828T120000
-SUMMARY:West Milford High School vs TBD (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7590659@big-north-conference
@@ -66,15 +49,6 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7549189@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:West Milford High School vs Vernon Township High School (Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7451256@big-north-conference
@@ -104,24 +78,6 @@ SUMMARY:Lakeland Regional High School at West Milford High School (Varsit
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7451215@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T173000
-DTEND;TZID=America/New_York:20260919T193000
-SUMMARY:West Milford High School at Rutherford High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7451270@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Wayne Hills High School at West Milford High School (Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7451224@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T190000
@@ -138,15 +94,6 @@ DTEND;TZID=America/New_York:20261003T150000
 SUMMARY:Passaic County Technical Institute vs West Milford High School (V
  arsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7664903@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T130000
-DTEND;TZID=America/New_York:20261003T150000
-SUMMARY:Wayne Hills High School at West Milford High School (Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7451281@big-north-conference
@@ -176,33 +123,6 @@ SUMMARY:Indian Hills High School vs West Milford High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7499822@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:West Milford High School vs Jefferson Township High School (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7451309@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T183000
-DTEND;TZID=America/New_York:20261015T203000
-SUMMARY:Wayne Hills High School vs West Milford High School (Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7692286@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T160000
-DTEND;TZID=America/New_York:20261016T180000
-SUMMARY:West Milford High School at Essex County Donald M. Payne Tech (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7451240@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T183000
@@ -219,14 +139,5 @@ DTEND;TZID=America/New_York:20261021T181500
 SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7451298@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T161500
-DTEND;TZID=America/New_York:20261029T181500
-SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

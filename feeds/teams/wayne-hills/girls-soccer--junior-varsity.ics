@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2925:7494420@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Wayne Hills High School vs Mount Saint Dominic Academy (Junior Va
- rsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2772:7494441@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T110000
@@ -40,15 +31,6 @@ DTEND;TZID=America/New_York:20260827T130000
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Wayne Hills High Scho
  ol (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7494441@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T110000
-DTEND;TZID=America/New_York:20260827T130000
-SUMMARY:Wayne Hills High School at Northern Valley Regional High (Junior 
- Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7494489@big-north-conference
@@ -78,30 +60,12 @@ SUMMARY:Indian Hills High School at Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7413426@big-north-conference
+UID:ds:2926:7413426@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
 DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
+SUMMARY:Wayne Valley High School vs Wayne Hills High School (Junior Varsi
  ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7445567@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Wayne Hills High School vs West Milford High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7495918@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Wayne Hills High School vs Summit High School (Junior Varsity Gir
- ls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -123,20 +87,11 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7472883@big-north-conference
+UID:ds:2926:7472883@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T161500
 DTEND;TZID=America/New_York:20261021T181500
-SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7451297@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Wayne Hills High School at West Milford High School (Junior Varsi
+SUMMARY:Wayne Valley High School at Wayne Hills High School (Junior Varsi
  ty Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT

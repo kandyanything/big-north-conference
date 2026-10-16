@@ -24,33 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2931:7550562@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:West Milford High School at Vernon Township High School (Varsity 
- Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7451200@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T100000
-DTEND;TZID=America/New_York:20260828T120000
-SUMMARY:West Milford High School at Jefferson Township High School (Varsi
- ty Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7525407@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T150000
-DTEND;TZID=America/New_York:20260831T170000
-SUMMARY:West Milford High School vs Randolph High School (Varsity Girls F
- ield Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7388419@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -58,15 +31,6 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:Ramsey High School at West Milford High School (Varsity Girls Fie
  ld Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7486678@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T160000
-DTEND;TZID=America/New_York:20260904T180000
-SUMMARY:West Milford High School at Pope John XXIII High School (Varsity 
- Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7451205@big-north-conference
@@ -78,15 +42,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs West Milford High Schoo
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7451205@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:West Milford High School at Northern Valley Regional High (Varsit
- y Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7441363@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -94,15 +49,6 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Northern Highlands Regional High School at West Milford High Scho
  ol (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7437647@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T161500
-DTEND;TZID=America/New_York:20260918T181500
-SUMMARY:River Dell Regional High School vs West Milford High School (Vars
- ity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7451217@big-north-conference
@@ -114,40 +60,13 @@ SUMMARY:Passaic County Technical Institute vs West Milford High School (V
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7451273@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:West Milford High School vs Pompton Lakes High School (Varsity Gi
- rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7451274@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:West Milford High School vs Butler High School (Varsity Girls Fie
- ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7486680@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T163000
-DTEND;TZID=America/New_York:20261001T183000
-SUMMARY:West Milford High School at Sparta High School (Varsity Girls Fie
- ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7451227@big-north-conference
+UID:ds:2939:7451227@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T161500
 DTEND;TZID=America/New_York:20261002T181500
-SUMMARY:West Milford High School at Westwood Regional Senior High School 
+SUMMARY:Westwood Regional Senior High School vs West Milford High School 
  (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7445975@big-north-conference
@@ -195,15 +114,6 @@ SUMMARY:Immaculate Heart Academy vs West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7451291@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T161500
-DTEND;TZID=America/New_York:20261021T181500
-SUMMARY:West Milford High School vs Dwight-Englewood School (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7451295@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T161500
@@ -213,15 +123,6 @@ SUMMARY:Lakeland Regional High School at West Milford High School (Varsit
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7414366@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Wayne Hills High School vs West Milford High School (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2772:7451248@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T161500
@@ -229,15 +130,6 @@ DTEND;TZID=America/New_York:20261028T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs West Milford High Sch
  ool (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7451248@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T161500
-DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:West Milford High School at Northern Valley Regional High (Varsit
- y Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7451253@big-north-conference
