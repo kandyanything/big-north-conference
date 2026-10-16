@@ -23,13 +23,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2926:7445941@big-north-conference
+UID:ds:2925:7534799@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T113000
+DTEND;TZID=America/New_York:20260828T133000
+SUMMARY:Wayne Hills High School vs Ridge High School (Varsity Girls Field
+  Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7414292@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:Wayne Hills High School vs Montville Township High School (Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7445941@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T183000
 DTEND;TZID=America/New_York:20260903T203000
-SUMMARY:Wayne Valley High School vs Wayne Hills High School (Varsity Girl
+SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Girl
  s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7414054@big-north-conference
@@ -41,6 +59,15 @@ SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Va
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2925:7418812@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T180000
+DTEND;TZID=America/New_York:20260915T200000
+SUMMARY:Wayne Hills High School at Pompton Lakes High School (Varsity Gir
+ ls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7545566@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T174500
@@ -48,6 +75,15 @@ DTEND;TZID=America/New_York:20260923T194500
 SUMMARY:Northern Valley Regional HS - Demarest at Wayne Hills High School
   (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7545566@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T174500
+DTEND;TZID=America/New_York:20260923T194500
+SUMMARY:Wayne Hills High School vs Northern Valley Regional High (Junior 
+ Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7414267@big-north-conference
@@ -59,6 +95,15 @@ SUMMARY:Northern Valley Regional HS - Demarest at Wayne Hills High School
 DESCRIPTION:Varsity Girls Field Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2925:7414267@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T183000
+DTEND;TZID=America/New_York:20260923T203000
+SUMMARY:Wayne Hills High School vs Northern Valley Regional High (Varsity
+  Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2796:7414268@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
@@ -68,13 +113,13 @@ SUMMARY:Passaic Valley High School at Wayne Hills High School (Varsity Gi
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7418808@big-north-conference
+UID:ds:2925:7418808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Westwood Regional Senior High School vs Wayne Hills High School (
+SUMMARY:Wayne Hills High School at Westwood Regional Senior High School (
  Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7633215@big-north-conference
@@ -86,13 +131,58 @@ SUMMARY:Ramsey High School at Wayne Hills High School (Varsity Girls Fiel
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7678472@big-north-conference
+UID:ds:2925:7483154@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T161500
+DTEND;TZID=America/New_York:20261002T181500
+SUMMARY:Wayne Hills High School at Butler High School (Varsity Girls Fiel
+ d Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7678472@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T130000
 DTEND;TZID=America/New_York:20261010T150000
-SUMMARY:Wayne Valley High School vs Wayne Hills High School (Varsity Girl
+SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Girl
  s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 1:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7628817@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T180000
+DTEND;TZID=America/New_York:20261012T200000
+SUMMARY:Wayne Hills High School at Montville Township High School (Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7495959@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Wayne Hills High School vs Boonton High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7581942@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+SUMMARY:Wayne Hills High School at Boonton High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7525327@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Wayne Hills High School at Dwight-Englewood School (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7525329@big-north-conference
@@ -101,6 +191,42 @@ DTSTART;TZID=America/New_York:20261021T161500
 DTEND;TZID=America/New_York:20261021T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Wayne Hills High Scho
  ol (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7525329@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Wayne Hills High School at Northern Valley Regional High (Varsity
+  Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7414360@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T161500
+DTEND;TZID=America/New_York:20261023T181500
+SUMMARY:River Dell Regional High School at Wayne Hills High School (Varsi
+ ty Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7437743@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T174500
+DTEND;TZID=America/New_York:20261023T194500
+SUMMARY:River Dell Regional High School at Wayne Hills High School (Junio
+ r Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7414366@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Wayne Hills High School vs West Milford High School (Varsity Girl
+ s Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT

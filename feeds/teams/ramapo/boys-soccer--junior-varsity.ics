@@ -24,6 +24,41 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2822:7557146@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T170000
+DTEND;TZID=America/New_York:20260824T190000
+SUMMARY:Ramapo High School vs TBD (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7557365@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T170000
+DTEND;TZID=America/New_York:20260824T190000
+SUMMARY:Ramapo High School at Kearny High School (Junior Varsity Boys Boy
+ s Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7598209@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T170000
+DTEND;TZID=America/New_York:20260828T190000
+SUMMARY:Ramapo High School vs The Pingry School (Junior Varsity Boys Boys
+  Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7563397@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Ramapo High School vs Glen Rock High School (Junior Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7440681@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T161500
@@ -51,22 +86,22 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7390813@big-north-conference
+UID:ds:2822:7390813@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Ramsey High School at Ramapo High School (Junior Varsity Boys Boy
+SUMMARY:Ramapo High School vs Ramsey High School (Junior Varsity Boys Boy
  s Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507276@big-north-conference
+UID:ds:2822:7507276@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Ridgewood High School at Ramapo High School (Junior Varsity Boys 
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys 
  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7557402@big-north-conference
@@ -96,6 +131,15 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Ramapo High School (Jun
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7540812@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T130000
+SUMMARY:Ramapo High School at Northern Valley Regional High (Junior Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7557413@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -111,6 +155,15 @@ DTSTART;TZID=America/New_York:20261007T161500
 DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Fair Lawn High School vs Ramapo High School (Junior Varsity Boys 
  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7673873@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Ramapo High School vs Wood-Ridge High School (Junior Varsity Boys
+  Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -132,12 +185,21 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507314@big-north-conference
+UID:ds:2822:7507314@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T161500
 DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Ridgewood High School vs Ramapo High School (Junior Varsity Boys 
+SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Boys 
  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7451299@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T161500
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:Ramapo High School at West Milford High School (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

@@ -23,12 +23,57 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2931:7668800@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:West Milford High School vs Wayne Hills High School (Varsity Coed
+  Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2792:7683013@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
 SUMMARY:Pascack Hills High School at West Milford High School (Varsity Co
  ed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7667491@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:West Milford High School vs Northern Highlands Regional High Scho
+ ol (Varsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7672497@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T160000
+DTEND;TZID=America/New_York:20270113T180000
+SUMMARY:Ramapo High School vs West Milford High School (Varsity Coed Coed
+  Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7669047@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:West Milford High School at Wayne Hills High School (Varsity Coed
+  Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7672463@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T160000
+DTEND;TZID=America/New_York:20270128T180000
+SUMMARY:West Milford High School at Wayne Valley High School (Varsity Coe
+ d Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

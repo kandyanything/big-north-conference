@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7631319@big-north-conference
+UID:ds:2822:7562939@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Ramapo High School at Montgomery High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7631319@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T161500
 DTEND;TZID=America/New_York:20261210T181500
-SUMMARY:Ramsey High School vs Ramapo High School (Junior Varsity Boys Boy
+SUMMARY:Ramapo High School at Ramsey High School (Junior Varsity Boys Boy
  s Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7554863@big-north-conference
@@ -42,13 +51,30 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Ramapo High School (Jun
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7531260@big-north-conference
+UID:ds:2822:7554863@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Ramapo High School at Northern Valley Regional High (Junior Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7531260@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
-SUMMARY:Wayne Valley High School vs Ramapo High School (Junior Varsity Bo
+SUMMARY:Ramapo High School at Wayne Valley High School (Junior Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7641274@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T173000
+DTEND;TZID=America/New_York:20261222T193000
+SUMMARY:Ramapo High School at TBD (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7592746@big-north-conference
@@ -69,13 +95,21 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7641358@big-north-conference
+UID:ds:2822:7641340@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T174500
+DTEND;TZID=America/New_York:20270114T194500
+SUMMARY:Ramapo High School at TBD (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7641358@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T103000
 DTEND;TZID=America/New_York:20270116T123000
-SUMMARY:Ridgewood High School at Ramapo High School (Junior Varsity Boys 
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7641397@big-north-conference
@@ -85,6 +119,23 @@ DTEND;TZID=America/New_York:20270119T193000
 SUMMARY:Passaic County Technical Institute at Ramapo High School (Junior 
  Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7641540@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Ramapo High School at TBD (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7637838@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Ramapo High School vs Wayne Hills High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7592798@big-north-conference
@@ -114,12 +165,12 @@ SUMMARY:Fair Lawn High School at Ramapo High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7525343@big-north-conference
+UID:ds:2822:7525343@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T173000
 DTEND;TZID=America/New_York:20270216T193000
-SUMMARY:Ridgewood High School vs Ramapo High School (Junior Varsity Boys 
+SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR

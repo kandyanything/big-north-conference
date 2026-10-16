@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2832:7566357@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T100000
+DTEND;TZID=America/New_York:20260817T120000
+SUMMARY:Ridgefield Park High School at Lodi High School (Varsity Boys Foo
+ tball)
+DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7464905@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Ridgefield Park High School at Memorial High School (Varsity Boys
+  Football)
+DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7392785@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T180000
@@ -59,6 +77,15 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Ridgefield Park High Sc
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2832:7392797@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T180000
+DTEND;TZID=America/New_York:20260918T200000
+SUMMARY:Ridgefield Park High School at Northern Valley Regional High (Var
+ sity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7594502@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T161500
@@ -66,6 +93,15 @@ DTEND;TZID=America/New_York:20260921T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Ridgefield Park High Sc
  hool (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7594502@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Ridgefield Park High School vs Northern Valley Regional High (Jun
+ ior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7392805@big-north-conference
@@ -86,22 +122,22 @@ SUMMARY:Fort Lee High School vs Ridgefield Park High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7392806@big-north-conference
+UID:ds:2832:7392806@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T180000
 DTEND;TZID=America/New_York:20261001T200000
-SUMMARY:Tenafly High School at Ridgefield Park High School (Varsity Boys 
+SUMMARY:Ridgefield Park High School vs Tenafly High School (Varsity Boys 
  Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7528680@big-north-conference
+UID:ds:2832:7528680@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
 DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Tenafly High School at Ridgefield Park High School (Junior Varsit
+SUMMARY:Ridgefield Park High School vs Tenafly High School (Junior Varsit
  y Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 9:00 AM
+DESCRIPTION:Junior Varsity Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7392808@big-north-conference
@@ -120,5 +156,32 @@ DTEND;TZID=America/New_York:20261010T110000
 SUMMARY:Pascack Hills High School vs Ridgefield Park High School (Freshma
  n Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7689103@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Ridgefield Park High School at Dover High School (Varsity Boys Fo
+ otball)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7690815@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Ridgefield Park High School vs Dover High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7690812@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Ridgefield Park High School vs Memorial High School (Varsity Boys
+  Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7660297@big-north-conference
+UID:ds:2822:7660297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270315T180000
 DTEND;TZID=America/New_York:20270315T200000
-SUMMARY:Ramsey High School vs Ramapo High School (Junior Varsity Boys Boy
+SUMMARY:Ramapo High School at Ramsey High School (Junior Varsity Boys Boy
  s Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7583168@big-north-conference
@@ -42,13 +42,13 @@ SUMMARY:Pascack Valley High School vs Ramapo High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7583163@big-north-conference
+UID:ds:2822:7583163@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T190000
 DTEND;TZID=America/New_York:20270406T210000
-SUMMARY:Ridgewood High School at Ramapo High School (Junior Varsity Boys 
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys 
  Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7583169@big-north-conference
@@ -60,13 +60,31 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7583170@big-north-conference
+UID:ds:2822:7583167@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T173000
+DTEND;TZID=America/New_York:20270413T193000
+SUMMARY:Ramapo High School at Saint Joseph Regional High School (Junior V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7647462@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T183000
+DTEND;TZID=America/New_York:20270415T203000
+SUMMARY:Ramapo High School at River Dell Regional High School (Junior Var
+ sity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583170@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270417T130000
 DTEND;TZID=America/New_York:20270417T150000
-SUMMARY:Wayne Valley High School at Ramapo High School (Junior Varsity Bo
+SUMMARY:Ramapo High School vs Wayne Valley High School (Junior Varsity Bo
  ys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 1:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7583164@big-north-conference
@@ -87,6 +105,15 @@ SUMMARY:Don Bosco Prep at Ramapo High School (Junior Varsity Boys Boys La
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7583171@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T190000
+DTEND;TZID=America/New_York:20270518T210000
+SUMMARY:Ramapo High School vs West Milford High School (Junior Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7583172@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T190000
@@ -94,5 +121,14 @@ DTEND;TZID=America/New_York:20270520T210000
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramapo High School (J
  unior Varsity Boys Boys Lacrosse)
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7583172@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T190000
+DTEND;TZID=America/New_York:20270520T210000
+SUMMARY:Ramapo High School at Northern Valley Regional High (Junior Varsi
+ ty Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR

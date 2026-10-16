@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2822:7529360@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260820T160000
+DTEND;TZID=America/New_York:20260820T180000
+SUMMARY:Ramapo High School vs Pope John XXIII High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2585:7584100@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260822T103000
@@ -30,6 +39,15 @@ DTEND;TZID=America/New_York:20260822T123000
 SUMMARY:DePaul Catholic High School at Ramapo High School (Freshman Boys 
  Football)
 DESCRIPTION:Freshman Boys Football - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7531699@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:Ramapo High School vs West Orange High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7531706@big-north-conference
@@ -41,6 +59,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Ramapo High School (F
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7531706@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Ramapo High School vs Northern Valley Regional High (Freshman Boy
+ s Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7574716@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260905
@@ -50,13 +77,31 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Ramapo High School (F
 DESCRIPTION:Freshman Boys Football - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7615330@big-north-conference
+UID:ds:2822:7574716@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Ramapo High School vs Northern Valley Regional High (Freshman Boy
+ s Football)
+DESCRIPTION:Freshman Boys Football - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7615330@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Ridgewood High School vs Ramapo High School (Freshman Boys Footba
+SUMMARY:Ramapo High School at Ridgewood High School (Freshman Boys Footba
  ll)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7555869@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Ramapo High School at Union City High School (Freshman Boys Footb
+ all)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7528631@big-north-conference
@@ -77,12 +122,39 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7525669@big-north-conference
+UID:ds:2822:7501936@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Ramapo High School vs Seton Hall Prep School (Freshman Boys Footb
+ all)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7414034@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Ramapo High School at Wayne Hills High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7525669@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
 DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Wayne Valley High School at Ramapo High School (Freshman Boys Foo
+SUMMARY:Ramapo High School vs Wayne Valley High School (Freshman Boys Foo
  tball)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7531835@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T100000
+DTEND;TZID=America/New_York:20261031T120000
+SUMMARY:Ramapo High School at Red Bank Catholic High School (Freshman Boy
+ s Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR

@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2832:7621814@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Ridgefield Park High School vs River Dell Regional High School (V
+ arsity Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7621817@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Ridgefield Park High School at River Dell Regional High School (J
+ unior Varsity Boys Boys Tennis)
+DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7613494@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T161500

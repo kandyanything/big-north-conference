@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2822:7522773@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T160000
+DTEND;TZID=America/New_York:20260824T180000
+SUMMARY:Ramapo High School vs Morris Knolls High School (Freshman Girls G
+ irls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2574:7565989@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T100000
@@ -84,6 +93,15 @@ DTEND;TZID=America/New_York:20260828T180000
 SUMMARY:Northern Highlands Regional High School at Ramsey High School (Fr
  eshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7592136@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Ramapo High School at Millburn High School (Freshman Girls Girls 
+ Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7593397@big-north-conference
@@ -185,13 +203,13 @@ SUMMARY:Fair Lawn High School at Northern Highlands Regional High School
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7433098@big-north-conference
+UID:ds:2822:7433098@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Ramsey High School vs Ramapo High School (Freshman Girls Girls So
+SUMMARY:Ramapo High School at Ramsey High School (Freshman Girls Girls So
  ccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458827@big-north-conference
@@ -209,6 +227,15 @@ DTSTART;TZID=America/New_York:20260917T161500
 DTEND;TZID=America/New_York:20260917T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Ridgewood High School
   (Freshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7548574@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Ramapo High School vs Livingston High School (Freshman Girls Girl
+ s Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -237,6 +264,15 @@ DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Passaic County Technical Institute at Ramsey High School (Freshma
  n Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7612083@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Ramapo High School at Immaculate Heart Academy (Freshman Girls Gi
+ rls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386074@big-north-conference
@@ -284,13 +320,13 @@ SUMMARY:Northern Highlands Regional High School at Ramsey High School (Fr
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7648317@big-north-conference
+UID:ds:2822:7648317@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
 DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Ridgewood High School vs Ramapo High School (Freshman Girls Girls
+SUMMARY:Ramapo High School at Ridgewood High School (Freshman Girls Girls
   Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7602412@big-north-conference
@@ -336,6 +372,15 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Ridgewood High School at Clifton High School (Freshman Girls Girl
  s Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7522707@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Ramapo High School vs Immaculate Heart Academy (Freshman Girls Gi
+ rls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7507326@big-north-conference
@@ -390,6 +435,15 @@ DTEND;TZID=America/New_York:20261003T130000
 SUMMARY:Northern Valley Regional HS - Demarest at Ramapo High School (Fre
  shman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7522608@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T130000
+SUMMARY:Ramapo High School vs Northern Valley Regional High (Freshman Gir
+ ls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386088@big-north-conference
@@ -518,13 +572,13 @@ SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Fres
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7548011@big-north-conference
+UID:ds:2822:7548011@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T100000
 DTEND;TZID=America/New_York:20261017T120000
-SUMMARY:Ramsey High School at Ramapo High School (Freshman Girls Girls So
+SUMMARY:Ramapo High School vs Ramsey High School (Freshman Girls Girls So
  ccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 10:00 AM
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7690247@big-north-conference
@@ -617,13 +671,13 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Immaculate Heart Acad
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507318@big-north-conference
+UID:ds:2822:7507318@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T161500
 DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Ridgewood High School at Ramapo High School (Freshman Girls Girls
+SUMMARY:Ramapo High School vs Ridgewood High School (Freshman Girls Girls
   Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7433112@big-north-conference

@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2931:7491684@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:West Milford High School vs Vernon Township High School (Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7555427@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T111500
+DTEND;TZID=America/New_York:20260825T131500
+SUMMARY:West Milford High School vs Vernon Township High School (Junior V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 11:15 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7491688@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260827T130000
@@ -195,6 +213,24 @@ SUMMARY:Lakeland Regional High School vs West Milford High School (Freshm
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2925:7414641@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Wayne Hills High School vs West Milford High School (Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7451220@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T173000
+DTEND;TZID=America/New_York:20260923T193000
+SUMMARY:Wayne Hills High School vs West Milford High School (Junior Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7511062@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
@@ -240,6 +276,33 @@ SUMMARY:Ramsey High School at West Milford High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2931:7553786@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:West Milford High School at Vernon Township High School (Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7555660@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:West Milford High School vs Vernon Township High School (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7555541@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T171500
+DTEND;TZID=America/New_York:20261001T191500
+SUMMARY:West Milford High School at Vernon Township High School (Junior V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2604:7451305@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T163000
@@ -247,6 +310,15 @@ DTEND;TZID=America/New_York:20261006T183000
 SUMMARY:Eastside High School at West Milford High School (Varsity Girls G
  irls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7451308@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T174500
+DTEND;TZID=America/New_York:20261006T194500
+SUMMARY:West Milford High School vs Eastside High School (Junior Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7672431@big-north-conference
@@ -346,6 +418,33 @@ DTEND;TZID=America/New_York:20261022T194500
 SUMMARY:Lakeland Regional High School vs West Milford High School (Junior
   Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7451304@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7494029@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Wayne Hills High School at West Milford High School (Freshman Gir
+ ls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7451307@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T173000
+DTEND;TZID=America/New_York:20261027T193000
+SUMMARY:Wayne Hills High School at West Milford High School (Junior Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7451303@big-north-conference

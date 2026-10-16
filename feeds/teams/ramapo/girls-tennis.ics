@@ -23,22 +23,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2926:7451116@big-north-conference
+UID:ds:2822:7451116@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Wayne Valley High School vs Ramapo High School (Varsity Girls Gir
+SUMMARY:Ramapo High School at Wayne Valley High School (Varsity Girls Gir
  ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7451117@big-north-conference
+UID:ds:2822:7451117@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Wayne Valley High School at Ramapo High School (Junior Varsity Gi
+SUMMARY:Ramapo High School vs Wayne Valley High School (Junior Varsity Gi
  rls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386112@big-north-conference
@@ -59,22 +59,22 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7555290@big-north-conference
+UID:ds:2822:7555290@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Ridgewood High School vs Ramapo High School (Varsity Girls Girls 
+SUMMARY:Ramapo High School at Ridgewood High School (Varsity Girls Girls 
  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7508013@big-north-conference
+UID:ds:2822:7508013@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Ridgewood High School at Ramapo High School (Junior Varsity Girls
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Girls
   Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7474539@big-north-conference
@@ -131,22 +131,31 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramapo High School (V
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7508098@big-north-conference
+UID:ds:2822:7644093@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Ridgewood High School at Ramapo High School (Varsity Girls Girls 
- Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20260919T080000
+DTEND;TZID=America/New_York:20260919T100000
+SUMMARY:Ramapo High School at Northern Valley Regional High (Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7508099@big-north-conference
+UID:ds:2822:7508098@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Ridgewood High School vs Ramapo High School (Junior Varsity Girls
+SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls 
+ Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7508099@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Girls
   Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7515948@big-north-conference
@@ -167,6 +176,24 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Ramapo High School (J
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7515948@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Ramapo High School vs Northern Valley Regional High (Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7551827@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Ramapo High School at Northern Valley Regional High (Junior Varsi
+ ty Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7386105@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -174,6 +201,42 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Va
  rsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7515952@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T161500
+DTEND;TZID=America/New_York:20260925T181500
+SUMMARY:Ramapo High School vs Wayne Hills High School (Varsity Girls Girl
+ s Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7496283@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T161500
+DTEND;TZID=America/New_York:20260925T181500
+SUMMARY:Ramapo High School at Wayne Hills High School (Junior Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7665056@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Ramapo High School vs Parsippany Hills High School (Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7671428@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T140000
+DTEND;TZID=America/New_York:20261006T160000
+SUMMARY:Ramapo High School at Millburn High School (Varsity Girls Girls T
+ ennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7551884@big-north-conference
