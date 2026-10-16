@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2792:7699062@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T204500
+DTEND;TZID=America/New_York:20261130T224500
+SUMMARY:Pascack Hills High School at Hoboken High School (Varsity Boys Bo
+ ys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2792:7698117@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T160000
 DTEND;TZID=America/New_York:20261202T180000
-SUMMARY:Pascack Hills High School at Pascack Hills/Valley (Varsity Boys B
- oys Ice Hockey)
+SUMMARY:Pascack Hills High School at Northern Valley Old Tappan/Demarest 
+ (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
