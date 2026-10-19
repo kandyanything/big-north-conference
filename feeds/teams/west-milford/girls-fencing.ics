@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2888:7701522@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Teaneck High School at West Milford High School (Varsity Girls Gi
+ rls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:43369:7677412@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T180000
@@ -30,6 +39,24 @@ DTEND;TZID=America/New_York:20261211T200000
 SUMMARY:Academy of the Holy Angels vs West Milford High School (Varsity G
  irls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701530@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T163000
+DTEND;TZID=America/New_York:20261216T183000
+SUMMARY:West Milford High School vs Fair Lawn High School (Varsity Girls 
+ Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7689419@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T163000
+DTEND;TZID=America/New_York:20261221T183000
+SUMMARY:West Milford High School at Indian Hills High School (Varsity Gir
+ ls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7696698@big-north-conference
@@ -41,21 +68,66 @@ SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7644497@big-north-conference
+UID:ds:2931:7644510@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
-SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
+SUMMARY:West Milford High School at Wayne Valley High School (Varsity Gir
  ls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7654507@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T161500
+DTEND;TZID=America/New_York:20270111T181500
+SUMMARY:West Milford High School vs Ramapo High School (Varsity Girls Gir
+ ls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7654831@big-north-conference
+UID:ds:2931:7659465@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T160000
-DTEND;TZID=America/New_York:20270111T180000
-SUMMARY:Ramapo High School at West Milford High School (Varsity Girls Gir
+DTSTART;TZID=America/New_York:20270120T163000
+DTEND;TZID=America/New_York:20270120T183000
+SUMMARY:West Milford High School vs Bergen County Technical High School (
+ Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701574@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T163000
+DTEND;TZID=America/New_York:20270121T183000
+SUMMARY:West Milford High School vs Pompton Lakes High School (Varsity Gi
+ rls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701585@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T161500
+DTEND;TZID=America/New_York:20270127T181500
+SUMMARY:West Milford High School at Northern Highlands Regional High Scho
+ ol (Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701592@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T163000
+DTEND;TZID=America/New_York:20270129T183000
+SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
+ y Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7640498@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T163000
+DTEND;TZID=America/New_York:20270201T183000
+SUMMARY:West Milford High School at Butler High School (Varsity Girls Gir
  ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR

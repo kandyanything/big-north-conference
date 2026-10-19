@@ -24,13 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2888:7701619@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Teaneck High School at West Milford High School (Varsity Boys Boy
+ s Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7689419@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T183000
-DTEND;TZID=America/New_York:20261222T203000
+DTSTART;TZID=America/New_York:20261221T163000
+DTEND;TZID=America/New_York:20261221T183000
 SUMMARY:Indian Hills High School vs West Milford High School (Varsity Boy
  s Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7701618@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T161500
+DTEND;TZID=America/New_York:20270104T181500
+SUMMARY:Wayne Hills High School at West Milford High School (Varsity Boys
+  Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7644510@big-north-conference
@@ -49,5 +67,32 @@ DTEND;TZID=America/New_York:20270111T181500
 SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Boys
   Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701616@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T163000
+DTEND;TZID=America/New_York:20270120T183000
+SUMMARY:West Milford High School vs Bergen County Technical High School (
+ Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701620@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T163000
+DTEND;TZID=America/New_York:20270129T183000
+SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
+ y Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7701613@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T163000
+DTEND;TZID=America/New_York:20270201T183000
+SUMMARY:West Milford High School at Butler High School (Varsity Boys Boys
+  Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR
