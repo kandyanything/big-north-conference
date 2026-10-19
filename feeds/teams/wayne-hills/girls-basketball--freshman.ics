@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2794:7702435@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Fr
+ eshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7449789@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T090000
@@ -49,5 +58,41 @@ DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Wayne Hills High School at Wayne Valley High School (Freshman Gir
  ls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7702447@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T161500
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:Wayne Hills High School vs West Milford High School (Freshman Gir
+ ls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7702451@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:Ramapo High School at Wayne Hills High School (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7702458@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T161500
+DTEND;TZID=America/New_York:20270204T181500
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Freshma
+ n Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7702459@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T161500
+DTEND;TZID=America/New_York:20270209T181500
+SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Gir
+ ls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR

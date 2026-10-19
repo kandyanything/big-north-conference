@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2834:7702324@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T161500
+DTEND;TZID=America/New_York:20270317T181500
+SUMMARY:River Dell Regional High School vs Wayne Hills High School (Fresh
+ man Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7674366@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
@@ -75,6 +84,15 @@ DTEND;TZID=America/New_York:20270407T180000
 SUMMARY:Passaic Valley High School at Wayne Hills High School (Varsity Bo
  ys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7702556@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T110000
+DTEND;TZID=America/New_York:20270424T130000
+SUMMARY:River Dell Regional High School at Wayne Hills High School (Fresh
+ man Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7573136@big-north-conference
