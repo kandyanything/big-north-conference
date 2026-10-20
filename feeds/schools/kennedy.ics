@@ -680,15 +680,6 @@ SUMMARY:John F. Kennedy High School vs Paramus Catholic High School (Vars
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7518714@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T190000
-DTEND;TZID=America/New_York:20261028T210000
-SUMMARY:John F. Kennedy High School at Paramus Catholic High School (Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2676:7516339@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T161500
@@ -696,6 +687,15 @@ DTEND;TZID=America/New_York:20261029T181500
 SUMMARY:John F. Kennedy High School vs Passaic County Technical Institute
   (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7703522@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:John F. Kennedy High School vs Tenafly High School (Varsity Boys 
+ Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7647407@big-north-conference
@@ -707,13 +707,13 @@ SUMMARY:John F. Kennedy High School at John P Stevens High School (Varsit
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7703522@big-north-conference
+UID:ds:2676:7518714@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T180000
-DTEND;TZID=America/New_York:20261029T200000
-SUMMARY:Tenafly High School at John F. Kennedy High School (Varsity Boys 
- Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:John F. Kennedy High School at Paramus Catholic High School (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7686310@big-north-conference
