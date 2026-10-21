@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:32754:7708026@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T161500
+DTEND;TZID=America/New_York:20270317T181500
+SUMMARY:Bergen County Technical High School vs Garfield High School (Vars
+ ity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708033@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270319T161500
+DTEND;TZID=America/New_York:20270319T181500
+SUMMARY:Bergen County Technical High School at Bloomfield High School (Va
+ rsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7666549@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270320T100000
@@ -33,12 +51,30 @@ SUMMARY:Bergen County Technical High School vs River Dell Regional High S
 DESCRIPTION:Varsity Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2888:7708188@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270326T161500
+DTEND;TZID=America/New_York:20270326T181500
+SUMMARY:Teaneck High School at Bergen County Technical High School (Varsi
+ ty Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7656232@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270327T100000
 DTEND;TZID=America/New_York:20270327T120000
 SUMMARY:Bergen County Technical High School at Wood-Ridge High School (Va
  rsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7708239@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T100000
+DTEND;TZID=America/New_York:20270403T120000
+SUMMARY:Ramapo High School at Bergen County Technical High School (Varsit
+ y Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -85,5 +121,14 @@ DTEND;TZID=America/New_York:20270519T181500
 SUMMARY:Bergen County Technical High School vs Fort Lee High School (Vars
  ity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7708390@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270524T170000
+DTEND;TZID=America/New_York:20270524T190000
+SUMMARY:West Milford High School vs Bergen County Technical High School (
+ Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 5:00 PM
 END:VEVENT
 END:VCALENDAR
