@@ -45492,6 +45492,15 @@ SUMMARY:Indian Hills High School at Passaic Valley High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7706352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:Lakeland Regional High School vs Montville Township High School (
+ Freshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7451245@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T161500
@@ -47037,15 +47046,6 @@ DTEND;TZID=America/New_York:20261024T110000
 SUMMARY:Passaic County Technical Institute vs West Essex High School (Fre
  shman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7513159@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T090000
-DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Passaic High School at Ridgewood High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7698825@big-north-conference
@@ -52297,15 +52297,6 @@ SUMMARY:Wayne Hills High School at Passaic High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 10:40 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7659622@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T110000
-DTEND;TZID=America/New_York:20261205T130000
-SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7692391@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261205T130000
@@ -54266,6 +54257,15 @@ SUMMARY:Passaic High School vs River Dell Regional High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7706655@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T174500
+DTEND;TZID=America/New_York:20261209T194500
+SUMMARY:Ramapo High School vs Academy of the Holy Angels (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2585:7672184@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T180000
@@ -54723,15 +54723,6 @@ DTEND;TZID=America/New_York:20261210T183000
 SUMMARY:Cliffside Park High School at Leonia High School (Junior Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2616:7603961@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
-SUMMARY:Fort Lee High School at Memorial High School (Varsity Boys Boys B
- asketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7700660@big-north-conference
@@ -55793,15 +55784,6 @@ SUMMARY:Clifton High School vs Eastern Christian (Varsity Girls Girls Bas
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7458089@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T100000
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Fort Lee High School at Emerson Jr-Sr High School (Varsity Boys B
- oys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7602761@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
@@ -55989,6 +55971,24 @@ DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Ramsey High School at Northern Valley Regional High (Junior Varsi
  ty Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7659622@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7706672@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Ridgewood High School vs Memorial High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7639802@big-north-conference
@@ -58488,7 +58488,7 @@ SUMMARY:Academy of the Holy Angels at Northern Valley Regional High (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7649578@big-north-conference
+UID:ds:2772:7706659@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T174500
 DTEND;TZID=America/New_York:20261217T194500
@@ -60598,6 +60598,15 @@ SUMMARY:Wayne Valley High School at West Milford High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2931:7706723@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:West Milford High School at Mount Olive High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7641275@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T161500
@@ -61906,12 +61915,12 @@ SUMMARY:Cliffside Park High School at TBD (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7620277@big-north-conference
+UID:ds:2770:7706404@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261227T100000
 DTEND;TZID=America/New_York:20261227T120000
-SUMMARY:Northern Highlands Regional High School at College Achieve Paters
- on Charter School (Varsity Boys Boys Basketball)
+SUMMARY:Northern Highlands Regional High School at Essex County (Varsity 
+ Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -62163,6 +62172,15 @@ SUMMARY:Paramus High School vs TBA NJ (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2706:7706660@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Mahwah High School vs Academy of the Holy Angels (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7548853@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261229T090000
@@ -62224,6 +62242,15 @@ DTEND;TZID=America/New_York:20261229T140000
 SUMMARY:Northern Highlands Regional High School vs Lyndhurst High School 
  (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7706729@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261229T120000
+DTEND;TZID=America/New_York:20261229T140000
+SUMMARY:West Milford High School at Pequannock Township High School (Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7702084@big-north-conference
@@ -62680,6 +62707,14 @@ DTEND;TZID=America/New_York:20270102T223500
 SUMMARY:Wayne Hills High School vs Hoboken High School (Varsity Boys Boys
   Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:35 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7706724@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Ridgewood High School vs TBD (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7525566@big-north-conference
@@ -65280,6 +65315,15 @@ SUMMARY:Pascack Hills High School at River Dell Regional High School (Jun
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2823:7706645@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T174500
+DTEND;TZID=America/New_York:20270107T194500
+SUMMARY:Ramsey High School at Academy of the Holy Angels (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7642120@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
@@ -66305,6 +66349,15 @@ SUMMARY:Wayne Valley High School at Pequannock Township High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7706548@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T124500
+DTEND;TZID=America/New_York:20270109T144500
+SUMMARY:Ridgewood High School vs Paterson Charter School Of Science and T
+ echnology (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7656020@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T130000
@@ -66341,13 +66394,13 @@ SUMMARY:Ramsey High School vs Wayne Valley High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7684871@big-north-conference
+UID:ds:2604:7684871@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T144500
 DTEND;TZID=America/New_York:20270109T164500
-SUMMARY:Northern Highlands Regional High School at Teaneck High School (V
- arsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 2:45 PM
+SUMMARY:Eastside High School vs Northern Highlands Regional High School (
+ Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7636995@big-north-conference
@@ -75479,6 +75532,15 @@ SUMMARY:River Dell Regional High School at Saint Joseph Regional High Sch
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2890:7706652@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T174500
+DTEND;TZID=America/New_York:20270126T194500
+SUMMARY:Tenafly High School at Academy of the Holy Angels (Junior Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7651888@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
@@ -83556,6 +83618,15 @@ SUMMARY:Bergenfield High School vs Ridgefield Park High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2792:7706648@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270216T174500
+DTEND;TZID=America/New_York:20270216T194500
+SUMMARY:Pascack Hills High School vs Academy of the Holy Angels (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7593539@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T174500
@@ -85029,6 +85100,15 @@ DTEND;TZID=America/New_York:20270316T202900
 SUMMARY:Mahwah High School vs Newton High School (Junior Varsity Boys Boy
  s Lacrosse)
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:29 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7706679@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T160000
+DTEND;TZID=America/New_York:20270317T180000
+SUMMARY:Paramus Catholic High School at Delbarton School (Varsity Boys Ba
+ seball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7668573@big-north-conference

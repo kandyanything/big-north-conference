@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7659622@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T110000
-DTEND;TZID=America/New_York:20261205T130000
-SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2832:7479488@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T144500
@@ -959,15 +950,6 @@ SUMMARY:Tenafly High School vs Glen Rock High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7603961@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
-SUMMARY:Fort Lee High School at Memorial High School (Varsity Boys Boys B
- asketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2616:7700660@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T163000
@@ -1283,15 +1265,6 @@ SUMMARY:Bergenfield High School vs Hawthorne High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7458089@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T100000
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Fort Lee High School at Emerson Jr-Sr High School (Varsity Boys B
- oys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7674520@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
@@ -1325,6 +1298,24 @@ DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Passaic County Technical Institute vs Montville Township High Sch
  ool (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7659622@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7706672@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Ridgewood High School vs Memorial High School (Junior Varsity Boy
+ s Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -3387,12 +3378,12 @@ SUMMARY:River Dell Regional High School at Saddle River Day School (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7620277@big-north-conference
+UID:ds:2770:7706404@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261227T100000
 DTEND;TZID=America/New_York:20261227T120000
-SUMMARY:Northern Highlands Regional High School at College Achieve Paters
- on Charter School (Varsity Boys Boys Basketball)
+SUMMARY:Northern Highlands Regional High School at Essex County (Varsity 
+ Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -3662,6 +3653,14 @@ DTEND;TZID=America/New_York:20270102T163000
 SUMMARY:Ramapo High School at Westfield High School (Varsity Boys Boys Ba
  sketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7706724@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Ridgewood High School vs TBD (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7673704@big-north-conference
@@ -4906,6 +4905,15 @@ SUMMARY:Tenafly High School at Cresskill High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7706548@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T124500
+DTEND;TZID=America/New_York:20270109T144500
+SUMMARY:Ridgewood High School vs Paterson Charter School Of Science and T
+ echnology (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7656020@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T130000
@@ -4942,13 +4950,13 @@ SUMMARY:Ramsey High School vs Wayne Valley High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7684871@big-north-conference
+UID:ds:2604:7684871@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T144500
 DTEND;TZID=America/New_York:20270109T164500
-SUMMARY:Northern Highlands Regional High School at Teaneck High School (V
- arsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 2:45 PM
+SUMMARY:Eastside High School vs Northern Highlands Regional High School (
+ Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7636995@big-north-conference
