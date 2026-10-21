@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2939:7708564@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T163000
+DTEND;TZID=America/New_York:20261217T183000
+SUMMARY:Westwood Regional Senior High School at TBD (Varsity Coed Indoor 
+ Track)
+DESCRIPTION:Varsity Coed Indoor Track - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7691539@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T093000
@@ -92,6 +101,15 @@ DTEND;TZID=America/New_York:20270109T113000
 SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Indoor Tr
  ack)
 DESCRIPTION:Varsity Coed Indoor Track - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2939:7708572@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Westwood Regional Senior High School at TBD (Varsity Coed Indoor 
+ Track)
+DESCRIPTION:Varsity Coed Indoor Track - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7691591@big-north-conference
