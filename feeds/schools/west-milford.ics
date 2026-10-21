@@ -2164,15 +2164,6 @@ SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7491402@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T163000
-DTEND;TZID=America/New_York:20261022T183000
-SUMMARY:West Milford High School vs Sparta High School (Freshman Boys Foo
- tball)
-DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7537591@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T174500
@@ -2218,15 +2209,6 @@ SUMMARY:Clifton High School at West Milford High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7463038@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:West Milford High School vs Sparta High School (Junior Varsity Bo
- ys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7414366@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
@@ -2252,6 +2234,15 @@ DTEND;TZID=America/New_York:20261026T181500
 SUMMARY:Wayne Hills High School at West Milford High School (Junior Varsi
  ty Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7463038@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T183000
+DTEND;TZID=America/New_York:20261026T203000
+SUMMARY:West Milford High School vs Sparta High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7451304@big-north-conference
@@ -2634,20 +2625,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7635031@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261213T171500
-DTEND;TZID=America/New_York:20261213T191500
+DTSTART;TZID=America/New_York:20261213T180000
+DTEND;TZID=America/New_York:20261213T200000
 SUMMARY:Ramsey High School at West Milford High School (Varsity Boys Boys
   Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:15 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7635031@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261213T171500
-DTEND;TZID=America/New_York:20261213T191500
+DTSTART;TZID=America/New_York:20261213T180000
+DTEND;TZID=America/New_York:20261213T200000
 SUMMARY:West Milford High School vs Ramsey High School (Varsity Coed Coed
   Ice Hockey)
-DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 5:15 PM
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7701530@big-north-conference
@@ -2963,6 +2954,51 @@ DTEND;TZID=America/New_York:20261223T171500
 SUMMARY:West Milford High School vs Kittatinny Regional High School (Vars
  ity Coed Coed Wrestling)
 DESCRIPTION:Varsity Coed Coed Wrestling - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7706059@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T203000
+DTEND;TZID=America/New_York:20261223T223000
+SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
+ y Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7706059@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T203000
+DTEND;TZID=America/New_York:20261223T223000
+SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
+ y Coed Coed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7706060@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261226T123000
+DTEND;TZID=America/New_York:20261226T143000
+SUMMARY:West Milford High School at Roxbury High School (Varsity Coed Coe
+ d Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7706061@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T210000
+DTEND;TZID=America/New_York:20261227T230000
+SUMMARY:Clifton High School at West Milford High School (Varsity Boys Boy
+ s Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7706061@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T210000
+DTEND;TZID=America/New_York:20261227T230000
+SUMMARY:West Milford High School vs Clifton High School (Varsity Coed Coe
+ d Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 9:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7691527@big-north-conference

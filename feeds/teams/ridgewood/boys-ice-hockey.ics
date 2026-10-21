@@ -106,20 +106,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515672@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261227
-DTEND;VALUE=DATE:20261228
+DTSTART;TZID=America/New_York:20261227T191500
+DTEND;TZID=America/New_York:20261227T211500
 SUMMARY:Paramus High School at Ridgewood High School (Varsity Boys Boys I
  ce Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7515672@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261227
-DTEND;VALUE=DATE:20261228
-SUMMARY:Ridgewood High School vs Paramus High School (Varsity Boys Boys I
- ce Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7590400@big-north-conference
