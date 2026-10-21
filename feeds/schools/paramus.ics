@@ -2282,10 +2282,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7592158@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;TZID=America/New_York:20261031T120000
+DTEND;TZID=America/New_York:20261031T140000
 SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7592163@big-north-conference
@@ -2338,6 +2338,15 @@ DTEND;TZID=America/New_York:20261203T214500
 SUMMARY:Paramus High School vs Wayne Valley High School (Varsity Coed Coe
  d Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 7:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7707174@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T194500
+DTEND;TZID=America/New_York:20261203T214500
+SUMMARY:Paramus High School vs Wayne Valley High School (Varsity Girls Gi
+ rls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7701925@big-north-conference
