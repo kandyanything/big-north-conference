@@ -24,21 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2592:7689459@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Don Bosco Prep vs Passaic Valley High School (Varsity Boys Boys F
+ encing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7645344@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
 DTEND;TZID=America/New_York:20261211T180000
 SUMMARY:Ramapo High School vs Passaic Valley High School (Varsity Boys Bo
  ys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2592:7689459@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T160000
-DTEND;TZID=America/New_York:20261221T180000
-SUMMARY:Don Bosco Prep vs Passaic Valley High School (Varsity Boys Boys F
- encing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -51,15 +51,6 @@ SUMMARY:Lakeland Regional High School at Passaic Valley High School (Vars
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7688095@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T123000
-DTEND;TZID=America/New_York:20270120T143000
-SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity B
- oys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 12:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7636698@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -69,6 +60,15 @@ SUMMARY:Northern Highlands Regional High School vs Passaic Valley High Sc
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7688095@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity B
+ oys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7688111@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T161500
@@ -76,5 +76,14 @@ DTEND;TZID=America/New_York:20270129T181500
 SUMMARY:Wayne Hills High School at Passaic Valley High School (Varsity Bo
  ys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7710115@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T170000
+DTEND;TZID=America/New_York:20270205T190000
+SUMMARY:Wayne Hills High School at Passaic Valley High School (Varsity Bo
+ ys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 5:00 PM
 END:VEVENT
 END:VCALENDAR
