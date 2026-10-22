@@ -3130,11 +3130,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7578820@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;TZID=America/New_York:20261031T120000
+DTEND;TZID=America/New_York:20261031T140000
 SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Cros
  s Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7670019@big-north-conference
@@ -7223,6 +7223,15 @@ SUMMARY:River Dell Regional High School at Wayne Hills High School (Fresh
 DESCRIPTION:Freshman Boys Baseball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2834:7714027@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T111500
+DTEND;TZID=America/New_York:20270424T131500
+SUMMARY:River Dell Regional High School at Waldwick High School (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 11:15 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7702526@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270424T120000
@@ -7239,14 +7248,6 @@ DTEND;TZID=America/New_York:20270424T183000
 SUMMARY:Academy of the Holy Angels at River Dell Regional High School (Va
  rsity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7707786@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270424
-DTEND;VALUE=DATE:20270425
-SUMMARY:River Dell Regional High School at TBA NJ (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7666608@big-north-conference
