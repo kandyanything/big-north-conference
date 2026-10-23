@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2931:7704043@big-north-conference
+UID:ds:2931:7720860@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T080000
-DTEND;TZID=America/New_York:20270206T100000
+DTSTART;TZID=America/New_York:20270206T090000
+DTEND;TZID=America/New_York:20270206T110000
+SUMMARY:West Milford High School at Pascack Hills High School (Varsity Co
+ ed Coed Wrestling)
+DESCRIPTION:Varsity Coed Coed Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7720861@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T090000
+DTEND;TZID=America/New_York:20270206T110000
 SUMMARY:West Milford High School at Pascack Hills High School (Junior Var
  sity Coed Coed Wrestling)
-DESCRIPTION:Junior Varsity Coed Coed Wrestling - Away - 8:00 AM
+DESCRIPTION:Junior Varsity Coed Coed Wrestling - Away - 9:00 AM
 END:VEVENT
 END:VCALENDAR
