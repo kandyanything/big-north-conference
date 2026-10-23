@@ -2724,20 +2724,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7671451@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T170000
-DTEND;TZID=America/New_York:20261216T190000
-SUMMARY:Indian Hills High School vs West Milford High School (Junior Vars
- ity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7704992@big-north-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
-SUMMARY:Indian Hills High School vs West Milford High School (Varsity Boy
- s Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+SUMMARY:Indian Hills High School vs West Milford High School (Junior Vars
+ ity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7671451@big-north-conference
@@ -2749,13 +2740,22 @@ SUMMARY:West Milford High School at Indian Hills High School (Junior Vars
 DESCRIPTION:Junior Varsity Coed Coed Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7704992@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T183000
+DTEND;TZID=America/New_York:20261216T203000
+SUMMARY:Indian Hills High School vs West Milford High School (Varsity Boy
+ s Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2931:7704992@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T190000
-DTEND;TZID=America/New_York:20261216T210000
+DTSTART;TZID=America/New_York:20261216T183000
+DTEND;TZID=America/New_York:20261216T203000
 SUMMARY:West Milford High School at Indian Hills High School (Varsity Coe
  d Coed Wrestling)
-DESCRIPTION:Varsity Coed Coed Wrestling - Away - 7:00 PM
+DESCRIPTION:Varsity Coed Coed Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7422890@big-north-conference
@@ -4701,13 +4701,13 @@ SUMMARY:Ramapo High School vs West Milford High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7721642@big-north-conference
+UID:ds:2822:7721642@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T190000
 DTEND;TZID=America/New_York:20270330T210000
-SUMMARY:West Milford High School at Ramapo High School (Junior Varsity Bo
+SUMMARY:Ramapo High School vs West Milford High School (Junior Varsity Bo
  ys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 7:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7534926@big-north-conference
@@ -4996,15 +4996,6 @@ DTEND;TZID=America/New_York:20270505T180000
 SUMMARY:Passaic Valley High School vs West Milford High School (Freshman 
  Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7583171@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270518T190000
-DTEND;TZID=America/New_York:20270518T210000
-SUMMARY:Ramapo High School vs West Milford High School (Junior Varsity Bo
- ys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7708390@big-north-conference
