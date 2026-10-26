@@ -26,20 +26,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:32754:7689373@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270318T161500
-DTEND;TZID=America/New_York:20270318T181500
-SUMMARY:Bergen County Technical High School at Paramus High School (Varsi
- ty Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7689373@big-north-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T173000
 DTEND;TZID=America/New_York:20270318T193000
-SUMMARY:Paramus High School vs Bergen County Technical High School (Varsi
+SUMMARY:Bergen County Technical High School at Paramus High School (Varsi
  ty Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 5:30 PM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7725456@big-north-conference
@@ -141,6 +132,15 @@ SUMMARY:Paramus High School vs Wayne Hills High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7725650@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T173000
+DTEND;TZID=America/New_York:20270429T193000
+SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Boys B
+ oys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7667060@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270518T173000
@@ -148,5 +148,14 @@ DTEND;TZID=America/New_York:20270518T193000
 SUMMARY:Paramus High School vs Passaic County Technical Institute (Varsit
  y Boys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7725654@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T173000
+DTEND;TZID=America/New_York:20270520T193000
+SUMMARY:Fair Lawn High School at Paramus High School (Varsity Boys Boys L
+ acrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR
