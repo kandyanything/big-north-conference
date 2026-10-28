@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:32754:7639189@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T161500
+DTEND;TZID=America/New_York:20261209T181500
+SUMMARY:Bergen County Technical High School vs Pompton Lakes High School 
+ (Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7636652@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T161500
@@ -59,13 +68,13 @@ SUMMARY:Teaneck High School at West Milford High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7654694@big-north-conference
+UID:ds:43369:7654694@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T210000
-SUMMARY:Ramapo High School at Academy of the Holy Angels (Varsity Girls G
+SUMMARY:Academy of the Holy Angels vs Ramapo High School (Varsity Girls G
  irls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7710019@big-north-conference
@@ -86,13 +95,22 @@ SUMMARY:Wayne Hills High School at Kinnelon High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7677412@big-north-conference
+UID:ds:43369:7677412@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T180000
 DTEND;TZID=America/New_York:20261211T200000
-SUMMARY:West Milford High School at Academy of the Holy Angels (Varsity G
+SUMMARY:Academy of the Holy Angels vs West Milford High School (Varsity G
  irls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7703613@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T080000
+DTEND;TZID=America/New_York:20261212T100000
+SUMMARY:Bergen County Technical High School at Teaneck High School (Varsi
+ ty Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7703613@big-north-conference
@@ -112,13 +130,13 @@ SUMMARY:Teaneck High School at TBD (Varsity Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7703613@big-north-conference
+UID:ds:43369:7697453@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T080000
-DTEND;TZID=America/New_York:20261212T100000
-SUMMARY:Teaneck High School vs Bergen County Technical High School (Varsi
- ty Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 8:00 AM
+DTSTART;TZID=America/New_York:20261214T160000
+DTEND;TZID=America/New_York:20261214T180000
+SUMMARY:Academy of the Holy Angels at West Orange High School (Varsity Gi
+ rls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7635455@big-north-conference
@@ -157,6 +175,15 @@ SUMMARY:West Milford High School vs Fair Lawn High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:43369:7659661@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T190000
+DTEND;TZID=America/New_York:20261216T210000
+SUMMARY:Academy of the Holy Angels vs Bergen County Technical High School
+  (Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7696690@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T161500
@@ -164,6 +191,15 @@ DTEND;TZID=America/New_York:20261217T181500
 SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
   Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7699808@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T163000
+DTEND;TZID=America/New_York:20261217T183000
+SUMMARY:Academy of the Holy Angels vs Holmdel High School (Varsity Girls 
+ Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7644843@big-north-conference
@@ -220,6 +256,15 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7640136@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T161500
+DTEND;TZID=America/New_York:20270104T181500
+SUMMARY:Bergen County Technical High School at Wayne Valley High School (
+ Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7696698@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T161500
@@ -227,15 +272,6 @@ DTEND;TZID=America/New_York:20270104T181500
 SUMMARY:Wayne Hills High School at West Milford High School (Varsity Girl
  s Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7640136@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T161500
-DTEND;TZID=America/New_York:20270104T181500
-SUMMARY:Wayne Valley High School vs Bergen County Technical High School (
- Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7640470@big-north-conference
@@ -247,6 +283,24 @@ SUMMARY:Indian Hills High School vs Butler High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:43369:7636978@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Academy of the Holy Angels at Pompton Lakes High School (Varsity 
+ Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7636687@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T161500
+DTEND;TZID=America/New_York:20270108T181500
+SUMMARY:Bergen County Technical High School at Northern Highlands Regiona
+ l High School (Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7644844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
@@ -254,15 +308,6 @@ DTEND;TZID=America/New_York:20270108T181500
 SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
  s Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7636687@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T161500
-DTEND;TZID=America/New_York:20270108T181500
-SUMMARY:Northern Highlands Regional High School vs Bergen County Technica
- l High School (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7644510@big-north-conference
@@ -301,13 +346,13 @@ SUMMARY:Indian Hills High School vs Pompton Lakes High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7636689@big-north-conference
+UID:ds:43369:7636689@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T190000
 DTEND;TZID=America/New_York:20270111T210000
-SUMMARY:Northern Highlands Regional High School at Academy of the Holy An
- gels (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 7:00 PM
+SUMMARY:Academy of the Holy Angels vs Northern Highlands Regional High Sc
+ hool (Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7696703@big-north-conference
@@ -409,13 +454,13 @@ SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 3:48 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7654899@big-north-conference
+UID:ds:43369:7654899@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T160000
 DTEND;TZID=America/New_York:20270125T180000
-SUMMARY:Ramapo High School vs Academy of the Holy Angels (Varsity Girls G
+SUMMARY:Academy of the Holy Angels at Ramapo High School (Varsity Girls G
  irls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7636702@big-north-conference
@@ -427,6 +472,15 @@ SUMMARY:Northern Highlands Regional High School vs Butler High School (Va
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7659717@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T163000
+DTEND;TZID=America/New_York:20270125T183000
+SUMMARY:Bergen County Technical High School at Butler High School (Varsit
+ y Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7701585@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T161500
@@ -436,13 +490,13 @@ SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7677418@big-north-conference
+UID:ds:43369:7677418@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T190000
 DTEND;TZID=America/New_York:20270127T210000
-SUMMARY:Teaneck High School at Academy of the Holy Angels (Varsity Girls 
+SUMMARY:Academy of the Holy Angels vs Teaneck High School (Varsity Girls 
  Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7654904@big-north-conference
@@ -472,21 +526,21 @@ SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7639624@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T161500
+DTEND;TZID=America/New_York:20270201T181500
+SUMMARY:Bergen County Technical High School at Ramapo High School (Varsit
+ y Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7636713@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270201T161500
 DTEND;TZID=America/New_York:20270201T181500
 SUMMARY:Northern Highlands Regional High School vs Fair Lawn High School 
  (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7639624@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270201T161500
-DTEND;TZID=America/New_York:20270201T181500
-SUMMARY:Ramapo High School vs Bergen County Technical High School (Varsit
- y Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -526,13 +580,13 @@ SUMMARY:Teaneck High School at Pompton Lakes High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7644850@big-north-conference
+UID:ds:43369:7644850@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T161500
 DTEND;TZID=America/New_York:20270203T181500
-SUMMARY:Wayne Hills High School vs Academy of the Holy Angels (Varsity Gi
+SUMMARY:Academy of the Holy Angels at Wayne Hills High School (Varsity Gi
  rls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7636366@big-north-conference
@@ -544,13 +598,13 @@ SUMMARY:Wayne Valley High School vs Fair Lawn High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7639630@big-north-conference
+UID:ds:32754:7639630@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T163000
 DTEND;TZID=America/New_York:20270203T183000
-SUMMARY:Lakeland Regional High School vs Bergen County Technical High Sch
+SUMMARY:Bergen County Technical High School at Lakeland Regional High Sch
  ool (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2888:7690355@big-north-conference
@@ -571,12 +625,12 @@ SUMMARY:Wayne Hills High School at Passaic Valley High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7695622@big-north-conference
+UID:ds:43369:7695622@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T181500
 DTEND;TZID=America/New_York:20270209T201500
-SUMMARY:Indian Hills High School vs Academy of the Holy Angels (Varsity G
+SUMMARY:Academy of the Holy Angels at Indian Hills High School (Varsity G
  irls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:15 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 6:15 PM
 END:VEVENT
 END:VCALENDAR

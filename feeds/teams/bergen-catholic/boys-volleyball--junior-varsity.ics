@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2533:7714262@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T174500
+DTEND;TZID=America/New_York:20270401T194500
+SUMMARY:Bergen Catholic High School at Bergen County Technical High Schoo
+ l (Junior Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7573073@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T173000
+DTEND;TZID=America/New_York:20270520T193000
+SUMMARY:Bergen Catholic High School vs Northern Valley Regional High (Jun
+ ior Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7573073@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T173000

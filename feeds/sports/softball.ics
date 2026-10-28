@@ -283,13 +283,13 @@ SUMMARY:River Dell Regional High School vs Midland Park High School (Vars
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7584292@big-north-conference
+UID:ds:32754:7584292@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270325T161500
 DTEND;TZID=America/New_York:20270325T181500
-SUMMARY:Cliffside Park High School at Bergen County Technical High School
+SUMMARY:Bergen County Technical High School vs Cliffside Park High School
   (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7659579@big-north-conference
@@ -328,6 +328,24 @@ SUMMARY:Wayne Valley High School at Montville Township High School (Varsi
 DESCRIPTION:Varsity Girls Softball - Away - 11:45 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7636357@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T161500
+DTEND;TZID=America/New_York:20270330T181500
+SUMMARY:Bergen County Technical High School vs River Dell Regional High S
+ chool (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7636358@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T161500
+DTEND;TZID=America/New_York:20270330T181500
+SUMMARY:Bergen County Technical High School at River Dell Regional High S
+ chool (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7677210@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T161500
@@ -335,24 +353,6 @@ DTEND;TZID=America/New_York:20270330T181500
 SUMMARY:Fair Lawn High School at Wayne Valley High School (Varsity Girls 
  Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7636357@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270330T161500
-DTEND;TZID=America/New_York:20270330T181500
-SUMMARY:River Dell Regional High School at Bergen County Technical High S
- chool (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7636358@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270330T161500
-DTEND;TZID=America/New_York:20270330T181500
-SUMMARY:River Dell Regional High School vs Bergen County Technical High S
- chool (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7681687@big-north-conference
@@ -371,6 +371,24 @@ DTEND;TZID=America/New_York:20270331T115100
 SUMMARY:Passaic County Technical Institute vs Ramapo High School (Freshma
  n Girls Softball)
 DESCRIPTION:Freshman Girls Softball - Home - 9:51 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708911@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T161500
+DTEND;TZID=America/New_York:20270331T181500
+SUMMARY:Bergen County Technical High School at Hackensack High School (Va
+ rsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708916@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T161500
+DTEND;TZID=America/New_York:20270331T181500
+SUMMARY:Bergen County Technical High School vs Hackensack High School (Ju
+ nior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7613161@big-north-conference
@@ -406,24 +424,6 @@ DTEND;TZID=America/New_York:20270331T181500
 SUMMARY:Fort Lee High School vs River Dell Regional High School (Varsity 
  Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2633:7708911@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T161500
-DTEND;TZID=America/New_York:20270331T181500
-SUMMARY:Hackensack High School vs Bergen County Technical High School (Va
- rsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2633:7708916@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T161500
-DTEND;TZID=America/New_York:20270331T181500
-SUMMARY:Hackensack High School at Bergen County Technical High School (Ju
- nior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7564094@big-north-conference
@@ -489,22 +489,40 @@ SUMMARY:John F. Kennedy High School at Middlesex High School (Varsity Gir
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7673160@big-north-conference
+UID:ds:43369:7673160@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
 DTEND;TZID=America/New_York:20270401T181500
-SUMMARY:Fair Lawn High School vs Academy of the Holy Angels (Varsity Girl
+SUMMARY:Academy of the Holy Angels at Fair Lawn High School (Varsity Girl
  s Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7673161@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Academy of the Holy Angels at Fair Lawn High School (Junior Varsi
+ ty Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708922@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T161500
+DTEND;TZID=America/New_York:20270402T181500
+SUMMARY:Bergen County Technical High School vs Clifton High School (Varsi
+ ty Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7673161@big-north-conference
+UID:ds:32754:7708926@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270401T161500
-DTEND;TZID=America/New_York:20270401T181500
-SUMMARY:Fair Lawn High School vs Academy of the Holy Angels (Junior Varsi
- ty Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20270402T161500
+DTEND;TZID=America/New_York:20270402T181500
+SUMMARY:Bergen County Technical High School at Clifton High School (Junio
+ r Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7613163@big-north-conference
@@ -523,24 +541,6 @@ DTEND;TZID=America/New_York:20270402T181500
 SUMMARY:Cliffside Park High School at Teaneck High School (Junior Varsity
   Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7708922@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270402T161500
-DTEND;TZID=America/New_York:20270402T181500
-SUMMARY:Clifton High School at Bergen County Technical High School (Varsi
- ty Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7708926@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270402T161500
-DTEND;TZID=America/New_York:20270402T181500
-SUMMARY:Clifton High School vs Bergen County Technical High School (Junio
- r Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7595556@big-north-conference
@@ -651,6 +651,24 @@ SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7708929@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T161500
+DTEND;TZID=America/New_York:20270405T181500
+SUMMARY:Bergen County Technical High School at Immaculate Heart Academy (
+ Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708933@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T161500
+DTEND;TZID=America/New_York:20270405T181500
+SUMMARY:Bergen County Technical High School vs Immaculate Heart Academy (
+ Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7613240@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T161500
@@ -685,24 +703,6 @@ DTEND;TZID=America/New_York:20270405T181500
 SUMMARY:Fort Lee High School vs Paramus Catholic High School (Varsity Gir
  ls Softball)
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2669:7708929@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270405T161500
-DTEND;TZID=America/New_York:20270405T181500
-SUMMARY:Immaculate Heart Academy vs Bergen County Technical High School (
- Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2669:7708933@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270405T161500
-DTEND;TZID=America/New_York:20270405T181500
-SUMMARY:Immaculate Heart Academy at Bergen County Technical High School (
- Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7535074@big-north-conference
@@ -813,6 +813,24 @@ SUMMARY:Paramus Catholic High School vs Morris Catholic High School (Vars
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7708962@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T161500
+DTEND;TZID=America/New_York:20270408T181500
+SUMMARY:Bergen County Technical High School at Passaic High School (Varsi
+ ty Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708964@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T161500
+DTEND;TZID=America/New_York:20270408T181500
+SUMMARY:Bergen County Technical High School vs Passaic High School (Junio
+ r Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7613242@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T161500
@@ -893,24 +911,6 @@ SUMMARY:Paramus High School vs Teaneck High School (Varsity Girls Softbal
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7708962@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270408T161500
-DTEND;TZID=America/New_York:20270408T181500
-SUMMARY:Passaic High School vs Bergen County Technical High School (Varsi
- ty Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7708964@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270408T161500
-DTEND;TZID=America/New_York:20270408T181500
-SUMMARY:Passaic High School at Bergen County Technical High School (Junio
- r Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2834:7636367@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T161500
@@ -972,6 +972,15 @@ DTEND;TZID=America/New_York:20270410T130000
 SUMMARY:River Dell Regional High School vs Hawthorne High School (Varsity
   Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708881@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T161500
+DTEND;TZID=America/New_York:20270412T181500
+SUMMARY:Bergen County Technical High School vs Passaic County Technical I
+ nstitute (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7595583@big-north-conference
@@ -1036,15 +1045,6 @@ SUMMARY:Paramus High School vs Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7708881@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270412T161500
-DTEND;TZID=America/New_York:20270412T181500
-SUMMARY:Passaic County Technical Institute at Bergen County Technical Hig
- h School (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7649366@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T161500
@@ -1063,22 +1063,22 @@ SUMMARY:Ramsey High School vs River Dell Regional High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7681719@big-north-conference
+UID:ds:32754:7681719@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T163000
 DTEND;TZID=America/New_York:20270412T183000
-SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
- h School (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:30 PM
+SUMMARY:Bergen County Technical High School at Passaic County Technical I
+ nstitute (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7681720@big-north-conference
+UID:ds:32754:7681720@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270412T163000
 DTEND;TZID=America/New_York:20270412T183000
-SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
- h School (Freshman Girls Softball)
-DESCRIPTION:Freshman Girls Softball - Home - 4:30 PM
+SUMMARY:Bergen County Technical High School at Passaic County Technical I
+ nstitute (Freshman Girls Softball)
+DESCRIPTION:Freshman Girls Softball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7568298@big-north-conference
@@ -1088,6 +1088,15 @@ DTEND;TZID=America/New_York:20270413T060000
 SUMMARY:Hackensack High School at Paterson Charter School Of Science and 
  Technology (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708966@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T161500
+DTEND;TZID=America/New_York:20270414T181500
+SUMMARY:Bergen County Technical High School at Eastside High School (Vars
+ ity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7595562@big-north-conference
@@ -1105,15 +1114,6 @@ DTSTART;TZID=America/New_York:20270414T161500
 DTEND;TZID=America/New_York:20270414T181500
 SUMMARY:Cliffside Park High School vs TBD (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2604:7708966@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270414T161500
-DTEND;TZID=America/New_York:20270414T181500
-SUMMARY:Eastside High School vs Bergen County Technical High School (Vars
- ity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7677244@big-north-conference
@@ -1215,6 +1215,24 @@ SUMMARY:Teaneck High School vs Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7708968@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T161500
+DTEND;TZID=America/New_York:20270416T181500
+SUMMARY:Bergen County Technical High School vs John F. Kennedy High Schoo
+ l (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708969@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T161500
+DTEND;TZID=America/New_York:20270416T181500
+SUMMARY:Bergen County Technical High School at John F. Kennedy High Schoo
+ l (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7613170@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T161500
@@ -1267,24 +1285,6 @@ DTEND;TZID=America/New_York:20270416T181500
 SUMMARY:Hackensack High School at Northern Highlands Regional High School
   (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7708968@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270416T161500
-DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:John F. Kennedy High School at Bergen County Technical High Schoo
- l (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7708969@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270416T161500
-DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:John F. Kennedy High School vs Bergen County Technical High Schoo
- l (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7649368@big-north-conference
@@ -1384,6 +1384,33 @@ DTEND;TZID=America/New_York:20270417T181500
 SUMMARY:River Dell Regional High School at New Milford High School (Varsi
  ty Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7570230@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Bergen County Technical High School at TBD (Varsity Girls Softbal
+ l)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T161500
+DTEND;TZID=America/New_York:20270419T181500
+SUMMARY:Bergen County Technical High School vs Northern Valley Regional H
+ igh (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T161500
+DTEND;TZID=America/New_York:20270419T181500
+SUMMARY:Bergen County Technical High School at Northern Valley Regional H
+ igh (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7613194@big-north-conference
@@ -1584,6 +1611,33 @@ SUMMARY:Northern Highlands Regional High School at Paramus High School (J
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7708973@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T161500
+DTEND;TZID=America/New_York:20270423T181500
+SUMMARY:Bergen County Technical High School at Ramapo High School (Varsit
+ y Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708974@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T161500
+DTEND;TZID=America/New_York:20270423T181500
+SUMMARY:Bergen County Technical High School vs Ramapo High School (Junior
+  Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708976@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T161500
+DTEND;TZID=America/New_York:20270423T181500
+SUMMARY:Bergen County Technical High School at Ramapo High School (Freshm
+ an Girls Softball)
+DESCRIPTION:Freshman Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7564127@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T161500
@@ -1683,33 +1737,6 @@ SUMMARY:Paramus High School at Wayne Hills High School (Varsity Girls Sof
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7708973@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270423T161500
-DTEND;TZID=America/New_York:20270423T181500
-SUMMARY:Ramapo High School vs Bergen County Technical High School (Varsit
- y Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7708974@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270423T161500
-DTEND;TZID=America/New_York:20270423T181500
-SUMMARY:Ramapo High School at Bergen County Technical High School (Junior
-  Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7708976@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270423T161500
-DTEND;TZID=America/New_York:20270423T181500
-SUMMARY:Ramapo High School vs Bergen County Technical High School (Freshm
- an Girls Softball)
-DESCRIPTION:Freshman Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7677248@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T161500
@@ -1755,22 +1782,22 @@ SUMMARY:Passaic County Technical Institute vs Pope John XXIII High School
 DESCRIPTION:Varsity Girls Softball - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7708982@big-north-conference
+UID:ds:32754:7708982@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T161500
 DTEND;TZID=America/New_York:20270426T181500
-SUMMARY:Clifton High School vs Bergen County Technical High School (Varsi
+SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
  ty Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7708984@big-north-conference
+UID:ds:32754:7708984@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T161500
 DTEND;TZID=America/New_York:20270426T181500
-SUMMARY:Clifton High School at Bergen County Technical High School (Junio
+SUMMARY:Bergen County Technical High School vs Clifton High School (Junio
  r Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7595658@big-north-conference
@@ -1872,6 +1899,24 @@ SUMMARY:River Dell Regional High School at Westwood Regional Senior High
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7708988@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T161500
+DTEND;TZID=America/New_York:20270428T181500
+SUMMARY:Bergen County Technical High School vs Passaic High School (Varsi
+ ty Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7709002@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T161500
+DTEND;TZID=America/New_York:20270428T181500
+SUMMARY:Bergen County Technical High School at Passaic High School (Junio
+ r Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7613217@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T161500
@@ -1952,24 +1997,6 @@ SUMMARY:Paramus High School at Teaneck High School (Varsity Girls Softbal
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7708988@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270428T161500
-DTEND;TZID=America/New_York:20270428T181500
-SUMMARY:Passaic High School at Bergen County Technical High School (Varsi
- ty Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7709002@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270428T161500
-DTEND;TZID=America/New_York:20270428T181500
-SUMMARY:Passaic High School vs Bergen County Technical High School (Junio
- r Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7677252@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T161500
@@ -2023,22 +2050,22 @@ SUMMARY:Hackensack High School at Wallington High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7708891@big-north-conference
+UID:ds:32754:7708891@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T041500
 DTEND;TZID=America/New_York:20270430T061500
-SUMMARY:Passaic County Technical Institute at Bergen County Technical Hig
- h School (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 AM
+SUMMARY:Bergen County Technical High School vs Passaic County Technical I
+ nstitute (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7708897@big-north-conference
+UID:ds:32754:7708897@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T041500
 DTEND;TZID=America/New_York:20270430T061500
-SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
- h School (Freshman Girls Softball)
-DESCRIPTION:Freshman Girls Softball - Home - 4:15 AM
+SUMMARY:Bergen County Technical High School at Passaic County Technical I
+ nstitute (Freshman Girls Softball)
+DESCRIPTION:Freshman Girls Softball - Away - 4:15 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7595571@big-north-conference
@@ -2130,13 +2157,13 @@ SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7681503@big-north-conference
+UID:ds:32754:7681503@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T163000
 DTEND;TZID=America/New_York:20270430T183000
-SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
- h School (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:30 PM
+SUMMARY:Bergen County Technical High School at Passaic County Technical I
+ nstitute (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7709700@big-north-conference
@@ -2166,6 +2193,15 @@ SUMMARY:Teaneck High School vs Hawthorne High School (Varsity Girls Softb
 DESCRIPTION:Varsity Girls Softball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7709015@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T161500
+DTEND;TZID=America/New_York:20270503T181500
+SUMMARY:Bergen County Technical High School vs Eastside High School (Vars
+ ity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7595661@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T161500
@@ -2181,15 +2217,6 @@ DTSTART;TZID=America/New_York:20270503T161500
 DTEND;TZID=America/New_York:20270503T181500
 SUMMARY:Cliffside Park High School at TBD (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2604:7709015@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270503T161500
-DTEND;TZID=America/New_York:20270503T181500
-SUMMARY:Eastside High School at Bergen County Technical High School (Vars
- ity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7535153@big-north-conference
@@ -2282,6 +2309,24 @@ SUMMARY:Teaneck High School at Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7709017@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T161500
+DTEND;TZID=America/New_York:20270505T181500
+SUMMARY:Bergen County Technical High School at John F. Kennedy High Schoo
+ l (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7709019@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T161500
+DTEND;TZID=America/New_York:20270505T181500
+SUMMARY:Bergen County Technical High School vs John F. Kennedy High Schoo
+ l (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7613249@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270505T161500
@@ -2325,24 +2370,6 @@ DTEND;TZID=America/New_York:20270505T181500
 SUMMARY:Hackensack High School vs Northern Highlands Regional High School
   (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7709017@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270505T161500
-DTEND;TZID=America/New_York:20270505T181500
-SUMMARY:John F. Kennedy High School vs Bergen County Technical High Schoo
- l (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7709019@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270505T161500
-DTEND;TZID=America/New_York:20270505T181500
-SUMMARY:John F. Kennedy High School at Bergen County Technical High Schoo
- l (Junior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7649374@big-north-conference
@@ -2560,6 +2587,24 @@ SUMMARY:DePaul Catholic High School at Wayne Valley High School (Varsity
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7709021@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T161500
+DTEND;TZID=America/New_York:20270517T181500
+SUMMARY:Bergen County Technical High School at Ridgewood High School (Var
+ sity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7709022@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T161500
+DTEND;TZID=America/New_York:20270517T181500
+SUMMARY:Bergen County Technical High School vs Ridgewood High School (Jun
+ ior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2669:7573162@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270517T161500
@@ -2650,24 +2695,6 @@ SUMMARY:Ramapo High School at Northern Valley Regional High (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7709021@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270517T161500
-DTEND;TZID=America/New_York:20270517T181500
-SUMMARY:Ridgewood High School vs Bergen County Technical High School (Var
- sity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7709022@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270517T161500
-DTEND;TZID=America/New_York:20270517T181500
-SUMMARY:Ridgewood High School at Bergen County Technical High School (Jun
- ior Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2890:7544452@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270519T160000
@@ -2675,6 +2702,24 @@ DTEND;TZID=America/New_York:20270519T180000
 SUMMARY:Tenafly High School at Leonia High School (Middle School Girls So
  ftball)
 DESCRIPTION:Middle School Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7709024@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270519T161500
+DTEND;TZID=America/New_York:20270519T181500
+SUMMARY:Academy of the Holy Angels at Bergen County Technical High School
+  (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7709025@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270519T161500
+DTEND;TZID=America/New_York:20270519T181500
+SUMMARY:Academy of the Holy Angels vs Bergen County Technical High School
+  (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7613251@big-north-conference
@@ -2812,6 +2857,24 @@ SUMMARY:Ridgefield Park High School vs Leonia High School (Middle School
 DESCRIPTION:Middle School Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7595676@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T161500
+DTEND;TZID=America/New_York:20270521T181500
+SUMMARY:Bergen County Technical High School vs Fort Lee High School (Vars
+ ity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7708903@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T161500
+DTEND;TZID=America/New_York:20270521T181500
+SUMMARY:Bergen County Technical High School at Fort Lee High School (Juni
+ or Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7613218@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270521T161500
@@ -2836,24 +2899,6 @@ DTEND;TZID=America/New_York:20270521T181500
 SUMMARY:Fair Lawn High School at Paramus High School (Varsity Girls Softb
  all)
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2616:7595676@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270521T161500
-DTEND;TZID=America/New_York:20270521T181500
-SUMMARY:Fort Lee High School at Bergen County Technical High School (Vars
- ity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2616:7708903@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270521T161500
-DTEND;TZID=America/New_York:20270521T181500
-SUMMARY:Fort Lee High School vs Bergen County Technical High School (Juni
- or Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7535174@big-north-conference
