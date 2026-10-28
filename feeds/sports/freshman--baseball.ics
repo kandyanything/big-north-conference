@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:32754:7708019@big-north-conference
+UID:ds:2670:7708019@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270315T161500
 DTEND;TZID=America/New_York:20270315T181500
-SUMMARY:Bergen County Technical High School at Indian Hills High School (
+SUMMARY:Indian Hills High School vs Bergen County Technical High School (
  Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7548428@big-north-conference
@@ -86,24 +86,6 @@ SUMMARY:Don Bosco Prep at Northern Highlands Regional High School (Freshm
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7702334@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270319T161500
-DTEND;TZID=America/New_York:20270319T181500
-SUMMARY:Bergen Catholic High School vs River Dell Regional High School (F
- reshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7708040@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270319T161500
-DTEND;TZID=America/New_York:20270319T181500
-SUMMARY:Bergen County Technical High School vs Bloomfield High School (Fr
- eshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7627804@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270319T161500
@@ -113,13 +95,22 @@ SUMMARY:Indian Hills High School at Northern Highlands Regional High Scho
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7666557@big-north-conference
+UID:ds:2834:7702334@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270319T161500
+DTEND;TZID=America/New_York:20270319T181500
+SUMMARY:River Dell Regional High School at Bergen Catholic High School (F
+ reshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7666557@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270320T100000
 DTEND;TZID=America/New_York:20270320T120000
-SUMMARY:Bergen County Technical High School at River Dell Regional High S
+SUMMARY:River Dell Regional High School vs Bergen County Technical High S
  chool (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 10:00 AM
+DESCRIPTION:Freshman Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7726430@big-north-conference
@@ -149,13 +140,13 @@ SUMMARY:Passaic County Technical Institute vs Westwood Regional Senior Hi
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7726446@big-north-conference
+UID:ds:2796:7726446@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270323T161500
 DTEND;TZID=America/New_York:20270323T181500
-SUMMARY:Bergen County Technical High School at Passaic Valley High School
+SUMMARY:Passaic Valley High School vs Bergen County Technical High School
   (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7658652@big-north-conference
@@ -176,13 +167,13 @@ SUMMARY:Passaic Valley High School at West Milford High School (Freshman
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708195@big-north-conference
+UID:ds:2888:7708195@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270326T161500
 DTEND;TZID=America/New_York:20270326T181500
-SUMMARY:Bergen County Technical High School at Teaneck High School (Fresh
+SUMMARY:Teaneck High School vs Bergen County Technical High School (Fresh
  man Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7702347@big-north-conference
@@ -203,15 +194,6 @@ SUMMARY:Passaic Valley High School at River Dell Regional High School (Fr
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708474@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270401T161500
-DTEND;TZID=America/New_York:20270401T181500
-SUMMARY:Bergen County Technical High School vs Paramus Catholic High Scho
- ol (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7534928@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
@@ -219,6 +201,15 @@ DTEND;TZID=America/New_York:20270401T181500
 SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
  ol (Freshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7708474@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Paramus Catholic High School at Bergen County Technical High Scho
+ ol (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7674368@big-north-conference
@@ -239,13 +230,13 @@ SUMMARY:Passaic County Technical Institute vs River Dell Regional High Sc
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708245@big-north-conference
+UID:ds:2822:7708245@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270403T100000
 DTEND;TZID=America/New_York:20270403T120000
-SUMMARY:Bergen County Technical High School at Ramapo High School (Freshm
+SUMMARY:Ramapo High School vs Bergen County Technical High School (Freshm
  an Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 10:00 AM
+DESCRIPTION:Freshman Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7702396@big-north-conference
@@ -353,15 +344,6 @@ SUMMARY:Fair Lawn High School at TBD (Freshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7708630@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270409T161500
-DTEND;TZID=America/New_York:20270409T181500
-SUMMARY:Bergen Catholic High School vs Bergen County Technical High Schoo
- l (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7534943@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270409T161500
@@ -442,15 +424,6 @@ SUMMARY:River Dell Regional High School at Westwood Regional Senior High
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708409@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270414T163000
-DTEND;TZID=America/New_York:20270414T183000
-SUMMARY:Bergen County Technical High School at Bloomfield High School (Fr
- eshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7659425@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T161500
@@ -466,15 +439,6 @@ DTSTART;TZID=America/New_York:20270415T161500
 DTEND;TZID=America/New_York:20270415T181500
 SUMMARY:Pascack Valley High School at Passaic County Technical Institute 
  (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7526150@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270416T161500
-DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:Bergen County Technical High School at Ridgewood High School (Fre
- shman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -496,6 +460,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs River Dell Regional H
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7526150@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T161500
+DTEND;TZID=America/New_York:20270416T181500
+SUMMARY:Ridgewood High School vs Bergen County Technical High School (Fre
+ shman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7702734@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T161500
@@ -511,15 +484,6 @@ DTSTART;TZID=America/New_York:20270419T160000
 DTEND;TZID=America/New_York:20270419T180000
 SUMMARY:Passaic Valley High School at TBD (Freshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7708727@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270419T161500
-DTEND;TZID=America/New_York:20270419T181500
-SUMMARY:Bergen County Technical High School at Passaic County Technical I
- nstitute (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7534957@big-north-conference
@@ -538,6 +502,15 @@ DTEND;TZID=America/New_York:20270419T181500
 SUMMARY:Pascack Hills High School at River Dell Regional High School (Fre
  shman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7708727@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T161500
+DTEND;TZID=America/New_York:20270419T181500
+SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
+ h School (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7690675@big-north-conference
@@ -566,13 +539,13 @@ SUMMARY:Pascack Hills High School vs River Dell Regional High School (Fre
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7674480@big-north-conference
+UID:ds:2794:7674480@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T163000
 DTEND;TZID=America/New_York:20270421T183000
-SUMMARY:Bergen County Technical High School at Passaic County Technical I
- nstitute (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:30 PM
+SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
+ h School (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7534973@big-north-conference
@@ -611,13 +584,13 @@ SUMMARY:River Dell Regional High School vs Northern Valley Regional High
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7657200@big-north-conference
+UID:ds:2534:7657200@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270424T100000
 DTEND;TZID=America/New_York:20270424T120000
-SUMMARY:Bergen County Technical High School at Bergenfield High School (F
+SUMMARY:Bergenfield High School vs Bergen County Technical High School (F
  reshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 10:00 AM
+DESCRIPTION:Freshman Boys Baseball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7648887@big-north-conference
@@ -672,13 +645,13 @@ SUMMARY:Indian Hills High School at TBD (Freshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708808@big-north-conference
+UID:ds:2574:7708808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T161500
 DTEND;TZID=America/New_York:20270427T181500
-SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
+SUMMARY:Clifton High School vs Bergen County Technical High School (Fresh
  man Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7534986@big-north-conference
@@ -690,13 +663,13 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708819@big-north-conference
+UID:ds:2574:7708819@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T161500
 DTEND;TZID=America/New_York:20270428T181500
-SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
+SUMMARY:Clifton High School vs Bergen County Technical High School (Fresh
  man Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7534993@big-north-conference
@@ -717,13 +690,13 @@ SUMMARY:Paramus Catholic High School at River Dell Regional High School (
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7534999@big-north-conference
+UID:ds:2770:7534999@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T161500
 DTEND;TZID=America/New_York:20270430T181500
-SUMMARY:Bergen County Technical High School at Northern Highlands Regiona
+SUMMARY:Northern Highlands Regional High School vs Bergen County Technica
  l High School (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7702576@big-north-conference
@@ -833,15 +806,6 @@ SUMMARY:Ramsey High School at Ridgewood High School (Freshman Boys Baseba
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708356@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270507T163000
-DTEND;TZID=America/New_York:20270507T183000
-SUMMARY:Bergen County Technical High School at Union City High School (Fr
- eshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7657410@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270510T161500
@@ -869,15 +833,6 @@ SUMMARY:Passaic County Technical Institute vs Chatham High School (Freshm
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708385@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270514T161500
-DTEND;TZID=America/New_York:20270514T181500
-SUMMARY:Bergen County Technical High School at Columbia High School (Fres
- hman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7647119@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270515T100000
@@ -887,13 +842,13 @@ SUMMARY:Teaneck High School at Perth Amboy High School (Freshman Boys Bas
 DESCRIPTION:Freshman Boys Baseball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708866@big-north-conference
+UID:ds:2613:7708866@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270517T161500
 DTEND;TZID=America/New_York:20270517T181500
-SUMMARY:Bergen County Technical High School at Fair Lawn High School (Fre
+SUMMARY:Fair Lawn High School vs Bergen County Technical High School (Fre
  shman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7535039@big-north-conference
@@ -905,13 +860,13 @@ SUMMARY:Mahwah High School at Northern Highlands Regional High School (Fr
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7708872@big-north-conference
+UID:ds:2616:7708872@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270519T161500
 DTEND;TZID=America/New_York:20270519T181500
-SUMMARY:Bergen County Technical High School at Fort Lee High School (Fres
+SUMMARY:Fort Lee High School vs Bergen County Technical High School (Fres
  hman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7702624@big-north-conference

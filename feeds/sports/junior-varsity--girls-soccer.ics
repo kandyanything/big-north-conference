@@ -32,15 +32,6 @@ SUMMARY:Immaculate Heart Academy vs Montclair High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7477023@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T100000
-DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Bergen County Technical High School vs Glen Rock High School (Jun
- ior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7553455@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T100000
@@ -338,21 +329,21 @@ SUMMARY:Wayne Valley High School vs Westwood Regional Senior High School
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7523478@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T161500
-DTEND;TZID=America/New_York:20260831T181500
-SUMMARY:Bergen County Technical High School vs Fair Lawn High School (Jun
- ior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7446244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T161500
 DTEND;TZID=America/New_York:20260831T181500
 SUMMARY:Cliffside Park High School at River Dell Regional High School (Ju
  nior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7523478@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Fair Lawn High School at Bergen County Technical High School (Jun
+ ior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -535,15 +526,6 @@ SUMMARY:Indian Hills High School at Lakeland Regional High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7504876@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Academy of the Holy Angels at Paramus Catholic High School (Junio
- r Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7598652@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -569,6 +551,15 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Lakeland Regional High School at Wayne Hills High School (Junior 
  Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7504876@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Paramus Catholic High School vs Academy of the Holy Angels (Junio
+ r Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7535095@big-north-conference
@@ -668,15 +659,6 @@ DTEND;TZID=America/New_York:20260909T184500
 SUMMARY:Tenafly High School vs Northern Valley Regional High (Junior Vars
  ity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7517056@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Bergen County Technical High School vs Waldwick High School (Juni
- or Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7435827@big-north-conference
@@ -805,13 +787,13 @@ SUMMARY:Ramsey High School at River Dell Regional High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474429@big-north-conference
+UID:ds:2585:7474429@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
 DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Junior
+SUMMARY:DePaul Catholic High School vs Academy of the Holy Angels (Junior
   Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7472872@big-north-conference
@@ -832,13 +814,13 @@ SUMMARY:Lakeland Regional High School vs Wayne Valley High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7525822@big-north-conference
+UID:ds:2794:7525822@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T163000
 DTEND;TZID=America/New_York:20260915T183000
-SUMMARY:Bergen County Technical High School at Passaic County Technical I
- nstitute (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
+SUMMARY:Passaic County Technical Institute vs Bergen County Technical Hig
+ h School (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7386026@big-north-conference
@@ -913,13 +895,13 @@ SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7525861@big-north-conference
+UID:ds:2574:7525861@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
 DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Bergen County Technical High School vs Clifton High School (Junio
+SUMMARY:Clifton High School at Bergen County Technical High School (Junio
  r Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7413426@big-north-conference
@@ -1066,15 +1048,6 @@ SUMMARY:Passaic County Technical Institute at Randolph High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7643675@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Bergen County Technical High School at Fair Lawn High School (Jun
- ior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7513362@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -1082,6 +1055,15 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:DePaul Catholic High School at Wayne Valley High School (Junior V
  arsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7643675@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Fair Lawn High School vs Bergen County Technical High School (Jun
+ ior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7515442@big-north-conference
@@ -1102,13 +1084,13 @@ SUMMARY:Wayne Hills High School vs West Milford High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7525862@big-north-conference
+UID:ds:2795:7525862@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T163000
 DTEND;TZID=America/New_York:20260923T183000
-SUMMARY:Bergen County Technical High School at Passaic High School (Junio
+SUMMARY:Passaic High School vs Bergen County Technical High School (Junio
  r Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7537632@big-north-conference
@@ -1219,13 +1201,13 @@ SUMMARY:Wayne Hills High School vs Summit High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7525868@big-north-conference
+UID:ds:2669:7525868@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
 DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Bergen County Technical High School vs Immaculate Heart Academy (
+SUMMARY:Immaculate Heart Academy at Bergen County Technical High School (
  Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7535523@big-north-conference
@@ -1300,15 +1282,6 @@ SUMMARY:Passaic County Technical Institute at Wayne Valley High School (J
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7440924@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Academy of the Holy Angels vs Northern Highlands Regional High Sc
- hool (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7664954@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
@@ -1325,6 +1298,15 @@ DTEND;TZID=America/New_York:20260930T181500
 SUMMARY:Dumont High School vs Mahwah High School (Junior Varsity Girls Gi
  rls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7440924@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Northern Highlands Regional High School at Academy of the Holy An
+ gels (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7432296@big-north-conference
@@ -1759,24 +1741,6 @@ SUMMARY:Mahwah High School at Ridgewood High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7517062@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T163000
-DTEND;TZID=America/New_York:20261008T183000
-SUMMARY:Bergen County Technical High School at Waldwick High School (Juni
- or Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7629155@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Bergen County Technical High School vs Glen Rock High School (Jun
- ior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7588433@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
@@ -1795,13 +1759,13 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7625760@big-north-conference
+UID:ds:2792:7625760@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
 DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Bergen County Technical High School at Pascack Hills High School 
+SUMMARY:Pascack Hills High School vs Bergen County Technical High School 
  (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7688420@big-north-conference
@@ -1921,15 +1885,6 @@ SUMMARY:Fair Lawn High School at Glen Rock High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7689268@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Bergen County Technical High School at Pascack Valley High School
-  (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7689776@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -1955,6 +1910,15 @@ DTEND;TZID=America/New_York:20261015T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Immaculate Heart Academ
  y (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7689268@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Pascack Valley High School vs Bergen County Technical High School
+  (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7605034@big-north-conference
@@ -2029,13 +1993,13 @@ SUMMARY:West Milford High School vs Pompton Lakes High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474442@big-north-conference
+UID:ds:2585:7474442@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T161500
 DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Academy of the Holy Angels vs DePaul Catholic High School (Junior
+SUMMARY:DePaul Catholic High School at Academy of the Holy Angels (Junior
   Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7515682@big-north-conference
@@ -2173,13 +2137,13 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7458839@big-north-conference
+UID:ds:2574:7458839@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T163000
 DTEND;TZID=America/New_York:20261021T183000
-SUMMARY:Bergen County Technical High School at Clifton High School (Junio
+SUMMARY:Clifton High School vs Bergen County Technical High School (Junio
  r Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7509643@big-north-conference

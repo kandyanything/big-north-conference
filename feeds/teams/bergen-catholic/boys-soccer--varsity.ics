@@ -24,112 +24,58 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2533:7469418@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T160000
-DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Bergen Catholic High School at Martin Luther King High School (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7476658@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T161500
-DTEND;TZID=America/New_York:20260824T181500
-SUMMARY:Bergen Catholic High School at Martin Luther King High School (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469424@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T100000
-DTEND;TZID=America/New_York:20260826T120000
-SUMMARY:Bergen Catholic High School at Christian Brothers Academy (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7472450@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T183000
-DTEND;TZID=America/New_York:20260831T203000
-SUMMARY:Bergen Catholic High School at Saint Anthonys High School (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469433@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T113000
-DTEND;TZID=America/New_York:20260905T133000
-SUMMARY:Bergen Catholic High School vs Lenape High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7385352@big-north-conference
+UID:ds:2833:7385352@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Varsity Boy
  s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469436@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Bergen Catholic High School vs DePaul Catholic High School (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469442@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T190000
-DTEND;TZID=America/New_York:20260915T210000
-SUMMARY:Bergen Catholic High School at Don Bosco Prep (Varsity Boys Boys 
- Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469451@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T161500
-DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School 
- (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469453@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T161500
-DTEND;TZID=America/New_York:20260921T181500
-SUMMARY:Bergen Catholic High School vs Paramus Catholic High School (Vars
- ity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7440923@big-north-conference
+UID:ds:2585:7469436@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:DePaul Catholic High School at Bergen Catholic High School (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7469442@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T190000
+DTEND;TZID=America/New_York:20260915T210000
+SUMMARY:Don Bosco Prep vs Bergen Catholic High School (Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:41410:7469451@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Saint Joseph Regional High School vs Bergen Catholic High School 
+ (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7469453@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Paramus Catholic High School at Bergen Catholic High School (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7440923@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T190000
 DTEND;TZID=America/New_York:20260929T210000
-SUMMARY:Bergen Catholic High School at Northern Highlands Regional High S
+SUMMARY:Northern Highlands Regional High School vs Bergen Catholic High S
  chool (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469509@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T160000
-DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Bergen Catholic High School vs Northern Valley Regional High (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7469509@big-north-conference
@@ -141,58 +87,40 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Bergen Catholic High
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469512@big-north-conference
+UID:ds:2585:7469512@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T190000
 DTEND;TZID=America/New_York:20261008T210000
-SUMMARY:Bergen Catholic High School at DePaul Catholic High School (Varsi
+SUMMARY:DePaul Catholic High School vs Bergen Catholic High School (Varsi
  ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7528610@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T133000
-DTEND;TZID=America/New_York:20261010T153000
-SUMMARY:Bergen Catholic High School vs Christian Brothers Academy (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7689043@big-north-conference
+UID:ds:2834:7689043@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Bergen Catholic High School vs River Dell Regional High School (V
+SUMMARY:River Dell Regional High School at Bergen Catholic High School (V
  arsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7693425@big-north-conference
+UID:ds:2770:7693425@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T163000
 DTEND;TZID=America/New_York:20261017T183000
-SUMMARY:Bergen Catholic High School vs Northern Highlands Regional High S
+SUMMARY:Northern Highlands Regional High School at Bergen Catholic High S
  chool (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469572@big-north-conference
+UID:ds:41410:7469572@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School 
+SUMMARY:Saint Joseph Regional High School at Bergen Catholic High School 
  (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7700733@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T170000
-DTEND;TZID=America/New_York:20261024T190000
-SUMMARY:Bergen Catholic High School vs Northern Valley Regional High (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 5:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7700733@big-north-conference
@@ -204,21 +132,21 @@ SUMMARY:Northern Valley Regional HS - Demarest at Bergen Catholic High Sc
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469575@big-north-conference
+UID:ds:2787:7469575@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T190000
 DTEND;TZID=America/New_York:20261026T210000
-SUMMARY:Bergen Catholic High School at Paramus Catholic High School (Vars
+SUMMARY:Paramus Catholic High School vs Bergen Catholic High School (Vars
  ity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469570@big-north-conference
+UID:ds:2592:7469570@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
 DTEND;TZID=America/New_York:20261029T180000
-SUMMARY:Bergen Catholic High School vs Don Bosco Prep (Varsity Boys Boys 
+SUMMARY:Don Bosco Prep at Bergen Catholic High School (Varsity Boys Boys 
  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

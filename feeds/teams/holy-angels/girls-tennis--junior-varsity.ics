@@ -24,66 +24,39 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:43369:7568707@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260820T100000
-DTEND;TZID=America/New_York:20260820T120000
-SUMMARY:Academy of the Holy Angels at Glen Rock High School (Junior Varsi
- ty Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7474533@big-north-conference
+UID:ds:2890:7474533@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Academy of the Holy Angels vs Tenafly High School (Junior Varsity
+SUMMARY:Tenafly High School at Academy of the Holy Angels (Junior Varsity
   Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474538@big-north-conference
+UID:ds:2706:7474538@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
 DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Academy of the Holy Angels at Mahwah High School (Junior Varsity 
+SUMMARY:Mahwah High School vs Academy of the Holy Angels (Junior Varsity 
+ Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7474575@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T161500
+DTEND;TZID=America/New_York:20260911T181500
+SUMMARY:Ramapo High School at Academy of the Holy Angels (Junior Varsity 
  Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474575@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T161500
-DTEND;TZID=America/New_York:20260911T181500
-SUMMARY:Academy of the Holy Angels vs Ramapo High School (Junior Varsity 
- Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7474570@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Academy of the Holy Angels at Kent Place School (Junior Varsity G
- irls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7474542@big-north-conference
+UID:ds:2669:7474542@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T161500
 DTEND;TZID=America/New_York:20260921T181500
-SUMMARY:Academy of the Holy Angels vs Immaculate Heart Academy (Junior Va
+SUMMARY:Immaculate Heart Academy at Academy of the Holy Angels (Junior Va
  rsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7474544@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Academy of the Holy Angels at Northern Valley Regional High (Juni
- or Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -96,22 +69,13 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Academy of the Holy Ang
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7386115@big-north-conference
+UID:ds:2770:7386115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Academy of the Holy Angels at Northern Highlands Regional High Sc
- hool (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7474582@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Academy of the Holy Angels at Northern Valley Regional High (Juni
- or Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+SUMMARY:Northern Highlands Regional High School vs Academy of the Holy An
+ gels (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7474582@big-north-conference
@@ -123,31 +87,13 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Academy of the Holy A
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474583@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T160000
-DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Academy of the Holy Angels at Bergen County Technical High School
-  (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7673422@big-north-conference
+UID:ds:2669:7673422@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
 DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Academy of the Holy Angels at Immaculate Heart Academy (Junior Va
+SUMMARY:Immaculate Heart Academy vs Academy of the Holy Angels (Junior Va
  rsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7604645@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Academy of the Holy Angels at Northern Valley Regional High (Juni
- or Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7604645@big-north-conference
@@ -159,21 +105,21 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Academy of the Holy A
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474563@big-north-conference
+UID:ds:2833:7474563@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Academy of the Holy Angels vs Ridgewood High School (Junior Varsi
+SUMMARY:Ridgewood High School at Academy of the Holy Angels (Junior Varsi
  ty Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474586@big-north-conference
+UID:ds:2613:7474586@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T161500
 DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Academy of the Holy Angels at Fair Lawn High School (Junior Varsi
+SUMMARY:Fair Lawn High School vs Academy of the Holy Angels (Junior Varsi
  ty Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR

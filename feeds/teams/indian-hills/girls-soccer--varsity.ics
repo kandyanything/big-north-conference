@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:43369:7474342@big-north-conference
+UID:ds:2670:7474342@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T100000
 DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Academy of the Holy Angels vs Indian Hills High School (Varsity G
+SUMMARY:Indian Hills High School at Academy of the Holy Angels (Varsity G
  irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7547155@big-north-conference
@@ -233,9 +233,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7728876@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261103T190000
-DTEND;TZID=America/New_York:20261103T210000
+DTSTART;TZID=America/New_York:20261103T170000
+DTEND;TZID=America/New_York:20261103T190000
 SUMMARY:Indian Hills High School vs TBD (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 5:00 PM
 END:VEVENT
 END:VCALENDAR

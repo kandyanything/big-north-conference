@@ -1913,15 +1913,6 @@ SUMMARY:Pascack Valley High School at Bogota High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7689303@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T161500
-DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Bergen County Technical High School vs Pascack Valley High School
-  (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7565530@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
@@ -1938,6 +1929,15 @@ DTEND;TZID=America/New_York:20261012T181500
 SUMMARY:Paramus High School at Pascack Valley High School (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7689303@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T161500
+DTEND;TZID=America/New_York:20261012T181500
+SUMMARY:Pascack Valley High School at Bergen County Technical High School
+  (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7674027@big-north-conference
@@ -1985,13 +1985,13 @@ SUMMARY:Pascack Hills High School vs Pascack Valley High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7690696@big-north-conference
+UID:ds:2793:7690696@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T161500
 DTEND;TZID=America/New_York:20261014T181500
-SUMMARY:Bergen County Technical High School vs Pascack Valley High School
+SUMMARY:Pascack Valley High School at Bergen County Technical High School
   (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7689230@big-north-conference
@@ -2010,15 +2010,6 @@ DTEND;TZID=America/New_York:20261014T203000
 SUMMARY:Pascack Valley High School vs North Arlington High School (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7689268@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Bergen County Technical High School at Pascack Valley High School
-  (Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7689800@big-north-conference
@@ -2057,6 +2048,15 @@ SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7689268@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Pascack Valley High School vs Bergen County Technical High School
+  (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7598303@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -2093,13 +2093,13 @@ SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Juni
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7688986@big-north-conference
+UID:ds:2793:7688986@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T150000
 DTEND;TZID=America/New_York:20261016T170000
-SUMMARY:Academy of the Holy Angels vs Pascack Valley High School (Varsity
+SUMMARY:Pascack Valley High School at Academy of the Holy Angels (Varsity
   Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7559825@big-north-conference
@@ -2543,13 +2543,13 @@ SUMMARY:Mahwah High School vs Pascack Valley High School (Varsity Boys Fo
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474397@big-north-conference
+UID:ds:2793:7474397@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T203000
-SUMMARY:Academy of the Holy Angels at Pascack Valley High School (Varsity
+SUMMARY:Pascack Valley High School vs Academy of the Holy Angels (Varsity
   Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7729557@big-north-conference
@@ -2723,22 +2723,22 @@ SUMMARY:Pascack Valley High School vs River Dell Regional High School (Fr
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7651305@big-north-conference
+UID:ds:2793:7651305@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T163000
 DTEND;TZID=America/New_York:20261209T183000
-SUMMARY:Bergen County Technical High School vs Pascack Valley High School
+SUMMARY:Pascack Valley High School at Bergen County Technical High School
   (Varsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7651306@big-north-conference
+UID:ds:2793:7651306@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T163000
 DTEND;TZID=America/New_York:20261209T183000
-SUMMARY:Bergen County Technical High School vs Pascack Valley High School
+SUMMARY:Pascack Valley High School at Bergen County Technical High School
   (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7623152@big-north-conference
@@ -2928,15 +2928,6 @@ DTEND;TZID=America/New_York:20261217T163000
 SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
  Coed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7684415@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T154500
-DTEND;TZID=America/New_York:20261217T174500
-SUMMARY:Academy of the Holy Angels vs Pascack Valley High School (Varsity
-  Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7684415@big-north-conference

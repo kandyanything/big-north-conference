@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:43369:7685464@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261201T154500
-DTEND;TZID=America/New_York:20261201T174500
-SUMMARY:Academy of the Holy Angels vs Eastside High School (Varsity Girls
-  Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7671355@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T160000
@@ -57,15 +48,6 @@ DTEND;TZID=America/New_York:20261202T181500
 SUMMARY:Hackensack High School vs Northern Highlands Regional High School
   (Varsity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7686310@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T154500
-DTEND;TZID=America/New_York:20261203T174500
-SUMMARY:Academy of the Holy Angels at Passaic County Technical Institute 
- (Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7671356@big-north-conference
@@ -95,15 +77,6 @@ SUMMARY:Northern Highlands Regional High School vs Ridgewood High School
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7671540@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T154500
-DTEND;TZID=America/New_York:20261208T174500
-SUMMARY:Academy of the Holy Angels at Bergen County Technical High School
-  (Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7671357@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -122,15 +95,6 @@ SUMMARY:Northern Highlands Regional High School vs TBD (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7684412@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T154500
-DTEND;TZID=America/New_York:20261210T174500
-SUMMARY:Academy of the Holy Angels vs Clifton High School (Varsity Girls 
- Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7672543@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -140,13 +104,13 @@ SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7684413@big-north-conference
+UID:ds:2669:7684413@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T154500
 DTEND;TZID=America/New_York:20261214T174500
-SUMMARY:Academy of the Holy Angels vs Immaculate Heart Academy (Varsity G
+SUMMARY:Immaculate Heart Academy at Academy of the Holy Angels (Varsity G
  irls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7675854@big-north-conference
@@ -176,15 +140,6 @@ SUMMARY:Hackensack High School at Ramsey High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7684415@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T154500
-DTEND;TZID=America/New_York:20261217T174500
-SUMMARY:Academy of the Holy Angels vs Pascack Valley High School (Varsity
-  Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2669:7673791@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -212,15 +167,6 @@ SUMMARY:Northern Highlands Regional High School vs Wayne Valley High Scho
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7686341@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T154500
-DTEND;TZID=America/New_York:20261221T174500
-SUMMARY:Academy of the Holy Angels vs Fort Lee High School (Varsity Girls
-  Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7671359@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T161500
@@ -237,24 +183,6 @@ DTEND;TZID=America/New_York:20270104T181500
 SUMMARY:Northern Highlands Regional High School at Westwood Regional Seni
  or High School (Varsity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7686363@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T154500
-DTEND;TZID=America/New_York:20270105T174500
-SUMMARY:Academy of the Holy Angels vs Dumont High School (Varsity Girls G
- irls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7685466@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T154500
-DTEND;TZID=America/New_York:20270107T174500
-SUMMARY:Academy of the Holy Angels vs North Arlington High School (Varsit
- y Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7672546@big-north-conference
@@ -275,30 +203,12 @@ SUMMARY:Northern Highlands Regional High School at West Milford High Scho
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7684417@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T154500
-DTEND;TZID=America/New_York:20270108T174500
-SUMMARY:Academy of the Holy Angels vs Union City High School (Varsity Gir
- ls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2822:7672550@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
 SUMMARY:Ramapo High School vs Wayne Valley High School (Varsity Girls Gir
  ls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7673749@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T160000
-DTEND;TZID=America/New_York:20270113T180000
-SUMMARY:Academy of the Holy Angels vs Northern Valley Regional High (Vars
- ity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -320,22 +230,13 @@ SUMMARY:Tenafly High School at Bergen County Technical High School (Varsi
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7686375@big-north-conference
+UID:ds:2788:7686375@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T154500
 DTEND;TZID=America/New_York:20270114T174500
-SUMMARY:Academy of the Holy Angels vs Paramus High School (Varsity Girls 
+SUMMARY:Paramus High School at Academy of the Holy Angels (Varsity Girls 
  Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7685472@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T154500
-DTEND;TZID=America/New_York:20270119T174500
-SUMMARY:Academy of the Holy Angels vs Eastside High School (Varsity Girls
-  Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7671624@big-north-conference
@@ -392,15 +293,6 @@ SUMMARY:Wayne Valley High School at Indian Hills High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7671643@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T154500
-DTEND;TZID=America/New_York:20270126T174500
-SUMMARY:Academy of the Holy Angels at Bergen County Technical High School
-  (Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7667630@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T161500
@@ -417,15 +309,6 @@ DTEND;TZID=America/New_York:20270127T181500
 SUMMARY:Northern Highlands Regional High School at Fair Lawn High School 
  (Varsity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7684421@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T154500
-DTEND;TZID=America/New_York:20270128T174500
-SUMMARY:Academy of the Holy Angels vs Clifton High School (Varsity Girls 
- Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7672548@big-north-conference
@@ -455,13 +338,13 @@ SUMMARY:Wayne Hills High School at Indian Hills High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7684422@big-north-conference
+UID:ds:2669:7684422@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T154500
 DTEND;TZID=America/New_York:20270203T174500
-SUMMARY:Academy of the Holy Angels vs Immaculate Heart Academy (Varsity G
+SUMMARY:Immaculate Heart Academy at Academy of the Holy Angels (Varsity G
  irls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:45 PM
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7672549@big-north-conference

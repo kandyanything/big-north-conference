@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2533:7569209@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270401T160000
-DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Bergen Catholic High School vs Northern Valley Regional High (Var
- sity Boys Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7569735@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270401T160000
-DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Bergen Catholic High School at Northern Valley Regional High (Jun
- ior Varsity Boys Boys Tennis)
-DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7569209@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
@@ -60,66 +42,30 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Bergen Catholic High Sc
 DESCRIPTION:Junior Varsity Boys Boys Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7714184@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270416T161500
-DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:Bergen Catholic High School vs Bergen County Technical High Schoo
- l (Varsity Boys Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7714185@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270416T161500
-DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:Bergen Catholic High School at Bergen County Technical High Schoo
- l (Junior Varsity Boys Boys Tennis)
-DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7714472@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270503T160000
-DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Bergen Catholic High School at Chatham High School (Varsity Boys 
- Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7714476@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270503T160000
-DTEND;TZID=America/New_York:20270503T180000
-SUMMARY:Bergen Catholic High School at Chatham High School (Junior Varsit
- y Boys Boys Tennis)
-DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7636285@big-north-conference
+UID:ds:2834:7636285@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270511T161500
 DTEND;TZID=America/New_York:20270511T181500
-SUMMARY:Bergen Catholic High School vs River Dell Regional High School (V
+SUMMARY:River Dell Regional High School at Bergen Catholic High School (V
  arsity Boys Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7636286@big-north-conference
+UID:ds:2834:7636286@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270511T161500
 DTEND;TZID=America/New_York:20270511T181500
-SUMMARY:Bergen Catholic High School at River Dell Regional High School (J
+SUMMARY:River Dell Regional High School vs Bergen Catholic High School (J
  unior Varsity Boys Boys Tennis)
-DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7595770@big-north-conference
+UID:ds:2616:7595770@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270513T160000
 DTEND;TZID=America/New_York:20270513T180000
-SUMMARY:Bergen Catholic High School at Fort Lee High School (Varsity Boys
+SUMMARY:Fort Lee High School vs Bergen Catholic High School (Varsity Boys
   Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
