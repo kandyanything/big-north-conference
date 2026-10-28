@@ -80,10 +80,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7702081@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T194500
-DTEND;TZID=America/New_York:20270119T214500
+DTSTART;TZID=America/New_York:20270119T193000
+DTEND;TZID=America/New_York:20270119T213000
 SUMMARY:Paramus High School at Northern Valley Regional High (Varsity Coe
  d Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Away - 7:45 PM
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7729566@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away
 END:VEVENT
 END:VCALENDAR
