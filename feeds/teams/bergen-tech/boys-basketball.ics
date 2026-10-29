@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:32754:7530671@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T161500
-DTEND;TZID=America/New_York:20261207T181500
-SUMMARY:Bergen County Technical High School vs Wood-Ridge High School (Va
- rsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7532457@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
@@ -40,6 +31,15 @@ DTEND;TZID=America/New_York:20261207T181500
 SUMMARY:Bergen County Technical High School at Wood-Ridge High School (Fr
  eshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7530671@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Bergen County Technical High School vs Wood-Ridge High School (Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7651577@big-north-conference
@@ -80,11 +80,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7690149@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T180000
-DTEND;TZID=America/New_York:20261214T200000
+DTSTART;TZID=America/New_York:20261214T163000
+DTEND;TZID=America/New_York:20261214T183000
 SUMMARY:Bergen County Technical High School vs Elmwood Park Memorial High
   School (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7652349@big-north-conference
