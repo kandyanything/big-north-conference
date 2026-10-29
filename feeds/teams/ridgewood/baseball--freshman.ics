@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2833:7732528@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T110000
+DTEND;TZID=America/New_York:20270403T130000
+SUMMARY:Ridgewood High School at Bayonne High School (Freshman Boys Baseb
+ all)
+DESCRIPTION:Freshman Boys Baseball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7534938@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270405T161500
@@ -78,6 +87,15 @@ SUMMARY:Pascack Valley High School at Ridgewood High School (Freshman Boy
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7732595@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T103000
+DTEND;TZID=America/New_York:20270501T123000
+SUMMARY:Ridgewood High School vs Columbia High School (Freshman Boys Base
+ ball)
+DESCRIPTION:Freshman Boys Baseball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7526175@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T161500
@@ -103,5 +121,14 @@ DTEND;TZID=America/New_York:20270519T181500
 SUMMARY:Ridgewood High School vs Saint Joseph Regional High School (Fresh
  man Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7732629@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T161500
+DTEND;TZID=America/New_York:20270521T181500
+SUMMARY:Indian Hills High School at Ridgewood High School (Freshman Boys 
+ Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR
