@@ -2783,15 +2783,6 @@ SUMMARY:Ridgewood High School at Wayne Hills High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620113@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T090000
-DTEND;TZID=America/New_York:20261219T110000
-SUMMARY:John F. Kennedy High School vs Ridgewood High School (Freshman Bo
- ys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7620113@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T090000
@@ -2801,40 +2792,40 @@ SUMMARY:Ridgewood High School at John F. Kennedy High School (Boys (9) Ba
 DESCRIPTION:Boys (9) Basketball - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7525377@big-north-conference
+UID:ds:2833:7525377@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
-SUMMARY:John F. Kennedy High School at Ridgewood High School (Junior Vars
+SUMMARY:Ridgewood High School vs John F. Kennedy High School (Junior Vars
  ity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7729075@big-north-conference
+UID:ds:2833:7729075@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T103000
 DTEND;TZID=America/New_York:20261219T123000
-SUMMARY:John F. Kennedy High School vs Ridgewood High School (Junior Vars
+SUMMARY:Ridgewood High School at John F. Kennedy High School (Junior Vars
  ity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7525373@big-north-conference
+UID:ds:2833:7525373@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
-SUMMARY:John F. Kennedy High School at Ridgewood High School (Varsity Gir
+SUMMARY:Ridgewood High School vs John F. Kennedy High School (Varsity Gir
  ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620012@big-north-conference
+UID:ds:2833:7620012@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T120000
 DTEND;TZID=America/New_York:20261219T140000
-SUMMARY:John F. Kennedy High School vs Ridgewood High School (Varsity Boy
+SUMMARY:Ridgewood High School at John F. Kennedy High School (Varsity Boy
  s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7569895@big-north-conference
@@ -2980,6 +2971,15 @@ SUMMARY:Fair Lawn High School at Ridgewood High School (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7733445@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T161500
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Girls Gi
+ rls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7525303@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T161500
@@ -3007,22 +3007,22 @@ SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7733444@big-north-conference
+UID:ds:2613:7733444@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
-SUMMARY:Ridgewood High School at Fair Lawn High School (Junior Varsity Gi
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7733442@big-north-conference
+UID:ds:2613:7733442@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
-SUMMARY:Ridgewood High School at Fair Lawn High School (Varsity Girls Gir
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Varsity Girls Gir
  ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7530161@big-north-conference
@@ -3286,13 +3286,13 @@ SUMMARY:Bergen Catholic High School at Ridgewood High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7733481@big-north-conference
+UID:ds:2669:7733481@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Ridgewood High School at Immaculate Heart Academy (Junior Varsity
+SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Junior Varsity
   Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7673710@big-north-conference
@@ -3304,13 +3304,13 @@ SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7733480@big-north-conference
+UID:ds:2669:7733480@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
-SUMMARY:Ridgewood High School at Immaculate Heart Academy (Varsity Girls 
+SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Varsity Girls 
  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7732561@big-north-conference
@@ -3685,6 +3685,15 @@ DTSTART;TZID=America/New_York:20270126T161500
 DTEND;TZID=America/New_York:20270126T181500
 SUMMARY:Ridgewood High School vs Passaic High School (Boys (9) Basketball)
 DESCRIPTION:Boys (9) Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7733506@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T163000
+DTEND;TZID=America/New_York:20270126T183000
+SUMMARY:Passaic High School vs Ridgewood High School (Varsity Girls Girls
+  Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7525330@big-north-conference
@@ -4944,6 +4953,15 @@ SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7733685@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T161500
+DTEND;TZID=America/New_York:20270428T181500
+SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Softba
+ ll)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7655079@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T160000
@@ -5077,6 +5095,24 @@ DTEND;TZID=America/New_York:20270503T181500
 SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
  (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7733534@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T161500
+DTEND;TZID=America/New_York:20270504T181500
+SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Boys Boys Vo
+ lleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7733556@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T173000
+DTEND;TZID=America/New_York:20270504T193000
+SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys 
+ Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7526182@big-north-conference

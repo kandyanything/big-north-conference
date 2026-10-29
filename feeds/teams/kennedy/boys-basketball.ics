@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2676:7690121@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T163000
-DTEND;TZID=America/New_York:20261210T183000
-SUMMARY:John F. Kennedy High School vs Bogota High School (Junior Varsity
-  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7689759@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T180000
-DTEND;TZID=America/New_York:20261210T200000
-SUMMARY:John F. Kennedy High School vs Bogota High School (Varsity Boys B
- oys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2592:7620084@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -69,49 +51,22 @@ SUMMARY:Don Bosco Prep at John F. Kennedy High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620113@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T090000
-DTEND;TZID=America/New_York:20261219T110000
-SUMMARY:John F. Kennedy High School vs Ridgewood High School (Freshman Bo
- ys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7729075@big-north-conference
+UID:ds:2833:7729075@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T103000
 DTEND;TZID=America/New_York:20261219T123000
-SUMMARY:John F. Kennedy High School vs Ridgewood High School (Junior Vars
+SUMMARY:Ridgewood High School at John F. Kennedy High School (Junior Vars
  ity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620012@big-north-conference
+UID:ds:2833:7620012@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T120000
 DTEND;TZID=America/New_York:20261219T140000
-SUMMARY:John F. Kennedy High School vs Ridgewood High School (Varsity Boy
+SUMMARY:Ridgewood High School at John F. Kennedy High School (Varsity Boy
  s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7544373@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:John F. Kennedy High School at Middlesex High School (Junior Vars
- ity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7544184@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T173000
-DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:John F. Kennedy High School at Middlesex High School (Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7569912@big-north-conference
