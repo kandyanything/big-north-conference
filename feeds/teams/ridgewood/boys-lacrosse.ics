@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2833:7733148@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T130000
+DTEND;TZID=America/New_York:20261029T150000
+SUMMARY:Ridgewood High School at Moorestown High School (Varsity Boys Boy
+ s Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7733115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270316T161500
@@ -66,6 +75,15 @@ DTEND;TZID=America/New_York:20270327T113000
 SUMMARY:Ridgewood High School vs Summit High School (Freshman Boys Boys L
  acrosse)
 DESCRIPTION:Freshman Boys Boys Lacrosse - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7733152@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270327T143000
+DTEND;TZID=America/New_York:20270327T163000
+SUMMARY:Ridgewood High School at Moorestown High School (Junior Varsity B
+ oys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7695272@big-north-conference
@@ -212,13 +230,13 @@ SUMMARY:Ridgewood High School vs Westfield High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7733107@big-north-conference
+UID:ds:2592:7733107@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270428T161500
 DTEND;TZID=America/New_York:20270428T181500
-SUMMARY:Ridgewood High School vs Don Bosco Prep (Freshman Boys Boys Lacro
+SUMMARY:Don Bosco Prep at Ridgewood High School (Freshman Boys Boys Lacro
  sse)
-DESCRIPTION:Freshman Boys Boys Lacrosse - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Boys Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7733061@big-north-conference
