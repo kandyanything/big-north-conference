@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2689:7736286@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T161500
+DTEND;TZID=America/New_York:20270330T181500
+SUMMARY:Lakeland Regional High School vs Northern Valley Regional High (V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7736286@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T161500
+DTEND;TZID=America/New_York:20270330T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Lakeland Regional High 
+ School (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7610038@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270402T163000
