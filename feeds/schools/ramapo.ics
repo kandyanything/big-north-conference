@@ -2535,10 +2535,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7578078@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261107T090000
-DTEND;TZID=America/New_York:20261107T110000
+DTSTART;TZID=America/New_York:20261107T140000
+DTEND;TZID=America/New_York:20261107T160000
 SUMMARY:Ramapo High School at TBD (Varsity Coed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7578084@big-north-conference
@@ -3703,6 +3703,15 @@ SUMMARY:Ramapo High School at Princeton High School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7737192@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T161500
+DTEND;TZID=America/New_York:20270112T181500
+SUMMARY:Ramapo High School at Union City High School (Freshman Girls Girl
+ s Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7667894@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
@@ -4106,6 +4115,15 @@ DTEND;TZID=America/New_York:20270121T181500
 SUMMARY:Ramapo High School at Wayne Hills High School (Varsity Boys Boys 
  Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7737187@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Ramapo High School vs Union City High School (Freshman Girls Girl
+ s Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7641540@big-north-conference
@@ -4947,22 +4965,13 @@ SUMMARY:Ramapo High School vs West Milford High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7681687@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T095100
-DTEND;TZID=America/New_York:20270331T115100
-SUMMARY:Passaic County Technical Institute vs Ramapo High School (Junior 
- Varsity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 9:51 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7681688@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270331T095100
-DTEND;TZID=America/New_York:20270331T115100
+DTSTART;TZID=America/New_York:20270331T161500
+DTEND;TZID=America/New_York:20270331T181500
 SUMMARY:Passaic County Technical Institute vs Ramapo High School (Freshma
  n Girls Softball)
-DESCRIPTION:Freshman Girls Softball - Home - 9:51 AM
+DESCRIPTION:Freshman Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7733661@big-north-conference
