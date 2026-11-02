@@ -26,11 +26,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:2787:7697524@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
+DTSTART;TZID=America/New_York:20261212T113000
+DTEND;TZID=America/New_York:20261212T133000
 SUMMARY:Paramus Catholic High School at Saint Joseph Regional High School
   (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7703247@big-north-conference
