@@ -215,19 +215,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7528694@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270216
-DTEND;VALUE=DATE:20270217
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T193000
 SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
  (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7528694@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270216
-DTEND;VALUE=DATE:20270217
-SUMMARY:Northern Highlands Regional High School at Fair Lawn High School 
- (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 END:VCALENDAR

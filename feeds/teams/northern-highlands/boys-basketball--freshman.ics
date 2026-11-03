@@ -224,19 +224,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7528695@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270216
-DTEND;VALUE=DATE:20270217
+DTSTART;TZID=America/New_York:20270216T161500
+DTEND;TZID=America/New_York:20270216T181500
 SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
  (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7528695@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270216
-DTEND;VALUE=DATE:20270217
-SUMMARY:Northern Highlands Regional High School at Fair Lawn High School 
- (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR
