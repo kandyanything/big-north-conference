@@ -3205,9 +3205,9 @@ UID:ds:2770:7726256@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261130T150000
 DTEND;TZID=America/New_York:20261130T170000
-SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Va
+SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
  rsity Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:00 PM
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7532473@big-north-conference
@@ -3228,6 +3228,15 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7666306@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T160000
+DTEND;TZID=America/New_York:20261202T180000
+SUMMARY:Hackensack High School vs Northern Highlands Regional High School
+  (Varsity Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7666297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T161500
@@ -3235,15 +3244,6 @@ DTEND;TZID=America/New_York:20261202T181500
 SUMMARY:Hackensack High School vs Northern Highlands Regional High School
   (Varsity Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2633:7666306@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261202T161500
-DTEND;TZID=America/New_York:20261202T181500
-SUMMARY:Hackensack High School vs Northern Highlands Regional High School
-  (Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7604064@big-north-conference
@@ -3658,6 +3658,15 @@ DTEND;TZID=America/New_York:20261216T203000
 SUMMARY:Hackensack High School at Northern Highlands Regional High School
   (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7739716@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T193000
+DTEND;TZID=America/New_York:20261216T213000
+SUMMARY:Don Bosco Prep vs Northern Highlands Regional High School (Junior
+  Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7660856@big-north-conference

@@ -2048,6 +2048,15 @@ SUMMARY:Hackensack High School vs Roxbury High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2633:7666306@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T160000
+DTEND;TZID=America/New_York:20261202T180000
+SUMMARY:Hackensack High School vs Northern Highlands Regional High School
+  (Varsity Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7666297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T161500
@@ -2055,15 +2064,6 @@ DTEND;TZID=America/New_York:20261202T181500
 SUMMARY:Hackensack High School vs Northern Highlands Regional High School
   (Varsity Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2633:7666306@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261202T161500
-DTEND;TZID=America/New_York:20261202T181500
-SUMMARY:Hackensack High School vs Northern Highlands Regional High School
-  (Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7660853@big-north-conference
@@ -2082,6 +2082,24 @@ DTEND;TZID=America/New_York:20261203T181500
 SUMMARY:Ridgewood High School at Hackensack High School (Varsity Boys Boy
  s Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7739534@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Fair Lawn High School vs Hackensack High School (Varsity Coed Coe
+ d Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7739534@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Hackensack High School at Fair Lawn High School (Varsity Girls Gi
+ rls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7602759@big-north-conference
@@ -2133,9 +2151,9 @@ UID:ds:2633:7672414@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Hackensack High School at Ramapo High School (Varsity Boys Boys B
- owling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
+SUMMARY:Hackensack High School at Ramapo High School (Varsity Girls Girls
+  Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7672414@big-north-conference
@@ -2271,6 +2289,23 @@ DTEND;TZID=America/New_York:20261216T203000
 SUMMARY:Hackensack High School at Northern Highlands Regional High School
   (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7739551@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Hackensack High School vs TBD (Varsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7739551@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Bergen County Technical High School at Hackensack High School (Va
+ rsity Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7660856@big-north-conference
@@ -3416,22 +3451,22 @@ SUMMARY:Dwight Morrow High School at Hackensack High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7608747@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270220T100000
-DTEND;TZID=America/New_York:20270220T120000
-SUMMARY:Hackensack High School vs Franklin High School (Varsity Boys Boys
-  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7640893@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270220T120000
-DTEND;TZID=America/New_York:20270220T140000
+DTSTART;TZID=America/New_York:20270220T113000
+DTEND;TZID=America/New_York:20270220T133000
 SUMMARY:Hackensack High School vs Franklin High School (Junior Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7608747@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T130000
+DTEND;TZID=America/New_York:20270220T150000
+SUMMARY:Hackensack High School vs Franklin High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7539603@big-north-conference
@@ -3701,6 +3736,15 @@ DTEND;TZID=America/New_York:20270412T181500
 SUMMARY:Hackensack High School at Ramapo High School (Junior Varsity Girl
  s Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7739737@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T161500
+DTEND;TZID=America/New_York:20270412T181500
+SUMMARY:Hackensack High School vs Ramapo High School (Varsity Girls Softb
+ all)
+DESCRIPTION:Varsity Girls Softball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7568298@big-north-conference
@@ -4041,6 +4085,15 @@ DTEND;TZID=America/New_York:20270430T181500
 SUMMARY:Hackensack High School at Ramapo High School (Varsity Girls Softb
  all)
 DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7739921@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T161500
+DTEND;TZID=America/New_York:20270430T181500
+SUMMARY:Ramapo High School at Hackensack High School (Junior Varsity Girl
+ s Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7577970@big-north-conference

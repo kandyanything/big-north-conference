@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7652303@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T200000
+DTEND;TZID=America/New_York:20261207T220000
+SUMMARY:Fair Lawn High School vs River Dell Regional High School (Varsity
+  Coed Coed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2931:7702680@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T190000
@@ -31,5 +40,14 @@ DTEND;TZID=America/New_York:20261219T210000
 SUMMARY:West Milford High School vs River Dell Regional High School (Vars
  ity Coed Coed Ice Hockey)
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7652313@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T201500
+DTEND;TZID=America/New_York:20270129T221500
+SUMMARY:Fair Lawn High School at River Dell Regional High School (Varsity
+  Coed Coed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 8:15 PM
 END:VEVENT
 END:VCALENDAR

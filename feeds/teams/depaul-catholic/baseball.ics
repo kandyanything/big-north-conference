@@ -23,6 +23,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2931:7739931@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270315T161500
+DTEND;TZID=America/New_York:20270315T181500
+SUMMARY:West Milford High School at DePaul Catholic High School (Varsity 
+ Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7739949@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270325T161500
+DTEND;TZID=America/New_York:20270325T181500
+SUMMARY:Ridgefield Park High School at DePaul Catholic High School (Varsi
+ ty Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7739963@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T161500
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:Wayne Valley High School vs DePaul Catholic High School (Varsity 
+ Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2585:7534945@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T161500
