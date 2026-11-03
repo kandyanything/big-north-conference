@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2689:7729488@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T203000
+DTEND;TZID=America/New_York:20261130T223000
+SUMMARY:Lakeland Regional High School vs Fair Lawn High School (Varsity B
+ oys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7702071@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T200000
@@ -46,8 +55,8 @@ UID:ds:2689:7651363@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T183000
 DTEND;TZID=America/New_York:20261211T203000
-SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
-  Boys Boys Ice Hockey)
+SUMMARY:Lakeland Regional High School at Wayne Hockey (Varsity Boys Boys 
+ Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -100,9 +109,27 @@ UID:ds:2689:7651981@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270117T163000
 DTEND;TZID=America/New_York:20270117T183000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
-  Boys Boys Ice Hockey)
+SUMMARY:Lakeland Regional High School vs Wayne Hockey (Varsity Boys Boys 
+ Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7651981@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T163000
+DTEND;TZID=America/New_York:20270117T183000
+SUMMARY:Wayne Hills High School at Lakeland Regional High School (Varsity
+  Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7651981@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T163000
+DTEND;TZID=America/New_York:20270117T183000
+SUMMARY:Wayne Valley High School at Lakeland Regional High School (Varsit
+ y Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7678284@big-north-conference
