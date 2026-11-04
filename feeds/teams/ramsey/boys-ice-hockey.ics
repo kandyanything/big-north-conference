@@ -68,6 +68,15 @@ SUMMARY:Ramsey High School vs West Milford High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2706:7674192@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T203000
+DTEND;TZID=America/New_York:20261211T223000
+SUMMARY:Mahwah High School at Ramsey High School (Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7674192@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T203000
@@ -75,6 +84,15 @@ DTEND;TZID=America/New_York:20261211T223000
 SUMMARY:Paramus High School at Ramsey High School (Varsity Boys Boys Ice 
  Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7674192@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T203000
+DTEND;TZID=America/New_York:20261211T223000
+SUMMARY:Ramsey High School vs Paramus/Mahwah/Lyndhurst (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7635031@big-north-conference
@@ -102,40 +120,6 @@ DTEND;TZID=America/New_York:20261223T220000
 SUMMARY:Ramapo High School at Ramsey High School (Varsity Boys Boys Ice H
  ockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7635074@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261227T200000
-DTEND;TZID=America/New_York:20261227T220000
-SUMMARY:Ramsey High School vs Wayne Hockey (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7635074@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261227T200000
-DTEND;TZID=America/New_York:20261227T220000
-SUMMARY:Wayne Hills High School at Ramsey High School (Varsity Boys Boys 
- Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7635074@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261227T200000
-DTEND;TZID=America/New_York:20261227T220000
-SUMMARY:Wayne Valley High School at Ramsey High School (Varsity Boys Boys
-  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7739589@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261228T183000
-DTEND;TZID=America/New_York:20261228T203000
-SUMMARY:Ramsey High School vs TBD (Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7652694@big-north-conference
@@ -196,8 +180,7 @@ UID:ds:2823:7635254@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T174500
 DTEND;TZID=America/New_York:20270131T194500
-SUMMARY:Ramsey High School at Wayne Hills High School (Varsity Boys Boys 
- Ice Hockey)
+SUMMARY:Ramsey High School at Wayne Hockey (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 END:VCALENDAR

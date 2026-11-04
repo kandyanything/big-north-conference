@@ -2731,20 +2731,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7741737@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261106T140000
-DTEND;TZID=America/New_York:20261106T160000
+DTSTART;TZID=America/New_York:20261106T110000
+DTEND;TZID=America/New_York:20261106T130000
 SUMMARY:Northern Valley Regional HS - Demarest at Wayne Valley High Schoo
  l (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 2:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7741737@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261106T140000
-DTEND;TZID=America/New_York:20261106T160000
+DTSTART;TZID=America/New_York:20261106T110000
+DTEND;TZID=America/New_York:20261106T130000
 SUMMARY:Wayne Valley High School vs Northern Valley Regional High (Varsit
  y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7677097@big-north-conference
@@ -2836,11 +2836,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7515608@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261204T204500
-DTEND;TZID=America/New_York:20261204T224500
+DTSTART;TZID=America/New_York:20261204T210000
+DTEND;TZID=America/New_York:20261204T230000
 SUMMARY:Wayne Valley High School at Wayne Hockey (Varsity Boys Boys Ice H
  ockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:45 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7651339@big-north-conference
@@ -3054,8 +3054,8 @@ UID:ds:2926:7632679@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T184500
 DTEND;TZID=America/New_York:20261213T204500
-SUMMARY:Wayne Valley High School at Paramus High School (Varsity Boys Boy
- s Ice Hockey)
+SUMMARY:Wayne Valley High School at Paramus/Mahwah/Lyndhurst (Varsity Boy
+ s Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3462,15 +3462,6 @@ DTEND;TZID=America/New_York:20261223T194500
 SUMMARY:Wayne Valley High School at Wayne Hockey (Varsity Boys Boys Ice H
  ockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7635074@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261227T200000
-DTEND;TZID=America/New_York:20261227T220000
-SUMMARY:Wayne Valley High School at Ramsey High School (Varsity Boys Boys
-  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7652002@big-north-conference
@@ -4292,6 +4283,15 @@ SUMMARY:Wayne Valley High School at Indian Hills High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2926:7590405@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T200000
+DTEND;TZID=America/New_York:20270122T220000
+SUMMARY:Wayne Valley High School at Ramapo High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2926:7540382@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -4346,6 +4346,15 @@ SUMMARY:Wayne Valley High School at Montville Township High School (Varsi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2926:7651618@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Wayne Valley High School at Ridgewood High School (Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2585:7517076@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T173000
@@ -4380,6 +4389,15 @@ DTEND;TZID=America/New_York:20270126T180000
 SUMMARY:John F. Kennedy High School at Wayne Valley High School (Freshman
   Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7651810@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:Wayne Valley High School at Montclair High School (Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7540387@big-north-conference
@@ -4443,6 +4461,15 @@ DTEND;TZID=America/New_York:20270127T203000
 SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Boy
  s Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7651818@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T204000
+DTEND;TZID=America/New_York:20270127T224000
+SUMMARY:Wayne Valley High School at Newton High School (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7672463@big-north-conference
@@ -4542,6 +4569,15 @@ DTEND;TZID=America/New_York:20270130T150000
 SUMMARY:Wayne Valley High School at Morris Knolls High School (Varsity Gi
  rls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7635254@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270131T174500
+DTEND;TZID=America/New_York:20270131T194500
+SUMMARY:Wayne Valley High School at Wayne Hockey (Varsity Boys Boys Ice H
+ ockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7740129@big-north-conference

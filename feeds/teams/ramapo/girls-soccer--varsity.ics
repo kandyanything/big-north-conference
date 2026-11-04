@@ -223,19 +223,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7741573@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;TZID=America/New_York:20261107T110000
+DTEND;TZID=America/New_York:20261107T130000
 SUMMARY:Ramapo High School at Wayne Hills High School (Varsity Girls Girl
  s Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7741573@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Wayne Hills High School vs Ramapo High School (Varsity Girls Girl
- s Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 END:VCALENDAR
