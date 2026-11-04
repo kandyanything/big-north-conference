@@ -2783,20 +2783,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7435889@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T143000
-DTEND;TZID=America/New_York:20261219T163000
+DTSTART;TZID=America/New_York:20261219T144500
+DTEND;TZID=America/New_York:20261219T164500
 SUMMARY:Dumont High School at Paramus High School (Junior Varsity Girls G
  irls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 2:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7435840@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T160000
-DTEND;TZID=America/New_York:20261219T180000
+DTSTART;TZID=America/New_York:20261219T161500
+DTEND;TZID=America/New_York:20261219T181500
 SUMMARY:Dumont High School at Paramus High School (Varsity Girls Girls Ba
  sketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7721113@big-north-conference
@@ -2859,15 +2859,6 @@ DTEND;TZID=America/New_York:20261222T210000
 SUMMARY:Fair Lawn High School vs Paramus High School (Varsity Boys Boys B
  asketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7423137@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261222
-DTEND;VALUE=DATE:20261223
-SUMMARY:Fair Lawn High School at Paramus High School (Freshman Girls Girl
- s Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7423231@big-north-conference
@@ -3640,15 +3631,6 @@ SUMMARY:Paramus High School at TBA NJ (Varsity Coed Indoor Track)
 DESCRIPTION:Varsity Coed Indoor Track - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423083@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Paramus High School vs River Dell Regional High School (Varsity G
- irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7422898@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -3703,13 +3685,13 @@ SUMMARY:Paramus High School at River Dell Regional High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7423083@big-north-conference
+UID:ds:2788:7423083@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T190000
 DTEND;TZID=America/New_York:20270121T210000
-SUMMARY:River Dell Regional High School at Paramus High School (Varsity G
+SUMMARY:Paramus High School vs River Dell Regional High School (Varsity G
  irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7672625@big-north-conference
@@ -3936,24 +3918,6 @@ SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7423086@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T160000
-DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
- rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7423086@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T160000
-DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7422900@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T161500
@@ -3961,6 +3925,15 @@ DTEND;TZID=America/New_York:20270202T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Paramus High School (Fr
  eshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7423086@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7556729@big-north-conference
@@ -3979,6 +3952,15 @@ DTEND;TZID=America/New_York:20270202T181500
 SUMMARY:Paramus High School at Northern Valley Regional High (Freshman Bo
  ys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423086@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7556729@big-north-conference
@@ -4329,6 +4311,15 @@ DTEND;TZID=America/New_York:20270325T181500
 SUMMARY:Bergen Catholic High School at Paramus High School (Varsity Boys 
  Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7743531@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270325T161500
+DTEND;TZID=America/New_York:20270325T181500
+SUMMARY:Bergen Catholic High School at Paramus High School (Junior Varsit
+ y Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7732566@big-north-conference

@@ -1113,11 +1113,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7435840@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T160000
-DTEND;TZID=America/New_York:20261219T180000
+DTSTART;TZID=America/New_York:20261219T161500
+DTEND;TZID=America/New_York:20261219T181500
 SUMMARY:Dumont High School at Paramus High School (Varsity Girls Girls Ba
  sketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7593456@big-north-conference
@@ -2602,15 +2602,6 @@ SUMMARY:Fair Lawn High School at Passaic County Technical Institute (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423083@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Paramus High School vs River Dell Regional High School (Varsity G
- irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7516489@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -2728,13 +2719,13 @@ SUMMARY:Immaculate Heart Academy at Ramapo High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7423083@big-north-conference
+UID:ds:2788:7423083@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T190000
 DTEND;TZID=America/New_York:20270121T210000
-SUMMARY:River Dell Regional High School at Paramus High School (Varsity G
+SUMMARY:Paramus High School vs River Dell Regional High School (Varsity G
  irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7698820@big-north-conference
@@ -3186,24 +3177,6 @@ SUMMARY:Bergen County Technical High School vs Bergen Charter (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7423086@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T160000
-DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
- rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7423086@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T160000
-DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7546510@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T161500
@@ -3231,12 +3204,30 @@ SUMMARY:Indian Hills High School at Lakeland Regional High School (Varsit
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7423086@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7639946@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T161500
 DTEND;TZID=America/New_York:20270202T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
  chool (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423086@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
+ ls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
