@@ -4838,15 +4838,6 @@ SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7741901@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261107T110000
-DTEND;TZID=America/New_York:20261107T130000
-SUMMARY:Northern Highlands Regional High School vs TBD (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2890:7726361@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261107T130000
@@ -4862,6 +4853,15 @@ DTEND;TZID=America/New_York:20261107T170000
 SUMMARY:Northern Valley Regional HS - Demarest vs TBA NJ (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7741901@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Northern Highlands Regional High School at TBD (Varsity Boys Boys
+  Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7742025@big-north-conference
