@@ -853,15 +853,6 @@ SUMMARY:Immaculate Heart Academy at Ramsey High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7387094@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Mahwah High School vs Ramsey High School (Varsity Girls Girls Ten
- nis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7608016@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
@@ -871,13 +862,13 @@ SUMMARY:Mahwah High School at Ramsey High School (Junior Varsity Girls Gi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7410038@big-north-conference
+UID:ds:2706:7387094@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Ramapo High School vs Ramsey High School (Freshman Boys Boys Socc
- er)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+SUMMARY:Mahwah High School vs Ramsey High School (Varsity Girls Girls Ten
+ nis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7433098@big-north-conference
@@ -887,6 +878,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Ramapo High School at Ramsey High School (Freshman Girls Girls So
  ccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7410038@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Ramapo High School vs Ramsey High School (Freshman Boys Boys Socc
+ er)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7390813@big-north-conference
@@ -1212,13 +1212,13 @@ SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7385679@big-north-conference
+UID:ds:2770:7440920@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
- eshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386325@big-north-conference
@@ -1239,22 +1239,13 @@ SUMMARY:Northern Highlands Regional High School at Ramsey High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7440920@big-north-conference
+UID:ds:2770:7385679@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7387096@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Bergenfield High School at Ramsey High School (Varsity Girls Girl
- s Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
+ eshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7608065@big-north-conference
@@ -1266,13 +1257,13 @@ SUMMARY:Bergenfield High School vs Ramsey High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7397000@big-north-conference
+UID:ds:2534:7387096@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
 DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Cliffside Park High School vs Ramsey High School (Junior Varsity 
- Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+SUMMARY:Bergenfield High School at Ramsey High School (Varsity Girls Girl
+ s Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7387099@big-north-conference
@@ -1284,13 +1275,13 @@ SUMMARY:Cliffside Park High School at Ramsey High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7546814@big-north-conference
+UID:ds:2573:7397000@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
 DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Mahwah High School at Ramsey High School (Junior Varsity Girls Gi
- rls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Cliffside Park High School vs Ramsey High School (Junior Varsity 
+ Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7546822@big-north-conference
@@ -1300,6 +1291,15 @@ DTEND;TZID=America/New_York:20260925T181500
 SUMMARY:Mahwah High School at Ramsey High School (Freshman Girls Girls Vo
  lleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7546814@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T161500
+DTEND;TZID=America/New_York:20260925T181500
+SUMMARY:Mahwah High School at Ramsey High School (Junior Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7540760@big-north-conference
@@ -1391,15 +1391,6 @@ SUMMARY:Ramsey High School vs Butler High School (Junior Varsity Girls Fi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7403734@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Cliffside Park High School at Ramsey High School (Junior Varsity 
- Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7403731@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
@@ -1407,6 +1398,15 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Cliffside Park High School at Ramsey High School (Varsity Girls G
  irls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7403734@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Cliffside Park High School at Ramsey High School (Junior Varsity 
+ Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7382746@big-north-conference

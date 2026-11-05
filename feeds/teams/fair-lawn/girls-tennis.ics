@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2613:7537577@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Fair Lawn High School vs Lakeland Regional High School (Varsity G
- irls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7537585@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -41,12 +32,12 @@ SUMMARY:Fair Lawn High School at Lakeland Regional High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7546971@big-north-conference
+UID:ds:2613:7537577@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Fair Lawn High School vs Immaculate Heart Academy (Varsity Girls 
- Girls Tennis)
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Fair Lawn High School vs Lakeland Regional High School (Varsity G
+ irls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -57,6 +48,15 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Fair Lawn High School at Immaculate Heart Academy (Junior Varsity
   Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7546971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Fair Lawn High School vs Immaculate Heart Academy (Varsity Girls 
+ Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7386096@big-north-conference

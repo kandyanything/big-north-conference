@@ -211,15 +211,6 @@ SUMMARY:DePaul Catholic High School vs Passaic High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469436@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Bergen Catholic High School vs DePaul Catholic High School (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2533:7469591@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -227,6 +218,15 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Bergen Catholic High School at DePaul Catholic High School (Junio
  r Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7469436@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Bergen Catholic High School vs DePaul Catholic High School (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7469871@big-north-conference
@@ -292,13 +292,13 @@ SUMMARY:DePaul Catholic High School at Monsignor Farrell High School (Var
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7568641@big-north-conference
+UID:ds:43369:7468378@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Freshm
- an Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Academy of the Holy Angels vs DePaul Catholic High School (Varsit
+ y Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7468470@big-north-conference
@@ -310,13 +310,13 @@ SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Girls
 DESCRIPTION:Girls (9) Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7468378@big-north-conference
+UID:ds:43369:7568641@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Academy of the Holy Angels vs DePaul Catholic High School (Varsit
- y Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Freshm
+ an Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7506291@big-north-conference
@@ -355,15 +355,6 @@ SUMMARY:DePaul Catholic High School vs Saint Joseph Regional High School
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474429@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:43369:7412495@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -373,13 +364,13 @@ SUMMARY:Academy of the Holy Angels vs DePaul Catholic High School (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7501678@big-north-conference
+UID:ds:43369:7474429@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Var
- sity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7568646@big-north-conference
@@ -389,6 +380,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Fre
  shman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7501678@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Var
+ sity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7537595@big-north-conference
@@ -499,6 +499,15 @@ SUMMARY:DePaul Catholic High School vs Immaculate Heart Academy (Freshman
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2585:7397109@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:DePaul Catholic High School at Wayne Valley High School (Junior V
+ arsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2585:7513362@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -515,15 +524,6 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:DePaul Catholic High School at Immaculate Heart Academy (Varsity 
  Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2585:7397109@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:DePaul Catholic High School at Wayne Valley High School (Junior V
- arsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7521134@big-north-conference
@@ -589,15 +589,6 @@ SUMMARY:DePaul Catholic High School at Delbarton School (Freshman Boys Fo
 DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7513250@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T110000
-DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:DePaul Catholic High School vs Lakeland Regional High School (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7537649@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T110000
@@ -605,6 +596,15 @@ DTEND;TZID=America/New_York:20260926T130000
 SUMMARY:DePaul Catholic High School vs Lakeland Regional High School (Jun
  ior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7513250@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T110000
+DTEND;TZID=America/New_York:20260926T130000
+SUMMARY:DePaul Catholic High School vs Lakeland Regional High School (Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7523391@big-north-conference
