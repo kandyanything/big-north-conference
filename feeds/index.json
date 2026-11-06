@@ -1,6 +1,6 @@
 {
   "conference": "Big North Conference",
-  "generated": "2026-11-06T18:36:45.295Z",
+  "generated": "2026-11-06T19:08:43.478Z",
   "all": "feeds/all.ics",
   "rss": "feeds/rss.xml",
   "teams": "feeds/teams.json",
@@ -52,7 +52,7 @@
       "slug": "depaul-catholic",
       "path": "feeds/schools/depaul-catholic.ics",
       "rss": "feeds/schools/depaul-catholic.xml",
-      "games": 291
+      "games": 301
     },
     {
       "name": "Don Bosco Prep",
@@ -108,14 +108,14 @@
       "slug": "immaculate-heart",
       "path": "feeds/schools/immaculate-heart.ics",
       "rss": "feeds/schools/immaculate-heart.xml",
-      "games": 253
+      "games": 255
     },
     {
       "name": "Indian Hills High School",
       "slug": "indian-hills",
       "path": "feeds/schools/indian-hills.ics",
       "rss": "feeds/schools/indian-hills.xml",
-      "games": 524
+      "games": 526
     },
     {
       "name": "John F. Kennedy High School",
@@ -129,7 +129,7 @@
       "slug": "lakeland",
       "path": "feeds/schools/lakeland.ics",
       "rss": "feeds/schools/lakeland.xml",
-      "games": 473
+      "games": 475
     },
     {
       "name": "Mahwah High School",
@@ -213,7 +213,7 @@
       "slug": "ramapo",
       "path": "feeds/schools/ramapo.ics",
       "rss": "feeds/schools/ramapo.xml",
-      "games": 798
+      "games": 800
     },
     {
       "name": "Ramsey High School",
@@ -276,7 +276,7 @@
       "slug": "wayne-valley",
       "path": "feeds/schools/wayne-valley.ics",
       "rss": "feeds/schools/wayne-valley.xml",
-      "games": 675
+      "games": 677
     },
     {
       "name": "West Milford High School",
@@ -495,7 +495,7 @@
       "slug": "flag-football",
       "path": "feeds/sports/flag-football.ics",
       "rss": "feeds/sports/flag-football.xml",
-      "games": 15
+      "games": 25
     },
     {
       "name": "Football",
@@ -1191,12 +1191,21 @@
     },
     {
       "sport": "Flag Football",
+      "level": "Var-JV",
+      "name": "Var-JV Flag Football",
+      "slug": "var-jv--flag-football",
+      "path": "feeds/sports/var-jv--flag-football.ics",
+      "rss": "feeds/sports/var-jv--flag-football.xml",
+      "games": 5
+    },
+    {
+      "sport": "Flag Football",
       "level": "Varsity",
       "name": "Varsity Flag Football",
       "slug": "varsity--flag-football",
       "path": "feeds/sports/varsity--flag-football.ics",
       "rss": "feeds/sports/varsity--flag-football.xml",
-      "games": 15
+      "games": 20
     },
     {
       "sport": "Football",
