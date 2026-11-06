@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><title>BNC Logo Check</title>
+<style>
+ body{font-family:system-ui,Arial,sans-serif;background:#0d0e10;color:#eaf6fb;margin:0;padding:24px}
+ h1{color:#40d9f1;font-weight:700}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+ .card{background:#0e2c44;border:1px solid #1b4763;border-radius:10px;padding:12px;text-align:center}
+ .card img{width:100%;height:110px;object-fit:contain;background:#fff;border-radius:6px;padding:6px}
+ .name{margin-top:8px;font-size:13px;font-weight:600}
+ .slug{font-size:11px;color:#7fb4cc;margin-top:2px}
+ .flag{outline:2px solid #ffcc00}
+</style></head><body>
+<h1>Big North — 41 school logos (verify mappings)</h1>
+<p>Yellow outline = filename was ambiguous, please double-check.</p>
+<div class="grid" id="g"></div>
+<script>
+const S=[{"slug":"holy-angels","name":"Academy of the Holy Angels"},{"slug":"bergen-catholic","name":"Bergen Catholic High School"},{"slug":"bergen-tech","name":"Bergen County Technical High School"},{"slug":"bergenfield","name":"Bergenfield High School"},{"slug":"cliffside-park","name":"Cliffside Park High School"},{"slug":"clifton","name":"Clifton High School"},{"slug":"depaul-catholic","name":"DePaul Catholic High School"},{"slug":"don-bosco","name":"Don Bosco Prep"},{"slug":"dumont","name":"Dumont High School"},{"slug":"dwight-morrow","name":"Dwight Morrow High School"},{"slug":"eastside","name":"Eastside High School"},{"slug":"fair-lawn","name":"Fair Lawn High School"},{"slug":"fort-lee","name":"Fort Lee High School"},{"slug":"hackensack","name":"Hackensack High School"},{"slug":"immaculate-heart","name":"Immaculate Heart Academy"},{"slug":"indian-hills","name":"Indian Hills High School"},{"slug":"kennedy","name":"John F. Kennedy High School"},{"slug":"lakeland","name":"Lakeland Regional High School"},{"slug":"mahwah","name":"Mahwah High School"},{"slug":"northern-highlands","name":"Northern Highlands Regional High School"},{"slug":"nv-demarest","name":"Northern Valley Regional HS - Demarest"},{"slug":"nv-old-tappan","name":"Northern Valley Regional HS - Old Tappan"},{"slug":"paramus-catholic","name":"Paramus Catholic High School"},{"slug":"paramus","name":"Paramus High School"},{"slug":"pascack-hills","name":"Pascack Hills High School"},{"slug":"pascack-valley","name":"Pascack Valley High School"},{"slug":"passaic-county-tech","name":"Passaic County Technical Institute"},{"slug":"passaic","name":"Passaic High School"},{"slug":"passaic-valley","name":"Passaic Valley High School"},{"slug":"ramapo","name":"Ramapo High School"},{"slug":"ramsey","name":"Ramsey High School"},{"slug":"ridgefield-park","name":"Ridgefield Park High School"},{"slug":"ridgewood","name":"Ridgewood High School"},{"slug":"river-dell","name":"River Dell Regional High School"},{"slug":"st-joseph","name":"Saint Joseph Regional High School"},{"slug":"teaneck","name":"Teaneck High School"},{"slug":"tenafly","name":"Tenafly High School"},{"slug":"wayne-hills","name":"Wayne Hills High School"},{"slug":"wayne-valley","name":"Wayne Valley High School"},{"slug":"west-milford","name":"West Milford High School"},{"slug":"westwood","name":"Westwood Regional Senior High School"}];
+const flag=new Set(["mahwah","wayne-hills","passaic-county-tech"]);
+const g=document.getElementById("g");
+S.forEach(s=>{
+ g.insertAdjacentHTML("beforeend",
+ `<div class="card${flag.has(s.slug)?' flag':''}">
+   <img src="images/logos/optimized/${s.slug}.png" alt="">
+   <div class="name">${s.name}</div>
+   <div class="slug">${s.slug}.png</div>
+ </div>`);
+});
+</script></body></html>

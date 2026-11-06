@@ -1,0 +1,16 @@
+{
+  "name": "nwjerseyac-website",
+  "version": "1.0.0",
+  "description": "Northwest Jersey Athletic Conference Website",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required for static site'"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
