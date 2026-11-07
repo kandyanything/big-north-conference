@@ -347,14 +347,6 @@ SUMMARY:Paramus High School at Wayne Hills High School (Freshman Girls Gi
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7403432@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T180000
-DTEND;TZID=America/New_York:20260904T200000
-SUMMARY:Paramus High School vs Teaneck High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7409837@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T180000
@@ -362,6 +354,14 @@ DTEND;TZID=America/New_York:20260904T200000
 SUMMARY:Paramus High School vs Teaneck High School (Varsity Coed Coed Che
  erleading)
 DESCRIPTION:Varsity Coed Coed Cheerleading - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7403432@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T180000
+DTEND;TZID=America/New_York:20260904T200000
+SUMMARY:Paramus High School vs Teaneck High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7403713@big-north-conference
@@ -660,15 +660,6 @@ SUMMARY:Paramus High School vs Teaneck High School (Varsity Girls Girls V
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7407121@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T183000
-DTEND;TZID=America/New_York:20260914T203000
-SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Girls 
- Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7403385@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T183000
@@ -676,6 +667,15 @@ DTEND;TZID=America/New_York:20260914T203000
 SUMMARY:Paramus High School at Pascack Valley High School (Varsity Boys B
  oys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7407121@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T183000
+DTEND;TZID=America/New_York:20260914T203000
+SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7410081@big-north-conference
@@ -965,7 +965,7 @@ SUMMARY:Paramus High School vs Tenafly High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7410299@big-north-conference
+UID:ds:2788:7410297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
