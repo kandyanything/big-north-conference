@@ -2055,15 +2055,6 @@ SUMMARY:Bergenfield High School vs Cliffside Park High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7566016@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Clifton High School vs John F. Kennedy High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7565998@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -2073,12 +2064,12 @@ SUMMARY:Clifton High School vs John F. Kennedy High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7515680@big-north-conference
+UID:ds:2574:7566016@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
-  Varsity Boys Boys Soccer)
+SUMMARY:Clifton High School vs John F. Kennedy High School (Junior Varsit
+ y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2089,6 +2080,15 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:Passaic County Technical Institute vs Passaic High School (Freshm
  an Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7515680@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
+  Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7496385@big-north-conference
@@ -2253,15 +2253,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Dover High School (Vars
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7578621@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T100000
-DTEND;TZID=America/New_York:20260905T120000
-SUMMARY:Northern Valley Regional HS - Old Tappan vs Dwight Morrow High Sc
- hool (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2772:7574825@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T100000
@@ -2269,6 +2260,15 @@ DTEND;TZID=America/New_York:20260905T120000
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Dwight Morrow High Sc
  hool (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7578621@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Dwight Morrow High Sc
+ hool (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7465212@big-north-conference
@@ -2450,7 +2450,7 @@ SUMMARY:Indian Hills High School at West Milford High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7545521@big-north-conference
+UID:ds:2689:7516581@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
@@ -2531,15 +2531,6 @@ SUMMARY:Clifton High School at Passaic High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7545604@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T163000
-DTEND;TZID=America/New_York:20260908T183000
-SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Soc
- cer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7566035@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T163000
@@ -2547,6 +2538,15 @@ DTEND;TZID=America/New_York:20260908T183000
 SUMMARY:Clifton High School at Passaic High School (Freshman Boys Boys So
  ccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7545604@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T163000
+DTEND;TZID=America/New_York:20260908T183000
+SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7435728@big-north-conference
@@ -2639,15 +2639,6 @@ SUMMARY:Dwight Morrow High School vs Ridgefield Park High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7557399@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Fair Lawn High School at Ramapo High School (Junior Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7557424@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -2655,6 +2646,15 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Fair Lawn High School at Ramapo High School (Freshman Boys Boys S
  occer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7557399@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Fair Lawn High School at Ramapo High School (Junior Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7440900@big-north-conference
@@ -2747,6 +2747,15 @@ SUMMARY:Paramus High School vs Lodi High School (Freshman Boys Boys Socce
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2792:7437590@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Pascack Hills High School at River Dell Regional High School (Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2792:7437589@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -2763,15 +2772,6 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Pascack Hills High School at River Dell Regional High School (Fre
  shman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2792:7437590@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Pascack Hills High School at River Dell Regional High School (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7536614@big-north-conference
@@ -3098,7 +3098,7 @@ SUMMARY:Bergenfield High School vs Hudson Catholic High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7566025@big-north-conference
+UID:ds:2574:7566024@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T100000
 DTEND;TZID=America/New_York:20260912T120000
@@ -3223,15 +3223,6 @@ SUMMARY:Dumont High School vs Fort Lee High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7507171@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7507176@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -3239,6 +3230,15 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Boys Boy
  s Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7507171@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7422794@big-north-conference
@@ -3295,15 +3295,6 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7540809@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Valley Regional HS - Demarest vs Northern Valley Regiona
- l High (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7540669@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -3320,6 +3311,15 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Northern Valley Regiona
  l High (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7540809@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Northern Valley Regional HS - Demarest vs Northern Valley Regiona
+ l High (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7540809@big-north-conference
@@ -3645,15 +3645,6 @@ SUMMARY:Bergen Catholic High School at Don Bosco Prep (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7440305@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Bergenfield High School at Fort Lee High School (Junior Varsity B
- oys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7440306@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
@@ -3661,6 +3652,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Bergenfield High School at Fort Lee High School (Freshman Boys Bo
  ys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7440305@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Bergenfield High School at Fort Lee High School (Junior Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7395999@big-north-conference
@@ -3780,13 +3780,13 @@ SUMMARY:Northern Valley Regional HS - Demarest at Paramus High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7513809@big-north-conference
+UID:ds:2772:7513807@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
- chool (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+ chool (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7513808@big-north-conference
@@ -3798,13 +3798,13 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7513807@big-north-conference
+UID:ds:2772:7513809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Pascack Valley High S
- chool (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+ chool (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7410263@big-north-conference
@@ -3825,13 +3825,13 @@ SUMMARY:Paramus High School vs Northern Valley Regional High (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7513809@big-north-conference
+UID:ds:2793:7513808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Pascack Valley High School at Northern Valley Regional High (Fres
- hman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
+ or Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7513807@big-north-conference
@@ -3843,13 +3843,13 @@ SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7513808@big-north-conference
+UID:ds:2793:7513809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
- or Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Fres
+ hman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7410038@big-north-conference
@@ -4122,16 +4122,16 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7459009@big-north-conference
+UID:ds:32754:7459010@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T163000
 DTEND;TZID=America/New_York:20260917T183000
-SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+SUMMARY:Bergen County Technical High School at Clifton High School (Junio
+ r Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7459011@big-north-conference
+UID:ds:32754:7566037@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T163000
 DTEND;TZID=America/New_York:20260917T183000
@@ -4140,13 +4140,13 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7459010@big-north-conference
+UID:ds:32754:7459009@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T163000
 DTEND;TZID=America/New_York:20260917T183000
-SUMMARY:Bergen County Technical High School at Clifton High School (Junio
- r Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
+SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7513247@big-north-conference
@@ -4932,15 +4932,6 @@ SUMMARY:Wayne Hills High School at West Milford High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7459012@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T163000
-DTEND;TZID=America/New_York:20260923T183000
-SUMMARY:Bergen County Technical High School vs Passaic High School (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7459013@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T163000
@@ -4959,6 +4950,15 @@ SUMMARY:Bergen County Technical High School vs Passaic High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7459012@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T163000
+DTEND;TZID=America/New_York:20260923T183000
+SUMMARY:Bergen County Technical High School vs Passaic High School (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7518672@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T190000
@@ -4968,14 +4968,6 @@ SUMMARY:Indian Hills High School at Paramus Catholic High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7592262@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Clifton High School vs Don Bosco Prep (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7566026@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -4983,6 +4975,14 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Clifton High School at Don Bosco Prep (Junior Varsity Boys Boys S
  occer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7592262@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Clifton High School vs Don Bosco Prep (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7469876@big-north-conference
@@ -5075,15 +5075,6 @@ SUMMARY:Fort Lee High School at Pascack Hills High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7557427@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Mahwah High School at Ramapo High School (Freshman Boys Boys Socc
- er)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7557402@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -5091,6 +5082,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Mahwah High School at Ramapo High School (Junior Varsity Boys Boy
  s Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7557427@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Mahwah High School at Ramapo High School (Freshman Boys Boys Socc
+ er)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7385563@big-north-conference
@@ -5174,15 +5174,6 @@ SUMMARY:Ridgefield Park High School vs River Dell Regional High School (J
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422810@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Teaneck High School vs Northern Valley Regional High (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7595796@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -5190,6 +5181,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Teaneck High School vs Northern Valley Regional High (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7422810@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Teaneck High School vs Northern Valley Regional High (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7496394@big-north-conference
@@ -5908,6 +5908,15 @@ SUMMARY:Lakeland Regional High School at Mahwah High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2771:7458972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Cresskill High School (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7440596@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
@@ -5915,15 +5924,6 @@ DTEND;TZID=America/New_York:20260930T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Cresskill High School (
  Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2771:7440627@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Northern Valley Regional HS - Demarest at Cresskill High School (
- Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7390816@big-north-conference
