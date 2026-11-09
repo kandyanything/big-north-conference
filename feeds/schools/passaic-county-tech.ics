@@ -346,15 +346,6 @@ SUMMARY:Northern Highlands Regional High School at Passaic County Technic
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7516535@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T161500
-DTEND;TZID=America/New_York:20260902T181500
-SUMMARY:Northern Valley Regional HS - Demarest at Passaic County Technica
- l Institute (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7516536@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T161500
@@ -362,6 +353,15 @@ DTEND;TZID=America/New_York:20260902T181500
 SUMMARY:Northern Valley Regional HS - Demarest at Passaic County Technica
  l Institute (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7516535@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T161500
+DTEND;TZID=America/New_York:20260902T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Passaic County Technica
+ l Institute (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7516535@big-north-conference
@@ -1138,15 +1138,6 @@ SUMMARY:Clifton High School vs Passaic County Technical Institute (Junior
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7516383@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Bergen County Technical High School vs Passaic County Technical I
- nstitute (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7527434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -1154,6 +1145,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Bergen County Technical High School at Passaic County Technical I
  nstitute (Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7516383@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Bergen County Technical High School vs Passaic County Technical I
+ nstitute (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7551992@big-north-conference
@@ -2560,12 +2560,22 @@ SUMMARY:Passaic County Technical Institute at Kearny High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7601016@big-north-conference
+UID:ds:2794:7753725@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261113T180000
-DTEND;TZID=America/New_York:20261113T200000
-SUMMARY:Passaic County Technical Institute vs TBD (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+DTSTART;TZID=America/New_York:20261112T163000
+DTEND;TZID=America/New_York:20261112T183000
+SUMMARY:Passaic County Technical Institute at Westfield High School (Vars
+ ity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7753817@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Passaic County Technical Institute at Phillipsburg High School (V
+ arsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7657134@big-north-conference
@@ -3592,6 +3602,24 @@ DTEND;TZID=America/New_York:20270112T183000
 SUMMARY:Passaic County Technical Institute vs Passaic High School (Varsit
  y Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7753905@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T163000
+DTEND;TZID=America/New_York:20270112T183000
+SUMMARY:Passaic County Technical Institute at Passaic High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7753906@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T174500
+DTEND;TZID=America/New_York:20270112T194500
+SUMMARY:Passaic County Technical Institute at Passaic High School (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7530111@big-north-conference
