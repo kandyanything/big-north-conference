@@ -356,33 +356,6 @@ SUMMARY:Ridgewood High School at Hackensack High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Football - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7385352@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469589@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469855@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Freshman Bo
- ys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7508007@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -399,6 +372,33 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Varsity Girls 
  Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7385352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7469589@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7469855@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7619940@big-north-conference
@@ -1633,15 +1633,6 @@ SUMMARY:Ridgewood High School at Linden High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7412501@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Academy of the Holy Angels vs Ridgewood High School (Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7677069@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -1658,6 +1649,15 @@ DTEND;TZID=America/New_York:20261008T181500
 SUMMARY:Passaic County Technical Institute at Ridgewood High School (Fres
  hman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7412501@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Ridgewood High School at Academy of the Holy Angels (Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7677638@big-north-conference
@@ -1685,15 +1685,6 @@ DTEND;TZID=America/New_York:20261009T181500
 SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7591398@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T163000
-DTEND;TZID=America/New_York:20261009T183000
-SUMMARY:Academy of the Holy Angels at Ridgewood High School (Varsity Girl
- s Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7662363@big-north-conference
@@ -1750,22 +1741,22 @@ SUMMARY:Bergenfield High School at Ridgewood High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474562@big-north-conference
+UID:ds:2833:7474562@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Academy of the Holy Angels at Ridgewood High School (Varsity Girl
+SUMMARY:Ridgewood High School vs Academy of the Holy Angels (Varsity Girl
  s Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474563@big-north-conference
+UID:ds:2833:7474563@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Academy of the Holy Angels vs Ridgewood High School (Junior Varsi
+SUMMARY:Ridgewood High School at Academy of the Holy Angels (Junior Varsi
  ty Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7422408@big-north-conference
@@ -2424,6 +2415,15 @@ SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7751192@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261110T161500
+DTEND;TZID=America/New_York:20261110T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7753370@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261111T160000
@@ -2469,13 +2469,13 @@ SUMMARY:Ridgewood High School at Glen Rock High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:10 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673526@big-north-conference
+UID:ds:2833:7673526@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T153000
 DTEND;TZID=America/New_York:20261202T173000
-SUMMARY:Bergen Catholic High School vs Ridgewood High School (Varsity Boy
+SUMMARY:Ridgewood High School at Bergen Catholic High School (Varsity Boy
  s Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:30 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7734400@big-north-conference
@@ -3610,15 +3610,6 @@ SUMMARY:Westwood Regional Senior High School at Ridgewood High School (Va
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7525321@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T161500
-DTEND;TZID=America/New_York:20270114T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Freshman Bo
- ys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7525321@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
@@ -3626,15 +3617,6 @@ DTEND;TZID=America/New_York:20270114T181500
 SUMMARY:Ridgewood High School vs Bergen Catholic High School (Boys (9) Ba
  sketball)
 DESCRIPTION:Boys (9) Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7525320@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T173000
-DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Junior Vars
- ity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7733481@big-north-conference
@@ -3646,13 +3628,13 @@ SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673710@big-north-conference
+UID:ds:2833:7525320@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T190000
-DTEND;TZID=America/New_York:20270114T210000
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T193000
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Junior Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7733480@big-north-conference
@@ -3662,6 +3644,15 @@ DTEND;TZID=America/New_York:20270114T210000
 SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Varsity Girls 
  Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7673710@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7732561@big-north-conference
@@ -5448,15 +5439,6 @@ SUMMARY:Ridgewood High School at Montclair Kimberley Academy (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7732824@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270421T161500
-DTEND;TZID=America/New_York:20270421T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Junior Vars
- ity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7732824@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T161500
@@ -5466,13 +5448,13 @@ SUMMARY:Ridgewood High School vs Bergen Catholic High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7732821@big-north-conference
+UID:ds:2833:7732821@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T173000
 DTEND;TZID=America/New_York:20270421T193000
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Junior Vars
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Junior Vars
  ity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7526160@big-north-conference

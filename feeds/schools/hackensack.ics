@@ -473,15 +473,6 @@ SUMMARY:Hackensack High School vs Northern Highlands Regional High School
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7385734@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Hackensack High School at Northern Highlands Regional High School
-  (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7555694@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -498,6 +489,15 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Hackensack High School at Union City High School (Freshman Girls 
  Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7385734@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Hackensack High School at Northern Highlands Regional High School
+  (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7528058@big-north-conference
@@ -833,6 +833,15 @@ SUMMARY:Fair Lawn High School at Hackensack High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7555898@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Fair Lawn High School vs Hackensack High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7539019@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -849,15 +858,6 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Fair Lawn High School at Hackensack High School (Freshman Boys Bo
  ys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7555898@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Fair Lawn High School vs Hackensack High School (Varsity Girls Gi
- rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7554541@big-north-conference
@@ -896,24 +896,6 @@ SUMMARY:Hackensack High School vs Ramapo High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7559366@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Academy of the Holy Angels at Hackensack High School (Girls (9) V
- olleyball)
-DESCRIPTION:Girls (9) Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:43369:7468387@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Academy of the Holy Angels vs Hackensack High School (Varsity Gir
- ls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2597:7576015@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -921,6 +903,15 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Dwight Morrow High School vs Hackensack High School (Varsity Girl
  s Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7468387@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Hackensack High School at Academy of the Holy Angels (Varsity Gir
+ ls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7559366@big-north-conference
@@ -3045,15 +3036,6 @@ SUMMARY:Bergen County Technical High School at Hackensack High School (Va
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7752823@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T153000
-DTEND;TZID=America/New_York:20270122T173000
-SUMMARY:Bergen Catholic High School vs Hackensack High School (Junior Var
- sity Boys Boys Bowling)
-DESCRIPTION:Junior Varsity Boys Boys Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7752823@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T153000
@@ -3063,13 +3045,13 @@ SUMMARY:Hackensack High School at Bergen Catholic High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7670167@big-north-conference
+UID:ds:2633:7670167@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
 DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Bergen Catholic High School vs Hackensack High School (Varsity Bo
+SUMMARY:Hackensack High School at Bergen Catholic High School (Varsity Bo
  ys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7592691@big-north-conference

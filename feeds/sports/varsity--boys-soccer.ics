@@ -93,15 +93,6 @@ SUMMARY:Hackensack High School at Hasbrouck Heights High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469418@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T160000
-DTEND;TZID=America/New_York:20260824T180000
-SUMMARY:Bergen Catholic High School at Martin Luther King High School (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7464221@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T160000
@@ -118,15 +109,6 @@ DTEND;TZID=America/New_York:20260824T180000
 SUMMARY:Wayne Valley High School at Dover High School (Varsity Boys Boys 
  Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7476658@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260824T161500
-DTEND;TZID=America/New_York:20260824T181500
-SUMMARY:Bergen Catholic High School at Martin Luther King High School (Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7436124@big-north-conference
@@ -306,15 +288,6 @@ DTEND;TZID=America/New_York:20260826T110000
 SUMMARY:Dumont High School at New Milford High School (Varsity Boys Boys 
  Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469424@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T100000
-DTEND;TZID=America/New_York:20260826T120000
-SUMMARY:Bergen Catholic High School at Christian Brothers Academy (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7555636@big-north-conference
@@ -745,15 +718,6 @@ SUMMARY:Bergen County Technical High School at Fair Lawn High School (Var
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7472450@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T183000
-DTEND;TZID=America/New_York:20260831T203000
-SUMMARY:Bergen Catholic High School at Saint Anthonys High School (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7510725@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T183000
@@ -1024,15 +988,6 @@ SUMMARY:West Milford High School vs Vernon Township High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469433@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T113000
-DTEND;TZID=America/New_York:20260905T133000
-SUMMARY:Bergen Catholic High School vs Lenape High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7577342@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T130000
@@ -1040,15 +995,6 @@ DTEND;TZID=America/New_York:20260905T150000
 SUMMARY:Fair Lawn High School vs Wyoming Valley West High (Varsity Boys B
  oys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7385352@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7470797@big-north-conference
@@ -1074,6 +1020,15 @@ DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
   Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7385352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Ridgewood High School vs Bergen Catholic High School (Varsity Boy
+ s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1239,13 +1194,13 @@ SUMMARY:Ramsey High School at Westwood Regional Senior High School (Varsi
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469436@big-north-conference
+UID:ds:2585:7469436@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Bergen Catholic High School vs DePaul Catholic High School (Varsi
+SUMMARY:DePaul Catholic High School at Bergen Catholic High School (Varsi
  ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7518235@big-north-conference
@@ -1498,13 +1453,13 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469442@big-north-conference
+UID:ds:2592:7469442@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T190000
 DTEND;TZID=America/New_York:20260915T210000
-SUMMARY:Bergen Catholic High School at Don Bosco Prep (Varsity Boys Boys 
+SUMMARY:Don Bosco Prep vs Bergen Catholic High School (Varsity Boys Boys 
  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7395999@big-north-conference
@@ -1642,15 +1597,6 @@ SUMMARY:Ramsey High School at Ramapo High School (Varsity Boys Boys Socce
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469451@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T161500
-DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School 
- (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7548009@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
@@ -1667,6 +1613,15 @@ DTEND;TZID=America/New_York:20260917T181500
 SUMMARY:John F. Kennedy High School at Passaic County Technical Institute
   (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:41410:7469451@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Saint Joseph Regional High School vs Bergen Catholic High School 
+ (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7459009@big-north-conference
@@ -1876,15 +1831,6 @@ SUMMARY:Pascack Hills High School at Ramsey High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469453@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T161500
-DTEND;TZID=America/New_York:20260921T181500
-SUMMARY:Bergen Catholic High School vs Paramus Catholic High School (Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396002@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T161500
@@ -1892,6 +1838,15 @@ DTEND;TZID=America/New_York:20260921T181500
 SUMMARY:Cliffside Park High School vs Dumont High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7469453@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Paramus Catholic High School at Bergen Catholic High School (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7586581@big-north-conference
@@ -2343,15 +2298,6 @@ SUMMARY:Paramus Catholic High School at Palisades Park High School (Varsi
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7440923@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T190000
-DTEND;TZID=America/New_York:20260929T210000
-SUMMARY:Bergen Catholic High School at Northern Highlands Regional High S
- chool (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7451224@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T190000
@@ -2366,6 +2312,15 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T190000
 DTEND;TZID=America/New_York:20260929T210000
 SUMMARY:Don Bosco Prep vs Ramapo High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7440923@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T190000
+DTEND;TZID=America/New_York:20260929T210000
+SUMMARY:Northern Highlands Regional High School vs Bergen Catholic High S
+ chool (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2538,15 +2493,6 @@ DTEND;TZID=America/New_York:20261001T210000
 SUMMARY:Paramus Catholic High School vs Bogota High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7469509@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T160000
-DTEND;TZID=America/New_York:20261002T180000
-SUMMARY:Bergen Catholic High School vs Northern Valley Regional High (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7469509@big-north-conference
@@ -3105,13 +3051,13 @@ SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469512@big-north-conference
+UID:ds:2585:7469512@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T190000
 DTEND;TZID=America/New_York:20261008T210000
-SUMMARY:Bergen Catholic High School at DePaul Catholic High School (Varsi
+SUMMARY:DePaul Catholic High School vs Bergen Catholic High School (Varsi
  ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7518686@big-north-conference
@@ -3274,15 +3220,6 @@ SUMMARY:River Dell Regional High School vs Elmwood Park Memorial High Sch
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7528610@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T133000
-DTEND;TZID=America/New_York:20261010T153000
-SUMMARY:Bergen Catholic High School vs Christian Brothers Academy (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7681557@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T140000
@@ -3337,15 +3274,6 @@ SUMMARY:Fair Lawn High School vs Eastside High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7689043@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Bergen Catholic High School vs River Dell Regional High School (V
- arsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7689134@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -3361,6 +3289,15 @@ DTSTART;TZID=America/New_York:20261013T160000
 DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Paramus High School at Saint Joseph Regional High School (Varsity
   Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7689043@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:River Dell Regional High School at Bergen Catholic High School (V
+ arsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3741,13 +3678,13 @@ SUMMARY:Dwight Morrow High School vs Park Ridge High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7693425@big-north-conference
+UID:ds:2770:7693425@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T163000
 DTEND;TZID=America/New_York:20261017T183000
-SUMMARY:Bergen Catholic High School vs Northern Highlands Regional High S
+SUMMARY:Northern Highlands Regional High School at Bergen Catholic High S
  chool (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7693507@big-north-conference
@@ -3939,13 +3876,13 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469572@big-north-conference
+UID:ds:41410:7469572@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School 
+SUMMARY:Saint Joseph Regional High School at Bergen Catholic High School 
  (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7459021@big-north-conference
@@ -4244,15 +4181,6 @@ SUMMARY:Lakeland Regional High School at Passaic County Technical Institu
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7700733@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T170000
-DTEND;TZID=America/New_York:20261024T190000
-SUMMARY:Bergen Catholic High School vs Northern Valley Regional High (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7700733@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T170000
@@ -4334,15 +4262,6 @@ SUMMARY:Bergen County Technical High School at Passaic High School (Varsi
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469575@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T190000
-DTEND;TZID=America/New_York:20261026T210000
-SUMMARY:Bergen Catholic High School at Paramus Catholic High School (Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396017@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T190000
@@ -4350,6 +4269,15 @@ DTEND;TZID=America/New_York:20261026T210000
 SUMMARY:Cliffside Park High School at Dumont High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7469575@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:Paramus Catholic High School vs Bergen Catholic High School (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7383336@big-north-conference
@@ -4496,15 +4424,6 @@ SUMMARY:DePaul Catholic High School vs River Dell Regional High School (V
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7469570@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T160000
-DTEND;TZID=America/New_York:20261029T180000
-SUMMARY:Bergen Catholic High School vs Don Bosco Prep (Varsity Boys Boys 
- Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7701921@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
@@ -4512,6 +4431,15 @@ DTEND;TZID=America/New_York:20261029T180000
 SUMMARY:Clifton High School vs Wayne Hills High School (Varsity Boys Boys
   Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7469570@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Don Bosco Prep at Bergen Catholic High School (Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7396018@big-north-conference
@@ -4829,13 +4757,13 @@ SUMMARY:Northern Highlands Regional High School vs Paramus High School (V
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7528621@big-north-conference
+UID:ds:41410:7528621@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261105T133000
 DTEND;TZID=America/New_York:20261105T153000
-SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School 
+SUMMARY:Saint Joseph Regional High School at Bergen Catholic High School 
  (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7703467@big-north-conference
@@ -4907,15 +4835,6 @@ DTEND;TZID=America/New_York:20261107T210000
 SUMMARY:Passaic County Technical Institute at Kearny High School (Varsity
   Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7528623@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261109T133000
-DTEND;TZID=America/New_York:20261109T153000
-SUMMARY:Bergen Catholic High School vs Seton Hall Prep School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7751828@big-north-conference

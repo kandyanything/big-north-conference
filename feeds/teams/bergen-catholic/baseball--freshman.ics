@@ -24,48 +24,57 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2533:7702334@big-north-conference
+UID:ds:2834:7702334@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270319T161500
 DTEND;TZID=America/New_York:20270319T181500
-SUMMARY:Bergen Catholic High School vs River Dell Regional High School (F
+SUMMARY:River Dell Regional High School at Bergen Catholic High School (F
  reshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7708630@big-north-conference
+UID:ds:32754:7708630@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270409T161500
 DTEND;TZID=America/New_York:20270409T181500
-SUMMARY:Bergen Catholic High School vs Bergen County Technical High Schoo
+SUMMARY:Bergen County Technical High School at Bergen Catholic High Schoo
  l (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7744968@big-north-conference
+UID:ds:41410:7744968@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270419T161500
 DTEND;TZID=America/New_York:20270419T181500
-SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School 
- (Freshman Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7744973@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270420T161500
-DTEND;TZID=America/New_York:20270420T181500
-SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School 
+SUMMARY:Saint Joseph Regional High School at Bergen Catholic High School 
  (Freshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7740826@big-north-conference
+UID:ds:41410:7744973@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T161500
+DTEND;TZID=America/New_York:20270420T181500
+SUMMARY:Saint Joseph Regional High School vs Bergen Catholic High School 
+ (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7740826@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T161500
 DTEND;TZID=America/New_York:20270503T181500
-SUMMARY:Bergen Catholic High School vs Ramapo High School (Freshman Boys 
+SUMMARY:Ramapo High School at Bergen Catholic High School (Freshman Boys 
  Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7754050@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270512T161500
+DTEND;TZID=America/New_York:20270512T181500
+SUMMARY:River Dell Regional High School vs Bergen Catholic High School (F
+ reshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR
