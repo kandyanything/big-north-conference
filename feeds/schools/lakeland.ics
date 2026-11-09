@@ -707,15 +707,6 @@ SUMMARY:Lakeland Regional High School at Westwood Regional Senior High Sc
 DESCRIPTION:Varsity Girls Field Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7501678@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Var
- sity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7568646@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -723,6 +714,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Fre
  shman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7501678@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Var
+ sity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7537584@big-north-conference
@@ -851,15 +851,6 @@ SUMMARY:Lakeland Regional High School at Mahwah High School (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7516960@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Clifton High School at Lakeland Regional High School (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7537630@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -885,6 +876,15 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:Clifton High School vs Lakeland Regional High School (Freshman Bo
  ys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7516960@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Clifton High School at Lakeland Regional High School (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7600614@big-north-conference
@@ -2408,6 +2408,15 @@ SUMMARY:Passaic High School at Lakeland Regional High School (Varsity Coe
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7752466@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T161500
+DTEND;TZID=America/New_York:20261213T181500
+SUMMARY:Lakeland Regional High School vs West Orange High School (Varsity
+  Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7635352@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T160000
@@ -2570,6 +2579,24 @@ SUMMARY:Fair Lawn High School vs Lakeland Regional High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7752469@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T201500
+DTEND;TZID=America/New_York:20261217T221500
+SUMMARY:Lakeland Regional High School vs Hoboken High School (Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7752480@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T203000
+DTEND;TZID=America/New_York:20261218T223000
+SUMMARY:Lakeland Regional High School vs Gill Saint Bernards School (Vars
+ ity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2574:7540686@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
@@ -2660,30 +2687,12 @@ SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7734362@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270103T191500
-DTEND;TZID=America/New_York:20270103T211500
-SUMMARY:Indian Hills High School vs Lakeland Regional High School (Varsit
- y Coed Coed Ice Hockey)
-DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 7:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7652701@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270103T191500
 DTEND;TZID=America/New_York:20270103T211500
 SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
   Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7734362@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270103T191500
-DTEND;TZID=America/New_York:20270103T211500
-SUMMARY:Lakeland Regional High School at Indian Hills High School (Varsit
- y Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2865,6 +2874,15 @@ DTEND;TZID=America/New_York:20270108T221500
 SUMMARY:Lakeland Regional High School at Ramapo High School (Varsity Boys
   Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7752485@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T191500
+DTEND;TZID=America/New_York:20270110T211500
+SUMMARY:Clifton High School at Lakeland Regional High School (Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7706192@big-north-conference
@@ -3200,6 +3218,15 @@ SUMMARY:Wayne Valley High School at Lakeland Regional High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7752486@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270118T181500
+DTEND;TZID=America/New_York:20270118T201500
+SUMMARY:Lakeland Regional High School vs Bayonne High School (Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7540250@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
@@ -3342,6 +3369,15 @@ DTEND;TZID=America/New_York:20270123T120000
 SUMMARY:Lakeland Regional High School vs Wallkill Valley Regional High Sc
  hool (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7752484@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T160000
+DTEND;TZID=America/New_York:20270124T180000
+SUMMARY:Lakeland Regional High School vs Nutley High School (Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7546504@big-north-conference
@@ -3783,6 +3819,15 @@ DTEND;TZID=America/New_York:20270211T210000
 SUMMARY:Lakeland Regional High School at Passaic Valley High School (Vars
  ity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7752487@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270212T160000
+DTEND;TZID=America/New_York:20270212T180000
+SUMMARY:Clifton High School vs Lakeland Regional High School (Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7595215@big-north-conference
