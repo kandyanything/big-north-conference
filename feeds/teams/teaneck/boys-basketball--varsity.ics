@@ -44,20 +44,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7753860@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
 SUMMARY:Passaic High School at Teaneck High School (Varsity Boys Boys Bas
  ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2888:7753860@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Teaneck High School vs Passaic High School (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7641273@big-north-conference

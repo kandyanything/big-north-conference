@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2533:7410795@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T140000
+DTEND;TZID=America/New_York:20260829T160000
+SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School 
+ (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:41410:7529897@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T093000
@@ -40,5 +49,14 @@ DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:DePaul Catholic High School at Saint Joseph Regional High School 
  (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7380951@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T093000
+DTEND;TZID=America/New_York:20261024T113000
+SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School 
+ (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
 END:VEVENT
 END:VCALENDAR

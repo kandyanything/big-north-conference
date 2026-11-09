@@ -50,13 +50,22 @@ SUMMARY:Passaic High School vs West Essex High School (Varsity Boys Footb
 DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7468315@big-north-conference
+UID:ds:43369:7468315@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T100000
 DTEND;TZID=America/New_York:20260824T120000
-SUMMARY:Passaic High School vs Academy of the Holy Angels (Varsity Girls 
+SUMMARY:Academy of the Holy Angels at Passaic High School (Varsity Girls 
  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7468465@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Academy of the Holy Angels at Passaic High School (Girls (9) Voll
+ eyball)
+DESCRIPTION:Girls (9) Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7468465@big-north-conference
@@ -68,13 +77,13 @@ SUMMARY:Passaic High School vs Academy of the Holy Angels (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7468425@big-north-conference
+UID:ds:43369:7468425@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260824T110000
 DTEND;TZID=America/New_York:20260824T130000
-SUMMARY:Passaic High School vs Academy of the Holy Angels (Junior Varsity
+SUMMARY:Academy of the Holy Angels at Passaic High School (Junior Varsity
   Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 11:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7587172@big-north-conference
@@ -632,15 +641,6 @@ SUMMARY:John F. Kennedy High School vs Passaic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7621581@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T110000
-DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Dwight Morrow High School vs Passaic High School (Junior Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2597:7621574@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T110000
@@ -648,6 +648,15 @@ DTEND;TZID=America/New_York:20260919T130000
 SUMMARY:Dwight Morrow High School vs Passaic High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7621581@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T110000
+DTEND;TZID=America/New_York:20260919T130000
+SUMMARY:Dwight Morrow High School vs Passaic High School (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7545626@big-north-conference
@@ -703,33 +712,6 @@ SUMMARY:Bergen County Technical High School vs Passaic High School (Fresh
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7458830@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T163000
-DTEND;TZID=America/New_York:20260923T183000
-SUMMARY:Bergen County Technical High School at Passaic High School (Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7459013@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T163000
-DTEND;TZID=America/New_York:20260923T183000
-SUMMARY:Bergen County Technical High School vs Passaic High School (Fresh
- man Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7527242@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T163000
-DTEND;TZID=America/New_York:20260923T183000
-SUMMARY:Bergen County Technical High School vs Passaic High School (Junio
- r Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7459012@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T163000
@@ -755,6 +737,33 @@ DTEND;TZID=America/New_York:20260923T183000
 SUMMARY:Bergen County Technical High School at Passaic High School (Varsi
  ty Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7458830@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T163000
+DTEND;TZID=America/New_York:20260923T183000
+SUMMARY:Bergen County Technical High School at Passaic High School (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7459013@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T163000
+DTEND;TZID=America/New_York:20260923T183000
+SUMMARY:Bergen County Technical High School vs Passaic High School (Fresh
+ man Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7527242@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T163000
+DTEND;TZID=America/New_York:20260923T183000
+SUMMARY:Bergen County Technical High School vs Passaic High School (Junio
+ r Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7505100@big-north-conference
@@ -2066,6 +2075,24 @@ SUMMARY:Passaic High School at Livingston High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2795:7754206@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T173000
+DTEND;TZID=America/New_York:20261211T193000
+SUMMARY:Passaic High School at Harrison High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7754205@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T190000
+DTEND;TZID=America/New_York:20261211T210000
+SUMMARY:Passaic High School at Harrison High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7714030@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T110000
@@ -2192,6 +2219,15 @@ SUMMARY:Passaic High School vs Teaneck High School (Freshman Boys Boys Ba
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2795:7753860@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:Passaic High School at Teaneck High School (Varsity Boys Boys Bas
+ ketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7753964@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T103000
@@ -2226,24 +2262,6 @@ DTEND;TZID=America/New_York:20261219T130000
 SUMMARY:Passaic High School at Paramus Catholic High School (Varsity Coed
   Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7753860@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Passaic High School at Teaneck High School (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2888:7753860@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Teaneck High School vs Passaic High School (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7723677@big-north-conference
