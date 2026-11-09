@@ -708,15 +708,6 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7568415@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
- gh School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7444058@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -724,6 +715,15 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
  rsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7568415@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
+ gh School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386211@big-north-conference
@@ -933,15 +933,6 @@ SUMMARY:Northern Highlands Regional High School vs Ridgewood High School
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7440903@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Highlands Regional High School at Ramapo High School (Fr
- eshman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7385559@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -967,6 +958,15 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Northern Highlands Regional High School vs Hackensack High School
   (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7440903@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Northern Highlands Regional High School at Ramapo High School (Fr
+ eshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7385359@big-north-conference
@@ -6225,6 +6225,24 @@ SUMMARY:Mahwah High School at Northern Highlands Regional High School (Ju
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7529065@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T161500
+DTEND;TZID=America/New_York:20270406T181500
+SUMMARY:Northern Highlands Regional High School at Madison High School (V
+ arsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7529066@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T173000
+DTEND;TZID=America/New_York:20270406T193000
+SUMMARY:Northern Highlands Regional High School at Madison High School (J
+ unior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7526070@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T161500
@@ -6441,6 +6459,15 @@ SUMMARY:Ridgewood High School at Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Track and Field - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7529085@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T163000
+DTEND;TZID=America/New_York:20270413T183000
+SUMMARY:Northern Highlands Regional High School at Montclair High School 
+ (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7614062@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T163000
@@ -6450,6 +6477,15 @@ SUMMARY:Northern Highlands Regional High School vs New Providence High Sc
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7529086@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T180000
+DTEND;TZID=America/New_York:20270413T200000
+SUMMARY:Northern Highlands Regional High School at Montclair High School 
+ (Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7614063@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T180000
@@ -6457,24 +6493,6 @@ DTEND;TZID=America/New_York:20270413T200000
 SUMMARY:Northern Highlands Regional High School vs New Providence High Sc
  hool (Junior Varsity Girls Girls Lacrosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7529085@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270414
-SUMMARY:Northern Highlands Regional High School at Montclair High School 
- (Varsity Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7529086@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270414
-SUMMARY:Northern Highlands Regional High School at Montclair High School 
- (Junior Varsity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7534945@big-north-conference
@@ -6592,6 +6610,15 @@ DTEND;TZID=America/New_York:20270416T181500
 SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
  (Junior Varsity Boys Boys Tennis)
 DESCRIPTION:Junior Varsity Boys Boys Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7754659@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T110000
+DTEND;TZID=America/New_York:20270417T130000
+SUMMARY:Northern Highlands Regional High School at Saint Joseph Regional 
+ High School (Varsity Boys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7535284@big-north-conference
@@ -7235,20 +7262,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7529105@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270504
-DTEND;VALUE=DATE:20270505
+DTSTART;TZID=America/New_York:20270504T163000
+DTEND;TZID=America/New_York:20270504T183000
 SUMMARY:Northern Highlands Regional High School at Glen Ridge High School
   (Varsity Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7529106@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270504
-DTEND;VALUE=DATE:20270505
+DTSTART;TZID=America/New_York:20270504T180000
+DTEND;TZID=America/New_York:20270504T200000
 SUMMARY:Northern Highlands Regional High School at Glen Ridge High School
   (Junior Varsity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7535024@big-north-conference
