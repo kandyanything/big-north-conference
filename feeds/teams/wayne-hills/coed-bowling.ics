@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2931:7756710@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T040000
+DTEND;TZID=America/New_York:20261207T060000
+SUMMARY:West Milford High School vs Wayne Hills High School (Varsity Coed
+  Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2931:7668800@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -39,15 +48,6 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Coed
   Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7738405@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Coed Coed 
- Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7675686@big-north-conference
