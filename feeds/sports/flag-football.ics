@@ -32,15 +32,6 @@ SUMMARY:Lakeland Regional High School vs Paramus High School (Varsity Gir
 DESCRIPTION:Varsity Girls Flag Football - Home - 5:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7756054@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270401T170000
-DTEND;TZID=America/New_York:20270401T190000
-SUMMARY:Passaic County Technical Institute vs Livingston High School (Var
- sity Girls Flag Football)
-DESCRIPTION:Varsity Girls Flag Football - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2834:7742100@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T170000
@@ -48,6 +39,15 @@ DTEND;TZID=America/New_York:20270401T190000
 SUMMARY:River Dell Regional High School vs Nutley High School (Varsity Gi
  rls Flag Football)
 DESCRIPTION:Varsity Girls Flag Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7756054@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T180000
+DTEND;TZID=America/New_York:20270401T200000
+SUMMARY:Passaic County Technical Institute vs Livingston High School (Var
+ sity Girls Flag Football)
+DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7735118@big-north-conference
@@ -63,18 +63,9 @@ UID:ds:2585:7749847@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T180000
 DTEND;TZID=America/New_York:20270406T200000
-SUMMARY:DePaul Catholic High School vs Immaculate Heart Academy (Var-JV G
- irls Flag Football)
-DESCRIPTION:Var-JV Girls Flag Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2669:7749847@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270406T180000
-DTEND;TZID=America/New_York:20270406T200000
-SUMMARY:Immaculate Heart Academy at DePaul Catholic High School (Varsity 
+SUMMARY:DePaul Catholic High School vs Immaculate Heart Academy (Varsity 
  Girls Flag Football)
-DESCRIPTION:Varsity Girls Flag Football - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7735121@big-north-conference
@@ -95,6 +86,15 @@ SUMMARY:Paramus High School at River Dell Regional High School (Varsity G
 DESCRIPTION:Varsity Girls Flag Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2794:7756519@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T190000
+DTEND;TZID=America/New_York:20270413T210000
+SUMMARY:Passaic County Technical Institute vs Clifton High School (Varsit
+ y Girls Flag Football)
+DESCRIPTION:Varsity Girls Flag Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2597:7735166@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T170000
@@ -104,39 +104,30 @@ SUMMARY:Dwight Morrow High School at Paramus High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Flag Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7756120@big-north-conference
+UID:ds:2787:7756120@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T170000
 DTEND;TZID=America/New_York:20270415T190000
-SUMMARY:Passaic County Technical Institute vs Paramus Catholic High Schoo
- l (Junior Varsity Girls Flag Football)
-DESCRIPTION:Junior Varsity Girls Flag Football - Home - 5:00 PM
+SUMMARY:Paramus Catholic High School at Passaic County Technical Institut
+ e (Junior Varsity Girls Flag Football)
+DESCRIPTION:Junior Varsity Girls Flag Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7749851@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T180000
 DTEND;TZID=America/New_York:20270415T200000
-SUMMARY:DePaul Catholic High School vs Wayne Valley High School (Var-JV G
- irls Flag Football)
-DESCRIPTION:Var-JV Girls Flag Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7756119@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270415T180000
-DTEND;TZID=America/New_York:20270415T200000
-SUMMARY:Passaic County Technical Institute vs Paramus Catholic High Schoo
- l (Varsity Girls Flag Football)
+SUMMARY:DePaul Catholic High School vs Wayne Valley High School (Varsity 
+ Girls Flag Football)
 DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7749851@big-north-conference
+UID:ds:2787:7756119@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T180000
 DTEND;TZID=America/New_York:20270415T200000
-SUMMARY:Wayne Valley High School at DePaul Catholic High School (Varsity 
- Girls Flag Football)
+SUMMARY:Paramus Catholic High School at Passaic County Technical Institut
+ e (Varsity Girls Flag Football)
 DESCRIPTION:Varsity Girls Flag Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -172,17 +163,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T180000
 DTEND;TZID=America/New_York:20270422T200000
 SUMMARY:DePaul Catholic High School vs Lakeland Regional High School (Var
- -JV Girls Flag Football)
-DESCRIPTION:Var-JV Girls Flag Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7749852@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270422T180000
-DTEND;TZID=America/New_York:20270422T200000
-SUMMARY:Lakeland Regional High School at DePaul Catholic High School (Var
  sity Girls Flag Football)
-DESCRIPTION:Varsity Girls Flag Football - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7752842@big-north-conference
@@ -198,18 +180,9 @@ UID:ds:2585:7749853@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T180000
 DTEND;TZID=America/New_York:20270427T200000
-SUMMARY:DePaul Catholic High School vs Indian Hills High School (Var-JV G
- irls Flag Football)
-DESCRIPTION:Var-JV Girls Flag Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7749853@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270427T180000
-DTEND;TZID=America/New_York:20270427T200000
-SUMMARY:Indian Hills High School at DePaul Catholic High School (Varsity 
+SUMMARY:DePaul Catholic High School vs Indian Hills High School (Varsity 
  Girls Flag Football)
-DESCRIPTION:Varsity Girls Flag Football - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7735238@big-north-conference
@@ -248,6 +221,15 @@ SUMMARY:Passaic County Technical Institute vs Ridgewood High School (Vars
 DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2585:7756241@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:DePaul Catholic High School at Mount Saint Dominic Academy (Varsi
+ ty Girls Flag Football)
+DESCRIPTION:Varsity Girls Flag Football - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7735329@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270506T170000
@@ -279,18 +261,18 @@ UID:ds:2585:7749854@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270511T180000
 DTEND;TZID=America/New_York:20270511T200000
-SUMMARY:DePaul Catholic High School vs Ramapo High School (Var-JV Girls F
- lag Football)
-DESCRIPTION:Var-JV Girls Flag Football - Home - 6:00 PM
+SUMMARY:DePaul Catholic High School vs Ramapo High School (Varsity Girls 
+ Flag Football)
+DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7749854@big-north-conference
+UID:ds:2794:7756131@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270511T180000
-DTEND;TZID=America/New_York:20270511T200000
-SUMMARY:Ramapo High School at DePaul Catholic High School (Varsity Girls 
- Flag Football)
-DESCRIPTION:Varsity Girls Flag Football - Away - 6:00 PM
+DTSTART;TZID=America/New_York:20270513T170000
+DTEND;TZID=America/New_York:20270513T190000
+SUMMARY:Passaic County Technical Institute vs TBD (Junior Varsity Girls F
+ lag Football)
+DESCRIPTION:Junior Varsity Girls Flag Football - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7735358@big-north-conference
@@ -302,13 +284,13 @@ SUMMARY:Paramus High School vs Ridgewood High School (Varsity Girls Flag
 DESCRIPTION:Varsity Girls Flag Football - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7756130@big-north-conference
+UID:ds:2794:7756130@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270513T180000
 DTEND;TZID=America/New_York:20270513T200000
-SUMMARY:West Milford High School at Passaic County Technical Institute (V
+SUMMARY:Passaic County Technical Institute vs West Milford High School (V
  arsity Girls Flag Football)
-DESCRIPTION:Varsity Girls Flag Football - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7735368@big-north-conference
@@ -318,5 +300,14 @@ DTEND;TZID=America/New_York:20270518T190000
 SUMMARY:Paramus High School vs Lincoln High School (Varsity Girls Flag Fo
  otball)
 DESCRIPTION:Varsity Girls Flag Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7756250@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T190000
+DTEND;TZID=America/New_York:20270518T210000
+SUMMARY:DePaul Catholic High School vs St. Benedict&apos\;s Prep School (
+ Varsity Girls Flag Football)
+DESCRIPTION:Varsity Girls Flag Football - Home - 7:00 PM
 END:VEVENT
 END:VCALENDAR
