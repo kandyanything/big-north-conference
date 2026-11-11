@@ -491,24 +491,6 @@ SUMMARY:Bergen County Technical High School at Fair Lawn High School (Fre
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7557399@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Fair Lawn High School at Ramapo High School (Junior Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7563694@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Fair Lawn High School vs Ramapo High School (Freshman Girls Girls
-  Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7557424@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -525,6 +507,24 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Fair Lawn High School vs Ramapo High School (Junior Varsity Girls
   Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7557399@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Fair Lawn High School at Ramapo High School (Junior Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7563694@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Fair Lawn High School vs Ramapo High School (Freshman Girls Girls
+  Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458706@big-north-conference
@@ -3702,13 +3702,22 @@ SUMMARY:Fair Lawn High School at Bergen Catholic High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7759180@big-north-conference
+UID:ds:2613:7759189@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T103000
+DTEND;TZID=America/New_York:20270123T123000
+SUMMARY:Fair Lawn High School vs Westwood Regional Senior High School (Ju
+ nior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7759180@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
-SUMMARY:Westwood Regional Senior High School at Fair Lawn High School (Va
+SUMMARY:Fair Lawn High School vs Westwood Regional Senior High School (Va
  rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7590104@big-north-conference
