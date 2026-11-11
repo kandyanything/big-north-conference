@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2670:7636655@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T161500
-DTEND;TZID=America/New_York:20261209T181500
-SUMMARY:Indian Hills High School vs Northern Highlands Regional High Scho
- ol (Varsity Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7636675@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T161500
@@ -75,6 +66,15 @@ DTSTART;TZID=America/New_York:20270111T161500
 DTEND;TZID=America/New_York:20270111T181500
 SUMMARY:Don Bosco Prep vs Northern Highlands Regional High School (Varsit
  y Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7636655@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T161500
+DTEND;TZID=America/New_York:20270113T181500
+SUMMARY:Indian Hills High School vs Northern Highlands Regional High Scho
+ ol (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT

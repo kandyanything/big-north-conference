@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2670:7636655@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T161500
-DTEND;TZID=America/New_York:20261209T181500
-SUMMARY:Indian Hills High School vs Northern Highlands Regional High Scho
- ol (Varsity Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7703609@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T080000
@@ -84,6 +75,15 @@ DTEND;TZID=America/New_York:20270111T201500
 SUMMARY:Indian Hills High School vs Pompton Lakes High School (Varsity Bo
  ys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7636655@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T161500
+DTEND;TZID=America/New_York:20270113T181500
+SUMMARY:Indian Hills High School vs Northern Highlands Regional High Scho
+ ol (Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7722307@big-north-conference
