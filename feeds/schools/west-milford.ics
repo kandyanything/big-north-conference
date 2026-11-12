@@ -765,15 +765,6 @@ SUMMARY:Passaic Valley High School vs West Milford High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7487873@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
- ol (Freshman Girls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7441363@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -781,6 +772,15 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Northern Highlands Regional High School at West Milford High Scho
  ol (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7487873@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
+ ol (Freshman Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7451263@big-north-conference
@@ -2445,11 +2445,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7667535@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261121T090000
-DTEND;TZID=America/New_York:20261121T110000
+DTSTART;TZID=America/New_York:20261121T100000
+DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Mahwah High School at West Milford High School (Varsity Girls Gir
  ls Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 9:00 AM
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7713051@big-north-conference
@@ -3575,24 +3575,6 @@ DTEND;TZID=America/New_York:20270111T181500
 SUMMARY:West Milford High School vs Ramapo High School (Varsity Girls Gir
  ls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2787:7753801@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T184500
-DTEND;TZID=America/New_York:20270111T204500
-SUMMARY:Paramus Catholic High School at West Milford High School (Varsity
-  Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7753801@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T184500
-DTEND;TZID=America/New_York:20270111T204500
-SUMMARY:West Milford High School vs Paramus Catholic High School (Varsity
-  Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7691955@big-north-conference
@@ -4906,6 +4888,33 @@ DTEND;TZID=America/New_York:20270220T110000
 SUMMARY:West Milford High School vs Ramapo High School (Varsity Coed Coed
   Wrestling)
 DESCRIPTION:Varsity Coed Coed Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7760162@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T100000
+DTEND;TZID=America/New_York:20270220T120000
+SUMMARY:West Milford High School at Vernon Township High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7760131@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T113000
+DTEND;TZID=America/New_York:20270220T133000
+SUMMARY:West Milford High School at Vernon Township High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7760093@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T130000
+DTEND;TZID=America/New_York:20270220T150000
+SUMMARY:West Milford High School at Vernon Township High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7739931@big-north-conference
