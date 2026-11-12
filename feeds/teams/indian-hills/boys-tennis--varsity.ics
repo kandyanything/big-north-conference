@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2670:7762717@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:Indian Hills High School vs Wayne Valley High School (Varsity Boy
+ s Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7595746@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T160000
@@ -31,5 +40,14 @@ DTEND;TZID=America/New_York:20270423T180000
 SUMMARY:Fort Lee High School vs Indian Hills High School (Varsity Boys Bo
  ys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7762713@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T160000
+DTEND;TZID=America/New_York:20270506T180000
+SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Boy
+ s Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
