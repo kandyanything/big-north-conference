@@ -744,15 +744,6 @@ SUMMARY:Hackensack High School vs Northern Highlands Regional High School
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7385734@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Hackensack High School at Northern Highlands Regional High School
-  (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7555694@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -760,6 +751,15 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Hackensack High School vs Northern Highlands Regional High School
   (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7385734@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Hackensack High School at Northern Highlands Regional High School
+  (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7386023@big-north-conference
@@ -1122,15 +1122,6 @@ SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7386144@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
- (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7386434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
@@ -1147,6 +1138,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7386144@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
+ (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386435@big-north-conference
@@ -3565,17 +3565,17 @@ UID:ds:2770:7585137@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T211500
 DTEND;TZID=America/New_York:20261211T231500
-SUMMARY:Northern Highlands Regional High School at Pascack Hills/Valley (
- Varsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
+SUMMARY:Northern Highlands Regional High School vs Pascack Valley High Sc
+ hool (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7755991@big-north-conference
+UID:ds:2792:7585137@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T211500
 DTEND;TZID=America/New_York:20261211T231500
-SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
- hool (Varsity Boys Boys Ice Hockey)
+SUMMARY:Pascack Hills High School at Northern Highlands Regional High Sch
+ ool (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
