@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2616:7760961@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270315T161500
+DTEND;TZID=America/New_York:20270315T181500
+SUMMARY:Fort Lee High School at Saint Joseph Regional High School (Junior
+  Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7702420@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T161500
@@ -58,6 +67,15 @@ DTEND;TZID=America/New_York:20270420T181500
 SUMMARY:Bergen Catholic High School vs Saint Joseph Regional High School 
  (Junior Varsity Boys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7761301@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T161500
+DTEND;TZID=America/New_York:20270507T181500
+SUMMARY:Fort Lee High School at Saint Joseph Regional High School (Junior
+  Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7526204@big-north-conference
