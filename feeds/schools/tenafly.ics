@@ -355,15 +355,6 @@ SUMMARY:Northern Valley Regional HS - Demarest at Tenafly High School (Va
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7525071@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Tenafly High School vs Northern Valley Regional High (Varsity Gir
- ls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2890:7525072@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -371,6 +362,15 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Tenafly High School at Northern Valley Regional High (Junior Vars
  ity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2890:7525071@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Tenafly High School vs Northern Valley Regional High (Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7456670@big-north-conference
@@ -427,6 +427,15 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Tenafly High School (
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2890:7407052@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Tenafly High School at Northern Valley Regional High (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2890:7406987@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -443,15 +452,6 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Tenafly High School vs Northern Valley Regional High (Junior Vars
  ity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2890:7407052@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Tenafly High School at Northern Valley Regional High (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7570160@big-north-conference
@@ -850,7 +850,7 @@ SUMMARY:Paramus High School vs Tenafly High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7410297@big-north-conference
+UID:ds:2788:7410299@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
