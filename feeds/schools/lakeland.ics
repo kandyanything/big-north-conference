@@ -392,15 +392,6 @@ SUMMARY:Lakeland Regional High School vs Mahwah High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7511848@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T183000
-DTEND;TZID=America/New_York:20260903T203000
-SUMMARY:Indian Hills High School vs Lakeland Regional High School (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7508426@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T183000
@@ -408,6 +399,15 @@ DTEND;TZID=America/New_York:20260903T203000
 SUMMARY:Indian Hills High School at Lakeland Regional High School (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7511848@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T183000
+DTEND;TZID=America/New_York:20260903T203000
+SUMMARY:Indian Hills High School vs Lakeland Regional High School (Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7451255@big-north-conference
@@ -437,6 +437,24 @@ SUMMARY:Indian Hills High School at Lakeland Regional High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7537578@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Lakeland Regional High School vs Passaic Valley High School (Vars
+ ity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7545521@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior 
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7382733@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -446,15 +464,6 @@ SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Girl
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7516581@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior 
- Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7516590@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -462,15 +471,6 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
  n Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7537578@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Lakeland Regional High School vs Passaic Valley High School (Vars
- ity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7445551@big-north-conference
@@ -4046,6 +4046,15 @@ SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7764476@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Lakeland Regional High School vs Jonathan Dayton High School (Var
+ sity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7762700@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T160000
@@ -4073,13 +4082,13 @@ SUMMARY:Lakeland Regional High School vs Wayne Valley High School (Junior
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7764408@big-north-conference
+UID:ds:2689:7764408@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T161500
 DTEND;TZID=America/New_York:20270406T181500
-SUMMARY:Wayne Valley High School vs Lakeland Regional High School (Freshm
+SUMMARY:Lakeland Regional High School at Wayne Valley High School (Freshm
  an Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7763605@big-north-conference
@@ -4100,13 +4109,13 @@ SUMMARY:Lakeland Regional High School at Wayne Valley High School (Junior
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7764431@big-north-conference
+UID:ds:2689:7764431@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T161500
 DTEND;TZID=America/New_York:20270407T181500
-SUMMARY:Wayne Valley High School at Lakeland Regional High School (Freshm
+SUMMARY:Lakeland Regional High School vs Wayne Valley High School (Freshm
  an Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7700695@big-north-conference
