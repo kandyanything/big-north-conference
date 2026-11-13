@@ -701,24 +701,6 @@ SUMMARY:Bergen County Technical High School vs Clifton High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7459010@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T163000
-DTEND;TZID=America/New_York:20260917T183000
-SUMMARY:Bergen County Technical High School at Clifton High School (Junio
- r Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7566037@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T163000
-DTEND;TZID=America/New_York:20260917T183000
-SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
- man Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7459009@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T163000
@@ -728,13 +710,22 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7458710@big-north-conference
+UID:ds:32754:7459011@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T161500
-DTEND;TZID=America/New_York:20260918T181500
-SUMMARY:Bergen County Technical High School vs Clifton High School (Varsi
- ty Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20260917T163000
+DTEND;TZID=America/New_York:20260917T183000
+SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
+ man Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7459010@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T163000
+DTEND;TZID=America/New_York:20260917T183000
+SUMMARY:Bergen County Technical High School at Clifton High School (Junio
+ r Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7535303@big-north-conference
@@ -744,6 +735,15 @@ DTEND;TZID=America/New_York:20260918T181500
 SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
  man Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7458710@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T161500
+DTEND;TZID=America/New_York:20260918T181500
+SUMMARY:Bergen County Technical High School vs Clifton High School (Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7458710@big-north-conference
@@ -782,15 +782,6 @@ SUMMARY:Clifton High School vs Bloomfield High School (Freshman Boys Foot
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7566039@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Clifton High School vs Lakeland Regional High School (Freshman Bo
- ys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7516960@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -816,6 +807,15 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:Clifton High School vs Lakeland Regional High School (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7566039@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Clifton High School vs Lakeland Regional High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7516695@big-north-conference
@@ -2117,6 +2117,15 @@ SUMMARY:Clifton High School at Ridgewood High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2574:7763819@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T150000
+DTEND;TZID=America/New_York:20261201T170000
+SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7695115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T150000
@@ -2124,6 +2133,15 @@ DTEND;TZID=America/New_York:20261201T170000
 SUMMARY:Passaic High School at Clifton High School (Varsity Coed Coed Swi
  mming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7763819@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T160000
+DTEND;TZID=America/New_York:20261201T180000
+SUMMARY:Passaic High School at Clifton High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7708619@big-north-conference
@@ -3994,13 +4012,22 @@ SUMMARY:Clifton High School vs Waldwick High School (Varsity Boys Boys La
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7763683@big-north-conference
+UID:ds:2574:7763683@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270517T161500
 DTEND;TZID=America/New_York:20270517T181500
-SUMMARY:Wayne Valley High School vs Clifton High School (Varsity Boys Bas
+SUMMARY:Clifton High School at Wayne Valley High School (Varsity Boys Bas
  eball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7764152@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T161500
+DTEND;TZID=America/New_York:20270517T181500
+SUMMARY:Wayne Valley High School vs Clifton High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7578019@big-north-conference
