@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2792:7763413@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
+SUMMARY:Pascack Hills High School vs TBA NJ (Varsity Girls Girls Competit
+ ion Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7763636@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
+SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
+  (Varsity Girls Girls Competition Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2792:7759900@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T180000
@@ -33,7 +51,7 @@ SUMMARY:Pascack Hills High School at Northern Highlands Regional High Sch
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7760125@big-north-conference
+UID:ds:2792:7763625@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T180000
 DTEND;TZID=America/New_York:20270125T200000
@@ -42,12 +60,30 @@ SUMMARY:Pascack Hills High School vs River Dell Regional High School (Var
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7760125@big-north-conference
+UID:ds:2792:7763672@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T180000
 DTEND;TZID=America/New_York:20270125T200000
-SUMMARY:Westwood Regional Senior High School at Pascack Hills High School
-  (Varsity Girls Girls Competition Cheer)
+SUMMARY:Pascack Hills High School vs TBA NJ (Varsity Girls Girls Competit
+ ion Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7763528@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T180000
+DTEND;TZID=America/New_York:20270201T200000
+SUMMARY:Pascack Hills High School vs Lakeland Regional High School (Varsi
+ ty Girls Girls Competition Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7763617@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T180000
+DTEND;TZID=America/New_York:20270201T200000
+SUMMARY:Pascack Hills High School at Ramsey High School (Varsity Girls Gi
+ rls Competition Cheer)
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
 END:VEVENT
 END:VCALENDAR

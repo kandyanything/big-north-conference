@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2772:7760106@big-north-conference
+UID:ds:2772:7763601@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T180000
 DTEND;TZID=America/New_York:20270111T200000
@@ -33,7 +33,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at River Dell Regional H
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7760106@big-north-conference
+UID:ds:2793:7763606@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T180000
 DTEND;TZID=America/New_York:20270111T200000
@@ -42,22 +42,49 @@ SUMMARY:Pascack Valley High School at River Dell Regional High School (Va
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7760119@big-north-conference
+UID:ds:2834:7763601@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
+SUMMARY:River Dell Regional High School vs Northern Valley Regional High 
+ (Varsity Girls Girls Competition Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2787:7763608@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T180000
 DTEND;TZID=America/New_York:20270118T200000
-SUMMARY:River Dell Regional High School at Ramsey High School (Varsity Gi
- rls Girls Competition Cheer)
-DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
+SUMMARY:Paramus Catholic High School vs River Dell Regional High School (
+ Varsity Girls Girls Competition Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7760125@big-north-conference
+UID:ds:2823:7763613@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270118T180000
+DTEND;TZID=America/New_York:20270118T200000
+SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Gi
+ rls Girls Competition Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7763625@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T180000
 DTEND;TZID=America/New_York:20270125T200000
 SUMMARY:Pascack Hills High School vs River Dell Regional High School (Var
  sity Girls Girls Competition Cheer)
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7763620@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T180000
+DTEND;TZID=America/New_York:20270125T200000
+SUMMARY:River Dell Regional High School at Westwood Regional Senior High 
+ School (Varsity Girls Girls Competition Cheer)
+DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7760670@big-north-conference
