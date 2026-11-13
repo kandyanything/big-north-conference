@@ -25,20 +25,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:2574:7763819@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261201T150000
-DTEND;TZID=America/New_York:20261201T170000
-SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
- ling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7763819@big-north-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T160000
 DTEND;TZID=America/New_York:20261201T180000
-SUMMARY:Passaic High School at Clifton High School (Varsity Coed Coed Bow
+SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
  ling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7666338@big-north-conference
@@ -101,6 +92,15 @@ DTEND;TZID=America/New_York:20270114T181500
 SUMMARY:Cliffside Park High School at Clifton High School (Varsity Coed C
  oed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7764248@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7684421@big-north-conference

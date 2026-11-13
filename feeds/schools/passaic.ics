@@ -363,15 +363,6 @@ SUMMARY:Clifton High School at Passaic High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7545604@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T163000
-DTEND;TZID=America/New_York:20260908T183000
-SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Soc
- cer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7566035@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T163000
@@ -379,6 +370,15 @@ DTEND;TZID=America/New_York:20260908T183000
 SUMMARY:Clifton High School at Passaic High School (Freshman Boys Boys So
  ccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7545604@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T163000
+DTEND;TZID=America/New_York:20260908T183000
+SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Soc
+ cer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7527464@big-north-conference
@@ -1897,15 +1897,6 @@ SUMMARY:Fair Lawn High School at Passaic High School (Varsity Boys Boys S
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7763819@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261201T150000
-DTEND;TZID=America/New_York:20261201T170000
-SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
- ling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2795:7695115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T150000
@@ -1915,13 +1906,13 @@ SUMMARY:Passaic High School at Clifton High School (Varsity Coed Coed Swi
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7763819@big-north-conference
+UID:ds:2574:7763819@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T160000
 DTEND;TZID=America/New_York:20261201T180000
-SUMMARY:Passaic High School at Clifton High School (Varsity Coed Coed Bow
+SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
  ling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7670808@big-north-conference
@@ -1962,10 +1953,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7668261@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T150000
-DTEND;TZID=America/New_York:20261207T170000
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Don Bosco Prep vs Passaic High School (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:00 PM
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7668261@big-north-conference
@@ -1987,11 +1978,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7763830@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T150000
-DTEND;TZID=America/New_York:20261208T170000
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Eastside High School vs Passaic High School (Varsity Coed Coed Bo
  wling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7647391@big-north-conference
@@ -2010,15 +2001,6 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Passaic High School at Science Park High School (Varsity Girls Gi
  rls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7763830@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Passaic High School at East Side High School (Varsity Coed Coed B
- owling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7609107@big-north-conference
@@ -2203,11 +2185,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7763845@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T150000
-DTEND;TZID=America/New_York:20261214T170000
+DTSTART;TZID=America/New_York:20261214T160000
+DTEND;TZID=America/New_York:20261214T180000
 SUMMARY:John F. Kennedy High School vs Passaic High School (Varsity Coed 
  Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7735083@big-north-conference
@@ -2217,15 +2199,6 @@ DTEND;TZID=America/New_York:20261214T180000
 SUMMARY:Passaic High School at Bergen Charter (Varsity Girls Girls Basket
  ball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7763845@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T160000
-DTEND;TZID=America/New_York:20261214T180000
-SUMMARY:Passaic High School at John F. Kennedy High School (Varsity Coed 
- Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7693701@big-north-conference
@@ -2264,13 +2237,13 @@ SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls W
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7763861@big-north-conference
+UID:ds:2616:7763861@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Passaic High School at Fort Lee High School (Varsity Coed Coed Bo
+SUMMARY:Fort Lee High School vs Passaic High School (Varsity Coed Coed Bo
  wling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7619704@big-north-conference
@@ -2911,6 +2884,15 @@ SUMMARY:Passaic High School vs College Achieve Paterson Charter School (J
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2574:7764248@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T160000
+DTEND;TZID=America/New_York:20270120T180000
+SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
+ ling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7696575@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T161500
@@ -2982,6 +2964,23 @@ SUMMARY:Passaic High School at West Milford High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2795:7764199@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T163000
+DTEND;TZID=America/New_York:20270122T183000
+SUMMARY:Passaic High School at TBA NJ (Middle School Girls Girls Basketba
+ ll)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7764206@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T163000
+DTEND;TZID=America/New_York:20270122T183000
+SUMMARY:Passaic High School vs TBA NJ (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7676698@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T144600
@@ -3000,13 +2999,13 @@ SUMMARY:Passaic High School at Garfield High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7763877@big-north-conference
+UID:ds:2604:7763877@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Passaic High School at East Side High School (Varsity Coed Coed B
- owling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+SUMMARY:Eastside High School vs Passaic High School (Varsity Coed Coed Bo
+ wling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7525328@big-north-conference
@@ -3197,13 +3196,13 @@ SUMMARY:Eastside High School vs Passaic High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7763886@big-north-conference
+UID:ds:2676:7763886@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T160000
 DTEND;TZID=America/New_York:20270203T180000
-SUMMARY:Passaic High School at John F. Kennedy High School (Varsity Coed 
+SUMMARY:John F. Kennedy High School vs Passaic High School (Varsity Coed 
  Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7552520@big-north-conference
@@ -3294,6 +3293,23 @@ DTEND;TZID=America/New_York:20270204T200000
 SUMMARY:Passaic High School at John F. Kennedy High School (Junior Varsit
  y Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7764200@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T163000
+DTEND;TZID=America/New_York:20270205T183000
+SUMMARY:Passaic High School vs TBA NJ (Middle School Girls Girls Basketba
+ ll)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7764210@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T163000
+DTEND;TZID=America/New_York:20270205T183000
+SUMMARY:Passaic High School at TBA NJ (Middle School Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7755605@big-north-conference
