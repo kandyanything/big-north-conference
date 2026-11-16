@@ -24,6 +24,42 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2834:7766609@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T161500
+DTEND;TZID=America/New_York:20261222T181500
+SUMMARY:River Dell Regional High School vs Fair Lawn High School (Freshma
+ n Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7528772@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T161500
+DTEND;TZID=America/New_York:20270104T181500
+SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
+ (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7733445@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T161500
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Girls Gi
+ rls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7765782@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T163000
+DTEND;TZID=America/New_York:20270112T183000
+SUMMARY:Fair Lawn High School at Northern Valley Regional High (Freshman 
+ Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2771:7765782@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
@@ -33,30 +69,57 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Fair Lawn High School (
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7639623@big-north-conference
+UID:ds:2613:7639623@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
-SUMMARY:Ramapo High School vs Fair Lawn High School (Freshman Girls Girls
+SUMMARY:Fair Lawn High School at Ramapo High School (Freshman Girls Girls
+  Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7531029@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Fair Lawn High School at Passaic County Technical Institute (Fres
+ hman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7766607@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:River Dell Regional High School at Fair Lawn High School (Freshma
+ n Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7525402@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Freshman Girls Gi
+ rls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7640773@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T161500
+DTEND;TZID=America/New_York:20270211T181500
+SUMMARY:Fair Lawn High School vs Ramapo High School (Freshman Girls Girls
   Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7531029@big-north-conference
+UID:ds:2613:7449909@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Passaic County Technical Institute vs Fair Lawn High School (Fres
- hman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7640773@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T161500
-DTEND;TZID=America/New_York:20270211T181500
-SUMMARY:Ramapo High School at Fair Lawn High School (Freshman Girls Girls
-  Basketball)
+DTSTART;TZID=America/New_York:20270216T161500
+DTEND;TZID=America/New_York:20270216T181500
+SUMMARY:Fair Lawn High School at Northern Highlands Regional High School 
+ (Freshman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

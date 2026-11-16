@@ -454,15 +454,6 @@ SUMMARY:Dumont High School vs Fort Lee High School (Varsity Boys Boys Soc
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7440306@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Bergenfield High School at Fort Lee High School (Freshman Boys Bo
- ys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7440305@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
@@ -470,6 +461,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Bergenfield High School at Fort Lee High School (Junior Varsity B
  oys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7440306@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Bergenfield High School at Fort Lee High School (Freshman Boys Bo
+ ys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7458791@big-north-conference
@@ -598,15 +598,6 @@ SUMMARY:Fort Lee High School at Tenafly High School (Varsity Boys Footbal
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7442000@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Fort Lee High School at Hasbrouck Heights High School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2616:7464796@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
@@ -623,6 +614,15 @@ DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Fort Lee High School at Hasbrouck Heights High School (Junior Var
  sity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7442000@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Fort Lee High School at Hasbrouck Heights High School (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7467470@big-north-conference
@@ -1300,6 +1300,15 @@ SUMMARY:Fort Lee High School vs Passaic High School (Middle School Girls
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7666366@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Fair Lawn High School at Fort Lee High School (Varsity Girls Girl
+ s Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7541997@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -1316,15 +1325,6 @@ DTEND;TZID=America/New_York:20261008T181500
 SUMMARY:Fort Lee High School vs Saddle River Day School (Varsity Girls Gi
  rls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2616:7666366@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Fort Lee High School vs Fair Lawn High School (Varsity Girls Girl
- s Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7404665@big-north-conference
@@ -2281,13 +2281,13 @@ SUMMARY:Fort Lee High School at Passaic Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7700723@big-north-conference
+UID:ds:2613:7700723@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T073000
 DTEND;TZID=America/New_York:20261219T093000
-SUMMARY:Fort Lee High School at Fair Lawn High School (Varsity Boys Boys 
+SUMMARY:Fair Lawn High School vs Fort Lee High School (Varsity Boys Boys 
  Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:30 AM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7564323@big-north-conference
@@ -3323,31 +3323,31 @@ SUMMARY:Fort Lee High School at TBA NJ (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7704637@big-north-conference
+UID:ds:2613:7704637@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270206T100000
 DTEND;TZID=America/New_York:20270206T120000
-SUMMARY:Fort Lee High School vs Fair Lawn High School (Freshman Boys Boys
+SUMMARY:Fair Lawn High School at Fort Lee High School (Freshman Boys Boys
   Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7704632@big-north-conference
+UID:ds:2613:7704632@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270206T113000
 DTEND;TZID=America/New_York:20270206T133000
-SUMMARY:Fort Lee High School vs Fair Lawn High School (Junior Varsity Boy
+SUMMARY:Fair Lawn High School at Fort Lee High School (Junior Varsity Boy
  s Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7704572@big-north-conference
+UID:ds:2613:7704572@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270206T130000
 DTEND;TZID=America/New_York:20270206T150000
-SUMMARY:Fort Lee High School vs Fair Lawn High School (Varsity Boys Boys 
+SUMMARY:Fair Lawn High School at Fort Lee High School (Varsity Boys Boys 
  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7681074@big-north-conference

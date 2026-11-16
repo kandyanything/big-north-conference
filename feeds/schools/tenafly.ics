@@ -553,15 +553,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Tenafly High School (Fr
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7525083@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Valley Regional HS - Old Tappan vs Tenafly High School (
- Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2772:7525084@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -569,6 +560,15 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan at Tenafly High School (
  Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2772:7525083@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Northern Valley Regional HS - Old Tappan vs Tenafly High School (
+ Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7410320@big-north-conference
@@ -1228,22 +1228,22 @@ SUMMARY:Dumont High School at Tenafly High School (Freshman Girls Girls V
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7445464@big-north-conference
+UID:ds:2770:7445464@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Tenafly High School vs Northern Highlands Regional High School (J
+SUMMARY:Northern Highlands Regional High School at Tenafly High School (J
  unior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7525103@big-north-conference
+UID:ds:2770:7525103@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Tenafly High School at Northern Highlands Regional High School (V
+SUMMARY:Northern Highlands Regional High School vs Tenafly High School (V
  arsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7460486@big-north-conference
@@ -1264,6 +1264,33 @@ SUMMARY:Fort Lee High School at Tenafly High School (Middle School Coed C
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7386442@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:Northern Highlands Regional High School vs Tenafly High School (V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7387242@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:Northern Highlands Regional High School vs Tenafly High School (F
+ reshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7525104@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:Northern Highlands Regional High School at Tenafly High School (J
+ unior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7663758@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
@@ -1273,24 +1300,6 @@ SUMMARY:River Dell Regional High School at Tenafly High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7386442@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Tenafly High School at Northern Highlands Regional High School (V
- arsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2890:7387242@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Tenafly High School at Northern Highlands Regional High School (F
- reshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2890:7507698@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
@@ -1298,15 +1307,6 @@ DTEND;TZID=America/New_York:20261001T181500
 SUMMARY:Tenafly High School at Hasbrouck Heights High School (Varsity Gir
  ls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2890:7525104@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Tenafly High School vs Northern Highlands Regional High School (J
- unior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7658721@big-north-conference
@@ -1327,13 +1327,13 @@ SUMMARY:Tenafly High School vs Fort Lee High School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Cross Country - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7387114@big-north-conference
+UID:ds:2770:7387114@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T173000
 DTEND;TZID=America/New_York:20261001T193000
-SUMMARY:Tenafly High School at Northern Highlands Regional High School (J
+SUMMARY:Northern Highlands Regional High School vs Tenafly High School (J
  unior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2832:7392806@big-north-conference
@@ -2505,13 +2505,13 @@ SUMMARY:John F. Kennedy High School vs Tenafly High School (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7722743@big-north-conference
+UID:ds:2613:7722743@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261031T100000
 DTEND;TZID=America/New_York:20261031T120000
-SUMMARY:Tenafly High School at Fair Lawn High School (Junior Varsity Boys
+SUMMARY:Fair Lawn High School vs Tenafly High School (Junior Varsity Boys
   Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7722737@big-north-conference
@@ -3859,31 +3859,31 @@ SUMMARY:Cliffside Park High School vs Tenafly High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7649259@big-north-conference
+UID:ds:2670:7649259@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
 DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Tenafly High School at Indian Hills High School (Junior Varsity G
+SUMMARY:Indian Hills High School vs Tenafly High School (Junior Varsity G
  irls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 9:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7649253@big-north-conference
+UID:ds:2670:7649253@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T103000
 DTEND;TZID=America/New_York:20270123T123000
-SUMMARY:Tenafly High School at Indian Hills High School (Varsity Girls Gi
+SUMMARY:Indian Hills High School vs Tenafly High School (Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:30 AM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7687104@big-north-conference
+UID:ds:2770:7687104@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T132000
 DTEND;TZID=America/New_York:20270123T152000
-SUMMARY:Tenafly High School vs Northern Highlands Regional High School (V
+SUMMARY:Northern Highlands Regional High School at Tenafly High School (V
  arsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:20 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:20 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7706993@big-north-conference
@@ -4790,22 +4790,22 @@ SUMMARY:Tenafly High School at Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7758767@big-north-conference
+UID:ds:2670:7758767@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T161500
 DTEND;TZID=America/New_York:20270414T181500
-SUMMARY:Tenafly High School vs Indian Hills High School (Varsity Girls Gi
+SUMMARY:Indian Hills High School at Tenafly High School (Varsity Girls Gi
  rls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7758768@big-north-conference
+UID:ds:2670:7758768@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T174500
 DTEND;TZID=America/New_York:20270414T194500
-SUMMARY:Tenafly High School vs Indian Hills High School (Junior Varsity G
+SUMMARY:Indian Hills High School at Tenafly High School (Junior Varsity G
  irls Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7758641@big-north-conference
@@ -5407,21 +5407,21 @@ SUMMARY:Tenafly High School at Cedar Grove High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7682808@big-north-conference
+UID:ds:2770:7682808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T170000
 DTEND;TZID=America/New_York:20270520T190000
-SUMMARY:Tenafly High School at Northern Highlands Regional High School (V
+SUMMARY:Northern Highlands Regional High School vs Tenafly High School (V
  arsity Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 5:00 PM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7682809@big-north-conference
+UID:ds:2770:7682809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T183000
 DTEND;TZID=America/New_York:20270520T203000
-SUMMARY:Tenafly High School at Northern Highlands Regional High School (J
+SUMMARY:Northern Highlands Regional High School vs Tenafly High School (J
  unior Varsity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 6:30 PM
 END:VEVENT
 END:VCALENDAR

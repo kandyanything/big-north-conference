@@ -77,13 +77,22 @@ SUMMARY:Ridgewood High School vs River Dell Regional High School (Freshma
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7440899@big-north-conference
+UID:ds:2770:7440899@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T190000
 DTEND;TZID=America/New_York:20260902T210000
-SUMMARY:Ridgewood High School at Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
  (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7385352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7469589@big-north-conference
@@ -104,15 +113,6 @@ SUMMARY:Bergen Catholic High School at Ridgewood High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7385352@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2592:7619940@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -122,31 +122,31 @@ SUMMARY:Don Bosco Prep vs Ridgewood High School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507176@big-north-conference
+UID:ds:2613:7507171@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Ridgewood High School at Fair Lawn High School (Freshman Boys Boy
- s Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7507171@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Ridgewood High School at Fair Lawn High School (Junior Varsity Bo
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507285@big-north-conference
+UID:ds:2613:7507176@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Boys Boy
+ s Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7507285@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T190000
 DTEND;TZID=America/New_York:20260914T210000
-SUMMARY:Ridgewood High School at Fair Lawn High School (Varsity Boys Boys
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7507288@big-north-conference
@@ -257,22 +257,22 @@ SUMMARY:Pascack Valley High School vs Ridgewood High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7534053@big-north-conference
+UID:ds:2613:7534053@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T130000
 DTEND;TZID=America/New_York:20260926T150000
-SUMMARY:Ridgewood High School vs Fair Lawn High School (Junior Varsity Bo
+SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7534721@big-north-conference
+UID:ds:2613:7534721@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T190000
 DTEND;TZID=America/New_York:20260926T210000
-SUMMARY:Ridgewood High School vs Fair Lawn High School (Varsity Boys Boys
+SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7385354@big-north-conference
@@ -329,31 +329,31 @@ SUMMARY:Ridgewood High School at Tenafly High School (Varsity Boys Boys S
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7385355@big-north-conference
+UID:ds:2770:7385355@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Ridgewood High School vs Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7440930@big-north-conference
+UID:ds:2770:7440930@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Ridgewood High School vs Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7440932@big-north-conference
+UID:ds:2770:7440932@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Ridgewood High School vs Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7465007@big-north-conference
@@ -410,13 +410,13 @@ SUMMARY:Ridgewood High School vs Northern Valley Regional High (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7689437@big-north-conference
+UID:ds:2770:7689437@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
 DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Ridgewood High School vs Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7693507@big-north-conference
@@ -464,13 +464,13 @@ SUMMARY:Hackensack High School vs Ridgewood High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7705973@big-north-conference
+UID:ds:2613:7705973@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T110000
 DTEND;TZID=America/New_York:20261024T130000
-SUMMARY:Ridgewood High School at Fair Lawn High School (Junior Varsity Bo
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7700873@big-north-conference
@@ -527,13 +527,13 @@ SUMMARY:Ridgewood High School vs North Bergen High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7744139@big-north-conference
+UID:ds:2613:7744139@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261107T123000
 DTEND;TZID=America/New_York:20261107T143000
-SUMMARY:Ridgewood High School vs Fair Lawn High School (Varsity Boys Boys
+SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 12:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7753370@big-north-conference
