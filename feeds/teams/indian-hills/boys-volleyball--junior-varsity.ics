@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2794:7674852@big-north-conference
+UID:ds:2670:7674852@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T174500
 DTEND;TZID=America/New_York:20270401T194500
-SUMMARY:Passaic County Technical Institute vs Indian Hills High School (J
+SUMMARY:Indian Hills High School at Passaic County Technical Institute (J
  unior Varsity Boys Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:45 PM
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7573065@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T173000
+DTEND;TZID=America/New_York:20270423T193000
+SUMMARY:Indian Hills High School vs Northern Valley Regional High (Junior
+  Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7573065@big-north-conference
@@ -42,12 +51,12 @@ SUMMARY:Northern Valley Regional HS - Demarest at Indian Hills High Schoo
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7762689@big-north-conference
+UID:ds:2670:7762689@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270504T173000
 DTEND;TZID=America/New_York:20270504T193000
-SUMMARY:Wayne Valley High School vs Indian Hills High School (Junior Vars
+SUMMARY:Indian Hills High School at Wayne Valley High School (Junior Vars
  ity Boys Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR

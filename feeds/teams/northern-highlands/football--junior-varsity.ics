@@ -24,67 +24,85 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7486804@big-north-conference
+UID:ds:2770:7486804@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T161500
 DTEND;TZID=America/New_York:20260831T181500
-SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
+SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
  gh School (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7442152@big-north-conference
+UID:ds:2770:7442152@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T181500
 DTEND;TZID=America/New_York:20260831T201500
-SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
+SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
  gh School (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 6:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7441296@big-north-conference
+UID:ds:2770:7441296@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T183000
 DTEND;TZID=America/New_York:20260831T203000
-SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
+SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
  gh School (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7385498@big-north-conference
+UID:ds:2770:7385498@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T110000
 DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Wayne Hills High School at Northern Highlands Regional High Schoo
+SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
  l (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7394455@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T110000
-DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Wayne Valley High School vs Northern Highlands Regional High Scho
- ol (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7385502@big-north-conference
+UID:ds:2770:7441302@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Northern Highlands Regional High School vs Hackensack High School
+  (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7394455@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T110000
+DTEND;TZID=America/New_York:20260919T130000
+SUMMARY:Northern Highlands Regional High School at Wayne Valley High Scho
+ ol (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7385502@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T183000
 DTEND;TZID=America/New_York:20260928T203000
-SUMMARY:Ridgewood High School at Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
  (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7385503@big-north-conference
+UID:ds:2770:7385503@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T183000
 DTEND;TZID=America/New_York:20261005T203000
-SUMMARY:Ramapo High School at Northern Highlands Regional High School (Ju
+SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
  nior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7441314@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Northern Highlands Regional High School at Northern Valley Region
+ al High (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7441314@big-north-conference
@@ -96,12 +114,12 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Highlands Re
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7521408@big-north-conference
+UID:ds:2770:7521408@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
 DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Pascack Valley High School vs Northern Highlands Regional High Sc
+SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
  hool (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR

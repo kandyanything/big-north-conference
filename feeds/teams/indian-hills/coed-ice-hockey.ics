@@ -24,12 +24,75 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2931:7734343@big-north-conference
+UID:ds:2670:7737405@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T160000
+DTEND;TZID=America/New_York:20261130T180000
+SUMMARY:Indian Hills High School at Ramsey High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7734343@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261206T180000
 DTEND;TZID=America/New_York:20261206T200000
-SUMMARY:West Milford High School at Indian Hills High School (Varsity Coe
+SUMMARY:Indian Hills High School vs West Milford High School (Varsity Coe
  d Coed Ice Hockey)
-DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 6:00 PM
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7734350@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T183000
+DTEND;TZID=America/New_York:20261218T203000
+SUMMARY:Indian Hills High School vs Passaic County Technical Institute (V
+ arsity Coed Coed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7734353@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T200000
+DTEND;TZID=America/New_York:20261223T220000
+SUMMARY:Indian Hills High School vs Ramapo High School (Varsity Coed Coed
+  Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7734357@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T204500
+DTEND;TZID=America/New_York:20261230T224500
+SUMMARY:Indian Hills High School vs Chester/Mendham Lacrosse (Varsity Coe
+ d Coed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7734367@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T184500
+DTEND;TZID=America/New_York:20270110T204500
+SUMMARY:Indian Hills High School vs Ridgewood High School (Varsity Coed C
+ oed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7736199@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T201500
+DTEND;TZID=America/New_York:20270115T221500
+SUMMARY:Indian Hills High School vs Suffern High School (Varsity Coed Coe
+ d Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7736207@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T183000
+DTEND;TZID=America/New_York:20270117T203000
+SUMMARY:Indian Hills High School vs Passaic County Technical Institute (V
+ arsity Coed Coed Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 6:30 PM
 END:VEVENT
 END:VCALENDAR

@@ -24,76 +24,94 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2794:7529119@big-north-conference
+UID:ds:2770:7529119@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T110000
 DTEND;TZID=America/New_York:20260817T130000
-SUMMARY:Passaic County Technical Institute at Northern Highlands Regional
-  High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 11:00 AM
+SUMMARY:Northern Highlands Regional High School vs Passaic County Technic
+ al Institute (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7389836@big-north-conference
+UID:ds:2770:7389836@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260821T100000
 DTEND;TZID=America/New_York:20260821T120000
-SUMMARY:Westwood Regional Senior High School vs Northern Highlands Region
- al High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+SUMMARY:Northern Highlands Regional High School at Westwood Regional Seni
+ or High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7433818@big-north-conference
+UID:ds:2770:7433818@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T090000
 DTEND;TZID=America/New_York:20260829T110000
-SUMMARY:River Dell Regional High School vs Northern Highlands Regional Hi
+SUMMARY:Northern Highlands Regional High School at River Dell Regional Hi
  gh School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7385506@big-north-conference
+UID:ds:2770:7385506@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T090000
 DTEND;TZID=America/New_York:20260905T110000
-SUMMARY:Wayne Hills High School at Northern Highlands Regional High Schoo
+SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
  l (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7394463@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Wayne Valley High School vs Northern Highlands Regional High Scho
- ol (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7385510@big-north-conference
+UID:ds:2770:7528294@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T093000
+DTEND;TZID=America/New_York:20260912T113000
+SUMMARY:Northern Highlands Regional High School vs Nutley High School (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7394463@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Northern Highlands Regional High School at Wayne Valley High Scho
+ ol (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7385510@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Ridgewood High School at Northern Highlands Regional High School 
+SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
  (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7385512@big-north-conference
+UID:ds:2770:7385512@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
 DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Ramapo High School at Northern Highlands Regional High School (Fr
+SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
  eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7573675@big-north-conference
+UID:ds:2770:7573675@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
 DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Ramsey High School at Northern Highlands Regional High School (Fr
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
  eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7441313@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Northern Highlands Regional High School at Northern Valley Region
+ al High (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7441313@big-north-conference
@@ -105,12 +123,12 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Highlands Re
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7687784@big-north-conference
+UID:ds:2770:7687784@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
 DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Pascack Valley High School vs Northern Highlands Regional High Sc
+SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
  hool (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 END:VCALENDAR
