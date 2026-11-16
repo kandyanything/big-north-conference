@@ -24,57 +24,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2770:7441767@big-north-conference
+UID:ds:2834:7433758@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Northern Highlands Regional High School at Verona High School (Va
+DTSTART;TZID=America/New_York:20260827T150000
+DTEND;TZID=America/New_York:20260827T170000
+SUMMARY:River Dell Regional High School vs Northern Highlands Regional Hi
+ gh School (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7441781@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Ramsey High School at Northern Highlands Regional High School (Va
  rsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441778@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T110000
-DTEND;TZID=America/New_York:20260826T130000
-SUMMARY:Northern Highlands Regional High School at Randolph High School (
- Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7433758@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T150000
-DTEND;TZID=America/New_York:20260827T170000
-SUMMARY:Northern Highlands Regional High School at River Dell Regional Hi
- gh School (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7441781@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260829T100000
-DTEND;TZID=America/New_York:20260829T120000
-SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Va
- rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7584894@big-north-conference
+UID:ds:2794:7584894@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T161500
 DTEND;TZID=America/New_York:20260901T181500
-SUMMARY:Northern Highlands Regional High School at Passaic County Technic
- al Institute (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7386433@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Northern Highlands Regional High School vs Northern Valley Region
- al High (Varsity Girls Girls Volleyball)
+SUMMARY:Passaic County Technical Institute vs Northern Highlands Regional
+  High School (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -96,40 +69,31 @@ SUMMARY:Academy of the Holy Angels at Northern Highlands Regional High Sc
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441360@big-north-conference
+UID:ds:2926:7441360@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Northern Highlands Regional High School at Wayne Valley High Scho
+SUMMARY:Wayne Valley High School vs Northern Highlands Regional High Scho
  ol (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7528402@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Northern Highlands Regional High School vs Mount Saint Dominic Ac
- ademy (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7385359@big-north-conference
+UID:ds:2833:7385359@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+SUMMARY:Ridgewood High School vs Northern Highlands Regional High School 
  (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7386434@big-north-conference
+UID:ds:2822:7386434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Va
+SUMMARY:Ramapo High School at Northern Highlands Regional High School (Va
  rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7386436@big-north-conference
@@ -141,22 +105,13 @@ SUMMARY:Hackensack High School at Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7386438@big-north-conference
+UID:ds:2792:7386438@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Northern Highlands Regional High School vs Pascack Hills High Sch
+SUMMARY:Pascack Hills High School at Northern Highlands Regional High Sch
  ool (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7441369@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
- (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7386440@big-north-conference
@@ -168,76 +123,49 @@ SUMMARY:Immaculate Heart Academy at Northern Highlands Regional High Scho
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441801@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T110000
-DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:Northern Highlands Regional High School at Princeton High School 
- (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7528459@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Northern Highlands Regional High School vs Saddle River Day Schoo
- l (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7386442@big-north-conference
+UID:ds:2890:7386442@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
 DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Northern Highlands Regional High School vs Tenafly High School (V
+SUMMARY:Tenafly High School at Northern Highlands Regional High School (V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7588632@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Paramus High School vs Northern Highlands Regional High School (V
  arsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7588632@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Northern Highlands Regional High School at Paramus High School (V
- arsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7480861@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:Northern Highlands Regional High School at Secaucus High School (
- Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7441375@big-north-conference
+UID:ds:2823:7441375@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Northern Highlands Regional High School at Ramsey High School (Va
+SUMMARY:Ramsey High School vs Northern Highlands Regional High School (Va
  rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7688040@big-north-conference
+UID:ds:2788:7688040@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
 DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Northern Highlands Regional High School vs Paramus High School (V
+SUMMARY:Paramus High School at Northern Highlands Regional High School (V
  arsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7415039@big-north-conference
+UID:ds:2925:7415039@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
 DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Northern Highlands Regional High School at Wayne Hills High Schoo
+SUMMARY:Wayne Hills High School vs Northern Highlands Regional High Schoo
  l (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7480868@big-north-conference
@@ -249,22 +177,13 @@ SUMMARY:Bergen County Technical High School vs Northern Highlands Regiona
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7386443@big-north-conference
+UID:ds:2833:7386443@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T173000
 DTEND;TZID=America/New_York:20261015T193000
-SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
+SUMMARY:Ridgewood High School at Northern Highlands Regional High School 
  (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7693446@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T160000
-DTEND;TZID=America/New_York:20261017T180000
-SUMMARY:Northern Highlands Regional High School at Northern Valley Region
- al High (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7693446@big-north-conference
@@ -276,13 +195,13 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Northern Highlands Regi
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441381@big-north-conference
+UID:ds:2822:7441381@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
 DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
+SUMMARY:Ramapo High School vs Northern Highlands Regional High School (Va
  rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7441384@big-north-conference
@@ -294,31 +213,13 @@ SUMMARY:Hackensack High School vs Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7480831@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T161500
-DTEND;TZID=America/New_York:20261023T181500
-SUMMARY:Northern Highlands Regional High School vs West Morris Central Hi
- gh School (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7709236@big-north-conference
+UID:ds:2834:7709236@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Northern Highlands Regional High School at River Dell Regional Hi
+SUMMARY:River Dell Regional High School vs Northern Highlands Regional Hi
  gh School (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7386447@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Fair Lawn High School at Northern Highlands Regional High School 
- (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7441389@big-north-conference
@@ -328,24 +229,6 @@ DTEND;TZID=America/New_York:20261029T181500
 SUMMARY:DePaul Catholic High School vs Northern Highlands Regional High S
  chool (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7727950@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261102T170000
-DTEND;TZID=America/New_York:20261102T190000
-SUMMARY:Northern Highlands Regional High School vs Parsippany Hills High 
- School (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7739171@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261104T170000
-DTEND;TZID=America/New_York:20261104T190000
-SUMMARY:Northern Highlands Regional High School vs Northern Valley Region
- al High (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7739171@big-north-conference

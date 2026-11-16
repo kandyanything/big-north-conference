@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2770:7633938@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T161500
-DTEND;TZID=America/New_York:20261207T181500
-SUMMARY:Northern Highlands Regional High School at Westwood Regional Seni
- or High School (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7702435@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
@@ -39,6 +30,15 @@ DTEND;TZID=America/New_York:20261207T181500
 SUMMARY:Passaic County Technical Institute at Wayne Hills High School (Fr
  eshman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2939:7633938@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Westwood Regional Senior High School vs Northern Highlands Region
+ al High School (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7603974@big-north-conference
@@ -86,22 +86,13 @@ SUMMARY:Bergenfield High School at Pascack Hills High School (Freshman Gi
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7530086@big-north-conference
+UID:ds:2794:7530086@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T161500
 DTEND;TZID=America/New_York:20261217T181500
-SUMMARY:Northern Highlands Regional High School at Passaic County Technic
- al Institute (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7449789@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T090000
-DTEND;TZID=America/New_York:20261219T110000
-SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
- l (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 9:00 AM
+SUMMARY:Passaic County Technical Institute vs Northern Highlands Regional
+  High School (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7556325@big-north-conference
@@ -120,6 +111,15 @@ DTEND;TZID=America/New_York:20261219T110000
 SUMMARY:Ramapo High School vs Wayne Valley High School (Freshman Girls Gi
  rls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7449789@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T090000
+DTEND;TZID=America/New_York:20261219T110000
+SUMMARY:Wayne Hills High School at Northern Highlands Regional High Schoo
+ l (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7593781@big-north-conference
@@ -158,15 +158,6 @@ SUMMARY:Passaic County Technical Institute at Ridgewood High School (Fres
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7528772@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T161500
-DTEND;TZID=America/New_York:20270104T181500
-SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
- (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7540421@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -174,15 +165,6 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Wayne Valley High School vs West Milford High School (Freshman Gi
  rls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7733445@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T161500
-DTEND;TZID=America/New_York:20270105T181500
-SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Girls Gi
- rls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7512607@big-north-conference
@@ -239,15 +221,6 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7449836@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
-SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
- eshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7593792@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
@@ -266,13 +239,22 @@ SUMMARY:Pascack Valley High School vs Teaneck High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7609153@big-north-conference
+UID:ds:2822:7449836@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:Ramapo High School at Northern Highlands Regional High School (Fr
+ eshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7609153@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
 DTEND;TZID=America/New_York:20270109T133000
-SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
+SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
  gh School (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 11:30 AM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7540342@big-north-conference
@@ -293,15 +275,6 @@ SUMMARY:Lakeland Regional High School vs West Milford High School (Freshm
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7525382@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T161500
-DTEND;TZID=America/New_York:20270112T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
- (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7512710@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
@@ -320,15 +293,6 @@ SUMMARY:Ramapo High School at Union City High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7765782@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T163000
-DTEND;TZID=America/New_York:20270112T183000
-SUMMARY:Fair Lawn High School at Northern Valley Regional High (Freshman 
- Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7765782@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
@@ -338,13 +302,13 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Fair Lawn High School (
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7639623@big-north-conference
+UID:ds:2822:7639623@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
-SUMMARY:Fair Lawn High School at Ramapo High School (Freshman Girls Girls
+SUMMARY:Ramapo High School vs Fair Lawn High School (Freshman Girls Girls
   Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7702447@big-north-conference
@@ -410,13 +374,13 @@ SUMMARY:Passaic County Technical Institute vs Ramapo High School (Freshma
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7531029@big-north-conference
+UID:ds:2794:7531029@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Fair Lawn High School at Passaic County Technical Institute (Fres
+SUMMARY:Passaic County Technical Institute vs Fair Lawn High School (Fres
  hman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7737187@big-north-conference
@@ -446,15 +410,6 @@ SUMMARY:Bergenfield High School at Lakeland Regional High School (Freshma
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7528775@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T161500
-DTEND;TZID=America/New_York:20270126T181500
-SUMMARY:Northern Highlands Regional High School at Northern Valley Region
- al High (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7528775@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T161500
@@ -480,15 +435,6 @@ DTEND;TZID=America/New_York:20270130T120000
 SUMMARY:Wayne Valley High School at Morris Knolls High School (Freshman G
  irls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7525402@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T161500
-DTEND;TZID=America/New_York:20270202T181500
-SUMMARY:Fair Lawn High School at Ridgewood High School (Freshman Girls Gi
- rls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7639948@big-north-conference
@@ -527,15 +473,6 @@ SUMMARY:Lakeland Regional High School at Wayne Hills High School (Freshma
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7528779@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T161500
-DTEND;TZID=America/New_York:20270204T181500
-SUMMARY:Northern Highlands Regional High School at Ramapo High School (Fr
- eshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7512720@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T161500
@@ -554,21 +491,12 @@ SUMMARY:Pascack Valley High School vs Teaneck High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7688289@big-north-conference
+UID:ds:2822:7528779@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T100000
-DTEND;TZID=America/New_York:20270206T120000
-SUMMARY:Northern Highlands Regional High School at James Caldwell High Sc
- hool (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7449901@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T161500
-DTEND;TZID=America/New_York:20270209T181500
-SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
- (Freshman Girls Girls Basketball)
+DTSTART;TZID=America/New_York:20270204T161500
+DTEND;TZID=America/New_York:20270204T181500
+SUMMARY:Ramapo High School vs Northern Highlands Regional High School (Fr
+ eshman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -581,21 +509,21 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Gir
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7640773@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T161500
-DTEND;TZID=America/New_York:20270211T181500
-SUMMARY:Fair Lawn High School vs Ramapo High School (Freshman Girls Girls
-  Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7594109@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T161500
 DTEND;TZID=America/New_York:20270211T181500
 SUMMARY:Mahwah High School at River Dell Regional High School (Freshman G
  irls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7640773@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T161500
+DTEND;TZID=America/New_York:20270211T181500
+SUMMARY:Ramapo High School at Fair Lawn High School (Freshman Girls Girls
+  Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -626,15 +554,6 @@ SUMMARY:Lakeland Regional High School at Wayne Valley High School (Freshm
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7449909@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270216T161500
-DTEND;TZID=America/New_York:20270216T181500
-SUMMARY:Fair Lawn High School at Northern Highlands Regional High School 
- (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2822:7640296@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T161500
@@ -651,14 +570,5 @@ DTEND;TZID=America/New_York:20270216T181500
 SUMMARY:River Dell Regional High School at Westwood Regional Senior High 
  School (Freshman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7727627@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270218T161500
-DTEND;TZID=America/New_York:20270218T181500
-SUMMARY:Northern Highlands Regional High School vs Sparta High School (Fr
- eshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR

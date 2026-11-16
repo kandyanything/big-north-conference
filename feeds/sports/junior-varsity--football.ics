@@ -113,24 +113,6 @@ SUMMARY:Lakeland Regional High School at Pompton Lakes High School (Junio
 DESCRIPTION:Junior Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7543982@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T160000
-DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Fair Lawn High School at Morris Hills High School (Junior Varsity
-  Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7539289@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T160000
-DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Indian Hills High School at Westwood Regional Senior High School 
- (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7592035@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T160000
@@ -176,21 +158,21 @@ SUMMARY:Ramapo High School vs West Orange High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2939:7539289@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:Westwood Regional Senior High School vs Indian Hills High School 
+ (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7440297@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T161500
 DTEND;TZID=America/New_York:20260831T181500
 SUMMARY:Bergenfield High School vs Millburn High School (Junior Varsity B
  oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7486804@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T161500
-DTEND;TZID=America/New_York:20260831T181500
-SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
- gh School (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -203,22 +185,31 @@ SUMMARY:Ridgewood High School at Montclair High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7442152@big-north-conference
+UID:ds:2834:7486804@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
+ gh School (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7442152@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T181500
 DTEND;TZID=America/New_York:20260831T201500
-SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
+SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
  gh School (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 6:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441296@big-north-conference
+UID:ds:2834:7441296@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T183000
 DTEND;TZID=America/New_York:20260831T203000
-SUMMARY:Northern Highlands Regional High School vs River Dell Regional Hi
+SUMMARY:River Dell Regional High School at Northern Highlands Regional Hi
  gh School (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7555961@big-north-conference
@@ -239,15 +230,6 @@ SUMMARY:Mahwah High School at Pequannock Township High School (Junior Var
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7482376@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T093000
-DTEND;TZID=America/New_York:20260905T113000
-SUMMARY:Indian Hills High School at Whippany Park High School (Junior Var
- sity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7513163@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T093000
@@ -255,15 +237,6 @@ DTEND;TZID=America/New_York:20260905T113000
 SUMMARY:Ridgewood High School at Hackensack High School (Junior Varsity B
  oys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7385498@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
- l (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7531663@big-north-conference
@@ -282,6 +255,15 @@ DTEND;TZID=America/New_York:20260905T130000
 SUMMARY:Ramapo High School vs Northern Valley Regional High (Junior Varsi
  ty Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7385498@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T110000
+DTEND;TZID=America/New_York:20260905T130000
+SUMMARY:Wayne Hills High School at Northern Highlands Regional High Schoo
+ l (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7611897@big-north-conference
@@ -401,30 +383,12 @@ SUMMARY:Dwight Morrow High School vs Ridgefield Park High School (Junior
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7615592@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School at Cedar Grove High School (Junior Varsity 
- Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2616:7630836@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Fort Lee High School vs Northern Valley Regional High (Junior Var
  sity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7441302@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Highlands Regional High School vs Hackensack High School
-  (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -491,15 +455,6 @@ SUMMARY:DePaul Catholic High School vs Saint Peters Prep (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7521409@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T163000
-DTEND;TZID=America/New_York:20260914T183000
-SUMMARY:Indian Hills High School vs Kinnelon High School (Junior Varsity 
- Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7528733@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T163000
@@ -536,13 +491,13 @@ SUMMARY:Ramsey High School at Mountain Lakes High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7394455@big-north-conference
+UID:ds:2926:7394455@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T110000
 DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Northern Highlands Regional High School at Wayne Valley High Scho
+SUMMARY:Wayne Valley High School vs Northern Highlands Regional High Scho
  ol (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 11:00 AM
+DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7600614@big-north-conference
@@ -662,15 +617,6 @@ SUMMARY:Ramapo High School at Union City High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7465521@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Indian Hills High School vs Kittatinny Regional High School (Juni
- or Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7528737@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -695,15 +641,6 @@ DTSTART;TZID=America/New_York:20260928T161500
 DTEND;TZID=America/New_York:20260928T181500
 SUMMARY:Clifton High School at Wayne Valley High School (Junior Varsity B
  oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7658705@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T161500
-DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Fair Lawn High School at Roxbury High School (Junior Varsity Boys
-  Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -806,13 +743,13 @@ SUMMARY:Westwood Regional Senior High School vs Hanover Park High School
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7385502@big-north-conference
+UID:ds:2833:7385502@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T183000
 DTEND;TZID=America/New_York:20260928T203000
-SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
+SUMMARY:Ridgewood High School at Northern Highlands Regional High School 
  (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7585752@big-north-conference
@@ -858,15 +795,6 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Clifton High School vs Montclair High School (Junior Varsity Boys
   Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7532858@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Indian Hills High School at Hopatcong High School (Junior Varsity
-  Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7521650@big-north-conference
@@ -923,15 +851,6 @@ SUMMARY:Dwight Morrow High School vs Northern Valley Regional High (Junio
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7434372@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Fair Lawn High School vs River Dell Regional High School (Junior 
- Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2616:7437559@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -959,13 +878,22 @@ SUMMARY:Passaic Valley High School at Teaneck High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7385503@big-north-conference
+UID:ds:2834:7434372@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:River Dell Regional High School at Fair Lawn High School (Junior 
+ Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7385503@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T183000
 DTEND;TZID=America/New_York:20261005T203000
-SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
+SUMMARY:Ramapo High School at Northern Highlands Regional High School (Ju
  nior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7463024@big-north-conference
@@ -1076,21 +1004,21 @@ SUMMARY:Dwight Morrow High School vs Fort Lee High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7565530@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T161500
-DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Fair Lawn High School vs Pascack Valley High School (Junior Varsi
- ty Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7539320@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
 DTEND;TZID=America/New_York:20261012T181500
 SUMMARY:Lakeland Regional High School at Westwood Regional Senior High Sc
  hool (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7565530@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T161500
+DTEND;TZID=America/New_York:20261012T181500
+SUMMARY:Pascack Valley High School at Fair Lawn High School (Junior Varsi
+ ty Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1119,15 +1047,6 @@ DTEND;TZID=America/New_York:20261012T183000
 SUMMARY:Eastside High School at Passaic High School (Junior Varsity Boys 
  Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7687616@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T163000
-DTEND;TZID=America/New_York:20261012T183000
-SUMMARY:Indian Hills High School vs Boonton High School (Junior Varsity B
- oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7460305@big-north-conference
@@ -1256,22 +1175,13 @@ SUMMARY:Eastside High School at Hackensack High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7521651@big-north-conference
+UID:ds:2706:7521651@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T161500
 DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Fair Lawn High School at Mahwah High School (Junior Varsity Boys 
+SUMMARY:Mahwah High School vs Fair Lawn High School (Junior Varsity Boys 
  Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7441314@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Northern Highlands Regional High School at Northern Valley Region
- al High (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7441314@big-north-conference
@@ -1391,22 +1301,13 @@ SUMMARY:Clifton High School vs Hackensack High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7689683@big-north-conference
+UID:ds:2793:7521408@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
 DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Indian Hills High School vs Verona High School (Junior Varsity Bo
- ys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7521408@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
+SUMMARY:Pascack Valley High School vs Northern Highlands Regional High Sc
  hool (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7701462@big-north-conference
@@ -1417,13 +1318,13 @@ SUMMARY:Don Bosco Prep vs Saint Peters Prep (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7413041@big-north-conference
+UID:ds:2925:7413041@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T183000
 DTEND;TZID=America/New_York:20261026T203000
-SUMMARY:Fair Lawn High School at Wayne Hills High School (Junior Varsity 
+SUMMARY:Wayne Hills High School vs Fair Lawn High School (Junior Varsity 
  Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7463038@big-north-conference

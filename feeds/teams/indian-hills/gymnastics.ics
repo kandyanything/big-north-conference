@@ -23,49 +23,40 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2670:7619993@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T170000
-DTEND;TZID=America/New_York:20260914T190000
-SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity G
- irls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7519152@big-north-conference
+UID:ds:2925:7519152@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T170000
 DTEND;TZID=America/New_York:20260922T190000
-SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
+SUMMARY:Wayne Hills High School vs Indian Hills High School (Varsity Girl
  s Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+DESCRIPTION:Varsity Girls Gymnastics - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7504602@big-north-conference
+UID:ds:2926:7504602@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T163000
 DTEND;TZID=America/New_York:20260930T183000
-SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Gir
+SUMMARY:Wayne Valley High School vs Indian Hills High School (Varsity Gir
+ ls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7486971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T163000
+DTEND;TZID=America/New_York:20261006T183000
+SUMMARY:West Milford High School at Indian Hills High School (Varsity Gir
  ls Gymnastics)
 DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7486971@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T163000
-DTEND;TZID=America/New_York:20261006T183000
-SUMMARY:Indian Hills High School vs West Milford High School (Varsity Gir
- ls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7512633@big-north-conference
+UID:ds:2822:7512633@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T163000
 DTEND;TZID=America/New_York:20261008T183000
-SUMMARY:Indian Hills High School vs Ramapo High School (Varsity Girls Gym
+SUMMARY:Ramapo High School at Indian Hills High School (Varsity Girls Gym
  nastics)
-DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7512636@big-north-conference
@@ -77,21 +68,12 @@ SUMMARY:Academy of the Holy Angels at Indian Hills High School (Varsity G
 DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7691906@big-north-conference
+UID:ds:2833:7691906@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T150000
 DTEND;TZID=America/New_York:20261016T170000
-SUMMARY:Indian Hills High School at Ridgewood High School (Varsity Girls 
+SUMMARY:Ridgewood High School vs Indian Hills High School (Varsity Girls 
  Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7519288@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T170000
-DTEND;TZID=America/New_York:20261020T190000
-SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
- s Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 5:00 PM
+DESCRIPTION:Varsity Girls Gymnastics - Home - 3:00 PM
 END:VEVENT
 END:VCALENDAR
