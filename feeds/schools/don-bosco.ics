@@ -750,11 +750,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7660807@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261205T171500
-DTEND;TZID=America/New_York:20261205T191500
+DTSTART;TZID=America/New_York:20261205T194500
+DTEND;TZID=America/New_York:20261205T214500
 SUMMARY:Don Bosco Prep vs Delbarton School (Junior Varsity Boys Boys Ice 
  Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 5:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7685930@big-north-conference
@@ -808,6 +808,15 @@ SUMMARY:Don Bosco Prep at Saint Augustine Prep School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2592:7765545@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T152000
+DTEND;TZID=America/New_York:20261208T172000
+SUMMARY:Don Bosco Prep at Saint Augustine Prep School (Junior Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 3:20 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2592:7689459@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -851,6 +860,15 @@ DTEND;TZID=America/New_York:20261212T213000
 SUMMARY:Don Bosco Prep vs Our Lady Of Lourdes High (Varsity Boys Boys Bas
  ketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7765557@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T211500
+DTEND;TZID=America/New_York:20261212T231500
+SUMMARY:Don Bosco Prep vs Saint Peters Prep (Junior Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7685954@big-north-conference
@@ -902,6 +920,15 @@ DTEND;TZID=America/New_York:20261215T180000
 SUMMARY:Don Bosco Prep at Montclair Kimberley Academy (Varsity Boys Boys 
  Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7765565@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Don Bosco Prep at Saint Peters Prep (Junior Varsity Boys Boys Ice
+  Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7720555@big-north-conference
@@ -984,21 +1011,21 @@ SUMMARY:Don Bosco Prep vs Paramus Catholic High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673575@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T181500
-DTEND;TZID=America/New_York:20261219T201500
-SUMMARY:Bergen Catholic High School at Don Bosco Prep (Junior Varsity Boy
- s Boys Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2592:7702052@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T190000
 DTEND;TZID=America/New_York:20261219T210000
 SUMMARY:Don Bosco Prep vs TBD (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7673575@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T194500
+DTEND;TZID=America/New_York:20261219T214500
+SUMMARY:Bergen Catholic High School at Don Bosco Prep (Junior Varsity Boy
+ s Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7702064@big-north-conference
@@ -1062,6 +1089,15 @@ SUMMARY:Don Bosco Prep vs Delbarton School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2592:7765574@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T194500
+DTEND;TZID=America/New_York:20261227T214500
+SUMMARY:Don Bosco Prep vs Saint Joseph Regional High School (Junior Varsi
+ ty Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2592:7702084@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261229T160000
@@ -1078,6 +1114,15 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Don Bosco Prep at Paramus Catholic High School (Freshman Boys Boy
  s Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7765575@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T163000
+DTEND;TZID=America/New_York:20270105T183000
+SUMMARY:Don Bosco Prep at Ramapo High School (Junior Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7696702@big-north-conference
@@ -1168,6 +1213,15 @@ DTEND;TZID=America/New_York:20270108T173000
 SUMMARY:Passaic County Technical Institute at Don Bosco Prep (Varsity Coe
  d Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7765789@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T194500
+DTEND;TZID=America/New_York:20270109T214500
+SUMMARY:Don Bosco Prep vs Christian Brothers Academy (Junior Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7726263@big-north-conference
@@ -1339,6 +1393,15 @@ SUMMARY:Don Bosco Prep at Delbarton School (Varsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:40 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2592:7765588@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T150000
+DTEND;TZID=America/New_York:20270120T170000
+SUMMARY:Don Bosco Prep at Christian Brothers Academy (Junior Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2592:7724351@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T154500
@@ -1429,11 +1492,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7669225@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270124T181500
-DTEND;TZID=America/New_York:20270124T201500
+DTSTART;TZID=America/New_York:20270123T194500
+DTEND;TZID=America/New_York:20270123T214500
 SUMMARY:Don Bosco Prep vs Seton Hall Prep School (Junior Varsity Boys Boy
  s Ice Hockey)
-DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7703593@big-north-conference
@@ -1443,6 +1506,15 @@ DTEND;TZID=America/New_York:20270124T201500
 SUMMARY:Don Bosco Prep vs Seton Hall Prep School (Varsity Boys Boys Ice H
  ockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7765591@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T200000
+DTEND;TZID=America/New_York:20270124T220000
+SUMMARY:Don Bosco Prep at Saint Joseph Regional High School (Junior Varsi
+ ty Boys Boys Ice Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7654587@big-north-conference
@@ -1496,6 +1568,15 @@ DTEND;TZID=America/New_York:20270127T200000
 SUMMARY:Don Bosco Prep vs Hackettstown High School (Varsity Boys Boys Wre
  stling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2592:7765598@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T193000
+DTEND;TZID=America/New_York:20270127T213000
+SUMMARY:Don Bosco Prep vs Ramapo High School (Junior Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2592:7723804@big-north-conference
