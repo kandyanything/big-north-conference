@@ -697,15 +697,6 @@ SUMMARY:Teaneck High School vs Tenafly High School (Freshman Boys Boys So
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7456684@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Teaneck High School at Tenafly High School (Varsity Girls Girls V
- olleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7406993@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
@@ -713,6 +704,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Teaneck High School at Tenafly High School (Junior Varsity Boys B
  oys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7456684@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Teaneck High School at Tenafly High School (Varsity Girls Girls V
+ olleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2888:7456685@big-north-conference
@@ -850,7 +850,7 @@ SUMMARY:Paramus High School vs Tenafly High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7410297@big-north-conference
+UID:ds:2788:7410299@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
@@ -1138,15 +1138,6 @@ SUMMARY:Paramus Catholic High School vs Tenafly High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7457781@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Bergenfield High School at Tenafly High School (Freshman Girls Gi
- rls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7440314@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
@@ -1154,6 +1145,15 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Bergenfield High School at Tenafly High School (Varsity Girls Gir
  ls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7457781@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Bergenfield High School at Tenafly High School (Freshman Girls Gi
+ rls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7448150@big-north-conference
@@ -3410,6 +3410,15 @@ SUMMARY:Tenafly High School vs Wayne Hills High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2834:7767467@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
+SUMMARY:River Dell Regional High School vs Tenafly High School (Varsity C
+ oed Coed Cheerleading)
+DESCRIPTION:Varsity Coed Coed Cheerleading - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7484256@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
@@ -3850,6 +3859,24 @@ SUMMARY:Ridgewood High School at Tenafly High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7649253@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T161500
+DTEND;TZID=America/New_York:20270122T181500
+SUMMARY:Indian Hills High School vs Tenafly High School (Varsity Girls Gi
+ rls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7649259@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T173000
+DTEND;TZID=America/New_York:20270122T193000
+SUMMARY:Indian Hills High School vs Tenafly High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7503621@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T180000
@@ -3857,24 +3884,6 @@ DTEND;TZID=America/New_York:20270122T200000
 SUMMARY:Cliffside Park High School vs Tenafly High School (Varsity Boys B
  oys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7649259@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T090000
-DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Indian Hills High School vs Tenafly High School (Junior Varsity G
- irls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7649253@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T103000
-DTEND;TZID=America/New_York:20270123T123000
-SUMMARY:Indian Hills High School vs Tenafly High School (Varsity Girls Gi
- rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7687104@big-north-conference
