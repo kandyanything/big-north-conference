@@ -23,22 +23,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2822:7768876@big-north-conference
+UID:ds:2669:7768876@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T183000
 DTEND;TZID=America/New_York:20270413T203000
-SUMMARY:Ramapo High School vs Immaculate Heart Academy (Varsity Girls Fla
+SUMMARY:Immaculate Heart Academy at Ramapo High School (Varsity Girls Fla
  g Football)
-DESCRIPTION:Varsity Girls Flag Football - Home - 6:30 PM
+DESCRIPTION:Varsity Girls Flag Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7768884@big-north-conference
+UID:ds:2633:7768884@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T183000
 DTEND;TZID=America/New_York:20270420T203000
-SUMMARY:Ramapo High School vs Hackensack High School (Varsity Girls Flag 
+SUMMARY:Hackensack High School at Ramapo High School (Varsity Girls Flag 
  Football)
-DESCRIPTION:Varsity Girls Flag Football - Home - 6:30 PM
+DESCRIPTION:Varsity Girls Flag Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7735329@big-north-conference
@@ -57,5 +57,14 @@ DTEND;TZID=America/New_York:20270511T200000
 SUMMARY:DePaul Catholic High School vs Ramapo High School (Varsity Girls 
  Flag Football)
 DESCRIPTION:Varsity Girls Flag Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2822:7769241@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T161500
+DTEND;TZID=America/New_York:20270520T181500
+SUMMARY:Ramapo High School at Teaneck High School (Varsity Girls Flag Foo
+ tball)
+DESCRIPTION:Varsity Girls Flag Football - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR
