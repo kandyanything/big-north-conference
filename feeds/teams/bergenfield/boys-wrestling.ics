@@ -50,6 +50,15 @@ SUMMARY:Bergenfield High School at Mahwah High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2534:7767591@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Bergenfield High School at Mahwah High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7562068@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T190000
@@ -214,11 +223,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7708192@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
+DTSTART;TZID=America/New_York:20270122T183000
+DTEND;TZID=America/New_York:20270122T203000
 SUMMARY:Bergenfield High School vs Bernards High School (Varsity Boys Boy
  s Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7546508@big-north-conference
