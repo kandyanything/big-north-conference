@@ -557,15 +557,6 @@ SUMMARY:Ramsey High School at TBD (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7382733@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7446301@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -584,22 +575,22 @@ SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7537607@big-north-conference
+UID:ds:2823:7382733@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Varsity Girl
+ s Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7537607@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T174500
 DTEND;TZID=America/New_York:20260908T194500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Junior Varsi
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Junior Varsi
  ty Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7386408@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Girl
- s Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7410817@big-north-conference
@@ -609,6 +600,15 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Mahwah High School at Ramsey High School (Freshman Boys Boys Socc
  er)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7386408@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7390808@big-north-conference
@@ -629,31 +629,31 @@ SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7414037@big-north-conference
+UID:ds:2823:7414037@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T173000
 DTEND;TZID=America/New_York:20260909T193000
-SUMMARY:Lakeland Regional High School at Ramsey High School (Freshman Gir
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Freshman Gir
  ls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7414365@big-north-conference
+UID:ds:2823:7414365@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T173000
 DTEND;TZID=America/New_York:20260909T193000
-SUMMARY:Lakeland Regional High School at Ramsey High School (Junior Varsi
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Junior Varsi
  ty Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7537588@big-north-conference
+UID:ds:2823:7537588@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T174500
 DTEND;TZID=America/New_York:20260909T194500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Junior Varsi
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Junior Varsi
  ty Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7386300@big-north-conference
@@ -1158,15 +1158,6 @@ SUMMARY:Pascack Hills High School vs Ramsey High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7558376@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
- eshman Girls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7440916@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -1174,6 +1165,15 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Northern Highlands Regional High School at Ramsey High School (Fr
  eshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7558376@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
+ eshman Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7414299@big-north-conference
@@ -1221,15 +1221,6 @@ SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Va
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7385679@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
- eshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7386325@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -1246,6 +1237,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Northern Highlands Regional High School at Ramsey High School (Ju
  nior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7385679@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
+ eshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7608065@big-north-conference
@@ -1634,15 +1634,6 @@ SUMMARY:Fort Lee High School vs Ramsey High School (Freshman Girls Girls
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7656338@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Lakeland Regional High School vs Ramsey High School (Varsity Girl
- s Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7386255@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
@@ -1668,6 +1659,15 @@ DTEND;TZID=America/New_York:20261001T181500
 SUMMARY:Ramsey High School vs Northern Valley Regional High (Freshman Gir
  ls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7656338@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:Ramsey High School at Lakeland Regional High School (Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7465776@big-north-conference
@@ -2285,15 +2285,6 @@ SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Fresh
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7410002@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T161500
-DTEND;TZID=America/New_York:20261016T181500
-SUMMARY:Lakeland Regional High School vs Ramsey High School (Junior Varsi
- ty Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2823:7501738@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T161500
@@ -2303,22 +2294,31 @@ SUMMARY:Ramsey High School vs River Dell Regional High School (Middle Sch
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7387539@big-north-conference
+UID:ds:2823:7410002@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Ramsey High School at Lakeland Regional High School (Junior Varsi
+ ty Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7387539@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T183000
 DTEND;TZID=America/New_York:20261016T203000
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Varsity Boys
   Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7441031@big-north-conference
+UID:ds:2823:7441031@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
 DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Lakeland Regional High School vs Ramsey High School (Freshman Boy
+SUMMARY:Ramsey High School at Lakeland Regional High School (Freshman Boy
  s Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7548011@big-north-conference
@@ -3651,13 +3651,13 @@ SUMMARY:Ramsey High School vs Jefferson-Sparta (Varsity Boys Boys Wrestli
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7652701@big-north-conference
+UID:ds:2823:7652701@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270103T191500
 DTEND;TZID=America/New_York:20270103T211500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Varsity Boys
   Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7441094@big-north-conference
@@ -3730,15 +3730,6 @@ DTEND;TZID=America/New_York:20270107T181500
 SUMMARY:Academy of the Holy Angels vs Ramsey High School (Varsity Girls G
  irls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7692377@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
-  Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7664414@big-north-conference
@@ -5281,22 +5272,22 @@ SUMMARY:Ramsey High School at Glen Rock High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7528481@big-north-conference
+UID:ds:2823:7528481@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
 DTEND;TZID=America/New_York:20270401T181500
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Varsity Boys
   Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7529381@big-north-conference
+UID:ds:2823:7529381@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T161500
 DTEND;TZID=America/New_York:20270401T181500
-SUMMARY:Lakeland Regional High School vs Ramsey High School (Junior Varsi
+SUMMARY:Ramsey High School at Lakeland Regional High School (Junior Varsi
  ty Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7738921@big-north-conference
@@ -5880,22 +5871,22 @@ SUMMARY:Ramsey High School vs River Dell Regional High School (Freshman B
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7587373@big-north-conference
+UID:ds:2823:7587373@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T163000
 DTEND;TZID=America/New_York:20270503T183000
-SUMMARY:Lakeland Regional High School at Ramsey High School (Junior Varsi
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Junior Varsi
  ty Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7586563@big-north-conference
+UID:ds:2823:7586563@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T180000
 DTEND;TZID=America/New_York:20270503T200000
-SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
+SUMMARY:Ramsey High School vs Lakeland Regional High School (Varsity Boys
   Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7666616@big-north-conference

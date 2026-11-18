@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2689:7581098@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260817T080000
-DTEND;TZID=America/New_York:20260817T100000
-SUMMARY:Lakeland Regional High School at Pequannock Township High School 
- (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 8:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7543040@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T103000
@@ -355,15 +346,6 @@ SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Boys Foo
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7549744@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T090000
-DTEND;TZID=America/New_York:20260905T110000
-SUMMARY:Lakeland Regional High School vs West Milford High School (Freshm
- an Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7385506@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T090000
@@ -398,6 +380,15 @@ DTEND;TZID=America/New_York:20260905T110000
 SUMMARY:Ramapo High School vs Northern Valley Regional High (Freshman Boy
  s Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2931:7549744@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:West Milford High School at Lakeland Regional High School (Freshm
+ an Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7380941@big-north-conference
@@ -877,15 +868,6 @@ SUMMARY:Fair Lawn High School vs River Dell Regional High School (Freshma
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7600615@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T090000
-DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
- n Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7385512@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
@@ -946,6 +928,15 @@ DTSTART;TZID=America/New_York:20261003T090000
 DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:Ridgewood High School at Pope John XXIII High School (Freshman Bo
  ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7600615@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Wayne Hills High School at Lakeland Regional High School (Freshma
+ n Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -1012,15 +1003,6 @@ SUMMARY:Fair Lawn High School vs Pascack Valley High School (Freshman Boy
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7539365@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T090000
-DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Lakeland Regional High School at Westwood Regional Senior High Sc
- hool (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7509560@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
@@ -1084,6 +1066,15 @@ SUMMARY:West Milford High School vs Montville Township High School (Fresh
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2939:7539365@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Westwood Regional Senior High School vs Lakeland Regional High Sc
+ hool (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7515700@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T093000
@@ -1127,15 +1118,6 @@ DTEND;TZID=America/New_York:20261017T110000
 SUMMARY:Fair Lawn High School at Pascack Hills High School (Freshman Boys
   Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7441031@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Lakeland Regional High School vs Ramsey High School (Freshman Boy
- s Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7441313@big-north-conference
@@ -1207,6 +1189,15 @@ DTSTART;TZID=America/New_York:20261017T090000
 DTEND;TZID=America/New_York:20261017T110000
 SUMMARY:Ramapo High School at Wayne Hills High School (Freshman Boys Foot
  ball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7441031@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Ramsey High School at Lakeland Regional High School (Freshman Boy
+ s Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
