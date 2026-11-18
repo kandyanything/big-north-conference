@@ -707,15 +707,6 @@ SUMMARY:Lakeland Regional High School at Westwood Regional Senior High Sc
 DESCRIPTION:Varsity Girls Field Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7568646@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Fre
- shman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2585:7501678@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -725,13 +716,13 @@ SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Var
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7510593@big-north-conference
+UID:ds:2585:7568646@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Indian Hills High School vs Lakeland Regional High School (Varsit
- y Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:DePaul Catholic High School at Lakeland Regional High School (Fre
+ shman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7537584@big-north-conference
@@ -741,6 +732,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:Indian Hills High School at Lakeland Regional High School (Junior
   Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7510593@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Indian Hills High School vs Lakeland Regional High School (Varsit
+ y Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7537595@big-north-conference
@@ -1247,15 +1247,6 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7541800@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Lakeland Regional High School vs High Point Regional High School 
- (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7537582@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1263,6 +1254,15 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Lakeland Regional High School vs West Milford High School (Junior
   Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7541800@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Lakeland Regional High School vs High Point Regional High School 
+ (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7576250@big-north-conference
@@ -1724,6 +1724,24 @@ SUMMARY:Clifton High School at Lakeland Regional High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7413435@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7484249@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Lakeland Regional High School vs Eastern Christian (Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7413436@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T161500
@@ -1758,24 +1776,6 @@ DTEND;TZID=America/New_York:20261019T181500
 SUMMARY:Lakeland Regional High School vs Wayne Valley High School (Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7413435@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7484249@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Lakeland Regional High School vs Eastern Christian (Varsity Girls
-  Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7484378@big-north-conference
@@ -2102,15 +2102,6 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7722804@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T183000
-DTEND;TZID=America/New_York:20261030T203000
-SUMMARY:Lakeland Regional High School vs Vernon Township High School (Var
- sity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7722805@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T183000
@@ -2118,6 +2109,15 @@ DTEND;TZID=America/New_York:20261030T203000
 SUMMARY:Lakeland Regional High School vs Vernon Township High School (Var
  sity Coed Coed Cheerleading)
 DESCRIPTION:Varsity Coed Coed Cheerleading - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7722804@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T183000
+DTEND;TZID=America/New_York:20261030T203000
+SUMMARY:Lakeland Regional High School vs Vernon Township High School (Var
+ sity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7729347@big-north-conference
@@ -2966,15 +2966,6 @@ SUMMARY:Lakeland Regional High School at West Milford High School (Freshm
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7540927@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T161500
-DTEND;TZID=America/New_York:20270112T181500
-SUMMARY:Lakeland Regional High School vs West Milford High School (Freshm
- an Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7540768@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
@@ -2982,6 +2973,15 @@ DTEND;TZID=America/New_York:20270112T181500
 SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
  y Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7540927@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T161500
+DTEND;TZID=America/New_York:20270112T181500
+SUMMARY:Lakeland Regional High School vs West Milford High School (Freshm
+ an Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7540848@big-north-conference
@@ -3083,6 +3083,15 @@ SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
 DESCRIPTION:Varsity Coed Coed Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7677230@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Lakeland Regional High School vs Kinnelon High School (Varsity Gi
+ rls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7657106@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
@@ -3099,15 +3108,6 @@ DTEND;TZID=America/New_York:20270114T180000
 SUMMARY:Lakeland Regional High School at Passaic Valley High School (Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7677230@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Lakeland Regional High School vs Kinnelon High School (Varsity Gi
- rls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7540410@big-north-conference
@@ -3389,7 +3389,7 @@ SUMMARY:Bergenfield High School vs Lakeland Regional High School (Freshma
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7540789@big-north-conference
+UID:ds:2534:7546473@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T161500
 DTEND;TZID=America/New_York:20270126T181500
