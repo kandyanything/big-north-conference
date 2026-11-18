@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2788:7442047@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Paramus High School vs Rutherford High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7613985@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T161500
@@ -240,22 +249,13 @@ SUMMARY:Paramus High School vs Pascack Valley High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422864@big-north-conference
+UID:ds:2788:7422864@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270216T161500
 DTEND;TZID=America/New_York:20270216T181500
-SUMMARY:Teaneck High School vs Paramus High School (Varsity Boys Boys Bas
- ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2788:7422864@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270216
-DTEND;VALUE=DATE:20270217
 SUMMARY:Paramus High School at Teaneck High School (Varsity Boys Boys Bas
  ketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7697421@big-north-conference
