@@ -364,6 +364,24 @@ SUMMARY:Ridgewood High School at Randolph High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7523521@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T160000
+DTEND;TZID=America/New_York:20260825T180000
+SUMMARY:Lakeland Regional High School vs New Milford High School (Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7573134@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T160000
+DTEND;TZID=America/New_York:20260825T180000
+SUMMARY:Lakeland Regional High School vs New Milford High School (Junior 
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2823:7386104@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260825T160000
@@ -1127,13 +1145,13 @@ SUMMARY:Ramsey High School at Monroe (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7516889@big-north-conference
+UID:ds:2689:7516889@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T161500
 DTEND;TZID=America/New_York:20260901T181500
-SUMMARY:Passaic Valley High School at Lakeland Regional High School (Vars
+SUMMARY:Lakeland Regional High School vs Passaic Valley High School (Vars
  ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7495719@big-north-conference
@@ -1468,15 +1486,6 @@ SUMMARY:Dwight Morrow High School vs Park Ridge High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2669:7501794@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T161500
-DTEND;TZID=America/New_York:20260904T181500
-SUMMARY:Immaculate Heart Academy vs Waldwick High School (Junior Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2669:7601000@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T161500
@@ -1486,12 +1495,12 @@ SUMMARY:Immaculate Heart Academy vs Northern Valley Regional High (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7537714@big-north-conference
+UID:ds:2669:7501794@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T161500
 DTEND;TZID=America/New_York:20260904T181500
-SUMMARY:Northern Valley Regional HS - Demarest vs Glen Rock High School (
- Junior Varsity Girls Girls Soccer)
+SUMMARY:Immaculate Heart Academy vs Waldwick High School (Junior Varsity 
+ Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1502,6 +1511,15 @@ DTEND;TZID=America/New_York:20260904T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Glen Rock High School (
  Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7537714@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T161500
+DTEND;TZID=America/New_York:20260904T181500
+SUMMARY:Northern Valley Regional HS - Demarest vs Glen Rock High School (
+ Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7601000@big-north-conference
@@ -1657,21 +1675,21 @@ SUMMARY:Immaculate Heart Academy vs Ridgewood High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7445551@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Junior 
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7535095@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Passaic County Technical Institute vs West Essex High School (Jun
  ior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7445551@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Wayne Hills High School vs Lakeland Regional High School (Junior 
- Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1684,6 +1702,15 @@ SUMMARY:Indian Hills High School vs West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7445550@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T183000
+DTEND;TZID=America/New_York:20260908T203000
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2796:7413422@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T183000
@@ -1691,15 +1718,6 @@ DTEND;TZID=America/New_York:20260908T203000
 SUMMARY:Passaic Valley High School at Wayne Valley High School (Varsity G
  irls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7445550@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T183000
-DTEND;TZID=America/New_York:20260908T203000
-SUMMARY:Wayne Hills High School vs Lakeland Regional High School (Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7513323@big-north-conference
@@ -2332,6 +2350,24 @@ SUMMARY:Indian Hills High School at Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7516948@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Lakeland Regional High School vs Wayne Valley High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7516943@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Lakeland Regional High School vs Wayne Valley High School (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7629461@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -2339,24 +2375,6 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Ridgewood High School at Montville Township High School (Freshman
   Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7516943@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Wayne Valley High School at Lakeland Regional High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7516948@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Wayne Valley High School at Lakeland Regional High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458826@big-north-conference
@@ -2592,6 +2610,15 @@ SUMMARY:Bergen County Technical High School vs Clifton High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7451267@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Lakeland Regional High School at West Milford High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7507291@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
@@ -2626,15 +2653,6 @@ DTEND;TZID=America/New_York:20260917T181500
 SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
  ty Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7451267@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T161500
-DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:West Milford High School vs Lakeland Regional High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7545811@big-north-conference
@@ -2934,6 +2952,15 @@ SUMMARY:Fair Lawn High School vs Hackensack High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7537638@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Lakeland Regional High School at Pascack Valley High School (Juni
+ or Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2706:7434358@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -3015,13 +3042,13 @@ SUMMARY:Pascack Hills High School vs Ramsey High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7537638@big-north-conference
+UID:ds:2794:7406407@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
 DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Pascack Valley High School vs Lakeland Regional High School (Juni
- or Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Passaic County Technical Institute at Randolph High School (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7406385@big-north-conference
@@ -3031,15 +3058,6 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Passaic County Technical Institute at Randolph High School (Fresh
  man Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7406407@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Passaic County Technical Institute at Randolph High School (Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7637510@big-north-conference
@@ -3096,6 +3114,15 @@ SUMMARY:Clifton High School at McNair Academy (Junior Varsity Girls Girls
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7526164@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T183000
+DTEND;TZID=America/New_York:20260922T203000
+SUMMARY:Lakeland Regional High School at Pascack Valley High School (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2788:7410323@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T183000
@@ -3103,15 +3130,6 @@ DTEND;TZID=America/New_York:20260922T203000
 SUMMARY:Paramus High School at Tenafly High School (Varsity Girls Girls S
  occer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7526164@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T183000
-DTEND;TZID=America/New_York:20260922T203000
-SUMMARY:Pascack Valley High School vs Lakeland Regional High School (Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7529305@big-north-conference
@@ -3384,7 +3402,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Teaneck High School (
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7513709@big-north-conference
+UID:ds:2772:7460975@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
@@ -3429,15 +3447,6 @@ SUMMARY:Ridgefield Park High School at River Dell Regional High School (V
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7513708@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Teaneck High School at Northern Valley Regional High (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7513709@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -3445,6 +3454,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Teaneck High School at Northern Valley Regional High (Junior Vars
  ity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7513708@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Teaneck High School at Northern Valley Regional High (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7410326@big-north-conference
@@ -3777,6 +3795,15 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Immaculate Heart Academy at Ramapo High School (Junior Varsity Gi
  rls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7599508@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Lakeland Regional High School at Montclair High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7659137@big-north-conference
@@ -4112,6 +4139,15 @@ SUMMARY:Fair Lawn High School vs Waldwick High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7507326@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:Lakeland Regional High School vs Ridgewood High School (Freshman 
+ Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7592784@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T161500
@@ -4137,15 +4173,6 @@ DTEND;TZID=America/New_York:20261001T181500
 SUMMARY:Ramsey High School vs Northern Valley Regional High (Freshman Gir
  ls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7507326@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T161500
-DTEND;TZID=America/New_York:20261001T181500
-SUMMARY:Ridgewood High School at Lakeland Regional High School (Freshman 
- Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7458890@big-north-conference
@@ -5183,6 +5210,15 @@ SUMMARY:Indian Hills High School at West Milford High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7537634@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior 
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2706:7677069@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -5199,15 +5235,6 @@ DTEND;TZID=America/New_York:20261008T181500
 SUMMARY:Passaic County Technical Institute at Ridgewood High School (Fres
  hman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7537634@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Wayne Hills High School at Lakeland Regional High School (Junior 
- Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7517062@big-north-conference
@@ -5237,13 +5264,13 @@ SUMMARY:Indian Hills High School at West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7517000@big-north-conference
+UID:ds:2689:7517000@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T183000
 DTEND;TZID=America/New_York:20261008T203000
-SUMMARY:Wayne Hills High School at Lakeland Regional High School (Varsity
+SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
   Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7524022@big-north-conference
@@ -5443,6 +5470,15 @@ SUMMARY:Ramsey High School vs Pope Francis Preparatory School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7674552@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T120000
+DTEND;TZID=America/New_York:20261010T140000
+SUMMARY:Lakeland Regional High School vs Hawthorne High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7654420@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T120000
@@ -5639,6 +5675,15 @@ DTEND;TZID=America/New_York:20261013T181500
 SUMMARY:Indian Hills High School at Northern Valley Regional High (Junior
   Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7690577@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Lakeland Regional High School at Montclair High School (Freshman 
+ Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7662473@big-north-conference
@@ -5893,13 +5938,13 @@ SUMMARY:Fort Lee High School at North Bergen High School (Middle School G
 DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7690080@big-north-conference
+UID:ds:2689:7690080@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T163000
 DTEND;TZID=America/New_York:20261014T183000
-SUMMARY:Passaic High School at Lakeland Regional High School (Varsity Gir
+SUMMARY:Lakeland Regional High School vs Passaic High School (Varsity Gir
  ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7688959@big-north-conference
@@ -6370,6 +6415,24 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7413435@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7413436@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Lakeland Regional High School at Wayne Valley High School (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7696815@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T161500
@@ -6386,24 +6449,6 @@ DTEND;TZID=America/New_York:20261019T181500
 SUMMARY:Ridgefield Park High School at Teaneck High School (Varsity Girls
   Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7413435@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Wayne Valley High School vs Lakeland Regional High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7413436@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Wayne Valley High School vs Lakeland Regional High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7545822@big-north-conference
@@ -6676,6 +6721,15 @@ SUMMARY:John F. Kennedy High School at Passaic County Technical Institute
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7451243@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:Lakeland Regional High School vs West Milford High School (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7701528@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T161500
@@ -6712,15 +6766,6 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7451243@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T161500
-DTEND;TZID=America/New_York:20261021T181500
-SUMMARY:West Milford High School at Lakeland Regional High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7458839@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T163000
@@ -6730,15 +6775,6 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7458838@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T163000
-DTEND;TZID=America/New_York:20261021T183000
-SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7458840@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T163000
@@ -6746,6 +6782,15 @@ DTEND;TZID=America/New_York:20261021T183000
 SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
  man Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7458838@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T163000
+DTEND;TZID=America/New_York:20261021T183000
+SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7545825@big-north-conference
@@ -6775,6 +6820,15 @@ SUMMARY:Indian Hills High School vs Passaic Valley High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7451244@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T183000
+DTEND;TZID=America/New_York:20261021T203000
+SUMMARY:Lakeland Regional High School vs West Milford High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7462844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T183000
@@ -6782,15 +6836,6 @@ DTEND;TZID=America/New_York:20261021T203000
 SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7451244@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T183000
-DTEND;TZID=America/New_York:20261021T203000
-SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7513333@big-north-conference
@@ -6863,6 +6908,15 @@ DTEND;TZID=America/New_York:20261022T181500
 SUMMARY:Hackensack High School at Ridgewood High School (Varsity Girls Gi
  rls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7706352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:Lakeland Regional High School vs Montville Township High School (
+ Freshman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7509643@big-north-conference
@@ -7051,6 +7105,24 @@ DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
 SUMMARY:Indian Hills High School vs Hasbrouck Heights High School (Varsit
  y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7537636@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Lakeland Regional High School vs Pequannock Township High School 
+ (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7521971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Lakeland Regional High School vs Pequannock Township High School 
+ (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -7513,22 +7585,22 @@ SUMMARY:John F. Kennedy High School vs Paramus Catholic High School (Vars
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7521764@big-north-conference
+UID:ds:2689:7537635@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T161500
 DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:Mahwah High School vs Lakeland Regional High School (Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Lakeland Regional High School at Mahwah High School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7537635@big-north-conference
+UID:ds:2689:7521764@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T161500
 DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:Mahwah High School vs Lakeland Regional High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+SUMMARY:Lakeland Regional High School at Mahwah High School (Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7513721@big-north-conference
@@ -7961,6 +8033,15 @@ SUMMARY:Tenafly High School vs West Essex High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7729626@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261103T183000
+DTEND;TZID=America/New_York:20261103T203000
+SUMMARY:Lakeland Regional High School vs Elmwood Park Memorial High Schoo
+ l (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7726936@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261103T183000
@@ -8069,6 +8150,15 @@ SUMMARY:Tenafly High School vs Morris Knolls High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7742315@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261106T150000
+DTEND;TZID=America/New_York:20261106T170000
+SUMMARY:Lakeland Regional High School vs Glen Rock High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7741573@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261107T110000
@@ -8112,6 +8202,15 @@ DTEND;TZID=America/New_York:20261110T181500
 SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
  ls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7751727@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:Lakeland Regional High School vs Montville Township High School (
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7752458@big-north-conference

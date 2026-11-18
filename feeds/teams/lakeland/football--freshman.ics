@@ -24,39 +24,48 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2931:7549744@big-north-conference
+UID:ds:2689:7581098@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T080000
+DTEND;TZID=America/New_York:20260817T100000
+SUMMARY:Lakeland Regional High School at Pequannock Township High School 
+ (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7549744@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260905T090000
 DTEND;TZID=America/New_York:20260905T110000
-SUMMARY:West Milford High School at Lakeland Regional High School (Freshm
+SUMMARY:Lakeland Regional High School vs West Milford High School (Freshm
  an Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7600615@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T090000
-DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Wayne Hills High School at Lakeland Regional High School (Freshma
- n Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2939:7539365@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T090000
-DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Westwood Regional Senior High School vs Lakeland Regional High Sc
- hool (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7441031@big-north-conference
+UID:ds:2689:7600615@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7539365@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Lakeland Regional High School at Westwood Regional Senior High Sc
+ hool (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7441031@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
 DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Ramsey High School at Lakeland Regional High School (Freshman Boy
+SUMMARY:Lakeland Regional High School vs Ramsey High School (Freshman Boy
  s Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 END:VCALENDAR

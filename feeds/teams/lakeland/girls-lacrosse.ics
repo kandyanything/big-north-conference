@@ -24,49 +24,76 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2706:7691837@big-north-conference
+UID:ds:2689:7691837@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T163000
 DTEND;TZID=America/New_York:20270318T183000
-SUMMARY:Mahwah High School vs Lakeland Regional High School (Varsity Girl
- s Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7736413@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270323T143800
-DTEND;TZID=America/New_York:20270323T163800
-SUMMARY:Passaic County Technical Institute vs Lakeland Regional High Scho
- ol (Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 2:38 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7736414@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270323T160800
-DTEND;TZID=America/New_York:20270323T180800
-SUMMARY:Passaic County Technical Institute vs Lakeland Regional High Scho
- ol (Junior Varsity Girls Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 4:08 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7700695@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270408T163000
-DTEND;TZID=America/New_York:20270408T183000
-SUMMARY:Ramapo High School at Lakeland Regional High School (Varsity Girl
+SUMMARY:Lakeland Regional High School at Mahwah High School (Varsity Girl
  s Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7734268@big-north-conference
+UID:ds:2689:7736413@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T143800
+DTEND;TZID=America/New_York:20270323T163800
+SUMMARY:Lakeland Regional High School at Passaic County Technical Institu
+ te (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 2:38 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7736414@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T160800
+DTEND;TZID=America/New_York:20270323T180800
+SUMMARY:Lakeland Regional High School at Passaic County Technical Institu
+ te (Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 4:08 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7764476@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Lakeland Regional High School vs Jonathan Dayton High School (Var
+ sity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7700695@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T163000
+DTEND;TZID=America/New_York:20270408T183000
+SUMMARY:Lakeland Regional High School vs Ramapo High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7734268@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270408T180000
 DTEND;TZID=America/New_York:20270408T200000
-SUMMARY:Ramapo High School at Lakeland Regional High School (Junior Varsi
+SUMMARY:Lakeland Regional High School vs Ramapo High School (Junior Varsi
  ty Girls Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7625987@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Lakeland Regional High School at Livingston High School (Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7625988@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T173000
+DTEND;TZID=America/New_York:20270412T193000
+SUMMARY:Lakeland Regional High School at Livingston High School (Junior V
+ arsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7753237@big-north-conference
@@ -76,5 +103,23 @@ DTEND;TZID=America/New_York:20270414T210000
 SUMMARY:DePaul Catholic High School vs Lakeland Regional High School (Var
  sity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7605312@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T163000
+DTEND;TZID=America/New_York:20270521T183000
+SUMMARY:Lakeland Regional High School vs Pompton Lakes High School (Varsi
+ ty Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7605313@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T180000
+DTEND;TZID=America/New_York:20270521T200000
+SUMMARY:Lakeland Regional High School vs Pompton Lakes High School (Junio
+ r Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR
