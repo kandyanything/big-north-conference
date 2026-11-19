@@ -780,15 +780,6 @@ SUMMARY:Immaculate Heart Academy at Northern Highlands Regional High Scho
 DESCRIPTION:Girls (9) Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7528231@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Mahwah High School vs Northern Highlands Regional High School (Ju
- nior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7528230@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -796,6 +787,15 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Mahwah High School at Northern Highlands Regional High School (Va
  rsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7528231@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Mahwah High School vs Northern Highlands Regional High School (Ju
+ nior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7441360@big-north-conference
@@ -942,6 +942,24 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Fr
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7385359@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+ (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7385677@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
+ eshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7385559@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -967,24 +985,6 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Northern Highlands Regional High School vs Hackensack High School
   (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7385359@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
- (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7385677@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Fr
- eshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7591460@big-north-conference
@@ -1032,15 +1032,6 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Va
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7487873@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
- ol (Freshman Girls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7441363@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -1048,6 +1039,15 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Northern Highlands Regional High School at West Milford High Scho
  ol (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7487873@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
+ ol (Freshman Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2931:7487873@big-north-conference
@@ -1329,15 +1329,6 @@ SUMMARY:Northern Highlands Regional High School vs Pascack Hills High Sch
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7530257@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Northern Highlands Regional High School at Northern Valley Region
- al High (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7385764@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -1381,6 +1372,15 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Northern Highlands Regional High School at Northern Valley Region
  al High (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7530257@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Northern Highlands Regional High School at Northern Valley Region
+ al High (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7445456@big-north-conference
@@ -1491,15 +1491,6 @@ SUMMARY:Immaculate Heart Academy at Northern Highlands Regional High Scho
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7558376@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
- eshman Girls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7440916@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -1507,6 +1498,15 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Northern Highlands Regional High School at Ramsey High School (Fr
  eshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7558376@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Northern Highlands Regional High School vs Ramsey High School (Fr
+ eshman Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2669:7386251@big-north-conference
@@ -2004,6 +2004,33 @@ SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7385355@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+ (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7440932@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+ (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7588632@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Northern Highlands Regional High School at Paramus High School (V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7386018@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -2047,33 +2074,6 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
  (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7385355@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
- (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7440932@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
- (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7588632@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Northern Highlands Regional High School at Paramus High School (V
- arsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7588633@big-north-conference
@@ -2229,15 +2229,6 @@ SUMMARY:Northern Highlands Regional High School at Millburn High School (
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441376@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Northern Highlands Regional High School at Northern Valley Region
- al High (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7386382@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -2247,13 +2238,13 @@ SUMMARY:Northern Highlands Regional High School at Northern Valley Region
 DESCRIPTION:Freshman Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7441376@big-north-conference
+UID:ds:2770:7441376@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
 DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Northern Valley Regional HS - Demarest vs Northern Highlands Regi
- onal High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+SUMMARY:Northern Highlands Regional High School at Northern Valley Region
+ al High (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7386382@big-north-conference
@@ -2263,6 +2254,15 @@ DTEND;TZID=America/New_York:20261008T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Northern Highlands Regi
  onal High School (Freshman Girls Field Hockey)
 DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7441376@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Northern Valley Regional HS - Demarest vs Northern Highlands Regi
+ onal High School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7546726@big-north-conference
@@ -2292,15 +2292,6 @@ SUMMARY:Northern Highlands Regional High School at Montclair High School
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7445476@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
- (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7386107@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
@@ -2308,6 +2299,15 @@ DTEND;TZID=America/New_York:20261009T181500
 SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
  (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7445476@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+ (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7688040@big-north-conference
@@ -2526,24 +2526,6 @@ SUMMARY:Bergen County Technical High School vs Northern Highlands Regiona
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7553124@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
- (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7689437@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
- (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7553125@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -2560,6 +2542,24 @@ DTEND;TZID=America/New_York:20261015T181500
 SUMMARY:Northern Highlands Regional High School vs Montclair High School 
  (Freshman Girls Girls Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7553124@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Northern Highlands Regional High School vs Ridgewood High School 
+ (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7689437@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Northern Highlands Regional High School at Ridgewood High School 
+ (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386443@big-north-conference
@@ -2706,15 +2706,6 @@ SUMMARY:Northern Highlands Regional High School at Ramapo High School (Fr
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7701783@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
- nior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7441381@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T161500
@@ -2731,6 +2722,15 @@ DTEND;TZID=America/New_York:20261020T181500
 SUMMARY:Northern Highlands Regional High School at Ramapo High School (Ju
  nior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7701783@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Northern Highlands Regional High School vs Ramapo High School (Ju
+ nior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386019@big-north-conference
@@ -2841,6 +2841,15 @@ SUMMARY:Hackensack High School vs Northern Highlands Regional High School
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2770:7480833@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T161500
+DTEND;TZID=America/New_York:20261023T181500
+SUMMARY:Northern Highlands Regional High School vs West Morris Central Hi
+ gh School (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7441385@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T161500
@@ -2857,15 +2866,6 @@ DTEND;TZID=America/New_York:20261023T181500
 SUMMARY:Northern Highlands Regional High School vs West Morris Central Hi
  gh School (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2770:7480833@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T161500
-DTEND;TZID=America/New_York:20261023T181500
-SUMMARY:Northern Highlands Regional High School vs West Morris Central Hi
- gh School (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7441385@big-north-conference
@@ -2967,15 +2967,6 @@ SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7441386@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Northern Highlands Regional High School at Westwood Regional Seni
- or High School (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7521408@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
@@ -2983,6 +2974,15 @@ DTEND;TZID=America/New_York:20261026T181500
 SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
  hool (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7441386@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Northern Highlands Regional High School at Westwood Regional Seni
+ or High School (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7536154@big-north-conference
