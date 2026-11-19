@@ -212,15 +212,6 @@ SUMMARY:Dumont High School at Westwood Regional Senior High School (Fresh
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7537471@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Dumont High School at Westwood Regional Senior High School (Varsi
- ty Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2595:7518947@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -230,12 +221,13 @@ SUMMARY:Dumont High School at Westwood Regional Senior High School (Fresh
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7537458@big-north-conference
+UID:ds:2595:7537471@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T170000
-DTEND;TZID=America/New_York:20260903T190000
-SUMMARY:Dumont High School at Boonton High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 5:00 PM
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Dumont High School at Westwood Regional Senior High School (Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7554898@big-north-conference
@@ -245,6 +237,14 @@ DTEND;TZID=America/New_York:20260903T190000
 SUMMARY:Dumont High School at Boonton High School (Varsity Girls Girls Ch
  eerleading)
 DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2595:7537458@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T170000
+DTEND;TZID=America/New_York:20260903T190000
+SUMMARY:Dumont High School at Boonton High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7541023@big-north-conference
@@ -2290,15 +2290,6 @@ SUMMARY:Dwight Morrow High School at Dumont High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7679746@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Dumont High School at Passaic County Technical Institute (Varsity
-  Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2595:7479538@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
@@ -2306,6 +2297,15 @@ DTEND;TZID=America/New_York:20270107T180000
 SUMMARY:Dumont High School at Ridgefield Park High School (Freshman Boys 
  Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2595:7679746@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Dumont High School at Passaic County Technical Institute (Varsity
+  Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7479499@big-north-conference
@@ -2739,7 +2739,7 @@ SUMMARY:Dumont High School vs Paramus Catholic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7645729@big-north-conference
+UID:ds:2595:7645717@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
 DTEND;TZID=America/New_York:20270126T200000
@@ -3523,5 +3523,14 @@ DTSTART;TZID=America/New_York:20270513T183000
 DTEND;TZID=America/New_York:20270513T203000
 SUMMARY:Dumont High School at Garfield High School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2595:7774439@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T161500
+DTEND;TZID=America/New_York:20270521T181500
+SUMMARY:Dumont High School at Park Ridge High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR
