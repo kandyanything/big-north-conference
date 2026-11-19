@@ -545,22 +545,13 @@ SUMMARY:Fair Lawn High School vs Ridgewood High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7385346@big-north-conference
+UID:ds:2613:7507171@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7507287@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7507176@big-north-conference
@@ -581,13 +572,22 @@ SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7507171@big-north-conference
+UID:ds:2613:7385346@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7507287@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7591460@big-north-conference
@@ -860,6 +860,15 @@ SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7508099@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7507295@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -885,15 +894,6 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Ramapo High School vs Ridgewood High School (Junior Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7508099@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Ramapo High School at Ridgewood High School (Junior Varsity Girls
-  Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7592864@big-north-conference
@@ -941,6 +941,15 @@ SUMMARY:Pascack Valley High School vs Ridgewood High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2822:7518630@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls 
+ Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7519209@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -957,15 +966,6 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Ramapo High School at Ridgewood High School (Freshman Girls Girls
   Soccer)
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2822:7518630@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls 
- Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7525097@big-north-conference
@@ -1256,24 +1256,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Ridgewood High School (
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7508053@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ridgewood High School vs Northern Valley Regional High (Varsity G
- irls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7508056@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ridgewood High School at Northern Valley Regional High (Junior Va
- rsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7507304@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
@@ -1290,6 +1272,24 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Ridgewood High School at Glen Rock High School (Freshman Girls Gi
  rls Tennis)
 DESCRIPTION:Freshman Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7508053@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Ridgewood High School vs Northern Valley Regional High (Varsity G
+ irls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7508056@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Ridgewood High School at Northern Valley Regional High (Junior Va
+ rsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7558373@big-north-conference
@@ -1750,15 +1750,6 @@ SUMMARY:Bergenfield High School at Ridgewood High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:43369:7474563@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Academy of the Holy Angels vs Ridgewood High School (Junior Varsi
- ty Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:43369:7474562@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
@@ -1766,6 +1757,15 @@ DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:Academy of the Holy Angels at Ridgewood High School (Varsity Girl
  s Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:43369:7474563@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Academy of the Holy Angels vs Ridgewood High School (Junior Varsi
+ ty Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7422408@big-north-conference
@@ -3486,11 +3486,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7655517@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
+DTSTART;TZID=America/New_York:20270108T180000
+DTEND;TZID=America/New_York:20270108T200000
 SUMMARY:Ridgewood High School vs Henry P Becton Regional High School (Var
  sity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7703495@big-north-conference
@@ -3673,15 +3673,6 @@ SUMMARY:Pascack Valley High School at Ridgewood High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7756699@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T144500
-DTEND;TZID=America/New_York:20270113T164500
-SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Girl
- s Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7756664@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T144500
@@ -3689,6 +3680,15 @@ DTEND;TZID=America/New_York:20270113T164500
 SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Boys
   Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7756699@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T144500
+DTEND;TZID=America/New_York:20270113T164500
+SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Girl
+ s Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7682073@big-north-conference
@@ -3736,15 +3736,6 @@ SUMMARY:Ridgewood High School vs Westwood Regional Middle School (Varsity
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7735068@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Westwood Regional Senior High School at Ridgewood High School (Va
- rsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2939:7735069@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
@@ -3752,6 +3743,15 @@ DTEND;TZID=America/New_York:20270114T180000
 SUMMARY:Westwood Regional Senior High School at Ridgewood High School (Va
  rsity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2939:7735068@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Westwood Regional Senior High School at Ridgewood High School (Va
+ rsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7525321@big-north-conference
@@ -3968,15 +3968,6 @@ SUMMARY:Ridgewood High School at Northern Valley Regional High (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7525394@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T190000
-DTEND;TZID=America/New_York:20270119T210000
-SUMMARY:Northern Valley Regional HS - Demarest at Ridgewood High School (
- Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7729044@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
@@ -3984,6 +3975,15 @@ DTEND;TZID=America/New_York:20270119T210000
 SUMMARY:Northern Valley Regional HS - Demarest vs Ridgewood High School (
  Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7525394@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T190000
+DTEND;TZID=America/New_York:20270119T210000
+SUMMARY:Northern Valley Regional HS - Demarest at Ridgewood High School (
+ Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7729044@big-north-conference
@@ -4058,7 +4058,7 @@ SUMMARY:Northern Highlands Regional High School vs Ridgewood High School
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7735078@big-north-conference
+UID:ds:2613:7735080@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -4136,6 +4136,15 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Ridgewood High School at Tenafly High School (Junior Varsity Girl
  s Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2890:7525323@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T190000
+DTEND;TZID=America/New_York:20270121T210000
+SUMMARY:Tenafly High School at Ridgewood High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7690446@big-north-conference
