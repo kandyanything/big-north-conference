@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2833:7704935@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T153000
+DTEND;TZID=America/New_York:20261204T173000
+SUMMARY:Ridgewood High School vs West Milford High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2822:7718923@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T154500
@@ -75,15 +84,6 @@ DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Tenafly High School at New Milford High School (Varsity Boys Boys
   Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7704935@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T153000
-DTEND;TZID=America/New_York:20261209T173000
-SUMMARY:Ridgewood High School vs West Milford High School (Varsity Boys B
- oys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7718928@big-north-conference
@@ -3098,15 +3098,6 @@ SUMMARY:Northern Highlands Regional High School vs Saint Mary High School
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7529972@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T090000
-DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
- chool (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7552687@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -3114,6 +3105,15 @@ DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
  chool (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7529972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
+ chool (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7767398@big-north-conference
@@ -3259,7 +3259,7 @@ SUMMARY:Passaic County Technical Institute vs Cranford High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7645717@big-north-conference
+UID:ds:2595:7645729@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
 DTEND;TZID=America/New_York:20270126T200000
