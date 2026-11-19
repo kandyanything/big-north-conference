@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2796:7773217@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Passaic Valley High School at Morris Hills High School (Freshman 
+ Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2772:7694191@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T174500
@@ -123,11 +132,12 @@ SUMMARY:Passaic Valley High School vs West Milford High School (Freshman
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7582581@big-north-conference
+UID:ds:2597:7773415@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:Passaic Valley High School vs TBD (Freshman Boys Boys Basketball)
+SUMMARY:Dwight Morrow High School vs Passaic Valley High School (Freshman
+  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -201,15 +211,6 @@ DTEND;TZID=America/New_York:20270216T183000
 SUMMARY:Passaic Valley High School at West Milford High School (Freshman 
  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2796:7539027@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270218T160000
-DTEND;TZID=America/New_York:20270218T180000
-SUMMARY:Passaic Valley High School at Roxbury High School (Freshman Boys 
- Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7581972@big-north-conference
