@@ -2182,15 +2182,6 @@ SUMMARY:John F. Kennedy High School vs Passaic County Technical Institute
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7532856@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T161500
-DTEND;TZID=America/New_York:20261021T181500
-SUMMARY:John F. Kennedy High School vs Passaic County Technical Institute
-  (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2676:7515821@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T161500
@@ -2198,6 +2189,15 @@ DTEND;TZID=America/New_York:20261021T181500
 SUMMARY:John F. Kennedy High School at Passaic County Technical Institute
   (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7532856@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T161500
+DTEND;TZID=America/New_York:20261021T181500
+SUMMARY:John F. Kennedy High School vs Passaic County Technical Institute
+  (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7560020@big-north-conference
@@ -2740,13 +2740,22 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Varsit
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530645@big-north-conference
+UID:ds:2534:7530645@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T161500
 DTEND;TZID=America/New_York:20261209T181500
-SUMMARY:Passaic County Technical Institute vs Bergenfield High School (Va
+SUMMARY:Bergenfield High School at Passaic County Technical Institute (Va
  rsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7530658@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T161500
+DTEND;TZID=America/New_York:20261209T181500
+SUMMARY:Bergenfield High School at Passaic County Technical Institute (Fr
+ eshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7530658@big-north-conference
@@ -2794,13 +2803,13 @@ SUMMARY:Wayne Hills High School at Passaic County Technical Institute (Va
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530652@big-north-conference
+UID:ds:2534:7530652@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T173000
 DTEND;TZID=America/New_York:20261209T193000
-SUMMARY:Passaic County Technical Institute vs Bergenfield High School (Ju
+SUMMARY:Bergenfield High School at Passaic County Technical Institute (Ju
  nior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7763834@big-north-conference
@@ -2893,13 +2902,13 @@ SUMMARY:Passaic County Technical Institute vs River Dell Regional High Sc
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7670587@big-north-conference
+UID:ds:2534:7670587@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T161500
 DTEND;TZID=America/New_York:20261216T181500
-SUMMARY:Passaic County Technical Institute vs Bergenfield High School (Va
+SUMMARY:Bergenfield High School at Passaic County Technical Institute (Va
  rsity Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7640179@big-north-conference
@@ -4396,19 +4405,10 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Varsit
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7530118@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Clifton High School at Passaic County Technical Institute (Junior
-  Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7640197@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T161500
-DTEND;TZID=America/New_York:20270205T181500
+DTSTART;TZID=America/New_York:20270204T161500
+DTEND;TZID=America/New_York:20270204T181500
 SUMMARY:Passaic County Technical Institute vs Ramapo High School (Varsity
   Coed Coed Fencing)
 DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
@@ -4416,11 +4416,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7640197@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T161500
-DTEND;TZID=America/New_York:20270205T181500
+DTSTART;TZID=America/New_York:20270204T161500
+DTEND;TZID=America/New_York:20270204T181500
 SUMMARY:Ramapo High School at Passaic County Technical Institute (Varsity
-  Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+  Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7530118@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T173000
+DTEND;TZID=America/New_York:20270204T193000
+SUMMARY:Clifton High School at Passaic County Technical Institute (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7530074@big-north-conference

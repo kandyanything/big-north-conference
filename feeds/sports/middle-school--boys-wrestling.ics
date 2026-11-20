@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2534:7666371@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T161500
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:Bergenfield High School at Holdrum Middle School (Middle School B
+ oys Boys Wrestling)
+DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7670519@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Bergenfield High School vs Cliffside Park High School (Middle Sch
+ ool Boys Boys Wrestling)
+DESCRIPTION:Middle School Boys Boys Wrestling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7670519@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -39,6 +57,15 @@ DTEND;TZID=America/New_York:20270127T181500
 SUMMARY:Fort Lee High School at Hawthorne High School (Middle School Boys
   Boys Wrestling)
 DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7543400@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270203T160000
+DTEND;TZID=America/New_York:20270203T180000
+SUMMARY:Bergenfield High School at Leonia High School (Middle School Boys
+  Boys Wrestling)
+DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7590923@big-north-conference
