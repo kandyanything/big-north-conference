@@ -122,15 +122,6 @@ SUMMARY:Passaic County Technical Institute at Saint Joseph Regional High
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7532880@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Passaic County Technical Institute vs Saint Joseph Regional High 
- School (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2794:7518235@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T161500
@@ -138,6 +129,15 @@ DTEND;TZID=America/New_York:20260910T181500
 SUMMARY:Passaic County Technical Institute vs Saint Joseph Regional High 
  School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2794:7532880@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Passaic County Technical Institute vs Saint Joseph Regional High 
+ School (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:41410:7529897@big-north-conference
@@ -691,11 +691,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:41410:7737450@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Saint Joseph Regional High School at Delbarton School (Freshman B
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Saint Joseph Regional High School vs Delbarton School (Freshman B
  oys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:41410:7776582@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Saint Joseph Regional High School at Delbarton School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:41410:7737465@big-north-conference
@@ -1461,24 +1470,6 @@ DTEND;TZID=America/New_York:20270406T181500
 SUMMARY:River Dell Regional High School vs Saint Joseph Regional High Sch
  ool (Freshman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7657095@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270409T161500
-DTEND;TZID=America/New_York:20270409T181500
-SUMMARY:Bergenfield High School at Saint Joseph Regional High School (Var
- sity Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7657098@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270409T161500
-DTEND;TZID=America/New_York:20270409T181500
-SUMMARY:Bergenfield High School vs Saint Joseph Regional High School (Jun
- ior Varsity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7754659@big-north-conference

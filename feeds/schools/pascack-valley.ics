@@ -23,22 +23,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2534:7543029@big-north-conference
+UID:ds:2793:7543029@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T103000
 DTEND;TZID=America/New_York:20260817T123000
-SUMMARY:Bergenfield High School at Pascack Valley High School (Varsity Bo
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Varsity Bo
  ys Football)
-DESCRIPTION:Varsity Boys Football - Away - 10:30 AM
+DESCRIPTION:Varsity Boys Football - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7543039@big-north-conference
+UID:ds:2793:7543039@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T103000
 DTEND;TZID=America/New_York:20260817T123000
-SUMMARY:Bergenfield High School at Pascack Valley High School (Junior Var
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Junior Var
  sity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 10:30 AM
+DESCRIPTION:Junior Varsity Boys Football - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7525700@big-north-conference
@@ -275,15 +275,6 @@ SUMMARY:Pascack Valley High School vs Hackettstown High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7542657@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T161500
-DTEND;TZID=America/New_York:20260831T181500
-SUMMARY:Bergenfield High School vs Pascack Valley High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7525858@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T161500
@@ -291,6 +282,15 @@ DTEND;TZID=America/New_York:20260831T181500
 SUMMARY:Pascack Hills High School at Pascack Valley High School (Junior V
  arsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7542657@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Pascack Valley High School at Bergenfield High School (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7510725@big-north-conference
@@ -347,6 +347,15 @@ SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7519179@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Pascack Valley High School at Ramapo High School (Freshman Girls 
+ Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7410307@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -363,15 +372,6 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:Pascack Valley High School at Ramapo High School (Varsity Girls G
  irls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7519179@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Pascack Valley High School at Ramapo High School (Freshman Girls 
- Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7518968@big-north-conference
@@ -716,6 +716,15 @@ SUMMARY:Paramus High School vs Pascack Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7578549@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
+ or Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7450239@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -741,15 +750,6 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
  or Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7578549@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Pascack Valley High School at Northern Valley Regional High (Juni
- or Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7578541@big-north-conference
@@ -824,21 +824,21 @@ SUMMARY:Pascack Valley High School at Morris Catholic High School (Varsit
 DESCRIPTION:Varsity Girls Gymnastics - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7693658@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T173000
-DTEND;TZID=America/New_York:20260915T193000
-SUMMARY:Pascack Valley High School at Morristown High School (Varsity Gir
- ls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2793:7527552@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T173000
 DTEND;TZID=America/New_York:20260915T193000
 SUMMARY:Pascack Valley High School at Randolph High School (Varsity Girls
   Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7693658@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T173000
+DTEND;TZID=America/New_York:20260915T193000
+SUMMARY:Pascack Valley High School at Morristown High School (Varsity Gir
+ ls Gymnastics)
 DESCRIPTION:Varsity Girls Gymnastics - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1148,15 +1148,6 @@ SUMMARY:Lakeland Regional High School at Pascack Valley High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7433262@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Pascack Valley High School at Teaneck High School (Junior Varsity
-  Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2793:7422809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -1164,6 +1155,15 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Pascack Valley High School at Teaneck High School (Varsity Boys B
  oys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7433262@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Pascack Valley High School at Teaneck High School (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7526164@big-north-conference
@@ -1274,15 +1274,6 @@ SUMMARY:Pascack Hills High School at Pascack Valley High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7456720@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T161500
-DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Pascack Valley High School vs Tenafly High School (Junior Varsity
-  Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2793:7456721@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
@@ -1290,6 +1281,15 @@ DTEND;TZID=America/New_York:20260925T181500
 SUMMARY:Pascack Valley High School vs Tenafly High School (Freshman Girls
   Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7456720@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T161500
+DTEND;TZID=America/New_York:20260925T181500
+SUMMARY:Pascack Valley High School vs Tenafly High School (Junior Varsity
+  Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7456719@big-north-conference
@@ -1328,13 +1328,13 @@ SUMMARY:Pascack Valley High School at West Milford High School (Freshman
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7555284@big-north-conference
+UID:ds:2793:7555284@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T110000
 DTEND;TZID=America/New_York:20260926T130000
-SUMMARY:Bergenfield High School at Pascack Valley High School (Varsity Bo
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7491371@big-north-conference
@@ -1409,15 +1409,6 @@ SUMMARY:Pascack Valley High School at Westwood Regional Senior High Schoo
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7525728@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Pascack Valley High School vs Westwood Regional Senior High Schoo
- l (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2793:7525775@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
@@ -1434,6 +1425,15 @@ DTEND;TZID=America/New_York:20260930T181500
 SUMMARY:Pascack Valley High School at Westwood Regional Senior High Schoo
  l (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7525728@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Pascack Valley High School vs Westwood Regional Senior High Schoo
+ l (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7659017@big-north-conference
@@ -1679,22 +1679,13 @@ SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7440322@big-north-conference
+UID:ds:2793:7440322@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Bergenfield High School at Pascack Valley High School (Junior Var
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Junior Var
  sity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7604536@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Bergenfield High School at Pascack Valley High School (Freshman G
- irls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7407033@big-north-conference
@@ -1706,13 +1697,22 @@ SUMMARY:Pascack Valley High School vs Tenafly High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7440321@big-north-conference
+UID:ds:2793:7604536@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Freshman G
+ irls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7440321@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T173000
 DTEND;TZID=America/New_York:20261006T193000
-SUMMARY:Bergenfield High School at Pascack Valley High School (Varsity Gi
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Varsity Gi
  rls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7681657@big-north-conference
@@ -1796,15 +1796,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Pascack Valley High Sch
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7535616@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T183000
-DTEND;TZID=America/New_York:20261007T203000
-SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2793:7540674@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T183000
@@ -1812,6 +1803,15 @@ DTEND;TZID=America/New_York:20261007T203000
 SUMMARY:Pascack Valley High School at Northern Valley Regional High (Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7535616@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T183000
+DTEND;TZID=America/New_York:20261007T203000
+SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7540847@big-north-conference
@@ -1850,6 +1850,15 @@ SUMMARY:Pascack Valley High School vs Dwight-Englewood School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7677618@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Pascack Valley High School vs Tenafly High School (Varsity Girls 
+ Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7525112@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
@@ -1866,15 +1875,6 @@ DTEND;TZID=America/New_York:20261009T181500
 SUMMARY:Pascack Valley High School vs Tenafly High School (Freshman Boys 
  Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7677618@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Pascack Valley High School vs Tenafly High School (Varsity Girls 
- Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7521382@big-north-conference
@@ -3784,15 +3784,6 @@ SUMMARY:Pascack Valley High School at TBA NJ (Var-JV Coed Coed Indoor Tra
 DESCRIPTION:Var-JV Coed Coed Indoor Track - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423019@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T173000
-DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Paramus High School at Pascack Valley High School (Junior Varsity
-  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7423235@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
@@ -3800,6 +3791,15 @@ DTEND;TZID=America/New_York:20270114T193000
 SUMMARY:Paramus High School vs Pascack Valley High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7423019@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T193000
+SUMMARY:Paramus High School at Pascack Valley High School (Junior Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7422854@big-north-conference
@@ -4209,11 +4209,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7658926@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T190000
-DTEND;TZID=America/New_York:20270127T210000
+DTSTART;TZID=America/New_York:20270127T180000
+DTEND;TZID=America/New_York:20270127T200000
 SUMMARY:Pascack Valley High School vs Tenafly High School (Varsity Boys B
  oys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7771553@big-north-conference
@@ -5116,22 +5116,22 @@ SUMMARY:Pascack Valley High School at Passaic County Technical Institute
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7657121@big-north-conference
+UID:ds:2793:7657121@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T161500
 DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:Bergenfield High School vs Pascack Valley High School (Varsity Bo
+SUMMARY:Pascack Valley High School at Bergenfield High School (Varsity Bo
  ys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7657122@big-north-conference
+UID:ds:2793:7657122@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270416T161500
 DTEND;TZID=America/New_York:20270416T181500
-SUMMARY:Bergenfield High School at Pascack Valley High School (Junior Var
+SUMMARY:Pascack Valley High School vs Bergenfield High School (Junior Var
  sity Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7512937@big-north-conference

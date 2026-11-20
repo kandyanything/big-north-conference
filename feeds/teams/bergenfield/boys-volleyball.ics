@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2534:7573061@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270409T161500
-DTEND;TZID=America/New_York:20270409T181500
-SUMMARY:Bergenfield High School at Northern Valley Regional High (Junior 
- Varsity Boys Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7573061@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270409T161500
@@ -40,15 +31,6 @@ DTEND;TZID=America/New_York:20270409T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Bergenfield High School
   (Junior Varsity Boys Boys Volleyball)
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7571154@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270409T173000
-DTEND;TZID=America/New_York:20270409T193000
-SUMMARY:Bergenfield High School at Northern Valley Regional High (Varsity
-  Boys Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7571154@big-north-conference
@@ -60,15 +42,6 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Bergenfield High School
 DESCRIPTION:Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7613760@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270413T161500
-DTEND;TZID=America/New_York:20270413T181500
-SUMMARY:Bergenfield High School vs Cliffside Park High School (Varsity Bo
- ys Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7613760@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T161500
@@ -76,15 +49,6 @@ DTEND;TZID=America/New_York:20270413T181500
 SUMMARY:Cliffside Park High School at Bergenfield High School (Var-JV Boy
  s Boys Volleyball)
 DESCRIPTION:Var-JV Boys Boys Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7571755@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270430T161500
-DTEND;TZID=America/New_York:20270430T181500
-SUMMARY:Bergenfield High School vs Northern Valley Regional High (Varsity
-  Boys Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7571755@big-north-conference
@@ -96,15 +60,6 @@ SUMMARY:Northern Valley Regional HS - Demarest at Bergenfield High School
 DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7573068@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270430T173000
-DTEND;TZID=America/New_York:20270430T193000
-SUMMARY:Bergenfield High School vs Northern Valley Regional High (Junior 
- Varsity Boys Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7573068@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T173000
@@ -112,15 +67,6 @@ DTEND;TZID=America/New_York:20270430T193000
 SUMMARY:Northern Valley Regional HS - Demarest at Bergenfield High School
   (Junior Varsity Boys Boys Volleyball)
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7613752@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270504T161500
-DTEND;TZID=America/New_York:20270504T181500
-SUMMARY:Bergenfield High School at Cliffside Park High School (Varsity Bo
- ys Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7613752@big-north-conference
@@ -150,21 +96,21 @@ SUMMARY:Bergen County Technical High School at Bergenfield High School (J
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7733586@big-north-conference
+UID:ds:2822:7733586@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T161500
 DTEND;TZID=America/New_York:20270520T181500
-SUMMARY:Bergenfield High School at Ramapo High School (Varsity Boys Boys 
+SUMMARY:Ramapo High School vs Bergenfield High School (Varsity Boys Boys 
  Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7733587@big-north-conference
+UID:ds:2822:7733587@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270520T173000
 DTEND;TZID=America/New_York:20270520T193000
-SUMMARY:Bergenfield High School at Ramapo High School (Junior Varsity Boy
+SUMMARY:Ramapo High School vs Bergenfield High School (Junior Varsity Boy
  s Boys Volleyball)
-DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:30 PM
 END:VEVENT
 END:VCALENDAR

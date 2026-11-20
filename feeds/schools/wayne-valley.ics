@@ -3527,24 +3527,6 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Coe
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7540421@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Wayne Valley High School vs West Milford High School (Freshman Gi
- rls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7773055@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Wayne Valley High School vs Indian Hills High School (Varsity Gir
- ls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7540419@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -3561,6 +3543,24 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Wayne Valley High School vs Indian Hills High School (Varsity Boy
  s Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7540421@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Wayne Valley High School vs West Milford High School (Freshman Gi
+ rls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7773055@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Wayne Valley High School vs Indian Hills High School (Varsity Gir
+ ls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7613979@big-north-conference
@@ -3716,15 +3716,6 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7644510@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T161500
-DTEND;TZID=America/New_York:20270108T181500
-SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Boy
- s Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7701614@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
@@ -3734,7 +3725,16 @@ SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7441086@big-north-conference
+UID:ds:2926:7644510@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T161500
+DTEND;TZID=America/New_York:20270108T181500
+SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Boy
+ s Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7411878@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
@@ -3770,6 +3770,15 @@ SUMMARY:Wayne Valley High School at Pequannock Township High School (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2823:7463430@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T113000
+DTEND;TZID=America/New_York:20270109T133000
+SUMMARY:Ramsey High School at Wayne Valley High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2823:7411877@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
@@ -3786,15 +3795,6 @@ DTEND;TZID=America/New_York:20270109T133000
 SUMMARY:Ramsey High School at Wayne Valley High School (Freshman Boys Boy
  s Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7463430@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T113000
-DTEND;TZID=America/New_York:20270109T133000
-SUMMARY:Ramsey High School at Wayne Valley High School (Varsity Boys Boys
-  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7540314@big-north-conference
@@ -3896,15 +3896,6 @@ SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637865@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Boy
- s Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7540342@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -3912,6 +3903,15 @@ DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Wayne Hills High School at Wayne Valley High School (Freshman Gir
  ls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7637865@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Boy
+ s Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7680806@big-north-conference
@@ -6193,22 +6193,22 @@ SUMMARY:Paramus High School vs Wayne Valley High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7762708@big-north-conference
+UID:ds:2926:7762708@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T160000
 DTEND;TZID=America/New_York:20270423T180000
-SUMMARY:Bergenfield High School at Wayne Valley High School (Varsity Boys
+SUMMARY:Wayne Valley High School vs Bergenfield High School (Varsity Boys
   Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7762709@big-north-conference
+UID:ds:2926:7762709@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T160000
 DTEND;TZID=America/New_York:20270423T180000
-SUMMARY:Bergenfield High School vs Wayne Valley High School (Junior Varsi
+SUMMARY:Wayne Valley High School at Bergenfield High School (Junior Varsi
  ty Boys Boys Tennis)
-DESCRIPTION:Junior Varsity Boys Boys Tennis - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7733490@big-north-conference
