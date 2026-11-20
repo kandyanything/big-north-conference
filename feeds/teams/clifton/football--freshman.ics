@@ -23,39 +23,84 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2796:7598270@big-north-conference
+UID:ds:2574:7598270@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T090000
 DTEND;TZID=America/New_York:20260829T110000
-SUMMARY:Passaic Valley High School vs Clifton High School (Freshman Boys 
+SUMMARY:Clifton High School at Passaic Valley High School (Freshman Boys 
  Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7598500@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Clifton High School vs Hopatcong High School (Freshman Boys Footb
+ all)
+DESCRIPTION:Freshman Boys Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7612234@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T090000
+DTEND;TZID=America/New_York:20260912T110000
+SUMMARY:Clifton High School vs Pequannock Township High School (Freshman 
+ Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7598523@big-north-conference
+UID:ds:2574:7598562@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Clifton High School vs Bloomfield High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7598523@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
 DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Wayne Valley High School vs Clifton High School (Freshman Boys Fo
+SUMMARY:Clifton High School at Wayne Valley High School (Freshman Boys Fo
  otball)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7513155@big-north-conference
+UID:ds:2574:7598566@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Ridgewood High School vs Clifton High School (Freshman Boys Footb
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Clifton High School vs Montclair High School (Freshman Boys Footb
  all)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7598648@big-north-conference
+UID:ds:2574:7602411@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Clifton High School vs West Orange High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7513155@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Clifton High School at Ridgewood High School (Freshman Boys Footb
+ all)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7598648@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
 DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Westwood Regional Senior High School at Clifton High School (Fres
+SUMMARY:Clifton High School vs Westwood Regional Senior High School (Fres
  hman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 END:VCALENDAR

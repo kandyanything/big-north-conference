@@ -23,13 +23,85 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2795:7545790@big-north-conference
+UID:ds:2574:7565765@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Clifton High School vs West Essex High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7565976@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Clifton High School at West Essex High School (Junior Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7565989@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260825T100000
+DTEND;TZID=America/New_York:20260825T120000
+SUMMARY:Clifton High School at West Essex High School (Freshman Girls Gir
+ ls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7514718@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T090000
+DTEND;TZID=America/New_York:20260827T110000
+SUMMARY:Clifton High School at James Caldwell High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7515342@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T090000
+DTEND;TZID=America/New_York:20260827T110000
+SUMMARY:Clifton High School at James Caldwell High School (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7558148@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Clifton High School at Toms River High School East (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7484215@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T161500
+DTEND;TZID=America/New_York:20260904T181500
+SUMMARY:Clifton High School at Eastern Christian (Varsity Girls Girls Soc
+ cer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7592081@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T161500
+DTEND;TZID=America/New_York:20260904T181500
+SUMMARY:Clifton High School at Rutherford High School (Junior Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7545790@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Passaic High School at Clifton High School (Varsity Girls Girls S
+SUMMARY:Clifton High School vs Passaic High School (Varsity Girls Girls S
  occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7598652@big-north-conference
@@ -41,13 +113,31 @@ SUMMARY:Cliffside Park High School at Clifton High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7565961@big-north-conference
+UID:ds:2574:7456495@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Clifton High School at North Bergen High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7464103@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T120000
+DTEND;TZID=America/New_York:20260912T140000
+SUMMARY:Clifton High School at North Bergen High School (Junior Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7565961@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
 DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Eastside High School at Clifton High School (Varsity Girls Girls 
+SUMMARY:Clifton High School vs Eastside High School (Varsity Girls Girls 
  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458828@big-north-conference
@@ -68,22 +158,31 @@ SUMMARY:Bergen County Technical High School vs Clifton High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7516960@big-north-conference
+UID:ds:2574:7516960@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
 DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Lakeland Regional High School vs Clifton High School (Varsity Gir
+SUMMARY:Clifton High School at Lakeland Regional High School (Varsity Gir
  ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7537630@big-north-conference
+UID:ds:2574:7537630@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
 DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Lakeland Regional High School vs Clifton High School (Junior Vars
+SUMMARY:Clifton High School at Lakeland Regional High School (Junior Vars
  ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7602544@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T163000
+DTEND;TZID=America/New_York:20260922T183000
+SUMMARY:Clifton High School at McNair Academy (Junior Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7474361@big-north-conference
@@ -95,13 +194,22 @@ SUMMARY:Academy of the Holy Angels at Clifton High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507303@big-north-conference
+UID:ds:2574:7507303@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ridgewood High School at Clifton High School (Junior Varsity Girl
+SUMMARY:Clifton High School vs Ridgewood High School (Junior Varsity Girl
  s Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7507302@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T161500
+DTEND;TZID=America/New_York:20260929T181500
+SUMMARY:Clifton High School vs Ridgewood High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7507304@big-north-conference
@@ -113,15 +221,6 @@ SUMMARY:Ridgewood High School at Clifton High School (Freshman Girls Girl
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7507302@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ridgewood High School at Clifton High School (Varsity Girls Girls
-  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7598654@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
@@ -131,58 +230,94 @@ SUMMARY:Cliffside Park High School vs Clifton High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7545816@big-north-conference
+UID:ds:2574:7545816@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T163000
 DTEND;TZID=America/New_York:20261008T183000
-SUMMARY:Passaic High School vs Clifton High School (Varsity Girls Girls S
+SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls S
  occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7539107@big-north-conference
+UID:ds:2574:7539107@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
 DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Dumont High School at Clifton High School (Varsity Girls Girls So
+SUMMARY:Clifton High School vs Dumont High School (Varsity Girls Girls So
  ccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7673508@big-north-conference
+UID:ds:2574:7673508@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
 DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Wayne Hills High School at Clifton High School (Varsity Girls Gir
+SUMMARY:Clifton High School vs Wayne Hills High School (Varsity Girls Gir
  ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7685318@big-north-conference
+UID:ds:2574:7685318@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T140000
 DTEND;TZID=America/New_York:20261012T160000
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Junior
+SUMMARY:Clifton High School at Passaic County Technical Institute (Junior
   Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 2:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7674723@big-north-conference
+UID:ds:2574:7674723@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T140000
 DTEND;TZID=America/New_York:20261012T160000
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Varsit
+SUMMARY:Clifton High School at Passaic County Technical Institute (Varsit
  y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7442383@big-north-conference
+UID:ds:2574:7565985@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Clifton High School vs Nutley High School (Junior Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7565971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Clifton High School vs Nutley High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7602549@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Clifton High School vs McNair Academy (Junior Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7689763@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Clifton High School vs Pequannock Township High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7442383@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T180000
 DTEND;TZID=America/New_York:20261019T200000
-SUMMARY:Paramus High School vs Clifton High School (Varsity Girls Girls S
+SUMMARY:Clifton High School at Paramus High School (Varsity Girls Girls S
  occer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458839@big-north-conference
@@ -212,48 +347,66 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Fresh
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7485543@big-north-conference
+UID:ds:2574:7485543@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:West Milford High School vs Clifton High School (Varsity Girls Gi
+SUMMARY:Clifton High School at West Milford High School (Varsity Girls Gi
  rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7692102@big-north-conference
+UID:ds:2574:7692102@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:West Milford High School vs Clifton High School (Junior Varsity G
+SUMMARY:Clifton High School at West Milford High School (Junior Varsity G
  irls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7530232@big-north-conference
+UID:ds:2574:7515823@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
 DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Passaic County Technical Institute at Clifton High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2794:7515823@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Passaic County Technical Institute at Clifton High School (Varsit
+SUMMARY:Clifton High School vs Passaic County Technical Institute (Varsit
  y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7530232@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Clifton High School vs Passaic County Technical Institute (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7508154@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T161500
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:Clifton High School at Lyndhurst High School (Varsity Girls Girls
+  Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7742964@big-north-conference
+UID:ds:2574:7728625@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261103T140000
+DTEND;TZID=America/New_York:20261103T160000
+SUMMARY:Clifton High School vs North Bergen High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7742964@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261106T120000
 DTEND;TZID=America/New_York:20261106T140000
-SUMMARY:Ridgewood High School vs Clifton High School (Varsity Girls Girls
+SUMMARY:Clifton High School at Ridgewood High School (Varsity Girls Girls
   Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -77,13 +77,22 @@ SUMMARY:John F. Kennedy High School at Paterson Arts (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7565998@big-north-conference
+UID:ds:2574:7565998@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:John F. Kennedy High School at Clifton High School (Varsity Boys 
+SUMMARY:Clifton High School vs John F. Kennedy High School (Varsity Boys 
  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7566016@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Clifton High School vs John F. Kennedy High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7533700@big-north-conference
@@ -102,15 +111,6 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:John F. Kennedy High School at West Milford High School (Varsity 
  Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7566016@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:John F. Kennedy High School at Clifton High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7533822@big-north-conference
@@ -183,6 +183,15 @@ DTEND;TZID=America/New_York:20260910T200000
 SUMMARY:Bergen County Technical High School at John F. Kennedy High Schoo
  l (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7627175@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Clifton High School vs John F. Kennedy High School (Var-JV Girls 
+ Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7627175@big-north-conference
@@ -428,22 +437,22 @@ SUMMARY:John F. Kennedy High School vs Manchester Regional High School (V
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7548468@big-north-conference
+UID:ds:2574:7548468@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:John F. Kennedy High School vs Clifton High School (Junior Varsit
+SUMMARY:Clifton High School at John F. Kennedy High School (Junior Varsit
  y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7548461@big-north-conference
+UID:ds:2574:7548461@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T183000
 DTEND;TZID=America/New_York:20261006T203000
-SUMMARY:John F. Kennedy High School vs Clifton High School (Varsity Boys 
+SUMMARY:Clifton High School at John F. Kennedy High School (Varsity Boys 
  Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7594612@big-north-conference
@@ -507,6 +516,15 @@ DTEND;TZID=America/New_York:20261012T181500
 SUMMARY:John F. Kennedy High School at Passaic County Technical Institute
   (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7548763@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Clifton High School at John F. Kennedy High School (Var-JV Girls 
+ Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7548763@big-north-conference
@@ -689,15 +707,6 @@ SUMMARY:John F. Kennedy High School vs Passaic County Technical Institute
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7647407@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T180000
-DTEND;TZID=America/New_York:20261029T200000
-SUMMARY:John F. Kennedy High School at John P Stevens High School (Varsit
- y Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2676:7703522@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T180000
@@ -705,6 +714,15 @@ DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:John F. Kennedy High School vs Tenafly High School (Varsity Boys 
  Football)
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7647407@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:John F. Kennedy High School at John P Stevens High School (Varsit
+ y Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7518714@big-north-conference
@@ -959,6 +977,15 @@ SUMMARY:John F. Kennedy High School at Essex County West Caldwell Tech (V
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2574:7700809@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T163000
+DTEND;TZID=America/New_York:20270105T183000
+SUMMARY:Clifton High School at John F. Kennedy High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2676:7700809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T163000
@@ -968,13 +995,13 @@ SUMMARY:John F. Kennedy High School vs Clifton High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7700805@big-north-conference
+UID:ds:2574:7700805@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T180000
 DTEND;TZID=America/New_York:20270105T200000
-SUMMARY:John F. Kennedy High School vs Clifton High School (Varsity Girls
+SUMMARY:Clifton High School at John F. Kennedy High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7755262@big-north-conference
@@ -1022,7 +1049,7 @@ SUMMARY:John F. Kennedy High School vs Passaic High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7463375@big-north-conference
+UID:ds:2676:7495734@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T173000
 DTEND;TZID=America/New_York:20270111T193000
@@ -1400,31 +1427,31 @@ SUMMARY:John F. Kennedy High School vs Linden High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620240@big-north-conference
+UID:ds:2574:7620240@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T160000
 DTEND;TZID=America/New_York:20270202T180000
-SUMMARY:John F. Kennedy High School vs Clifton High School (Freshman Boys
+SUMMARY:Clifton High School at John F. Kennedy High School (Freshman Boys
   Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620223@big-north-conference
+UID:ds:2574:7620223@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T173000
 DTEND;TZID=America/New_York:20270202T193000
-SUMMARY:John F. Kennedy High School vs Clifton High School (Junior Varsit
+SUMMARY:Clifton High School at John F. Kennedy High School (Junior Varsit
  y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7620218@big-north-conference
+UID:ds:2574:7620218@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T190000
 DTEND;TZID=America/New_York:20270202T210000
-SUMMARY:John F. Kennedy High School vs Clifton High School (Varsity Boys 
+SUMMARY:Clifton High School at John F. Kennedy High School (Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7763886@big-north-conference

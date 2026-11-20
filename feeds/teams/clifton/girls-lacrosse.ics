@@ -23,31 +23,76 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2890:7758782@big-north-conference
+UID:ds:2574:7736717@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270322T161500
+DTEND;TZID=America/New_York:20270322T181500
+SUMMARY:Clifton High School vs High Point Regional High School (Varsity G
+ irls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7609217@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T100000
+DTEND;TZID=America/New_York:20270403T120000
+SUMMARY:Clifton High School vs Emerson Jr-Sr High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7609218@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T113000
+DTEND;TZID=America/New_York:20270403T133000
+SUMMARY:Clifton High School vs Emerson Jr-Sr High School (Junior Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7760593@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T163000
+DTEND;TZID=America/New_York:20270409T183000
+SUMMARY:Clifton High School vs East Side High School (Varsity Girls Girls
+  Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7643808@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T161500
+DTEND;TZID=America/New_York:20270415T181500
+SUMMARY:Clifton High School vs Saddle Brook High School (Varsity Girls Gi
+ rls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7758782@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T161500
 DTEND;TZID=America/New_York:20270421T181500
-SUMMARY:Tenafly High School vs Clifton High School (Varsity Girls Girls L
+SUMMARY:Clifton High School at Tenafly High School (Varsity Girls Girls L
  acrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2890:7758783@big-north-conference
+UID:ds:2574:7758783@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270421T174500
 DTEND;TZID=America/New_York:20270421T194500
-SUMMARY:Tenafly High School vs Clifton High School (Junior Varsity Girls 
+SUMMARY:Clifton High School at Tenafly High School (Junior Varsity Girls 
  Girls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7620479@big-north-conference
+UID:ds:2574:7620479@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270423T161500
 DTEND;TZID=America/New_York:20270423T181500
-SUMMARY:Passaic Valley High School vs Clifton High School (Varsity Girls 
+SUMMARY:Clifton High School at Passaic Valley High School (Varsity Girls 
  Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7769667@big-north-conference
@@ -66,5 +111,23 @@ DTEND;TZID=America/New_York:20270426T200000
 SUMMARY:Bergen County Technical High School at Clifton High School (Junio
  r Varsity Girls Girls Lacrosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7771799@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270515T100000
+DTEND;TZID=America/New_York:20270515T120000
+SUMMARY:Clifton High School at High Point Regional High School (Varsity G
+ irls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7650965@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T160000
+DTEND;TZID=America/New_York:20270521T180000
+SUMMARY:Clifton High School at Governor Livingston High School (Varsity G
+ irls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -24,58 +24,76 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2931:7517069@big-north-conference
+UID:ds:2585:7739563@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T180000
+DTEND;TZID=America/New_York:20261217T200000
+SUMMARY:DePaul Catholic High School at Union City High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7517069@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
-SUMMARY:West Milford High School vs DePaul Catholic High School (Junior V
+SUMMARY:DePaul Catholic High School at West Milford High School (Junior V
  arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7732639@big-north-conference
+UID:ds:2585:7732639@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T173000
 DTEND;TZID=America/New_York:20270104T193000
-SUMMARY:River Dell Regional High School vs DePaul Catholic High School (J
+SUMMARY:DePaul Catholic High School at River Dell Regional High School (J
  unior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2669:7517072@big-north-conference
+UID:ds:2585:7517072@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:Immaculate Heart Academy at DePaul Catholic High School (Junior V
+SUMMARY:DePaul Catholic High School vs Immaculate Heart Academy (Junior V
  arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7517073@big-north-conference
+UID:ds:2585:7517073@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Paramus Catholic High School vs DePaul Catholic High School (Juni
+SUMMARY:DePaul Catholic High School at Paramus Catholic High School (Juni
  or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7517076@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270125T173000
-DTEND;TZID=America/New_York:20270125T193000
-SUMMARY:Wayne Valley High School at DePaul Catholic High School (Junior V
- arsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7517068@big-north-conference
+UID:ds:2585:7517076@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T173000
+DTEND;TZID=America/New_York:20270125T193000
+SUMMARY:DePaul Catholic High School vs Wayne Valley High School (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7517077@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T144500
+DTEND;TZID=America/New_York:20270126T164500
+SUMMARY:Clifton High School vs DePaul Catholic High School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2585:7517068@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
-SUMMARY:Wayne Hills High School vs DePaul Catholic High School (Junior Va
+SUMMARY:DePaul Catholic High School at Wayne Hills High School (Junior Va
  rsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7706650@big-north-conference
@@ -87,13 +105,13 @@ SUMMARY:Academy of the Holy Angels at DePaul Catholic High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2669:7517079@big-north-conference
+UID:ds:2585:7517079@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T173000
 DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Immaculate Heart Academy vs DePaul Catholic High School (Junior V
+SUMMARY:DePaul Catholic High School at Immaculate Heart Academy (Junior V
  arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7706649@big-north-conference
@@ -105,12 +123,12 @@ SUMMARY:Academy of the Holy Angels vs DePaul Catholic High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2787:7517080@big-north-conference
+UID:ds:2585:7517080@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T173000
 DTEND;TZID=America/New_York:20270209T193000
-SUMMARY:Paramus Catholic High School at DePaul Catholic High School (Juni
+SUMMARY:DePaul Catholic High School vs Paramus Catholic High School (Juni
  or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 END:VCALENDAR

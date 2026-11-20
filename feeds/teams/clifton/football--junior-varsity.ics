@@ -24,30 +24,75 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2795:7555961@big-north-conference
+UID:ds:2574:7555961@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T163000
 DTEND;TZID=America/New_York:20260902T183000
-SUMMARY:Passaic High School at Clifton High School (Junior Varsity Boys F
+SUMMARY:Clifton High School vs Passaic High School (Junior Varsity Boys F
  ootball)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7394456@big-north-conference
+UID:ds:2574:7556000@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Clifton High School at Eastside High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7555968@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Clifton High School vs Bloomfield High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7394456@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T161500
 DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Wayne Valley High School vs Clifton High School (Junior Varsity B
+SUMMARY:Clifton High School at Wayne Valley High School (Junior Varsity B
  oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7554730@big-north-conference
+UID:ds:2574:7555971@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Clifton High School vs Montclair High School (Junior Varsity Boys
+  Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7556001@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Clifton High School at Orange High School (Junior Varsity Boys Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7554730@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T161500
 DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:Ridgewood High School vs Clifton High School (Junior Varsity Boys
+SUMMARY:Clifton High School at Ridgewood High School (Junior Varsity Boys
   Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7556013@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Clifton High School vs Hackensack High School (Junior Varsity Boy
+ s Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 END:VCALENDAR

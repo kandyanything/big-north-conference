@@ -23,22 +23,58 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2796:7690648@big-north-conference
+UID:ds:2574:7730019@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Clifton High School vs Livingston High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7722451@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270319T160000
+DTEND;TZID=America/New_York:20270319T180000
+SUMMARY:Clifton High School vs Kinnelon High School (Varsity Boys Basebal
+ l)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7690648@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Passaic Valley High School at Clifton High School (Varsity Boys B
+SUMMARY:Clifton High School vs Passaic Valley High School (Varsity Boys B
  aseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7674376@big-north-conference
+UID:ds:2574:7674376@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T161500
 DTEND;TZID=America/New_York:20270407T181500
-SUMMARY:Passaic County Technical Institute vs Clifton High School (Varsit
+SUMMARY:Clifton High School at Passaic County Technical Institute (Varsit
  y Boys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7739984@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T161500
+DTEND;TZID=America/New_York:20270409T181500
+SUMMARY:Clifton High School at DePaul Catholic High School (Varsity Boys 
+ Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7541505@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T160000
+DTEND;TZID=America/New_York:20270423T180000
+SUMMARY:Clifton High School at Elmwood Park Memorial High School (Varsity
+  Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7708802@big-north-conference
@@ -59,30 +95,38 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7526173@big-north-conference
+UID:ds:2574:7526173@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270430T161500
 DTEND;TZID=America/New_York:20270430T181500
-SUMMARY:Ridgewood High School vs Clifton High School (Varsity Boys Baseba
+SUMMARY:Clifton High School at Ridgewood High School (Varsity Boys Baseba
  ll)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7542663@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T161500
+DTEND;TZID=America/New_York:20270510T181500
+SUMMARY:Clifton High School vs Leonia High School (Varsity Boys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7763683@big-north-conference
+UID:ds:2574:7763683@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270517T161500
 DTEND;TZID=America/New_York:20270517T181500
-SUMMARY:Wayne Valley High School vs Clifton High School (Varsity Boys Bas
+SUMMARY:Clifton High School at Wayne Valley High School (Varsity Boys Bas
  eball)
-DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7578019@big-north-conference
+UID:ds:2574:7578019@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270519T160000
 DTEND;TZID=America/New_York:20270519T180000
-SUMMARY:Hackensack High School at Clifton High School (Varsity Boys Baseb
+SUMMARY:Clifton High School vs Hackensack High School (Varsity Boys Baseb
  all)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

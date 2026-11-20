@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2574:7557248@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T120000
+SUMMARY:Clifton High School at Wayne Hills High School (Var-JV Girls Girl
+ s Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7595174@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T100000
+DTEND;TZID=America/New_York:20260826T120000
+SUMMARY:Clifton High School at Wayne Hills High School (Junior Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7557248@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T100000
@@ -31,15 +49,6 @@ DTEND;TZID=America/New_York:20260826T120000
 SUMMARY:Wayne Hills High School vs Clifton High School (Varsity Girls Gir
  ls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7595174@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T100000
-DTEND;TZID=America/New_York:20260826T120000
-SUMMARY:Wayne Hills High School vs Clifton High School (Junior Varsity Gi
- rls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7570966@big-north-conference
@@ -303,15 +312,6 @@ SUMMARY:Ramsey High School at Wayne Hills High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7518229@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Pascack Hills High School vs Wayne Hills High School (Varsity Gir
- ls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7518231@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -319,6 +319,15 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Pascack Hills High School vs Wayne Hills High School (Freshman Gi
  rls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7518229@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Pascack Hills High School vs Wayne Hills High School (Varsity Gir
+ ls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7518230@big-north-conference
@@ -330,22 +339,22 @@ SUMMARY:Pascack Hills High School vs Wayne Hills High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7501716@big-north-conference
+UID:ds:2585:7501716@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Wayne Hills High School at DePaul Catholic High School (Varsity G
+SUMMARY:DePaul Catholic High School vs Wayne Hills High School (Varsity G
  irls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7568652@big-north-conference
+UID:ds:2585:7568652@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
 DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Wayne Hills High School vs DePaul Catholic High School (Freshman 
+SUMMARY:DePaul Catholic High School at Wayne Hills High School (Freshman 
  Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7656600@big-north-conference
