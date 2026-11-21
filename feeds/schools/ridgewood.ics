@@ -545,24 +545,6 @@ SUMMARY:Fair Lawn High School vs Ridgewood High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7385346@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7507287@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7507176@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -579,6 +561,24 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7385346@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7507287@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7507171@big-north-conference
@@ -662,13 +662,13 @@ SUMMARY:Ridgewood High School at Montville Township High School (Freshman
 DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7385353@big-north-conference
+UID:ds:2633:7507288@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Hackensack High School at Ridgewood High School (Varsity Boys Boy
- s Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+SUMMARY:Hackensack High School at Ridgewood High School (Freshman Boys Bo
+ ys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7507292@big-north-conference
@@ -698,13 +698,13 @@ SUMMARY:Hackensack High School vs Ridgewood High School (Freshman Girls G
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7507288@big-north-conference
+UID:ds:2633:7385353@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Hackensack High School at Ridgewood High School (Freshman Boys Bo
- ys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+SUMMARY:Hackensack High School at Ridgewood High School (Varsity Boys Boy
+ s Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7386144@big-north-conference
@@ -968,6 +968,15 @@ SUMMARY:Ramapo High School vs Ridgewood High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7508027@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T161500
+DTEND;TZID=America/New_York:20260923T181500
+SUMMARY:Ridgewood High School at Tenafly High School (Varsity Girls Girls
+  Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2833:7525097@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T161500
@@ -984,15 +993,6 @@ DTEND;TZID=America/New_York:20260923T181500
 SUMMARY:Ridgewood High School vs Glen Rock High School (Freshman Girls Gi
  rls Tennis)
 DESCRIPTION:Freshman Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7508027@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260923T161500
-DTEND;TZID=America/New_York:20260923T181500
-SUMMARY:Ridgewood High School at Tenafly High School (Varsity Girls Girls
-  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7519139@big-north-conference
@@ -3366,15 +3366,6 @@ SUMMARY:Ridgewood High School at Fair Lawn High School (Girls (9) Basketb
 DESCRIPTION:Girls (9) Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7525302@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T173000
-DTEND;TZID=America/New_York:20270105T193000
-SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7733444@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
@@ -3382,6 +3373,15 @@ DTEND;TZID=America/New_York:20270105T193000
 SUMMARY:Fair Lawn High School vs Ridgewood High School (Junior Varsity Gi
  rls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7525302@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T193000
+SUMMARY:Fair Lawn High School at Ridgewood High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7733442@big-north-conference
@@ -3708,15 +3708,6 @@ SUMMARY:Pascack Valley High School at Ridgewood High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7756699@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T144500
-DTEND;TZID=America/New_York:20270113T164500
-SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Girl
- s Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7756664@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T144500
@@ -3724,6 +3715,15 @@ DTEND;TZID=America/New_York:20270113T164500
 SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Boys
   Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7756699@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T144500
+DTEND;TZID=America/New_York:20270113T164500
+SUMMARY:Ridgewood High School vs Pascack Valley High School (Varsity Girl
+ s Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2833:7682073@big-north-conference
