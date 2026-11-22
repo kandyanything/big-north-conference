@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2931:7778014@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261130T151500
+DTEND;TZID=America/New_York:20261130T171500
+SUMMARY:West Milford High School at Lakeland Regional High School (Varsit
+ y Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7713514@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Indian Hills High School vs Lakeland Regional High School (Varsit
  y Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7778021@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T153000
+DTEND;TZID=America/New_York:20261215T173000
+SUMMARY:Pascack Hills High School at Lakeland Regional High School (Varsi
+ ty Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7683005@big-north-conference
@@ -58,6 +76,15 @@ DTEND;TZID=America/New_York:20270113T181500
 SUMMARY:River Dell Regional High School at Lakeland Regional High School 
  (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7778019@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T151500
+DTEND;TZID=America/New_York:20270127T171500
+SUMMARY:Indian Hills High School at Lakeland Regional High School (Varsit
+ y Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7770812@big-north-conference
