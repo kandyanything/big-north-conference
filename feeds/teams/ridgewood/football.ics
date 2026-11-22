@@ -23,13 +23,49 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7513130@big-north-conference
+UID:ds:2833:7513130@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260819T090000
 DTEND;TZID=America/New_York:20260819T110000
-SUMMARY:River Dell Regional High School vs Ridgewood High School (Freshma
+SUMMARY:Ridgewood High School at River Dell Regional High School (Freshma
  n Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7476634@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T113000
+DTEND;TZID=America/New_York:20260821T133000
+SUMMARY:Ridgewood High School at Morristown High School (Varsity Boys Foo
+ tball)
+DESCRIPTION:Varsity Boys Football - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7597494@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T140000
+DTEND;TZID=America/New_York:20260828T160000
+SUMMARY:Ridgewood High School at Montclair High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7507245@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T130000
+DTEND;TZID=America/New_York:20260829T150000
+SUMMARY:Ridgewood High School at Montclair High School (Varsity Boys Foot
+ ball)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7507270@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Ridgewood High School at Montclair High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7385367@big-north-conference
@@ -48,6 +84,15 @@ DTEND;TZID=America/New_York:20260905T110000
 SUMMARY:Fair Lawn High School vs Ridgewood High School (Freshman Boys Foo
  tball)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7513163@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T093000
+DTEND;TZID=America/New_York:20260905T113000
+SUMMARY:Ridgewood High School at Hackensack High School (Junior Varsity B
+ oys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7615330@big-north-conference
@@ -86,6 +131,15 @@ SUMMARY:Eastside High School vs Ridgewood High School (Varsity Boys Footb
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7588553@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Ridgewood High School at East Orange Campus High School (Freshman
+  Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7385369@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T183000
@@ -113,40 +167,49 @@ SUMMARY:Northern Highlands Regional High School vs Ridgewood High School
 DESCRIPTION:Junior Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7513148@big-north-conference
+UID:ds:2833:7588599@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
 DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Westwood Regional Senior High School vs Ridgewood High School (Fr
- eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+SUMMARY:Ridgewood High School at Pope John XXIII High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422628@big-north-conference
+UID:ds:2833:7513148@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Ridgewood High School at Westwood Regional Senior High School (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7422628@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T183000
 DTEND;TZID=America/New_York:20261009T203000
-SUMMARY:Teaneck High School at Ridgewood High School (Varsity Boys Footba
+SUMMARY:Ridgewood High School vs Teaneck High School (Varsity Boys Footba
  ll)
-DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422394@big-north-conference
+UID:ds:2833:7422394@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Teaneck High School vs Ridgewood High School (Freshman Boys Footb
+SUMMARY:Ridgewood High School at Teaneck High School (Freshman Boys Footb
  all)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422408@big-north-conference
+UID:ds:2833:7422408@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
 DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Teaneck High School vs Ridgewood High School (Junior Varsity Boys
+SUMMARY:Ridgewood High School at Teaneck High School (Junior Varsity Boys
   Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7507248@big-north-conference
@@ -183,5 +246,14 @@ DTEND;TZID=America/New_York:20261023T200000
 SUMMARY:Passaic High School vs Ridgewood High School (Varsity Boys Footba
  ll)
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7723937@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
+SUMMARY:Ridgewood High School at Phillipsburg High School (Varsity Boys F
+ ootball)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR

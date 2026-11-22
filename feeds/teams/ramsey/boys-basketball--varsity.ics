@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2890:7434159@big-north-conference
+UID:ds:2823:7434159@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T161500
 DTEND;TZID=America/New_York:20261208T181500
-SUMMARY:Tenafly High School at Ramsey High School (Varsity Boys Boys Bask
+SUMMARY:Ramsey High School vs Tenafly High School (Varsity Boys Boys Bask
  etball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7468634@big-north-conference
@@ -49,6 +49,15 @@ DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Northern Valley Regional HS - Demarest vs Ramsey High School (Var
  sity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7468638@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Ramsey High School at Northern Valley Regional High (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7449305@big-north-conference
@@ -96,40 +105,49 @@ SUMMARY:Pascack Valley High School vs Ramsey High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7440737@big-north-conference
+UID:ds:2823:7440737@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
-SUMMARY:Westwood Regional Senior High School at Ramsey High School (Varsi
+SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Varsi
  ty Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7463430@big-north-conference
+UID:ds:2823:7664407@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Ramsey High School vs College Achieve Paterson Charter School (Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7463430@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
 DTEND;TZID=America/New_York:20270109T133000
-SUMMARY:Wayne Valley High School vs Ramsey High School (Varsity Boys Boys
+SUMMARY:Ramsey High School at Wayne Valley High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7411876@big-north-conference
+UID:ds:2823:7411876@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T130000
 DTEND;TZID=America/New_York:20270109T150000
-SUMMARY:Wayne Valley High School at Ramsey High School (Varsity Boys Boys
+SUMMARY:Ramsey High School vs Wayne Valley High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7440753@big-north-conference
+UID:ds:2823:7440753@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:River Dell Regional High School vs Ramsey High School (Varsity Bo
+SUMMARY:Ramsey High School at River Dell Regional High School (Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7440756@big-north-conference
@@ -159,13 +177,13 @@ SUMMARY:Cliffside Park High School vs Ramsey High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:41410:7440774@big-north-conference
+UID:ds:2823:7440774@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T190000
 DTEND;TZID=America/New_York:20270121T210000
-SUMMARY:Saint Joseph Regional High School at Ramsey High School (Varsity 
+SUMMARY:Ramsey High School vs Saint Joseph Regional High School (Varsity 
  Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7453653@big-north-conference
@@ -177,22 +195,49 @@ SUMMARY:Passaic Valley High School at Ramsey High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7440787@big-north-conference
+UID:ds:2823:7440777@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270202T190000
-DTEND;TZID=America/New_York:20270202T210000
-SUMMARY:Westwood Regional Senior High School vs Ramsey High School (Varsi
- ty Boys Boys Basketball)
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Ramsey High School vs Ridgefield Park High School (Varsity Boys B
+ oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7440788@big-north-conference
+UID:ds:2823:7440787@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T190000
+DTEND;TZID=America/New_York:20270202T210000
+SUMMARY:Ramsey High School at Westwood Regional Senior High School (Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7634509@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T190000
+DTEND;TZID=America/New_York:20270204T210000
+SUMMARY:Ramsey High School vs Pope John XXIII High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7644258@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T130000
+DTEND;TZID=America/New_York:20270206T150000
+SUMMARY:Ramsey High School at West Essex High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7440788@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T190000
 DTEND;TZID=America/New_York:20270209T210000
-SUMMARY:River Dell Regional High School at Ramsey High School (Varsity Bo
+SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7440789@big-north-conference

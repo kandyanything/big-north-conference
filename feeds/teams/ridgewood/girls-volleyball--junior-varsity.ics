@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2823:7466450@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Ramsey High School vs Ridgewood High School (Junior Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2787:7545122@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T161500
@@ -33,13 +42,13 @@ SUMMARY:Paramus Catholic High School at Ridgewood High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7434338@big-north-conference
+UID:ds:2833:7434338@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T174500
 DTEND;TZID=America/New_York:20260903T194500
-SUMMARY:River Dell Regional High School at Ridgewood High School (Junior 
+SUMMARY:Ridgewood High School vs River Dell Regional High School (Junior 
  Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7513567@big-north-conference
@@ -49,6 +58,15 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Northern Valley Regional HS - Old Tappan vs Ridgewood High School
   (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7513567@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Ridgewood High School at Northern Valley Regional High (Junior Va
+ rsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7599526@big-north-conference
@@ -78,13 +96,13 @@ SUMMARY:Hackensack High School vs Ridgewood High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7514409@big-north-conference
+UID:ds:2833:7514409@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T173000
 DTEND;TZID=America/New_York:20260917T193000
-SUMMARY:Westwood Regional Senior High School at Ridgewood High School (Ju
+SUMMARY:Ridgewood High School vs Westwood Regional Senior High School (Ju
  nior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7519139@big-north-conference
@@ -130,6 +148,15 @@ DTEND;TZID=America/New_York:20261006T193000
 SUMMARY:Passaic County Technical Institute vs Ridgewood High School (Juni
  or Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7537447@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T173000
+DTEND;TZID=America/New_York:20261014T193000
+SUMMARY:Ridgewood High School at Glen Rock High School (Junior Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7553124@big-north-conference

@@ -23,31 +23,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2926:7763587@big-north-conference
+UID:ds:2833:7763587@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Wayne Valley High School at Ridgewood High School (Varsity Boys B
+SUMMARY:Ridgewood High School vs Wayne Valley High School (Varsity Boys B
  aseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7763841@big-north-conference
+UID:ds:2833:7763841@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Wayne Valley High School at Ridgewood High School (Junior Varsity
+SUMMARY:Ridgewood High School vs Wayne Valley High School (Junior Varsity
   Boys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7764405@big-north-conference
+UID:ds:2833:7764405@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270329T160000
 DTEND;TZID=America/New_York:20270329T180000
-SUMMARY:Wayne Valley High School vs Ridgewood High School (Freshman Boys 
+SUMMARY:Ridgewood High School at Wayne Valley High School (Freshman Boys 
  Baseball)
-DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7526069@big-north-conference
@@ -57,6 +57,33 @@ DTEND;TZID=America/New_York:20270401T181500
 SUMMARY:Passaic High School at Ridgewood High School (Junior Varsity Boys
   Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732487@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T110000
+DTEND;TZID=America/New_York:20270403T130000
+SUMMARY:Ridgewood High School vs Bayonne High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732501@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T110000
+DTEND;TZID=America/New_York:20270403T130000
+SUMMARY:Ridgewood High School vs Bayonne High School (Junior Varsity Boys
+  Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732528@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T110000
+DTEND;TZID=America/New_York:20270403T130000
+SUMMARY:Ridgewood High School at Bayonne High School (Freshman Boys Baseb
+ all)
+DESCRIPTION:Freshman Boys Baseball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7526064@big-north-conference
@@ -138,6 +165,15 @@ DTEND;TZID=America/New_York:20270409T181500
 SUMMARY:Passaic County Technical Institute vs Ridgewood High School (Fres
  hman Boys Baseball)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732537@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T100000
+DTEND;TZID=America/New_York:20270410T120000
+SUMMARY:Ridgewood High School at Millburn High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7526129@big-north-conference
@@ -256,6 +292,24 @@ SUMMARY:Pascack Valley High School at Ridgewood High School (Freshman Boy
 DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7732565@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T103000
+DTEND;TZID=America/New_York:20270424T123000
+SUMMARY:Ridgewood High School vs Rutherford High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732574@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270424T103000
+DTEND;TZID=America/New_York:20270424T123000
+SUMMARY:Ridgewood High School at Rutherford High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7577955@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T160000
@@ -310,6 +364,33 @@ SUMMARY:Clifton High School at Ridgewood High School (Varsity Boys Baseba
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7732582@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T103000
+DTEND;TZID=America/New_York:20270501T123000
+SUMMARY:Ridgewood High School at Columbia High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732585@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T103000
+DTEND;TZID=America/New_York:20270501T123000
+SUMMARY:Ridgewood High School at Columbia High School (Junior Varsity Boy
+ s Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732595@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270501T103000
+DTEND;TZID=America/New_York:20270501T123000
+SUMMARY:Ridgewood High School vs Columbia High School (Freshman Boys Base
+ ball)
+DESCRIPTION:Freshman Boys Baseball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7526175@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270503T161500
@@ -337,13 +418,40 @@ SUMMARY:Fair Lawn High School at Ridgewood High School (Varsity Boys Base
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7732598@big-north-conference
+UID:ds:2823:7526189@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T161500
+DTEND;TZID=America/New_York:20270507T181500
+SUMMARY:Ramsey High School at Ridgewood High School (Freshman Boys Baseba
+ ll)
+DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7526195@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T161500
+DTEND;TZID=America/New_York:20270507T181500
+SUMMARY:Ramsey High School at Ridgewood High School (Junior Varsity Boys 
+ Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7528549@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T161500
+DTEND;TZID=America/New_York:20270507T181500
+SUMMARY:Ramsey High School vs Ridgewood High School (Varsity Boys Basebal
+ l)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7732598@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270514T161500
 DTEND;TZID=America/New_York:20270514T181500
-SUMMARY:West Milford High School at Ridgewood High School (Varsity Boys B
+SUMMARY:Ridgewood High School vs West Milford High School (Varsity Boys B
  aseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7526198@big-north-conference
@@ -355,13 +463,31 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Ridgewood High School
 DESCRIPTION:Varsity Boys Baseball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:41410:7526201@big-north-conference
+UID:ds:2833:7526198@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T161500
+DTEND;TZID=America/New_York:20270517T181500
+SUMMARY:Ridgewood High School vs Northern Valley Regional High (Varsity B
+ oys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7526201@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270519T161500
 DTEND;TZID=America/New_York:20270519T181500
-SUMMARY:Saint Joseph Regional High School at Ridgewood High School (Fresh
+SUMMARY:Ridgewood High School vs Saint Joseph Regional High School (Fresh
  man Boys Baseball)
-DESCRIPTION:Freshman Boys Baseball - Away - 4:15 PM
+DESCRIPTION:Freshman Boys Baseball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7526204@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270519T161500
+DTEND;TZID=America/New_York:20270519T181500
+SUMMARY:Ridgewood High School vs Saint Joseph Regional High School (Junio
+ r Varsity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7732603@big-north-conference

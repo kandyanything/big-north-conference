@@ -24,13 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2939:7539293@big-north-conference
+UID:ds:2823:7409989@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T110000
+DTEND;TZID=America/New_York:20260829T130000
+SUMMARY:Ramsey High School vs Verona High School (Junior Varsity Boys Foo
+ tball)
+DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7539293@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
 DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Westwood Regional Senior High School vs Ramsey High School (Junio
+SUMMARY:Ramsey High School at Westwood Regional Senior High School (Junio
  r Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7412135@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Ramsey High School at Mountain Lakes High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7521650@big-north-conference

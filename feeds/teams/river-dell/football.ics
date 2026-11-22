@@ -24,21 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2833:7513130@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260819T090000
+DTEND;TZID=America/New_York:20260819T110000
+SUMMARY:Ridgewood High School at River Dell Regional High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2834:7494040@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260819T090000
 DTEND;TZID=America/New_York:20260819T110000
 SUMMARY:River Dell Regional High School vs Morristown High School (Freshm
  an Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2834:7513130@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260819T090000
-DTEND;TZID=America/New_York:20260819T110000
-SUMMARY:River Dell Regional High School vs Ridgewood High School (Freshma
- n Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -348,22 +348,22 @@ SUMMARY:Paramus High School at River Dell Regional High School (Freshman
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7409939@big-north-conference
+UID:ds:2823:7409939@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T180000
 DTEND;TZID=America/New_York:20261023T200000
-SUMMARY:River Dell Regional High School vs Ramsey High School (Varsity Bo
+SUMMARY:Ramsey High School at River Dell Regional High School (Varsity Bo
  ys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7422454@big-north-conference
+UID:ds:2823:7422454@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
 DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:River Dell Regional High School at Ramsey High School (Freshman B
+SUMMARY:Ramsey High School vs River Dell Regional High School (Freshman B
  oys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7722969@big-north-conference

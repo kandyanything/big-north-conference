@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7513130@big-north-conference
+UID:ds:2833:7513130@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260819T090000
 DTEND;TZID=America/New_York:20260819T110000
-SUMMARY:River Dell Regional High School vs Ridgewood High School (Freshma
+SUMMARY:Ridgewood High School at River Dell Regional High School (Freshma
  n Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7597494@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T140000
+DTEND;TZID=America/New_York:20260828T160000
+SUMMARY:Ridgewood High School at Montclair High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7513136@big-north-conference
@@ -51,6 +60,15 @@ SUMMARY:Ramapo High School at Ridgewood High School (Freshman Boys Footba
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2833:7588553@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Ridgewood High School at East Orange Campus High School (Freshman
+  Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7385510@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T090000
@@ -60,22 +78,31 @@ SUMMARY:Northern Highlands Regional High School vs Ridgewood High School
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7513148@big-north-conference
+UID:ds:2833:7588599@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
 DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Westwood Regional Senior High School vs Ridgewood High School (Fr
- eshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+SUMMARY:Ridgewood High School at Pope John XXIII High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7422394@big-north-conference
+UID:ds:2833:7513148@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Ridgewood High School at Westwood Regional Senior High School (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7422394@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
-SUMMARY:Teaneck High School vs Ridgewood High School (Freshman Boys Footb
+SUMMARY:Ridgewood High School at Teaneck High School (Freshman Boys Footb
  all)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7513155@big-north-conference

@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2834:7636954@big-north-conference
+UID:ds:2832:7725968@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T110000
-SUMMARY:River Dell Regional High School at Ridgefield Park High School (J
+SUMMARY:Ridgefield Park High School vs Hasbrouck Heights High School (Jun
+ ior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7636954@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
+SUMMARY:Ridgefield Park High School vs River Dell Regional High School (J
  unior Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7562082@big-north-conference
@@ -40,6 +49,15 @@ DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Bergenfield High School at Ridgefield Park High School (Junior Va
  rsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2832:7756932@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261229T100000
+DTEND;TZID=America/New_York:20261229T120000
+SUMMARY:Ridgefield Park High School at Hasbrouck Heights High School (Jun
+ ior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7609070@big-north-conference
