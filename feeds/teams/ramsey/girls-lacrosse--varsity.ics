@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7647313@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270329T163000
-DTEND;TZID=America/New_York:20270329T183000
-SUMMARY:Ramsey High School vs Montville Township High School (Varsity Gir
- ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7607979@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T163000
@@ -69,30 +60,12 @@ SUMMARY:Mahwah High School at Ramsey High School (Varsity Girls Girls Lac
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7621668@big-north-conference
+UID:ds:2834:7621668@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T163000
 DTEND;TZID=America/New_York:20270429T183000
-SUMMARY:Ramsey High School at River Dell Regional High School (Varsity Gi
+SUMMARY:River Dell Regional High School vs Ramsey High School (Varsity Gi
  rls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7613588@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270507T163000
-DTEND;TZID=America/New_York:20270507T183000
-SUMMARY:Ramsey High School vs Jefferson Township High School (Varsity Gir
- ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7743307@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270517T163000
-DTEND;TZID=America/New_York:20270517T183000
-SUMMARY:Ramsey High School vs Rutherford High School (Varsity Girls Girls
-  Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
 END:VEVENT
 END:VCALENDAR

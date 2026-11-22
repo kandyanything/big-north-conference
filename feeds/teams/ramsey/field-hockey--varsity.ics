@@ -24,31 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7383759@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260825T100000
-DTEND;TZID=America/New_York:20260825T120000
-SUMMARY:Ramsey High School vs Montville Township High School (Varsity Gir
- ls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7383758@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T160000
-DTEND;TZID=America/New_York:20260828T180000
-SUMMARY:Ramsey High School vs Mountain Lakes High School (Varsity Girls F
- ield Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7388419@big-north-conference
+UID:ds:2931:7388419@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
 DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Ramsey High School at West Milford High School (Varsity Girls Fie
+SUMMARY:West Milford High School vs Ramsey High School (Varsity Girls Fie
  ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7382733@big-north-conference
@@ -60,15 +42,6 @@ SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Girl
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7383883@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T163000
-DTEND;TZID=America/New_York:20260910T183000
-SUMMARY:Ramsey High School at Montclair High School (Varsity Girls Field 
- Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2669:7382739@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -76,15 +49,6 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Immaculate Heart Academy at Ramsey High School (Varsity Girls Fie
  ld Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7522238@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T163000
-DTEND;TZID=America/New_York:20260916T183000
-SUMMARY:Ramsey High School vs Ridge High School (Varsity Girls Field Hock
- ey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7382740@big-north-conference
@@ -96,21 +60,12 @@ SUMMARY:Passaic Valley High School at Ramsey High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7382969@big-north-conference
+UID:ds:2834:7382969@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T161500
 DTEND;TZID=America/New_York:20260925T181500
-SUMMARY:Ramsey High School at River Dell Regional High School (Varsity Gi
+SUMMARY:River Dell Regional High School vs Ramsey High School (Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7382759@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T161500
-DTEND;TZID=America/New_York:20260928T181500
-SUMMARY:Ramsey High School vs Butler High School (Varsity Girls Field Hoc
- key)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -123,22 +78,13 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Ramsey High School (V
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7382746@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T161500
-DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ramsey High School vs Northern Valley Regional High (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7633215@big-north-conference
+UID:ds:2925:7633215@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
 DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Ramsey High School at Wayne Hills High School (Varsity Girls Fiel
+SUMMARY:Wayne Hills High School vs Ramsey High School (Varsity Girls Fiel
  d Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7382981@big-north-conference
@@ -159,22 +105,22 @@ SUMMARY:Passaic County Technical Institute vs Ramsey High School (Varsity
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7382749@big-north-conference
+UID:ds:2939:7382749@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
 DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Varsi
+SUMMARY:Westwood Regional Senior High School at Ramsey High School (Varsi
  ty Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7686169@big-north-conference
+UID:ds:2834:7686169@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T163000
 DTEND;TZID=America/New_York:20261012T183000
-SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Gi
+SUMMARY:River Dell Regional High School at Ramsey High School (Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7690628@big-north-conference
@@ -184,15 +130,6 @@ DTEND;TZID=America/New_York:20261014T200000
 SUMMARY:Northern Valley Regional HS - Old Tappan at Ramsey High School (V
  arsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7690628@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T180000
-DTEND;TZID=America/New_York:20261014T200000
-SUMMARY:Ramsey High School vs Northern Valley Regional High (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7695837@big-north-conference
@@ -213,66 +150,21 @@ SUMMARY:Northern Valley Regional HS - Demarest at Ramsey High School (Var
 DESCRIPTION:Varsity Girls Field Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7382750@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T180000
-DTEND;TZID=America/New_York:20261019T200000
-SUMMARY:Ramsey High School vs Northern Valley Regional High (Varsity Girl
- s Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7382993@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T161500
-DTEND;TZID=America/New_York:20261021T181500
-SUMMARY:Ramsey High School at Pompton Lakes High School (Varsity Girls Fi
- eld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7382755@big-north-conference
+UID:ds:2926:7382755@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T161500
 DTEND;TZID=America/New_York:20261023T181500
-SUMMARY:Ramsey High School vs Wayne Valley High School (Varsity Girls Fie
+SUMMARY:Wayne Valley High School at Ramsey High School (Varsity Girls Fie
  ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7388433@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Ramsey High School at Dwight-Englewood School (Varsity Girls Fiel
- d Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7388435@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T161500
-DTEND;TZID=America/New_York:20261028T181500
-SUMMARY:Ramsey High School vs Butler High School (Varsity Girls Field Hoc
- key)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7451253@big-north-conference
+UID:ds:2931:7451253@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T173000
 DTEND;TZID=America/New_York:20261030T193000
-SUMMARY:Ramsey High School at West Milford High School (Varsity Girls Fie
+SUMMARY:West Milford High School vs Ramsey High School (Varsity Girls Fie
  ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7729395@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261102T170000
-DTEND;TZID=America/New_York:20261102T190000
-SUMMARY:Ramsey High School vs Arthur L Johnson High School (Varsity Girls
-  Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 5:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 END:VCALENDAR

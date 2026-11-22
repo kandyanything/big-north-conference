@@ -24,33 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7466454@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260826T160000
-DTEND;TZID=America/New_York:20260826T180000
-SUMMARY:Ramsey High School vs Ridgewood High School (Freshman Girls Girls
-  Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7598557@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260827T160000
-DTEND;TZID=America/New_York:20260827T180000
-SUMMARY:Ramsey High School vs Glen Rock High School (Freshman Girls Girls
-  Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7536222@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T141500
-DTEND;TZID=America/New_York:20260828T161500
-SUMMARY:Ramsey High School vs Glen Rock High School (Freshman Girls Girls
-  Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 2:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7441783@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T100000
@@ -69,14 +42,6 @@ SUMMARY:Indian Hills High School vs Ramsey High School (Freshman Girls Gi
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7465768@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T161500
-DTEND;TZID=America/New_York:20260905T181500
-SUMMARY:Ramsey High School at TBD (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7414037@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T173000
@@ -86,22 +51,22 @@ SUMMARY:Lakeland Regional High School at Ramsey High School (Freshman Gir
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7466630@big-north-conference
+UID:ds:2939:7466630@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
 DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Ramsey High School at Westwood Regional Senior High School (Fresh
+SUMMARY:Westwood Regional Senior High School vs Ramsey High School (Fresh
  man Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7414066@big-north-conference
+UID:ds:2834:7414066@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
 DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:Ramsey High School at River Dell Regional High School (Freshman G
+SUMMARY:River Dell Regional High School vs Ramsey High School (Freshman G
  irls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7622361@big-north-conference
@@ -131,13 +96,13 @@ SUMMARY:Mahwah High School at Ramsey High School (Freshman Girls Girls Vo
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7414303@big-north-conference
+UID:ds:2931:7414303@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Ramsey High School at West Milford High School (Freshman Girls Gi
+SUMMARY:West Milford High School vs Ramsey High School (Freshman Girls Gi
  rls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2616:7465775@big-north-conference
@@ -167,22 +132,22 @@ SUMMARY:Fair Lawn High School vs Ramsey High School (Freshman Girls Girls
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7414328@big-north-conference
+UID:ds:2939:7414328@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T173000
 DTEND;TZID=America/New_York:20261015T193000
-SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Fresh
+SUMMARY:Westwood Regional Senior High School at Ramsey High School (Fresh
  man Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 5:30 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7690775@big-north-conference
+UID:ds:2834:7690775@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T173000
 DTEND;TZID=America/New_York:20261020T193000
-SUMMARY:Ramsey High School vs River Dell Regional High School (Freshman G
+SUMMARY:River Dell Regional High School at Ramsey High School (Freshman G
  irls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 5:30 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7622351@big-north-conference

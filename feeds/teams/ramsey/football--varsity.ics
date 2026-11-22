@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7458179@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260817T090000
-DTEND;TZID=America/New_York:20260817T110000
-SUMMARY:Ramsey High School at Indian Hills High School (Varsity Boys Foot
- ball)
-DESCRIPTION:Varsity Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7440769@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T100000
@@ -41,47 +32,13 @@ SUMMARY:Indian Hills High School vs Ramsey High School (Varsity Boys Foot
 DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7387251@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260820T093000
-DTEND;TZID=America/New_York:20260820T113000
-SUMMARY:Ramsey High School at Rutherford High School (Varsity Boys Footba
- ll)
-DESCRIPTION:Varsity Boys Football - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7412122@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T180000
-DTEND;TZID=America/New_York:20260828T200000
-SUMMARY:Ramsey High School at Verona High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7440738@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T180000
-DTEND;TZID=America/New_York:20260904T200000
-SUMMARY:Ramsey High School at Suffern High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7409934@big-north-conference
+UID:ds:2939:7409934@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T183000
 DTEND;TZID=America/New_York:20260910T203000
-SUMMARY:Ramsey High School vs Westwood Regional Senior High School (Varsi
+SUMMARY:Westwood Regional Senior High School at Ramsey High School (Varsi
  ty Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7440792@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T183000
-DTEND;TZID=America/New_York:20260918T203000
-SUMMARY:Ramsey High School vs Mountain Lakes High School (Varsity Boys Fo
- otball)
-DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2595:7409938@big-north-conference
@@ -109,20 +66,12 @@ SUMMARY:Lakeland Regional High School at Ramsey High School (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7409939@big-north-conference
+UID:ds:2834:7409939@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T180000
 DTEND;TZID=America/New_York:20261023T200000
-SUMMARY:Ramsey High School at River Dell Regional High School (Varsity Bo
+SUMMARY:River Dell Regional High School vs Ramsey High School (Varsity Bo
  ys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7722999@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T183000
-DTEND;TZID=America/New_York:20261030T203000
-SUMMARY:Ramsey High School at Hoboken High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR
