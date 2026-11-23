@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7779576@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T160000
+DTEND;TZID=America/New_York:20261203T180000
+SUMMARY:Fair Lawn High School vs Lakeland Regional High School (Varsity B
+ oys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7714030@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T110000
@@ -31,6 +40,15 @@ DTEND;TZID=America/New_York:20261212T130000
 SUMMARY:Lakeland Regional High School vs Passaic High School (Junior Vars
  ity Boys Boys Swimming)
 DESCRIPTION:Junior Varsity Boys Boys Swimming - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7779578@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T160000
+DTEND;TZID=America/New_York:20261212T180000
+SUMMARY:Lakeland Regional High School vs Passaic High School (Varsity Boy
+ s Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7707929@big-north-conference
@@ -51,13 +69,22 @@ SUMMARY:Lakeland Regional High School at Pascack Valley High School (Vars
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7660894@big-north-conference
+UID:ds:2689:7779581@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T161500
 DTEND;TZID=America/New_York:20261222T181500
 SUMMARY:Lakeland Regional High School at Hackensack High School (Varsity 
  Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7779583@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T153000
+DTEND;TZID=America/New_York:20270105T173000
+SUMMARY:Lakeland Regional High School at Passaic County Technical Institu
+ te (Varsity Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7706192@big-north-conference
@@ -67,5 +94,14 @@ DTEND;TZID=America/New_York:20270111T204500
 SUMMARY:Lakeland Regional High School vs Paramus Catholic High School (Va
  rsity Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7779585@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T184500
+DTEND;TZID=America/New_York:20270119T204500
+SUMMARY:Lakeland Regional High School at Clifton High School (Varsity Boy
+ s Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:45 PM
 END:VEVENT
 END:VCALENDAR
