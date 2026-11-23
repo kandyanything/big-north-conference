@@ -338,15 +338,6 @@ SUMMARY:Bergen County Technical High School at Northern Valley Regional H
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7527372@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Northern Valley Regional HS - Demarest at Bergen County Technical
-  High School (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7527373@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -354,6 +345,15 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:Northern Valley Regional HS - Demarest vs Bergen County Technical
   High School (Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7527372@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Northern Valley Regional HS - Demarest at Bergen County Technical
+  High School (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7458823@big-north-conference
@@ -2191,6 +2191,15 @@ SUMMARY:Northern Valley Regional HS - Demarest at Bergen County Technical
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7703609@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T080000
+DTEND;TZID=America/New_York:20261212T100000
+SUMMARY:Bergen County Technical High School at Teaneck High School (Varsi
+ ty Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7703613@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T080000
@@ -2200,13 +2209,22 @@ SUMMARY:Bergen County Technical High School at Teaneck High School (Varsi
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7703609@big-north-conference
+UID:ds:32754:7564181@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T080000
-DTEND;TZID=America/New_York:20261212T100000
-SUMMARY:Bergen County Technical High School at Teaneck High School (Varsi
- ty Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 8:00 AM
+DTSTART;TZID=America/New_York:20261214T163000
+DTEND;TZID=America/New_York:20261214T183000
+SUMMARY:Bergen County Technical High School at Bergenfield High School (J
+ unior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7690149@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T163000
+DTEND;TZID=America/New_York:20261214T183000
+SUMMARY:Bergen County Technical High School vs Elmwood Park Memorial High
+  School (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7564180@big-north-conference
@@ -2234,24 +2252,6 @@ DTEND;TZID=America/New_York:20261214T183000
 SUMMARY:Bergen County Technical High School at Don Bosco Prep (Varsity Bo
  ys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7564181@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T163000
-DTEND;TZID=America/New_York:20261214T183000
-SUMMARY:Bergen County Technical High School at Bergenfield High School (J
- unior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7690149@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T163000
-DTEND;TZID=America/New_York:20261214T183000
-SUMMARY:Bergen County Technical High School vs Elmwood Park Memorial High
-  School (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7671565@big-north-conference
@@ -2452,15 +2452,6 @@ SUMMARY:Bergen County Technical High School at TBD (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7640136@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T161500
-DTEND;TZID=America/New_York:20270104T181500
-SUMMARY:Bergen County Technical High School at Wayne Valley High School (
- Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7644507@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T161500
@@ -2468,6 +2459,15 @@ DTEND;TZID=America/New_York:20270104T181500
 SUMMARY:Bergen County Technical High School at Wayne Valley High School (
  Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7640136@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T161500
+DTEND;TZID=America/New_York:20270104T181500
+SUMMARY:Bergen County Technical High School at Wayne Valley High School (
+ Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7671580@big-north-conference
@@ -2677,15 +2677,6 @@ SUMMARY:Bergen County Technical High School vs Clifton High School (Fresh
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7651743@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T163000
-DTEND;TZID=America/New_York:20270112T183000
-SUMMARY:Bergen County Technical High School vs Clifton High School (Varsi
- ty Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7642127@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
@@ -2695,13 +2686,13 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7642141@big-north-conference
+UID:ds:32754:7651743@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T180000
-DTEND;TZID=America/New_York:20270112T200000
-SUMMARY:Bergen County Technical High School at Clifton High School (Junio
- r Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
+DTSTART;TZID=America/New_York:20270112T163000
+DTEND;TZID=America/New_York:20270112T183000
+SUMMARY:Bergen County Technical High School vs Clifton High School (Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7651744@big-north-conference
@@ -2711,6 +2702,15 @@ DTEND;TZID=America/New_York:20270112T200000
 SUMMARY:Bergen County Technical High School vs Clifton High School (Junio
  r Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7642141@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T180000
+DTEND;TZID=America/New_York:20270112T200000
+SUMMARY:Bergen County Technical High School at Clifton High School (Junio
+ r Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7671608@big-north-conference
