@@ -1472,15 +1472,6 @@ SUMMARY:Hackensack High School at Saddle River Day School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396071@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Cliffside Park High School at Hackensack High School (Var-JV Girl
- s Girls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7401482@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
@@ -1488,6 +1479,15 @@ DTEND;TZID=America/New_York:20261013T181500
 SUMMARY:Cliffside Park High School at Hackensack High School (Freshman Gi
  rls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7396071@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Cliffside Park High School at Hackensack High School (Var-JV Girl
+ s Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7396071@big-north-conference
@@ -2598,11 +2598,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7592633@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T183000
-DTEND;TZID=America/New_York:20270106T203000
+DTSTART;TZID=America/New_York:20270106T170000
+DTEND;TZID=America/New_York:20270106T190000
 SUMMARY:Fair Lawn High School vs Hackensack High School (Varsity Boys Boy
  s Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7671600@big-north-conference
@@ -3036,7 +3036,7 @@ SUMMARY:Hackensack High School vs Ramapo High School (Varsity Coed Coed S
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7667608@big-north-conference
+UID:ds:2633:7667604@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
@@ -3162,15 +3162,6 @@ SUMMARY:Hackensack High School at Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7559989@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T161500
-DTEND;TZID=America/New_York:20270126T181500
-SUMMARY:Hackensack High School at Passaic County Technical Institute (Fre
- shman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7530069@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T161500
@@ -3178,6 +3169,15 @@ DTEND;TZID=America/New_York:20270126T181500
 SUMMARY:Hackensack High School at Passaic County Technical Institute (Var
  sity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7559989@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:Hackensack High School at Passaic County Technical Institute (Fre
+ shman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7559989@big-north-conference
@@ -4516,5 +4516,14 @@ DTEND;TZID=America/New_York:20270520T194500
 SUMMARY:Bergen County Technical High School vs Hackensack High School (Ju
  nior Varsity Boys Boys Volleyball)
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7779800@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270521T161500
+DTEND;TZID=America/New_York:20270521T181500
+SUMMARY:Hackensack High School at Academy of the Holy Angels (Varsity Gir
+ ls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:15 PM
 END:VEVENT
 END:VCALENDAR
