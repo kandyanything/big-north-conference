@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2770:7781040@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T150000
+DTEND;TZID=America/New_York:20261204T170000
+SUMMARY:Northern Highlands Regional High School at Pascack Valley High Sc
+ hool (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2616:7777261@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T160000
@@ -1501,15 +1510,6 @@ DTEND;TZID=America/New_York:20270102T110000
 SUMMARY:Northern Valley Regional HS - Demarest at West Morris Mendham Hig
  h School (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2771:7552694@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270102T090000
-DTEND;TZID=America/New_York:20270102T110000
-SUMMARY:Northern Valley Regional HS - Demarest at West Morris Mendham Hig
- h School (Junior Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7545053@big-north-conference
@@ -3125,15 +3125,6 @@ SUMMARY:Northern Highlands Regional High School vs Saint Mary High School
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7529972@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T090000
-DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
- chool (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7552687@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -3141,6 +3132,15 @@ DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
  chool (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7529972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
+ chool (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7767398@big-north-conference

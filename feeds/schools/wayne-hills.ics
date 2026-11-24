@@ -419,15 +419,6 @@ SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
 DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7496253@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
- s Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7510685@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -437,7 +428,16 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7545521@big-north-conference
+UID:ds:2670:7496253@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7516581@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
 DTEND;TZID=America/New_York:20260908T181500
@@ -572,7 +572,7 @@ SUMMARY:River Dell Regional High School vs Wayne Hills High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7451207@big-north-conference
+UID:ds:2925:7413017@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T190000
 DTEND;TZID=America/New_York:20260910T210000
@@ -923,6 +923,15 @@ SUMMARY:Wayne Hills High School vs Northern Valley Regional High (Varsity
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2925:7495918@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Wayne Hills High School vs Summit High School (Junior Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7531559@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -939,15 +948,6 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Wayne Hills High School vs Wayne Valley High School (Freshman Boy
  s Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7495918@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Wayne Hills High School vs Summit High School (Junior Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7519164@big-north-conference
@@ -3711,15 +3711,6 @@ SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7671361@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T161500
-DTEND;TZID=America/New_York:20270121T181500
-SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
-  Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7669044@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -3727,6 +3718,15 @@ DTEND;TZID=America/New_York:20270121T181500
 SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
   Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7671361@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
+  Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2822:7644847@big-north-conference
