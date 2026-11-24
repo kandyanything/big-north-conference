@@ -77,6 +77,24 @@ SUMMARY:Dumont High School at Bloomfield High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7778552@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Indian Hills High School vs Waldwick High School (Varsity Girls G
+ irls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7778562@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Indian Hills High School vs Waldwick High School (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2770:7633918@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
@@ -230,15 +248,6 @@ SUMMARY:Hackensack High School vs Ridgefield Memorial High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7778562@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T173000
-DTEND;TZID=America/New_York:20261207T193000
-SUMMARY:Indian Hills High School vs Waldwick High School (Junior Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2787:7683266@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T173000
@@ -282,15 +291,6 @@ DTEND;TZID=America/New_York:20261207T200000
 SUMMARY:Paramus High School vs Dover High School (Varsity Girls Girls Bas
  ketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7778552@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T190000
-DTEND;TZID=America/New_York:20261207T210000
-SUMMARY:Indian Hills High School vs Waldwick High School (Varsity Girls G
- irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7476204@big-north-conference
@@ -891,8 +891,8 @@ UID:ds:2595:7644832@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T163000
 DTEND;TZID=America/New_York:20261211T183000
-SUMMARY:Dumont High School vs North Bergen High School (Varsity Girls Gir
- ls Basketball)
+SUMMARY:Dumont High School vs Elmwood Park Memorial High School (Varsity 
+ Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2899,15 +2899,6 @@ SUMMARY:Ramapo High School vs University High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7528772@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T161500
-DTEND;TZID=America/New_York:20270104T181500
-SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
- (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7528770@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T161500
@@ -2915,6 +2906,15 @@ DTEND;TZID=America/New_York:20270104T181500
 SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
  (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7528772@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T161500
+DTEND;TZID=America/New_York:20270104T181500
+SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
+ (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7756674@big-north-conference
@@ -2980,15 +2980,6 @@ SUMMARY:Mahwah High School vs Valley Middle School (Middle School Girls G
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7540419@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7540421@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -2996,6 +2987,15 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Wayne Valley High School vs West Milford High School (Freshman Gi
  rls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7540419@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7505847@big-north-conference
@@ -4150,15 +4150,6 @@ SUMMARY:Paramus High School vs Northern Valley Regional High (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512708@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T161500
-DTEND;TZID=America/New_York:20270112T181500
-SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
-  (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7512710@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
@@ -4166,6 +4157,15 @@ DTEND;TZID=America/New_York:20270112T181500
 SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
   (Freshman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7512708@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T161500
+DTEND;TZID=America/New_York:20270112T181500
+SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
+  (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7526196@big-north-conference
@@ -5635,15 +5635,6 @@ SUMMARY:Ridgefield Park High School at Dwight-Englewood School (Middle Sc
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7531029@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Fair Lawn High School at Passaic County Technical Institute (Fres
- hman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7531027@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -5651,6 +5642,15 @@ DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:Fair Lawn High School at Passaic County Technical Institute (Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7531029@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Fair Lawn High School at Passaic County Technical Institute (Fres
+ hman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7709023@big-north-conference
@@ -6256,6 +6256,15 @@ SUMMARY:Dumont High School vs Emerson Jr-Sr High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2931:7775298@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T161500
+DTEND;TZID=America/New_York:20270125T181500
+SUMMARY:West Milford High School at Waldwick High School (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7643536@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T163000
@@ -6283,13 +6292,13 @@ SUMMARY:DePaul Catholic High School vs Wayne Valley High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7775298@big-north-conference
+UID:ds:2931:7729470@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T173000
 DTEND;TZID=America/New_York:20270125T193000
-SUMMARY:West Milford High School at Waldwick High School (Junior Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+SUMMARY:West Milford High School at Waldwick High School (Varsity Girls G
+ irls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2585:7517046@big-north-conference
@@ -6307,15 +6316,6 @@ DTSTART;TZID=America/New_York:20270125T190000
 DTEND;TZID=America/New_York:20270125T210000
 SUMMARY:Passaic High School at Garfield High School (Varsity Girls Girls 
  Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2931:7729470@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270125T190000
-DTEND;TZID=America/New_York:20270125T210000
-SUMMARY:West Milford High School at Waldwick High School (Varsity Girls G
- irls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -6373,7 +6373,7 @@ SUMMARY:Academy of the Holy Angels vs Tenafly High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7540789@big-north-conference
+UID:ds:2534:7546473@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T161500
 DTEND;TZID=America/New_York:20270126T181500
@@ -6562,7 +6562,7 @@ SUMMARY:Passaic High School vs Ridgewood High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7540882@big-north-conference
+UID:ds:2534:7546526@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
@@ -7974,15 +7974,6 @@ SUMMARY:Paramus Catholic High School vs Hudson Catholic High School (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7778351@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T093000
-DTEND;TZID=America/New_York:20270206T113000
-SUMMARY:Ridgefield Park High School at Waldwick/Midland Park (Junior Vars
- ity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:43369:7727475@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270206T100000
@@ -8012,11 +8003,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2832:7778348@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T110000
-DTEND;TZID=America/New_York:20270206T130000
+DTSTART;TZID=America/New_York:20270206T100000
+DTEND;TZID=America/New_York:20270206T120000
 SUMMARY:Ridgefield Park High School at Waldwick/Midland Park (Varsity Gir
  ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7706649@big-north-conference
