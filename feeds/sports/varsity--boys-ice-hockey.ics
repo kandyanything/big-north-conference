@@ -624,15 +624,6 @@ SUMMARY:Northern Highlands Regional High School vs Pascack Valley High Sc
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7780864@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T211500
-DTEND;TZID=America/New_York:20261211T231500
-SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
- Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7585137@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T211500
@@ -642,7 +633,16 @@ SUMMARY:Pascack Hills High School at Northern Highlands Regional High Sch
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7698180@big-north-conference
+UID:ds:2792:7780864@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T211500
+DTEND;TZID=America/New_York:20261211T231500
+SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7787292@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T194500
 DTEND;TZID=America/New_York:20261212T214500
@@ -803,12 +803,12 @@ SUMMARY:Clifton High School vs Livingston High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7635038@big-north-conference
+UID:ds:2794:7781009@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T183000
 DTEND;TZID=America/New_York:20261218T203000
-SUMMARY:Passaic County Technical Institute vs Ramsey High School (Varsity
-  Boys Boys Ice Hockey)
+SUMMARY:Passaic County Technical Institute vs Tenafly High School (Varsit
+ y Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -821,12 +821,12 @@ SUMMARY:Passaic County Technical Institute at Indian Hills High School (V
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7781009@big-north-conference
+UID:ds:2794:7635038@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T183000
 DTEND;TZID=America/New_York:20261218T203000
-SUMMARY:Passaic County Technical Institute vs Tenafly High School (Varsit
- y Boys Boys Ice Hockey)
+SUMMARY:Passaic County Technical Institute vs Ramsey High School (Varsity
+  Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1597,15 +1597,6 @@ SUMMARY:Clifton High School vs River Dell Regional High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7765715@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T181500
-DTEND;TZID=America/New_York:20270108T201500
-SUMMARY:Mahwah High School at Paramus/Mahwah/Lyndhurst (Varsity Boys Boys
-  Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7652722@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T181500
@@ -1613,6 +1604,15 @@ DTEND;TZID=America/New_York:20270108T201500
 SUMMARY:Mahwah High School vs Ramsey High School (Varsity Boys Boys Ice H
  ockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7765715@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T181500
+DTEND;TZID=America/New_York:20270108T201500
+SUMMARY:Mahwah High School at Paramus/Mahwah/Lyndhurst (Varsity Boys Boys
+  Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7765715@big-north-conference
@@ -1759,15 +1759,6 @@ SUMMARY:Ramsey High School at Ridgewood High School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7734367@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270110T184500
-DTEND;TZID=America/New_York:20270110T204500
-SUMMARY:Ridgewood High School at Indian Hills High School (Varsity Boys B
- oys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7781026@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T184500
@@ -1775,6 +1766,15 @@ DTEND;TZID=America/New_York:20270110T204500
 SUMMARY:Ridgewood High School vs Tenafly High School (Varsity Boys Boys I
  ce Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7734367@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T184500
+DTEND;TZID=America/New_York:20270110T204500
+SUMMARY:Ridgewood High School at Indian Hills High School (Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7752485@big-north-conference
@@ -1813,7 +1813,7 @@ SUMMARY:Bergen Catholic High School at Saint Peters Prep (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7602668@big-north-conference
+UID:ds:2770:7794259@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T164500
 DTEND;TZID=America/New_York:20270112T184500
@@ -2234,21 +2234,21 @@ SUMMARY:Lakeland Regional High School vs Passaic County Technical Institu
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7781073@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T200000
-DTEND;TZID=America/New_York:20270122T220000
-SUMMARY:Pascack Hills High School at Tenafly High School (Varsity Boys Bo
- ys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7773544@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T200000
 DTEND;TZID=America/New_York:20270122T220000
 SUMMARY:Pascack Hills High School at Ramsey High School (Varsity Boys Boy
  s Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7781073@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T200000
+DTEND;TZID=America/New_York:20270122T220000
+SUMMARY:Pascack Hills High School at Tenafly High School (Varsity Boys Bo
+ ys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2698,7 +2698,7 @@ SUMMARY:Ridgewood High School vs North Hunterdon High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7515710@big-north-conference
+UID:ds:2706:7789405@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T194500
 DTEND;TZID=America/New_York:20270131T214500
@@ -2707,7 +2707,7 @@ SUMMARY:Mahwah High School at Paramus/Mahwah/Lyndhurst (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7515710@big-north-conference
+UID:ds:2788:7789405@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T194500
 DTEND;TZID=America/New_York:20270131T214500

@@ -1699,15 +1699,6 @@ SUMMARY:John F. Kennedy High School at Passaic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7547020@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T161500
-DTEND;TZID=America/New_York:20261023T181500
-SUMMARY:Passaic High School at Garfield High School (Middle School Boys B
- oys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2795:7512877@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T161500
@@ -1715,6 +1706,15 @@ DTEND;TZID=America/New_York:20261023T181500
 SUMMARY:Passaic High School at North Bergen High School (Middle School Gi
  rls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7547020@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T161500
+DTEND;TZID=America/New_York:20261023T181500
+SUMMARY:Passaic High School at Garfield High School (Middle School Boys B
+ oys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7546806@big-north-conference
@@ -2165,7 +2165,7 @@ SUMMARY:Passaic High School at Livingston High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7754206@big-north-conference
+UID:ds:2795:7787199@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T173000
 DTEND;TZID=America/New_York:20261211T193000
@@ -2174,7 +2174,7 @@ SUMMARY:Passaic High School at Harrison High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7754205@big-north-conference
+UID:ds:2795:7787206@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T190000
 DTEND;TZID=America/New_York:20261211T210000
@@ -2488,7 +2488,7 @@ SUMMARY:Passaic High School at TBA NJ (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:03 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7754937@big-north-conference
+UID:ds:2795:7787857@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261229T103000
 DTEND;TZID=America/New_York:20261229T123000
@@ -2883,7 +2883,7 @@ SUMMARY:Clifton High School vs Passaic High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7765698@big-north-conference
+UID:ds:2795:7788662@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T170000
 DTEND;TZID=America/New_York:20270115T190000
@@ -3008,7 +3008,7 @@ SUMMARY:Clifton High School vs Passaic High School (Varsity Coed Coed Bow
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7696575@big-north-conference
+UID:ds:2795:7788844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T161500
 DTEND;TZID=America/New_York:20270120T181500
@@ -3105,7 +3105,7 @@ SUMMARY:Passaic High School at Garfield High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 2:46 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7676742@big-north-conference
+UID:ds:2795:7789165@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T190000
 DTEND;TZID=America/New_York:20270125T210000
@@ -3201,6 +3201,24 @@ DTEND;TZID=America/New_York:20270129T180000
 SUMMARY:Passaic County Technical Institute vs Passaic High School (Varsit
  y Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7534849@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T160000
+DTEND;TZID=America/New_York:20270129T180000
+SUMMARY:Passaic High School at Wood-Ridge High School (Middle School Girl
+ s Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7789343@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T163000
+DTEND;TZID=America/New_York:20270129T183000
+SUMMARY:Passaic High School vs Wood-Ridge High School (Middle School Boys
+  Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7755595@big-north-conference
@@ -3497,6 +3515,24 @@ DTEND;TZID=America/New_York:20270209T200000
 SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
   Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7533330@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270210T160000
+DTEND;TZID=America/New_York:20270210T180000
+SUMMARY:Passaic High School at Wood-Ridge High School (Middle School Boys
+  Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7533422@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270210T161500
+DTEND;TZID=America/New_York:20270210T181500
+SUMMARY:Passaic High School vs Wood-Ridge High School (Middle School Girl
+ s Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7753936@big-north-conference

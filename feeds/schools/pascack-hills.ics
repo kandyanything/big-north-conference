@@ -2183,7 +2183,7 @@ SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7695832@big-north-conference
+UID:ds:2792:7787169@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
 DTEND;TZID=America/New_York:20261211T180000
@@ -2192,22 +2192,13 @@ SUMMARY:Pascack Hills High School vs Henry P Becton Regional High School
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7695834@big-north-conference
+UID:ds:2792:7787170@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
 DTEND;TZID=America/New_York:20261211T180000
 SUMMARY:Pascack Hills High School vs Henry P Becton Regional High School 
  (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2792:7780864@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T211500
-DTEND;TZID=America/New_York:20261211T231500
-SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
- Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7585137@big-north-conference
@@ -2219,7 +2210,16 @@ SUMMARY:Pascack Hills High School at Northern Highlands Regional High Sch
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7686432@big-north-conference
+UID:ds:2792:7780864@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T211500
+DTEND;TZID=America/New_York:20261211T231500
+SUMMARY:Pascack Hills High School at Pascack Valley High School (Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 9:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7787244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2686,11 +2686,11 @@ SUMMARY:Pascack Hills High School at TBA NJ (Varsity Coed Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7693397@big-north-conference
+UID:ds:2613:7786875@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
 DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Pascack Hills High School at Fair Lawn High School (Varsity Coed 
+SUMMARY:Fair Lawn High School at Pascack Hills High School (Varsity Coed 
  Coed Bowling)
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
@@ -2839,15 +2839,6 @@ SUMMARY:Pascack Hills High School at Westwood Regional Senior High School
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512710@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T161500
-DTEND;TZID=America/New_York:20270112T181500
-SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
-  (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7512708@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
@@ -2855,6 +2846,15 @@ DTEND;TZID=America/New_York:20270112T181500
 SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
   (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7512710@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T161500
+DTEND;TZID=America/New_York:20270112T181500
+SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
+  (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7512709@big-north-conference
@@ -2956,15 +2956,6 @@ SUMMARY:Pascack Hills High School at New Milford High School (Varsity Coe
 DESCRIPTION:Varsity Coed Unified Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7440810@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T173000
-DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Pascack Hills High School at Ramsey High School (Junior Varsity B
- oys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7512711@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
@@ -2972,6 +2963,15 @@ DTEND;TZID=America/New_York:20270114T193000
 SUMMARY:Pascack Hills High School vs Ramsey High School (Junior Varsity G
  irls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7440810@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T193000
+SUMMARY:Pascack Hills High School at Ramsey High School (Junior Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7440756@big-north-conference
@@ -3181,15 +3181,6 @@ SUMMARY:Dumont High School at Pascack Hills High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7781073@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T200000
-DTEND;TZID=America/New_York:20270122T220000
-SUMMARY:Pascack Hills High School at Tenafly High School (Varsity Boys Bo
- ys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7773544@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T200000
@@ -3199,7 +3190,16 @@ SUMMARY:Pascack Hills High School at Ramsey High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7655385@big-north-conference
+UID:ds:2792:7781073@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T200000
+DTEND;TZID=America/New_York:20270122T220000
+SUMMARY:Pascack Hills High School at Tenafly High School (Varsity Boys Bo
+ ys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7789068@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
 DTEND;TZID=America/New_York:20270123T110000
@@ -3574,6 +3574,15 @@ DTEND;TZID=America/New_York:20270206T110000
 SUMMARY:West Milford High School at Pascack Hills High School (Junior Var
  sity Coed Coed Wrestling)
 DESCRIPTION:Junior Varsity Coed Coed Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7534362@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T100000
+DTEND;TZID=America/New_York:20270206T120000
+SUMMARY:Pascack Hills High School vs New Milford High School (Varsity Boy
+ s Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7756326@big-north-conference

@@ -2216,16 +2216,7 @@ SUMMARY:Academy of the Holy Angels vs Bergenfield High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7668077@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T161500
-DTEND;TZID=America/New_York:20261207T181500
-SUMMARY:Bergenfield High School vs Dumont High School (Varsity Coed Coed 
- Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7530235@big-north-conference
+UID:ds:2534:7786923@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
 DTEND;TZID=America/New_York:20261207T181500
@@ -2234,7 +2225,7 @@ SUMMARY:Bergenfield High School vs Glen Rock High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7530237@big-north-conference
+UID:ds:2534:7786924@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
 DTEND;TZID=America/New_York:20261207T181500
@@ -2243,13 +2234,22 @@ SUMMARY:Bergenfield High School vs Glen Rock High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7530263@big-north-conference
+UID:ds:2534:7786925@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
 DTEND;TZID=America/New_York:20261207T181500
 SUMMARY:Bergenfield High School vs Glen Rock High School (Junior Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7668077@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Bergenfield High School vs Dumont High School (Varsity Coed Coed 
+ Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:43369:7706653@big-north-conference
@@ -2378,7 +2378,7 @@ SUMMARY:Bergenfield High School vs Leonia High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7564454@big-north-conference
+UID:ds:2534:7787239@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2387,7 +2387,7 @@ SUMMARY:Bergenfield High School vs Hawthorne High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7686432@big-north-conference
+UID:ds:2534:7787244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2396,7 +2396,7 @@ SUMMARY:Bergenfield High School at Mahwah High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7767591@big-north-conference
+UID:ds:2534:7787258@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2414,7 +2414,7 @@ SUMMARY:Bergenfield High School vs Hawthorne High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7564455@big-north-conference
+UID:ds:2534:7787279@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T110100
 DTEND;TZID=America/New_York:20261212T130100
@@ -2432,15 +2432,6 @@ SUMMARY:Bergenfield High School at New Milford High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7564180@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T163000
-DTEND;TZID=America/New_York:20261214T183000
-SUMMARY:Bergen County Technical High School at Bergenfield High School (V
- arsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7564181@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T163000
@@ -2448,6 +2439,15 @@ DTEND;TZID=America/New_York:20261214T183000
 SUMMARY:Bergen County Technical High School at Bergenfield High School (J
  unior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7564180@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T163000
+DTEND;TZID=America/New_York:20261214T183000
+SUMMARY:Bergen County Technical High School at Bergenfield High School (V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7682831@big-north-conference
@@ -2666,13 +2666,22 @@ SUMMARY:Bergenfield High School at Paramus Catholic High School (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7762939@big-north-conference
+UID:ds:2534:7787798@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T160000
 DTEND;TZID=America/New_York:20261223T180000
 SUMMARY:Bergenfield High School at Garfield High School (Varsity Boys Boy
  s Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7787805@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T180000
+DTEND;TZID=America/New_York:20261223T200000
+SUMMARY:Bergenfield High School vs New Milford High School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7703964@big-north-conference
@@ -2720,15 +2729,6 @@ SUMMARY:Bergenfield High School at Fort Lee High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7430462@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T161500
-DTEND;TZID=America/New_York:20270105T181500
-SUMMARY:Bergenfield High School vs Fort Lee High School (Varsity Boys Boy
- s Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7546493@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T161500
@@ -2736,6 +2736,15 @@ DTEND;TZID=America/New_York:20270105T181500
 SUMMARY:Bergenfield High School vs Fort Lee High School (Freshman Boys Bo
  ys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7430462@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T161500
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:Bergenfield High School vs Fort Lee High School (Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7546494@big-north-conference
@@ -2864,7 +2873,7 @@ SUMMARY:Bergenfield High School vs James J Ferris High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7703495@big-north-conference
+UID:ds:2534:7788322@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
@@ -3026,15 +3035,6 @@ SUMMARY:Bergenfield High School vs Tenafly High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7666371@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T161500
-DTEND;TZID=America/New_York:20270114T181500
-SUMMARY:Bergenfield High School at Holdrum Middle School (Middle School B
- oys Boys Wrestling)
-DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7546501@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
@@ -3042,6 +3042,15 @@ DTEND;TZID=America/New_York:20270114T181500
 SUMMARY:Bergenfield High School vs Dumont High School (Varsity Boys Boys 
  Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7666371@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T161500
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:Bergenfield High School at Holdrum Middle School (Middle School B
+ oys Boys Wrestling)
+DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2890:7706885@big-north-conference
@@ -3152,15 +3161,6 @@ SUMMARY:Bergenfield High School at West Milford High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7546531@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T173000
-DTEND;TZID=America/New_York:20270119T193000
-SUMMARY:Bergenfield High School vs West Milford High School (Junior Varsi
- ty Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7546471@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
@@ -3168,6 +3168,15 @@ DTEND;TZID=America/New_York:20270119T193000
 SUMMARY:Bergenfield High School at West Milford High School (Junior Varsi
  ty Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7546531@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T193000
+SUMMARY:Bergenfield High School vs West Milford High School (Junior Varsi
+ ty Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7771856@big-north-conference
@@ -3206,22 +3215,13 @@ SUMMARY:Bergenfield High School vs Ridgefield Park High School (Varsity C
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7670519@big-north-conference
+UID:ds:2534:7788934@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
 SUMMARY:Bergenfield High School vs Cliffside Park High School (Middle Sch
  ool Boys Boys Wrestling)
 DESCRIPTION:Middle School Boys Boys Wrestling - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2534:7470135@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T161500
-DTEND;TZID=America/New_York:20270121T181500
-SUMMARY:Bergenfield High School vs Clifton High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7470089@big-north-conference
@@ -3233,7 +3233,16 @@ SUMMARY:Bergenfield High School vs Clifton High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7670519@big-north-conference
+UID:ds:2534:7470135@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Bergenfield High School vs Clifton High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7788934@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
@@ -3260,15 +3269,6 @@ SUMMARY:Bergenfield High School vs Clifton High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7663704@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T161500
-DTEND;TZID=America/New_York:20270122T181500
-SUMMARY:Bergenfield High School vs Benjamin Franklin Middle School (Middl
- e School Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7663506@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T161500
@@ -3276,6 +3276,15 @@ DTEND;TZID=America/New_York:20270122T181500
 SUMMARY:Bergenfield High School at Benjamin Franklin Middle School (Middl
  e School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7663704@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T161500
+DTEND;TZID=America/New_York:20270122T181500
+SUMMARY:Bergenfield High School vs Benjamin Franklin Middle School (Middl
+ e School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7708192@big-north-conference
@@ -3377,7 +3386,7 @@ SUMMARY:Bergenfield High School vs Lakeland Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7771826@big-north-conference
+UID:ds:2534:7789226@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T160000
 DTEND;TZID=America/New_York:20270127T180000
@@ -3809,6 +3818,15 @@ SUMMARY:Bergenfield High School vs Dwight Morrow High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2534:7537146@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270210T161500
+DTEND;TZID=America/New_York:20270210T181500
+SUMMARY:Bergenfield High School vs New Milford High School (Middle School
+  Boys Boys Wrestling)
+DESCRIPTION:Middle School Boys Boys Wrestling - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2534:7663581@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270210T161500
@@ -3825,6 +3843,15 @@ DTEND;TZID=America/New_York:20270210T181500
 SUMMARY:Bergenfield High School at Benjamin Franklin Middle School (Middl
  e School Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2616:7537146@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270210T161500
+DTEND;TZID=America/New_York:20270210T181500
+SUMMARY:Fort Lee High School at Bergenfield High School (Middle School Bo
+ ys Boys Wrestling)
+DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7546479@big-north-conference
@@ -4412,15 +4439,6 @@ SUMMARY:Bergenfield High School vs Hawthorne High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Baseball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7657486@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270420T161500
-DTEND;TZID=America/New_York:20270420T181500
-SUMMARY:Bergenfield High School vs Fort Lee High School (Junior Varsity B
- oys Baseball)
-DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7738283@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T161500
@@ -4428,6 +4446,15 @@ DTEND;TZID=America/New_York:20270420T181500
 SUMMARY:Bergenfield High School vs River Dell Regional High School (Varsi
  ty Girls Flag Football)
 DESCRIPTION:Varsity Girls Flag Football - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7657486@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T161500
+DTEND;TZID=America/New_York:20270420T181500
+SUMMARY:Bergenfield High School vs Fort Lee High School (Junior Varsity B
+ oys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7613355@big-north-conference
@@ -4940,5 +4967,14 @@ DTEND;TZID=America/New_York:20270520T193000
 SUMMARY:Bergenfield High School at Ramapo High School (Junior Varsity Boy
  s Boys Volleyball)
 DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7544468@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270524T160000
+DTEND;TZID=America/New_York:20270524T180000
+SUMMARY:Bergenfield High School vs Leonia High School (Middle School Girl
+ s Softball)
+DESCRIPTION:Middle School Girls Softball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

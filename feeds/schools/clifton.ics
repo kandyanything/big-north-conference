@@ -2279,7 +2279,7 @@ SUMMARY:Clifton High School at Lyndhurst High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7485062@big-north-conference
+UID:ds:2574:7787234@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2628,7 +2628,7 @@ SUMMARY:Clifton High School at Arthur L Johnson High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7529959@big-north-conference
+UID:ds:2574:7793000@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T143000
 DTEND;TZID=America/New_York:20261223T163000
@@ -2807,7 +2807,7 @@ SUMMARY:Clifton High School at Bloomfield High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7781975@big-north-conference
+UID:ds:2574:7788326@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
@@ -3014,21 +3014,21 @@ SUMMARY:Clifton High School at Newton High School (Varsity Girls Girls Wr
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7779550@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T153000
-DTEND;TZID=America/New_York:20270119T173000
-SUMMARY:Clifton High School vs Lakeland Regional High School (Varsity Coe
- d Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7753818@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T153000
 DTEND;TZID=America/New_York:20270119T173000
 SUMMARY:Clifton High School vs West Milford High School (Varsity Coed Coe
  d Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7779550@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T153000
+DTEND;TZID=America/New_York:20270119T173000
+SUMMARY:Clifton High School vs Lakeland Regional High School (Varsity Coe
+ d Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3039,15 +3039,6 @@ DTEND;TZID=America/New_York:20270119T173000
 SUMMARY:Lakeland Regional High School at Clifton High School (Varsity Gir
  ls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7685243@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T161500
-DTEND;TZID=America/New_York:20270119T181500
-SUMMARY:Clifton High School vs Wayne Valley High School (Freshman Boys Bo
- ys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7540361@big-north-conference
@@ -3075,6 +3066,15 @@ DTEND;TZID=America/New_York:20270119T181500
 SUMMARY:Clifton High School vs Wayne Valley High School (Varsity Boys Boy
  s Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7685243@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T161500
+DTEND;TZID=America/New_York:20270119T181500
+SUMMARY:Clifton High School vs Wayne Valley High School (Freshman Boys Bo
+ ys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7756682@big-north-conference
@@ -3149,15 +3149,6 @@ SUMMARY:Clifton High School vs Parsippany High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7755596@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T170000
-DTEND;TZID=America/New_York:20270120T190000
-SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Wre
- stling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7755115@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T170000
@@ -3167,13 +3158,13 @@ SUMMARY:Clifton High School vs Parsippany Hills High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7470135@big-north-conference
+UID:ds:2574:7755596@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T161500
-DTEND;TZID=America/New_York:20270121T181500
-SUMMARY:Bergenfield High School vs Clifton High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20270120T170000
+DTEND;TZID=America/New_York:20270120T190000
+SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7470089@big-north-conference
@@ -3183,6 +3174,15 @@ DTEND;TZID=America/New_York:20270121T181500
 SUMMARY:Bergenfield High School vs Clifton High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7470135@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Bergenfield High School vs Clifton High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7516489@big-north-conference
@@ -3320,7 +3320,7 @@ SUMMARY:Clifton High School at DePaul Catholic High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7735431@big-north-conference
+UID:ds:2574:7789253@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000

@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2613:7795561@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T161500
+DTEND;TZID=America/New_York:20261204T181500
+SUMMARY:Fair Lawn High School at Elmwood Park Memorial High School (Junio
+ r Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2794:7573482@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -149,7 +158,7 @@ SUMMARY:Wayne Valley High School at River Dell Regional High School (Juni
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7552688@big-north-conference
+UID:ds:2771:7787231@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T093000
 DTEND;TZID=America/New_York:20261212T113000
@@ -158,7 +167,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs New Providence High Sch
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7686432@big-north-conference
+UID:ds:2534:7787244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -167,7 +176,7 @@ SUMMARY:Bergenfield High School at Mahwah High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7686432@big-north-conference
+UID:ds:2706:7787244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -194,7 +203,7 @@ SUMMARY:Paramus High School at Mahwah High School (Junior Varsity Boys Bo
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7686432@big-north-conference
+UID:ds:2792:7787244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -518,7 +527,7 @@ SUMMARY:Fair Lawn High School at James Caldwell High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7666323@big-north-conference
+UID:ds:2706:7793527@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T110000
@@ -527,7 +536,7 @@ SUMMARY:Mahwah High School at Northern Valley Regional High (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7666323@big-north-conference
+UID:ds:2772:7793527@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T110000
@@ -536,7 +545,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Brick Memorial High S
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7650085@big-north-conference
+UID:ds:2834:7783663@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T110000
@@ -545,7 +554,7 @@ SUMMARY:River Dell Regional High School at Phillipsburg High School (Juni
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7666323@big-north-conference
+UID:ds:2925:7793527@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T110000
@@ -681,6 +690,15 @@ DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7515946@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Paramus High School at Manville High School (Junior Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7783929@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
@@ -995,7 +1013,7 @@ SUMMARY:Mahwah High School at Northern Highlands Regional High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7594351@big-north-conference
+UID:ds:2834:7784700@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000
@@ -1004,7 +1022,7 @@ SUMMARY:River Dell Regional High School at Ridge High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7552686@big-north-conference
+UID:ds:2616:7789040@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T183000
 DTEND;TZID=America/New_York:20270122T203000
@@ -1247,7 +1265,7 @@ SUMMARY:Lakeland Regional High School at Northern Valley Regional High (J
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7552696@big-north-conference
+UID:ds:2771:7789373@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T080000
 DTEND;TZID=America/New_York:20270130T100000
