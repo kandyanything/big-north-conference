@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2833:7704935@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261204T153000
-DTEND;TZID=America/New_York:20261204T173000
-SUMMARY:Ridgewood High School vs West Milford High School (Varsity Boys B
- oys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2616:7777261@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T160000
@@ -57,15 +48,6 @@ DTEND;TZID=America/New_York:20261207T174500
 SUMMARY:Ramapo High School at Ramsey High School (Varsity Boys Boys Wrest
  ling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2833:7770936@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T170000
-DTEND;TZID=America/New_York:20261207T190000
-SUMMARY:Ridgewood High School vs Elmwood Park Memorial High School (Varsi
- ty Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7681149@big-north-conference
@@ -462,15 +444,6 @@ SUMMARY:Bergenfield High School at Mahwah High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7686432@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T100000
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Mahwah High School vs Leonia High School (Junior Varsity Boys Boy
- s Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7767591@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
@@ -478,6 +451,15 @@ DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Mahwah High School vs Leonia High School (Varsity Boys Boys Wrest
  ling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7686432@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Mahwah High School vs Leonia High School (Junior Varsity Boys Boy
+ s Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2770:7686432@big-north-conference
