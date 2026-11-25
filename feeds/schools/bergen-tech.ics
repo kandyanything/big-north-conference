@@ -932,15 +932,6 @@ SUMMARY:Bergen Catholic High School at Bergen County Technical High Schoo
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7602412@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Bergen County Technical High School vs Fair Lawn High School (Fre
- shman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7516383@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -948,6 +939,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Bergen County Technical High School vs Passaic County Technical I
  nstitute (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7602412@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Bergen County Technical High School vs Fair Lawn High School (Fre
+ shman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7527434@big-north-conference
@@ -2011,7 +2011,7 @@ SUMMARY:Bergen County Technical High School vs TBD (Varsity Coed Coed Cro
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7670775@big-north-conference
+UID:ds:32754:7801515@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T181500
@@ -2020,7 +2020,7 @@ SUMMARY:Bergen County Technical High School vs Passaic County Technical I
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7801558@big-north-conference
+UID:ds:32754:7670872@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T181500
@@ -2029,7 +2029,7 @@ SUMMARY:Bergen County Technical High School vs Immaculate Heart Academy (
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7801557@big-north-conference
+UID:ds:32754:7670808@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T181500
@@ -2119,6 +2119,15 @@ SUMMARY:Bergen County Technical High School vs Dwight Morrow High School
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7787060@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T161500
+DTEND;TZID=America/New_York:20261209T181500
+SUMMARY:Bergen County Technical High School vs Pompton Lakes High School 
+ (Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7639189@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T161500
@@ -2128,13 +2137,13 @@ SUMMARY:Bergen County Technical High School vs Pompton Lakes High School
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7639175@big-north-conference
+UID:ds:32754:7651306@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T161500
-DTEND;TZID=America/New_York:20261209T181500
-SUMMARY:Bergen County Technical High School vs Pompton Lakes High School 
- (Varsity Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Bergen County Technical High School vs Pascack Valley High School
+  (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7651305@big-north-conference
@@ -2144,15 +2153,6 @@ DTEND;TZID=America/New_York:20261209T183000
 SUMMARY:Bergen County Technical High School vs Pascack Valley High School
   (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7801750@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T163000
-DTEND;TZID=America/New_York:20261209T183000
-SUMMARY:Bergen County Technical High School vs Pascack Valley High School
-  (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7755591@big-north-conference
@@ -2974,7 +2974,7 @@ SUMMARY:Bergen County Technical High School at West Milford High School (
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7803763@big-north-conference
+UID:ds:2931:7659465@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T163000
 DTEND;TZID=America/New_York:20270120T183000

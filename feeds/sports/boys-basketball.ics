@@ -858,6 +858,15 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Nutley High School (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:32754:7651306@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T163000
+DTEND;TZID=America/New_York:20261209T183000
+SUMMARY:Bergen County Technical High School vs Pascack Valley High School
+  (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:32754:7651305@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T163000
@@ -865,15 +874,6 @@ DTEND;TZID=America/New_York:20261209T183000
 SUMMARY:Bergen County Technical High School vs Pascack Valley High School
   (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:32754:7801750@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T163000
-DTEND;TZID=America/New_York:20261209T183000
-SUMMARY:Bergen County Technical High School vs Pascack Valley High School
-  (Junior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2787:7801754@big-north-conference
@@ -1506,7 +1506,7 @@ SUMMARY:Cliffside Park High School vs Leonia High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7674520@big-north-conference
+UID:ds:2670:7801891@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -1587,22 +1587,22 @@ SUMMARY:Ridgewood High School vs Memorial High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7763704@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T100000
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Wayne Hills High School vs Vernon Township High School (Varsity B
- oys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7763715@big-north-conference
+UID:ds:2925:7801897@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Wayne Hills High School vs Vernon Township High School (Freshman 
  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7801896@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T120000
+SUMMARY:Wayne Hills High School vs Vernon Township High School (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7603724@big-north-conference
@@ -1677,7 +1677,7 @@ SUMMARY:Bergen Catholic High School at Ramapo High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7674526@big-north-conference
+UID:ds:2670:7801916@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T130000
 DTEND;TZID=America/New_York:20261212T150000
@@ -1911,7 +1911,7 @@ SUMMARY:Indian Hills High School at Pascack Valley High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7554403@big-north-conference
+UID:ds:2670:7801971@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T161500
 DTEND;TZID=America/New_York:20261214T181500
@@ -2899,7 +2899,7 @@ SUMMARY:Fort Lee High School vs Mahwah High School (Freshman Boys Boys Ba
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7441113@big-north-conference
+UID:ds:2670:7802274@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
@@ -3169,7 +3169,7 @@ SUMMARY:Fort Lee High School vs Mahwah High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7440732@big-north-conference
+UID:ds:2670:7802331@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T130000
 DTEND;TZID=America/New_York:20261219T150000
@@ -3770,7 +3770,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Indian Hills High Schoo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7802502@big-north-conference
+UID:ds:2772:7449432@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T190000
 DTEND;TZID=America/New_York:20261222T210000
@@ -4860,7 +4860,7 @@ SUMMARY:Teaneck High School at Tenafly High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7753986@big-north-conference
+UID:ds:2604:7802804@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T174500
 DTEND;TZID=America/New_York:20270105T194500
@@ -4914,7 +4914,7 @@ SUMMARY:Don Bosco Prep at Paramus Catholic High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7802817@big-north-conference
+UID:ds:2633:7592745@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -5040,7 +5040,7 @@ SUMMARY:Dumont High School at Ridgefield Park High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7684911@big-north-conference
+UID:ds:2597:7802886@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -5058,7 +5058,7 @@ SUMMARY:Fair Lawn High School at Paramus Catholic High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7802881@big-north-conference
+UID:ds:2689:7637857@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -5193,7 +5193,7 @@ SUMMARY:Indian Hills High School vs West Milford High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7802908@big-north-conference
+UID:ds:2770:7528663@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
 DTEND;TZID=America/New_York:20270107T181500
@@ -5580,7 +5580,7 @@ SUMMARY:Mahwah High School at Westwood Regional Senior High School (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7802981@big-north-conference
+UID:ds:2770:7528661@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
 DTEND;TZID=America/New_York:20270107T210000
@@ -6003,7 +6003,7 @@ SUMMARY:West Milford High School at College Achieve Paterson Charter Scho
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7684871@big-north-conference
+UID:ds:2604:7803097@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T144500
 DTEND;TZID=America/New_York:20270109T164500
@@ -6012,7 +6012,7 @@ SUMMARY:Eastside High School vs Northern Highlands Regional High School (
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7636995@big-north-conference
+UID:ds:2604:7803098@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T153000
 DTEND;TZID=America/New_York:20270109T173000
@@ -6237,7 +6237,7 @@ SUMMARY:Bergen County Technical High School vs Clifton High School (Fresh
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7803217@big-north-conference
+UID:ds:2613:7592774@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
 DTEND;TZID=America/New_York:20270112T181500
@@ -6390,7 +6390,7 @@ SUMMARY:Dumont High School vs Fort Lee High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7592773@big-north-conference
+UID:ds:2613:7803244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -6534,7 +6534,7 @@ SUMMARY:Bergen Catholic High School at Don Bosco Prep (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7546465@big-north-conference
+UID:ds:2534:7803268@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -6561,7 +6561,7 @@ SUMMARY:Dumont High School vs Fort Lee High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7592772@big-north-conference
+UID:ds:2613:7803269@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -6615,7 +6615,7 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7788500@big-north-conference
+UID:ds:2706:7708800@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
@@ -6678,7 +6678,7 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7593380@big-north-conference
+UID:ds:2706:7803342@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -6722,7 +6722,7 @@ SUMMARY:Ramapo High School at TBD (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7525321@big-north-conference
+UID:ds:2533:7803361@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -7072,7 +7072,7 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7803435@big-north-conference
+UID:ds:2689:7540234@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -7117,7 +7117,7 @@ SUMMARY:Paramus High School at Pascack Valley High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7440756@big-north-conference
+UID:ds:2792:7803431@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -7288,7 +7288,7 @@ SUMMARY:Fair Lawn High School at Northern Highlands Regional High School
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7538927@big-north-conference
+UID:ds:2689:7803501@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T100000
 DTEND;TZID=America/New_York:20270116T120000
@@ -7405,7 +7405,7 @@ SUMMARY:Fair Lawn High School at Northern Highlands Regional High School
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:15 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7803525@big-north-conference
+UID:ds:2534:7479500@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T113000
 DTEND;TZID=America/New_York:20270116T133000
@@ -7423,15 +7423,6 @@ SUMMARY:Cliffside Park High School at Fort Lee High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7803527@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T113000
-DTEND;TZID=America/New_York:20270116T133000
-SUMMARY:Lakeland Regional High School at Wayne Valley High School (Freshm
- an Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2689:7803526@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T113000
@@ -7439,6 +7430,15 @@ DTEND;TZID=America/New_York:20270116T133000
 SUMMARY:Lakeland Regional High School at Wayne Valley High School (Varsit
  y Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2689:7803527@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T113000
+DTEND;TZID=America/New_York:20270116T133000
+SUMMARY:Lakeland Regional High School at Wayne Valley High School (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7803529@big-north-conference
@@ -7629,7 +7629,7 @@ SUMMARY:Don Bosco Prep at Chaminade High School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803590@big-north-conference
+UID:ds:2533:7727844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T160000
 DTEND;TZID=America/New_York:20270118T180000
@@ -7647,7 +7647,7 @@ SUMMARY:West Milford High School at Saddle Brook High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7727847@big-north-conference
+UID:ds:2533:7803598@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T173000
 DTEND;TZID=America/New_York:20270118T193000
@@ -7917,7 +7917,7 @@ SUMMARY:Ridgefield Park High School at Westwood Regional Senior High Scho
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7803661@big-north-conference
+UID:ds:2834:7707218@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
@@ -8223,7 +8223,7 @@ SUMMARY:Paramus High School at Saint Joseph Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7803718@big-north-conference
+UID:ds:2792:7484275@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
@@ -8340,7 +8340,7 @@ SUMMARY:Dumont High School at Pascack Hills High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7708858@big-north-conference
+UID:ds:2706:7803812@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -8859,7 +8859,7 @@ SUMMARY:Passaic Valley High School vs Pioneer Academy (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7789026@big-north-conference
+UID:ds:2832:7771761@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000
@@ -9201,7 +9201,7 @@ SUMMARY:DePaul Catholic High School at Morris Catholic High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7789142@big-north-conference
+UID:ds:2597:7539371@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T173000
 DTEND;TZID=America/New_York:20270125T193000
@@ -9327,7 +9327,7 @@ SUMMARY:Paramus High School vs Pascack Hills High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2822:7637892@big-north-conference
+UID:ds:2822:7804055@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
@@ -9588,7 +9588,7 @@ SUMMARY:Northern Highlands Regional High School vs Northern Valley Region
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7449503@big-north-conference
+UID:ds:2771:7804111@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
@@ -9804,7 +9804,7 @@ SUMMARY:Bergenfield High School at Bogota Middle School (Middle School Bo
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7550851@big-north-conference
+UID:ds:2573:7789258@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T171500
 DTEND;TZID=America/New_York:20270127T191500

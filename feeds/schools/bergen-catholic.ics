@@ -212,6 +212,15 @@ SUMMARY:Bergen Catholic High School vs Lenape High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2533:7385352@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2533:7469589@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -228,15 +237,6 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Bergen Catholic High School at Ridgewood High School (Freshman Bo
  ys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2533:7385352@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7469591@big-north-conference
@@ -1660,7 +1660,7 @@ SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7756643@big-north-conference
+UID:ds:2533:7802872@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T144500
 DTEND;TZID=America/New_York:20270107T164500
@@ -1669,7 +1669,7 @@ SUMMARY:Bergen Catholic High School vs Ridgewood High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673581@big-north-conference
+UID:ds:2533:7802874@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T150000
 DTEND;TZID=America/New_York:20270107T170000
@@ -1759,7 +1759,7 @@ SUMMARY:Bergen Catholic High School at Saint Peters Prep (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803180@big-north-conference
+UID:ds:2533:7752820@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T153000
 DTEND;TZID=America/New_York:20270112T173000
@@ -1795,7 +1795,7 @@ SUMMARY:Cliffside Park High School at Bergen Catholic High School (Varsit
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803223@big-north-conference
+UID:ds:2533:7667894@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
 DTEND;TZID=America/New_York:20270112T183000
@@ -1822,7 +1822,7 @@ SUMMARY:Bergen Catholic High School at Princeton Day School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803329@big-north-conference
+UID:ds:2533:7674062@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T190000
 DTEND;TZID=America/New_York:20270113T210000
@@ -1831,7 +1831,7 @@ SUMMARY:Bergen Catholic High School vs Don Bosco Prep (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7525321@big-north-conference
+UID:ds:2533:7803361@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -1867,7 +1867,7 @@ SUMMARY:Bergen Catholic High School at Ridgewood High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7703228@big-north-conference
+UID:ds:2533:7803449@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T194500
 DTEND;TZID=America/New_York:20270114T214500
@@ -1885,15 +1885,6 @@ SUMMARY:Paramus High School vs Bergen Catholic High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7670612@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T153000
-DTEND;TZID=America/New_York:20270115T173000
-SUMMARY:Bergen Catholic High School vs Dwight Morrow High School (Varsity
-  Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2533:7752822@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T153000
@@ -1903,7 +1894,16 @@ SUMMARY:Bergen Catholic High School vs Dwight Morrow High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7752822@big-north-conference
+UID:ds:2533:7670612@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T153000
+DTEND;TZID=America/New_York:20270115T173000
+SUMMARY:Bergen Catholic High School vs Dwight Morrow High School (Varsity
+  Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7670612@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T153000
 DTEND;TZID=America/New_York:20270115T173000
@@ -1957,7 +1957,7 @@ SUMMARY:Bergen Catholic High School at St. Frances Academy (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803582@big-north-conference
+UID:ds:2533:7737479@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T090000
 DTEND;TZID=America/New_York:20270118T110000
@@ -1965,7 +1965,7 @@ SUMMARY:Bergen Catholic High School vs TBD (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803590@big-north-conference
+UID:ds:2533:7727844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T160000
 DTEND;TZID=America/New_York:20270118T180000
@@ -1974,7 +1974,7 @@ SUMMARY:Bergen Catholic High School vs Hudson Catholic High School (Fresh
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7727847@big-north-conference
+UID:ds:2533:7803598@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T173000
 DTEND;TZID=America/New_York:20270118T193000
@@ -1983,7 +1983,7 @@ SUMMARY:Bergen Catholic High School vs Hudson Catholic High School (Junio
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803604@big-north-conference
+UID:ds:2533:7777414@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T180000
 DTEND;TZID=America/New_York:20270118T200000
@@ -1992,7 +1992,7 @@ SUMMARY:Bergen Catholic High School vs Don Bosco Prep (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7803622@big-north-conference
+UID:ds:2533:7671607@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
 DTEND;TZID=America/New_York:20270119T180000
