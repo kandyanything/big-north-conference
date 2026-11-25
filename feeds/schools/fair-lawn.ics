@@ -1075,15 +1075,6 @@ SUMMARY:Bergen County Technical High School vs Fair Lawn High School (Fre
 DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7564173@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Dwight Morrow High School vs Fair Lawn High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2597:7632250@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
@@ -1091,6 +1082,15 @@ DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Dwight Morrow High School vs Fair Lawn High School (Junior Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7564173@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Dwight Morrow High School vs Fair Lawn High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7587747@big-north-conference
@@ -2586,6 +2586,15 @@ SUMMARY:Fair Lawn High School vs Cresskill High School (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2613:7786902@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Fair Lawn High School at Rutherford High School (Varsity Girls Gi
+ rls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2633:7801622@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -2595,13 +2604,22 @@ SUMMARY:Hackensack High School at Fair Lawn High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7822764@big-north-conference
+UID:ds:2574:7822764@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
 DTEND;TZID=America/New_York:20261207T181500
-SUMMARY:Fair Lawn High School vs Clifton High School (Freshman Girls Girl
+SUMMARY:Clifton High School at Fair Lawn High School (Freshman Girls Girl
  s Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7822772@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T161500
+DTEND;TZID=America/New_York:20261207T181500
+SUMMARY:Fair Lawn High School at Rutherford High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7801645@big-north-conference
@@ -3252,7 +3270,7 @@ SUMMARY:Fair Lawn High School vs Northern Valley Old Tappan/Demarest (Var
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7698752@big-north-conference
+UID:ds:2771:7802717@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T200000
 DTEND;TZID=America/New_York:20270104T220000
