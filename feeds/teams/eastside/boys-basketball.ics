@@ -23,7 +23,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2604:7690134@big-north-conference
+UID:ds:2604:7787294@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T150000
 DTEND;TZID=America/New_York:20261214T170000
@@ -41,7 +41,7 @@ SUMMARY:Eastside High School vs Bogota High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673818@big-north-conference
+UID:ds:2533:7802108@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
@@ -59,7 +59,7 @@ SUMMARY:Bergen Catholic High School at Eastside High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7696846@big-north-conference
+UID:ds:2604:7802225@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T161500
 DTEND;TZID=America/New_York:20261218T181500
@@ -77,7 +77,7 @@ SUMMARY:Eastside High School at Hackensack High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7732233@big-north-conference
+UID:ds:2604:7802317@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
@@ -95,22 +95,22 @@ SUMMARY:Eastside High School vs Hackensack High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7753987@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T163000
-DTEND;TZID=America/New_York:20270105T183000
-SUMMARY:Eastside High School at Passaic High School (Freshman Boys Boys B
- asketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2604:7753985@big-north-conference
+UID:ds:2604:7802772@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T163000
 DTEND;TZID=America/New_York:20270105T183000
 SUMMARY:Eastside High School at Passaic High School (Varsity Boys Boys Ba
  sketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2604:7802773@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T163000
+DTEND;TZID=America/New_York:20270105T183000
+SUMMARY:Eastside High School at Passaic High School (Freshman Boys Boys B
+ asketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7753986@big-north-conference
@@ -122,15 +122,6 @@ SUMMARY:Eastside High School at Passaic High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7651824@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
-SUMMARY:Bergen County Technical High School at Eastside High School (Fres
- hman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:32754:7680857@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
@@ -138,6 +129,15 @@ DTEND;TZID=America/New_York:20270107T181500
 SUMMARY:Bergen County Technical High School at Eastside High School (Juni
  or Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:32754:7651824@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:Bergen County Technical High School at Eastside High School (Fres
+ hman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7651811@big-north-conference
@@ -149,7 +149,7 @@ SUMMARY:Bergen County Technical High School at Eastside High School (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7684871@big-north-conference
+UID:ds:2604:7803097@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T144500
 DTEND;TZID=America/New_York:20270109T164500
@@ -167,7 +167,7 @@ SUMMARY:Eastside High School vs River Dell Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7530050@big-north-conference
+UID:ds:2604:7803363@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -194,6 +194,15 @@ SUMMARY:Passaic County Technical Institute at East Side High School (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2604:7803581@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Eastside High School vs Essex County (Varsity Boys Boys Basketbal
+ l)
+DESCRIPTION:Varsity Boys Boys Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2604:7755763@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270118
@@ -212,7 +221,7 @@ SUMMARY:Wayne Hills High School vs Eastside High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7637832@big-north-conference
+UID:ds:2604:7803699@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
@@ -230,7 +239,7 @@ SUMMARY:Eastside High School at Wayne Hills High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7582596@big-north-conference
+UID:ds:2604:7804054@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000

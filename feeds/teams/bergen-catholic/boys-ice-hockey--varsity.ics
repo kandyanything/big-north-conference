@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2533:7673523@big-north-conference
+UID:ds:2533:7801511@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261201T160000
 DTEND;TZID=America/New_York:20261201T180000
@@ -60,7 +60,7 @@ SUMMARY:Bergen Catholic High School vs Princeton Day School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673534@big-north-conference
+UID:ds:2533:7802360@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T153000
 DTEND;TZID=America/New_York:20261221T173000
@@ -69,7 +69,7 @@ SUMMARY:Bergen Catholic High School at Saint Joseph Regional High School
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673765@big-north-conference
+UID:ds:2533:7802544@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T181500
 DTEND;TZID=America/New_York:20261223T201500
@@ -96,7 +96,7 @@ SUMMARY:Bergen Catholic High School vs Gloucester Catholic High School (V
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7673555@big-north-conference
+UID:ds:2533:7803179@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T203000
 DTEND;TZID=America/New_York:20270111T223000
@@ -121,6 +121,15 @@ DTEND;TZID=America/New_York:20270119T180000
 SUMMARY:Bergen Catholic High School vs Pope John XXIII High School (Varsi
  ty Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2533:7804025@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Bergen Catholic High School at Gloucester Catholic High School (V
+ arsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2533:7673560@big-north-conference

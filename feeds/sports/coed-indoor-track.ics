@@ -23,7 +23,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2823:7778568@big-north-conference
+UID:ds:2823:7801799@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T163000
 DTEND;TZID=America/New_York:20261210T183000
@@ -40,7 +40,7 @@ SUMMARY:Northern Highlands Regional High School at TBD (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7737491@big-north-conference
+UID:ds:2793:7801885@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T110000
@@ -49,7 +49,25 @@ SUMMARY:Pascack Valley High School at TBA NJ (Var-JV Coed Coed Indoor Tra
 DESCRIPTION:Var-JV Coed Coed Indoor Track - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7737506@big-north-conference
+UID:ds:2771:7799121@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T140000
+DTEND;TZID=America/New_York:20261212T160000
+SUMMARY:Northern Valley Regional HS - Demarest vs Northern Valley Regiona
+ l High (Varsity Coed Coed Indoor Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7799121@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T140000
+DTEND;TZID=America/New_York:20261212T160000
+SUMMARY:River Dell Regional High School at Northern Valley Regional High 
+ (Varsity Coed Coed Indoor Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2793:7802116@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
@@ -67,7 +85,7 @@ SUMMARY:Northern Highlands Regional High School at TBD (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7708564@big-north-conference
+UID:ds:2939:7802151@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T163000
 DTEND;TZID=America/New_York:20261217T183000
@@ -85,7 +103,7 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Indo
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7774087@big-north-conference
+UID:ds:32754:7802359@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T150000
 DTEND;TZID=America/New_York:20261221T170000
@@ -112,7 +130,7 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Indo
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7774089@big-north-conference
+UID:ds:32754:7802411@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T144500
 DTEND;TZID=America/New_York:20261222T164500
@@ -121,7 +139,7 @@ SUMMARY:Bergen County Technical High School at TBD (Varsity Coed Coed Ind
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7761002@big-north-conference
+UID:ds:2939:7802432@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -166,7 +184,7 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Indo
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7761008@big-north-conference
+UID:ds:2939:7802712@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T163000
 DTEND;TZID=America/New_York:20270104T183000
@@ -184,7 +202,7 @@ SUMMARY:Pascack Valley High School at TBA NJ (Var-JV Coed Coed Indoor Tra
 DESCRIPTION:Var-JV Coed Coed Indoor Track - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7774081@big-north-conference
+UID:ds:32754:7802839@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T163000
 DTEND;TZID=America/New_York:20270106T183000
@@ -201,6 +219,14 @@ SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Indoor Track)
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2788:7802828@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Indoor Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2939:7761441@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T163000
@@ -210,7 +236,7 @@ SUMMARY:Westwood Regional Senior High School at TBD (Varsity Coed Coed In
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7691585@big-north-conference
+UID:ds:2834:7803055@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T093000
 DTEND;TZID=America/New_York:20270109T113000
@@ -228,7 +254,7 @@ SUMMARY:Bergen County Technical High School at TBD (Varsity Coed Coed Ind
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7737534@big-north-conference
+UID:ds:2793:7803153@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T161500
 DTEND;TZID=America/New_York:20270111T181500
@@ -282,7 +308,7 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Indo
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2939:7761470@big-north-conference
+UID:ds:2939:7803389@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
 DTEND;TZID=America/New_York:20270114T183000
@@ -292,6 +318,14 @@ DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7697296@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Indoor Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7803330@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
@@ -317,7 +351,7 @@ SUMMARY:Bergen County Technical High School at TBD (Varsity Coed Coed Ind
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7737546@big-north-conference
+UID:ds:2793:7803765@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T163000
 DTEND;TZID=America/New_York:20270120T183000
@@ -351,6 +385,14 @@ DTEND;TZID=America/New_York:20270120T191500
 SUMMARY:Westwood Regional Senior High School at TBD (Varsity Coed Coed In
  door Track)
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7803736@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Paramus High School at TBA NJ (Varsity Coed Coed Indoor Track)
+DESCRIPTION:Varsity Coed Coed Indoor Track - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7697451@big-north-conference

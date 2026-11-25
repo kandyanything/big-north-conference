@@ -42,15 +42,6 @@ SUMMARY:Pascack Hills High School at Westwood Regional Senior High School
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7512595@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261214T161500
-DTEND;TZID=America/New_York:20261214T181500
-SUMMARY:Indian Hills High School at Pascack Hills High School (Junior Var
- sity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7512594@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T161500
@@ -60,7 +51,16 @@ SUMMARY:Indian Hills High School at Pascack Hills High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7512596@big-north-conference
+UID:ds:2670:7512595@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T161500
+DTEND;TZID=America/New_York:20261214T181500
+SUMMARY:Indian Hills High School at Pascack Hills High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7802126@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T161500
 DTEND;TZID=America/New_York:20261217T181500
@@ -69,7 +69,7 @@ SUMMARY:Bergenfield High School at Pascack Hills High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7512597@big-north-conference
+UID:ds:2534:7802127@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T161500
 DTEND;TZID=America/New_York:20261217T181500
@@ -96,7 +96,7 @@ SUMMARY:Dwight Morrow High School vs Pascack Hills High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7445906@big-north-conference
+UID:ds:2616:7802434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T161500
 DTEND;TZID=America/New_York:20261222T181500
@@ -132,7 +132,7 @@ SUMMARY:Pascack Hills High School at Midland Park High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 9:15 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7512605@big-north-conference
+UID:ds:2706:7802746@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T161500
 DTEND;TZID=America/New_York:20270105T181500
@@ -141,7 +141,7 @@ SUMMARY:Mahwah High School at Pascack Hills High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7798143@big-north-conference
+UID:ds:2792:7802765@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T161500
 DTEND;TZID=America/New_York:20270105T181500
@@ -177,7 +177,7 @@ SUMMARY:Pascack Hills High School at River Dell Regional High School (Fre
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7593791@big-north-conference
+UID:ds:2792:7802952@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -204,7 +204,7 @@ SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512710@big-north-conference
+UID:ds:2792:7803208@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
 DTEND;TZID=America/New_York:20270112T181500
@@ -222,7 +222,7 @@ SUMMARY:Pascack Hills High School vs Westwood Regional Senior High School
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7459249@big-north-conference
+UID:ds:2792:7803358@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -240,7 +240,7 @@ SUMMARY:Pascack Hills High School vs Ridgewood High School (Freshman Girl
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512711@big-north-conference
+UID:ds:2792:7803400@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -249,7 +249,7 @@ SUMMARY:Pascack Hills High School vs Ramsey High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7798881@big-north-conference
+UID:ds:2770:7778580@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
@@ -258,7 +258,7 @@ SUMMARY:Northern Highlands Regional High School vs Pascack Hills High Sch
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7526236@big-north-conference
+UID:ds:2792:7803637@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
@@ -276,7 +276,7 @@ SUMMARY:Pascack Hills High School at Tenafly High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7653159@big-north-conference
+UID:ds:2792:7803832@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
@@ -285,7 +285,7 @@ SUMMARY:Pascack Hills High School at Dumont High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7779476@big-north-conference
+UID:ds:2792:7803852@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
@@ -303,7 +303,7 @@ SUMMARY:Dumont High School vs Pascack Hills High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7667812@big-north-conference
+UID:ds:2792:7803981@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T110000
 DTEND;TZID=America/New_York:20270123T130000

@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ds:2788:7484527@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
 SUMMARY:Paramus High School at Teaneck High School (Varsity Boys Boys Wre
  stling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2832:7753982@big-north-conference
+UID:ds:2832:7802406@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T210000
@@ -50,7 +50,7 @@ SUMMARY:Tenafly High School vs Teaneck High School (Varsity Boys Boys Wre
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7553271@big-north-conference
+UID:ds:2771:7804180@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000
@@ -59,7 +59,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Teaneck High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7553266@big-north-conference
+UID:ds:2771:7804196@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T180000
 DTEND;TZID=America/New_York:20270127T200000
