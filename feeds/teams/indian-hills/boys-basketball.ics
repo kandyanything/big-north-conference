@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2670:7778544@big-north-conference
+UID:ds:2670:7786941@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T161500
 DTEND;TZID=America/New_York:20261207T181500
@@ -42,7 +42,7 @@ SUMMARY:Indian Hills High School at Park Ridge High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7787047@big-north-conference
+UID:ds:2670:7439427@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -51,22 +51,22 @@ SUMMARY:Indian Hills High School at Cresskill High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7663499@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T161500
-DTEND;TZID=America/New_York:20261209T181500
-SUMMARY:Indian Hills High School vs Cresskill High School (Varsity Boys B
- oys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7663680@big-north-conference
+UID:ds:2670:7787067@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T161500
 DTEND;TZID=America/New_York:20261209T181500
 SUMMARY:Indian Hills High School vs Cresskill High School (Junior Varsity
   Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7787066@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T161500
+DTEND;TZID=America/New_York:20261209T181500
+SUMMARY:Indian Hills High School vs Cresskill High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7674520@big-north-conference
@@ -105,7 +105,7 @@ SUMMARY:Indian Hills High School at Pascack Valley High School (Freshman
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7554400@big-north-conference
+UID:ds:2670:7801970@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T161500
 DTEND;TZID=America/New_York:20261214T181500
@@ -123,7 +123,7 @@ SUMMARY:Indian Hills High School at Pascack Valley High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7714246@big-north-conference
+UID:ds:2670:7787410@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T161500
 DTEND;TZID=America/New_York:20261216T181500
@@ -141,7 +141,7 @@ SUMMARY:Indian Hills High School at Mahwah High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7658300@big-north-conference
+UID:ds:2670:7802176@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T193000
@@ -150,7 +150,7 @@ SUMMARY:Indian Hills High School at Mahwah High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7802208@big-north-conference
+UID:ds:2670:7658301@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
@@ -168,7 +168,7 @@ SUMMARY:Indian Hills High School vs Ramsey High School (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7802303@big-north-conference
+UID:ds:2670:7440806@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
@@ -186,7 +186,7 @@ SUMMARY:Indian Hills High School vs Ramsey High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7802427@big-north-conference
+UID:ds:2670:7675043@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -204,7 +204,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Indian Hills High Schoo
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7554868@big-north-conference
+UID:ds:2670:7802478@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
@@ -240,22 +240,13 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Indian Hills High Schoo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7787834@big-north-conference
+UID:ds:2670:7778380@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T130000
 DTEND;TZID=America/New_York:20261228T150000
 SUMMARY:Indian Hills High School vs Saddle Brook High School (Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7802750@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T161500
-DTEND;TZID=America/New_York:20270105T181500
-SUMMARY:Indian Hills High School at Lakeland Regional High School (Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7802751@big-north-conference
@@ -265,6 +256,15 @@ DTEND;TZID=America/New_York:20270105T181500
 SUMMARY:Indian Hills High School at Lakeland Regional High School (Freshm
  an Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7540229@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T161500
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:Indian Hills High School at Lakeland Regional High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7540338@big-north-conference
@@ -294,7 +294,7 @@ SUMMARY:Indian Hills High School vs West Milford High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7802991@big-north-conference
+UID:ds:2670:7663797@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
 DTEND;TZID=America/New_York:20270107T210000
@@ -312,15 +312,6 @@ SUMMARY:Indian Hills High School vs Bergen Charter (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7803187@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity B
- oys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7803188@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -328,6 +319,15 @@ DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Indian Hills High School at Passaic Valley High School (Freshman 
  Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7578710@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Indian Hills High School at Passaic Valley High School (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7803243@big-north-conference
@@ -339,7 +339,7 @@ SUMMARY:Indian Hills High School at Passaic Valley High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7539093@big-north-conference
+UID:ds:2670:7803340@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -357,7 +357,7 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7539091@big-north-conference
+UID:ds:2670:7803434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -366,7 +366,7 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7720592@big-north-conference
+UID:ds:2613:7803664@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
@@ -375,7 +375,7 @@ SUMMARY:Fair Lawn High School vs Indian Hills High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7803706@big-north-conference
+UID:ds:2613:7720609@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
@@ -393,7 +393,7 @@ SUMMARY:Fair Lawn High School vs Indian Hills High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7803841@big-north-conference
+UID:ds:2670:7675200@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
@@ -411,7 +411,7 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7803896@big-north-conference
+UID:ds:2670:7637641@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T190000
 DTEND;TZID=America/New_York:20270121T210000
@@ -420,7 +420,7 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7804005@big-north-conference
+UID:ds:2616:7631410@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T150000
 DTEND;TZID=America/New_York:20270123T170000
@@ -438,7 +438,7 @@ SUMMARY:Indian Hills High School vs Westwood Regional Senior High School
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7804131@big-north-conference
+UID:ds:2670:7692533@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
 DTEND;TZID=America/New_York:20270126T193000
@@ -447,7 +447,7 @@ SUMMARY:Indian Hills High School vs Westwood Regional Senior High School
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7692536@big-north-conference
+UID:ds:2670:7804153@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T190000
 DTEND;TZID=America/New_York:20270126T210000
