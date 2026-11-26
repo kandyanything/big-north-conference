@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2771:7654104@big-north-conference
+UID:ds:2771:7801757@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T170000
 DTEND;TZID=America/New_York:20261209T190000
@@ -69,7 +69,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Tenafly High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7802068@big-north-conference
+UID:ds:2771:7550724@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
@@ -87,7 +87,7 @@ SUMMARY:Northern Valley Regional HS - Demarest at West Milford High Schoo
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7550761@big-north-conference
+UID:ds:2771:7802395@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T200000
@@ -105,7 +105,7 @@ SUMMARY:Northern Valley Regional HS - Demarest at Northern Highlands Regi
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7550776@big-north-conference
+UID:ds:2771:7802527@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T160000
 DTEND;TZID=America/New_York:20261223T180000
@@ -195,15 +195,6 @@ SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7529972@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T090000
-DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
- chool (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2771:7552687@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -211,6 +202,15 @@ DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
  chool (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2771:7529972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Northern Valley Regional HS - Demarest at Arthur L Johnson High S
+ chool (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2771:7804180@big-north-conference
