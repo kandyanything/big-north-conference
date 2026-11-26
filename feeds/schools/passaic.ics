@@ -1574,15 +1574,6 @@ SUMMARY:John F. Kennedy High School at Passaic High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2676:7545822@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T163000
-DTEND;TZID=America/New_York:20261019T183000
-SUMMARY:John F. Kennedy High School vs Passaic High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2676:7557863@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T163000
@@ -1590,6 +1581,15 @@ DTEND;TZID=America/New_York:20261019T183000
 SUMMARY:John F. Kennedy High School at Passaic High School (Freshman Boys
   Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7545822@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T163000
+DTEND;TZID=America/New_York:20261019T183000
+SUMMARY:John F. Kennedy High School vs Passaic High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7394458@big-north-conference
@@ -1699,15 +1699,6 @@ SUMMARY:John F. Kennedy High School at Passaic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7512877@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T161500
-DTEND;TZID=America/New_York:20261023T181500
-SUMMARY:Passaic High School at North Bergen High School (Middle School Gi
- rls Girls Volleyball)
-DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2795:7547020@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T161500
@@ -1715,6 +1706,15 @@ DTEND;TZID=America/New_York:20261023T181500
 SUMMARY:Passaic High School at Garfield High School (Middle School Boys B
  oys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2795:7512877@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T161500
+DTEND;TZID=America/New_York:20261023T181500
+SUMMARY:Passaic High School at North Bergen High School (Middle School Gi
+ rls Girls Volleyball)
+DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7546806@big-north-conference
@@ -2612,22 +2612,13 @@ SUMMARY:John F. Kennedy High School vs Passaic High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7710199@big-north-conference
+UID:ds:2794:7802875@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T153000
 DTEND;TZID=America/New_York:20270107T173000
 SUMMARY:Passaic County Technical Institute at Passaic High School (Varsit
  y Coed Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2676:7620140@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T163000
-DTEND;TZID=America/New_York:20270107T183000
-SUMMARY:John F. Kennedy High School vs Passaic High School (Freshman Boys
-  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7802934@big-north-conference
@@ -2637,6 +2628,15 @@ DTEND;TZID=America/New_York:20270107T183000
 SUMMARY:John F. Kennedy High School at Passaic High School (Varsity Girls
   Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2676:7620140@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T163000
+DTEND;TZID=America/New_York:20270107T183000
+SUMMARY:John F. Kennedy High School vs Passaic High School (Freshman Boys
+  Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2676:7620131@big-north-conference
@@ -2828,16 +2828,7 @@ SUMMARY:Pascack Valley High School vs Passaic High School (Varsity Coed C
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803387@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T163000
-DTEND;TZID=America/New_York:20270114T183000
-SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls B
- asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7803385@big-north-conference
+UID:ds:2574:7754771@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
 DTEND;TZID=America/New_York:20270114T183000
@@ -2853,6 +2844,15 @@ DTEND;TZID=America/New_York:20270114T183000
 SUMMARY:Clifton High School vs Passaic High School (Freshman Boys Boys Ba
  sketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7803387@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T163000
+DTEND;TZID=America/New_York:20270114T183000
+SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls B
+ asketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7755071@big-north-conference
@@ -2873,7 +2873,7 @@ SUMMARY:Passaic High School at Parsippany High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803423@big-north-conference
+UID:ds:2574:7754772@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T174500
 DTEND;TZID=America/New_York:20270114T194500
@@ -3184,7 +3184,7 @@ SUMMARY:Eastside High School vs Passaic High School (Varsity Boys Boys Wr
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7804182@big-north-conference
+UID:ds:2794:7647435@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000

@@ -419,15 +419,6 @@ SUMMARY:Northern Highlands Regional High School vs Wayne Hills High Schoo
 DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7510685@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
- ty Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7496253@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -435,6 +426,15 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Indian Hills High School at Wayne Hills High School (Varsity Girl
  s Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7510685@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
+ ty Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7516581@big-north-conference
@@ -644,15 +644,6 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7472872@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Indian Hills High School at Wayne Hills High School (Junior Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7445555@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -669,6 +660,15 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
  ty Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7472872@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Indian Hills High School at Wayne Hills High School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7418812@big-north-conference
@@ -1319,15 +1319,6 @@ SUMMARY:Wayne Hills High School at West Milford High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7518231@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Pascack Hills High School vs Wayne Hills High School (Freshman Gi
- rls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7518229@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1335,6 +1326,15 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Pascack Hills High School vs Wayne Hills High School (Varsity Gir
  ls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7518231@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Pascack Hills High School vs Wayne Hills High School (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7445596@big-north-conference
@@ -2606,7 +2606,7 @@ SUMMARY:Wayne Hills High School vs Ridgewood High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7801856@big-north-conference
+UID:ds:2925:7801855@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T183000
 DTEND;TZID=America/New_York:20261211T203000
@@ -2615,7 +2615,7 @@ SUMMARY:Wayne Hills High School at Wayne Hockey (Varsity Boys Boys Ice Ho
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7801857@big-north-conference
+UID:ds:2925:7593744@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T190000
 DTEND;TZID=America/New_York:20261211T210000
@@ -2624,7 +2624,7 @@ SUMMARY:Wayne Hills High School at Newton High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7763704@big-north-conference
+UID:ds:2925:7801896@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2633,7 +2633,7 @@ SUMMARY:Wayne Hills High School vs Vernon Township High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7763715@big-north-conference
+UID:ds:2925:7801897@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -2649,15 +2649,6 @@ DTEND;TZID=America/New_York:20261212T133000
 SUMMARY:Wayne Hills High School vs Vernon Township High School (Junior Va
  rsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7627124@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Wayne Hills High School at Manchester Regional High School (Varsi
- ty Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7787207@big-north-conference
@@ -2687,7 +2678,16 @@ SUMMARY:Wayne Hills High School at Manchester Regional High School (Junio
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7801938@big-north-conference
+UID:ds:2925:7627124@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Wayne Hills High School at Manchester Regional High School (Varsi
+ ty Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7765930@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T184500
 DTEND;TZID=America/New_York:20261213T204500
@@ -3146,7 +3146,7 @@ SUMMARY:Passaic Valley High School vs Wayne Hills High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7627333@big-north-conference
+UID:ds:2796:7802794@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
@@ -3155,7 +3155,7 @@ SUMMARY:Passaic Valley High School at Wayne Hills High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7648452@big-north-conference
+UID:ds:2796:7802842@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T170000
 DTEND;TZID=America/New_York:20270106T190000
@@ -3173,7 +3173,7 @@ SUMMARY:Passaic Valley High School vs Wayne Hills High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7802881@big-north-conference
+UID:ds:2689:7637857@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -3236,6 +3236,15 @@ SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2689:7540763@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2689:7637516@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
@@ -3243,15 +3252,6 @@ DTEND;TZID=America/New_York:20270107T210000
 SUMMARY:Lakeland Regional High School at Wayne Hills High School (Varsity
   Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2689:7802983@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T190000
-DTEND;TZID=America/New_York:20270107T210000
-SUMMARY:Lakeland Regional High School vs Wayne Hills High School (Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7803000@big-north-conference
@@ -3263,7 +3263,7 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7693404@big-north-conference
+UID:ds:2925:7803001@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T153000
 DTEND;TZID=America/New_York:20270108T173000
@@ -3459,7 +3459,7 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7803239@big-north-conference
+UID:ds:2925:7540341@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -3468,31 +3468,13 @@ SUMMARY:Wayne Hills High School at Wayne Valley High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637518@big-north-conference
+UID:ds:2925:7803271@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Boys
   Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7693391@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T200000
-DTEND;TZID=America/New_York:20270112T220000
-SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Boys Boys 
- Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 8:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7803278@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T200000
-DTEND;TZID=America/New_York:20270112T220000
-SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Coed Coed 
- Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2823:7693405@big-north-conference
@@ -3504,6 +3486,24 @@ SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2823:7755829@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T200000
+DTEND;TZID=America/New_York:20270112T220000
+SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Coed Coed 
+ Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7693391@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T200000
+DTEND;TZID=America/New_York:20270112T220000
+SUMMARY:Ramsey High School vs Wayne Hills High School (Varsity Boys Boys 
+ Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2613:7696703@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T161500
@@ -3513,7 +3513,7 @@ SUMMARY:Fair Lawn High School vs Wayne Hills High School (Varsity Coed Co
 DESCRIPTION:Varsity Coed Coed Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7696703@big-north-conference
+UID:ds:2925:7803294@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T161500
 DTEND;TZID=America/New_York:20270113T181500
@@ -3522,7 +3522,7 @@ SUMMARY:Wayne Hills High School at Fair Lawn High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7803304@big-north-conference
+UID:ds:2925:7648461@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T170000
 DTEND;TZID=America/New_York:20270113T190000
@@ -3540,7 +3540,7 @@ SUMMARY:Wayne Hills High School vs Wayne Valley High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637881@big-north-conference
+UID:ds:2925:7803343@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -3594,7 +3594,7 @@ SUMMARY:Wayne Hills High School vs West Milford High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7637588@big-north-conference
+UID:ds:2925:7803440@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -3657,6 +3657,15 @@ SUMMARY:Eastside High School vs Wayne Hills High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2925:7803652@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T161500
+DTEND;TZID=America/New_York:20270119T181500
+SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Girl
+ s Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2925:7669038@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
@@ -3664,15 +3673,6 @@ DTEND;TZID=America/New_York:20270119T181500
 SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Boys
   Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2925:7671360@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T161500
-DTEND;TZID=America/New_York:20270119T181500
-SUMMARY:Wayne Hills High School at Wayne Valley High School (Varsity Girl
- s Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2604:7803696@big-north-conference
@@ -3720,7 +3720,7 @@ SUMMARY:Indian Hills High School vs Wayne Hills High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7648093@big-north-conference
+UID:ds:2670:7803792@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T183000
 DTEND;TZID=America/New_York:20270120T203000
@@ -3990,7 +3990,7 @@ SUMMARY:DePaul Catholic High School at Wayne Hills High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7517068@big-north-conference
+UID:ds:2585:7804257@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
