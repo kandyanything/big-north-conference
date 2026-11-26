@@ -428,15 +428,6 @@ SUMMARY:Dwight Morrow High School vs Pascack Hills High School (Varsity B
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7621581@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T110000
-DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Dwight Morrow High School vs Passaic High School (Junior Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2597:7621574@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T110000
@@ -444,6 +435,15 @@ DTEND;TZID=America/New_York:20260919T130000
 SUMMARY:Dwight Morrow High School vs Passaic High School (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7621581@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T110000
+DTEND;TZID=America/New_York:20260919T130000
+SUMMARY:Dwight Morrow High School vs Passaic High School (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2597:7437613@big-north-conference
@@ -1409,7 +1409,7 @@ SUMMARY:Dwight Morrow High School at Dumont High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7802886@big-north-conference
+UID:ds:2597:7684911@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -1535,15 +1535,6 @@ SUMMARY:Cliffside Park High School at Dwight Morrow High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7752822@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T153000
-DTEND;TZID=America/New_York:20270115T173000
-SUMMARY:Bergen Catholic High School vs Dwight Morrow High School (Junior 
- Varsity Boys Boys Bowling)
-DESCRIPTION:Junior Varsity Boys Boys Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2533:7670612@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T153000
@@ -1553,7 +1544,16 @@ SUMMARY:Bergen Catholic High School vs Dwight Morrow High School (Varsity
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7670612@big-north-conference
+UID:ds:2533:7752822@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T153000
+DTEND;TZID=America/New_York:20270115T173000
+SUMMARY:Bergen Catholic High School vs Dwight Morrow High School (Junior 
+ Varsity Boys Boys Bowling)
+DESCRIPTION:Junior Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7752822@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T153000
 DTEND;TZID=America/New_York:20270115T173000
@@ -1652,7 +1652,7 @@ SUMMARY:Dwight Morrow High School vs Passaic Valley High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7803761@big-north-conference
+UID:ds:2573:7682858@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T161500
 DTEND;TZID=America/New_York:20270120T181500
@@ -1724,7 +1724,7 @@ SUMMARY:Dwight Morrow High School at Fort Lee High School (Varsity Coed C
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7766996@big-north-conference
+UID:ds:2534:7804178@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T161500
 DTEND;TZID=America/New_York:20270127T181500
@@ -1742,7 +1742,7 @@ SUMMARY:Dwight Morrow High School vs Ridgefield Park High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7753997@big-north-conference
+UID:ds:2597:7804206@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T180000
 DTEND;TZID=America/New_York:20270127T200000
