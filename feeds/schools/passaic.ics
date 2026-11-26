@@ -363,15 +363,6 @@ SUMMARY:Clifton High School at Passaic High School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7566035@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T163000
-DTEND;TZID=America/New_York:20260908T183000
-SUMMARY:Clifton High School at Passaic High School (Freshman Boys Boys So
- ccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7545604@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T163000
@@ -379,6 +370,15 @@ DTEND;TZID=America/New_York:20260908T183000
 SUMMARY:Clifton High School at Passaic High School (Varsity Boys Boys Soc
  cer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7566035@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T163000
+DTEND;TZID=America/New_York:20260908T183000
+SUMMARY:Clifton High School at Passaic High School (Freshman Boys Boys So
+ ccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:32754:7527464@big-north-conference
@@ -641,15 +641,6 @@ SUMMARY:John F. Kennedy High School vs Passaic High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7621574@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T110000
-DTEND;TZID=America/New_York:20260919T130000
-SUMMARY:Dwight Morrow High School vs Passaic High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2597:7621581@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T110000
@@ -657,6 +648,15 @@ DTEND;TZID=America/New_York:20260919T130000
 SUMMARY:Dwight Morrow High School vs Passaic High School (Junior Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2597:7621574@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T110000
+DTEND;TZID=America/New_York:20260919T130000
+SUMMARY:Dwight Morrow High School vs Passaic High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7545626@big-north-conference
@@ -1242,7 +1242,7 @@ SUMMARY:Bergenfield High School vs Passaic High School (Middle School Gir
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7545843@big-north-conference
+UID:ds:2574:7545844@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T163000
 DTEND;TZID=America/New_York:20261008T183000
@@ -2576,7 +2576,7 @@ SUMMARY:Eastside High School at Passaic High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2604:7802804@big-north-conference
+UID:ds:2604:7753986@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T174500
 DTEND;TZID=America/New_York:20270105T194500
@@ -2774,6 +2774,15 @@ SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2795:7756647@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T161500
+DTEND;TZID=America/New_York:20270113T181500
+SUMMARY:Passaic High School vs Clifton High School (Middle School Boys Bo
+ ys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2795:7756677@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T161500
@@ -2781,15 +2790,6 @@ DTEND;TZID=America/New_York:20270113T181500
 SUMMARY:Passaic High School at Clifton High School (Middle School Girls G
  irls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2795:7803297@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T161500
-DTEND;TZID=America/New_York:20270113T181500
-SUMMARY:Passaic High School vs Clifton High School (Middle School Boys Bo
- ys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7530167@big-north-conference
@@ -2810,7 +2810,7 @@ SUMMARY:Passaic County Technical Institute vs Passaic High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7713575@big-north-conference
+UID:ds:2795:7803332@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T143000
 DTEND;TZID=America/New_York:20270114T163000
@@ -2855,7 +2855,7 @@ SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls B
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7803390@big-north-conference
+UID:ds:2795:7755071@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T170000
 DTEND;TZID=America/New_York:20270114T190000

@@ -1742,15 +1742,6 @@ SUMMARY:Wayne Valley High School at West Milford High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7413434@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Wayne Valley High School vs West Milford High School (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7451283@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -1758,6 +1749,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Wayne Valley High School at West Milford High School (Freshman Bo
  ys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7413434@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Wayne Valley High School vs West Milford High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7451281@big-north-conference
@@ -1814,15 +1814,6 @@ SUMMARY:Wayne Valley High School at Mary Help Of Christians Academy (Fres
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7413382@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Passaic Valley High School at Wayne Valley High School (Junior Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2796:7413381@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -1830,6 +1821,15 @@ DTEND;TZID=America/New_York:20261008T181500
 SUMMARY:Passaic Valley High School at Wayne Valley High School (Varsity B
  oys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7413382@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Passaic Valley High School at Wayne Valley High School (Junior Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7437694@big-north-conference
@@ -3689,7 +3689,7 @@ SUMMARY:Hackensack High School at Wayne Valley High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7539082@big-north-conference
+UID:ds:2796:7802879@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -3707,13 +3707,22 @@ SUMMARY:Wayne Valley High School vs Hackensack High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7685135@big-north-conference
+UID:ds:2796:7802926@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
 DTEND;TZID=America/New_York:20270107T181500
 SUMMARY:Passaic Valley High School vs Wayne Valley High School (Varsity G
  irls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2796:7693728@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T193000
+SUMMARY:Passaic Valley High School vs Wayne Valley High School (Junior Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7802946@big-north-conference
@@ -3725,15 +3734,6 @@ SUMMARY:Passaic Valley High School at Wayne Valley High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7802964@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:Passaic Valley High School vs Wayne Valley High School (Junior Va
- rsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7822523@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
@@ -3743,7 +3743,7 @@ SUMMARY:Wayne Valley High School at Garfield High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7802982@big-north-conference
+UID:ds:2796:7539080@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
 DTEND;TZID=America/New_York:20270107T210000
@@ -3824,6 +3824,15 @@ SUMMARY:Wayne Valley High School at Pequannock Township High School (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2823:7803079@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T113000
+DTEND;TZID=America/New_York:20270109T133000
+SUMMARY:Ramsey High School at Wayne Valley High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2823:7411877@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
@@ -3840,15 +3849,6 @@ DTEND;TZID=America/New_York:20270109T133000
 SUMMARY:Ramsey High School at Wayne Valley High School (Freshman Boys Boy
  s Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7463430@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T113000
-DTEND;TZID=America/New_York:20270109T133000
-SUMMARY:Ramsey High School at Wayne Valley High School (Varsity Boys Boys
-  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7540314@big-north-conference
@@ -4463,22 +4463,13 @@ SUMMARY:Wayne Valley High School vs Elmwood Park Memorial High School (Va
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7803989@big-north-conference
+UID:ds:2926:7540370@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
 SUMMARY:Wayne Valley High School at Montville Township High School (Varsi
  ty Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2926:7804013@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270124
-DTEND;VALUE=DATE:20270125
-SUMMARY:Wayne Valley High School at Ridgewood High School (Varsity Boys B
- oys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7651618@big-north-conference
@@ -4491,6 +4482,15 @@ DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7804012@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Wayne Valley High School at Ridgewood High School (Varsity Boys B
+ oys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7804013@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -4616,7 +4616,7 @@ SUMMARY:Wayne Valley High School vs West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7804189@big-north-conference
+UID:ds:2670:7540558@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T173000
 DTEND;TZID=America/New_York:20270127T193000
@@ -4625,7 +4625,7 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7804209@big-north-conference
+UID:ds:2670:7540557@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T183000
 DTEND;TZID=America/New_York:20270127T203000
