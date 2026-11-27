@@ -1166,15 +1166,6 @@ SUMMARY:Hackensack High School at James J Ferris High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7410254@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T110000
-DTEND;TZID=America/New_York:20261003T130000
-SUMMARY:Cliffside Park High School at Hackensack High School (Freshman Bo
- ys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7396721@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T110000
@@ -1182,6 +1173,15 @@ DTEND;TZID=America/New_York:20261003T130000
 SUMMARY:Cliffside Park High School at Hackensack High School (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7410254@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T130000
+SUMMARY:Cliffside Park High School at Hackensack High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7396010@big-north-conference
@@ -2568,7 +2568,7 @@ SUMMARY:Hackensack High School at Ramapo High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7802817@big-north-conference
+UID:ds:2633:7592745@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -2586,7 +2586,7 @@ SUMMARY:Hackensack High School at Ramapo High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7660897@big-north-conference
+UID:ds:2633:7802837@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T161500
 DTEND;TZID=America/New_York:20270106T181500
@@ -2703,7 +2703,7 @@ SUMMARY:Hackensack High School vs Northern Highlands Regional High School
 DESCRIPTION:Varsity Girls Girls Competition Cheer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7660898@big-north-conference
+UID:ds:2613:7803181@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T154500
 DTEND;TZID=America/New_York:20270112T174500
@@ -2739,22 +2739,13 @@ SUMMARY:Fair Lawn High School at Hackensack High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7592773@big-north-conference
+UID:ds:2613:7803244@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
 SUMMARY:Fair Lawn High School vs Hackensack High School (Junior Varsity B
  oys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2613:7593541@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Fair Lawn High School at Hackensack High School (Varsity Girls Gi
- rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7803269@big-north-conference
@@ -2764,6 +2755,15 @@ DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Fair Lawn High School vs Hackensack High School (Varsity Boys Boy
  s Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7593541@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Fair Lawn High School at Hackensack High School (Varsity Girls Gi
+ rls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7693412@big-north-conference
