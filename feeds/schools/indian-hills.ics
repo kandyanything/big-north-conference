@@ -310,15 +310,6 @@ SUMMARY:Indian Hills High School at Westwood Regional Senior High School
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7386392@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T161500
-DTEND;TZID=America/New_York:20260903T181500
-SUMMARY:Indian Hills High School at Ramsey High School (Varsity Girls Gir
- ls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7410075@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T161500
@@ -335,6 +326,15 @@ DTEND;TZID=America/New_York:20260903T181500
 SUMMARY:Indian Hills High School vs Paramus High School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7386392@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T161500
+DTEND;TZID=America/New_York:20260903T181500
+SUMMARY:Indian Hills High School at Ramsey High School (Varsity Girls Gir
+ ls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7516941@big-north-conference
@@ -409,6 +409,24 @@ SUMMARY:Indian Hills High School at Lakeland Regional High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2670:7451256@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Indian Hills High School at West Milford High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7451257@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Indian Hills High School at West Milford High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2670:7451258@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -434,24 +452,6 @@ DTEND;TZID=America/New_York:20260908T181500
 SUMMARY:Indian Hills High School vs Parsippany High School (Freshman Girl
  s Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7451257@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Indian Hills High School at West Milford High School (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2670:7451256@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T161500
-DTEND;TZID=America/New_York:20260908T181500
-SUMMARY:Indian Hills High School at West Milford High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7496253@big-north-conference
@@ -1174,15 +1174,6 @@ SUMMARY:Indian Hills High School vs Bergen Charter (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7407163@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T183000
-DTEND;TZID=America/New_York:20260930T203000
-SUMMARY:Indian Hills High School at Paramus High School (Varsity Girls Gi
- rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7511859@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T183000
@@ -1190,6 +1181,15 @@ DTEND;TZID=America/New_York:20260930T203000
 SUMMARY:Indian Hills High School vs Paramus High School (Varsity Boys Boy
  s Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7407163@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T183000
+DTEND;TZID=America/New_York:20260930T203000
+SUMMARY:Indian Hills High School at Paramus High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7661712@big-north-conference
@@ -2736,7 +2736,7 @@ SUMMARY:Indian Hills High School at Ramsey High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7802274@big-north-conference
+UID:ds:2670:7441113@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
@@ -2817,7 +2817,7 @@ SUMMARY:Dumont High School vs Indian Hills High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7802427@big-north-conference
+UID:ds:2670:7675043@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T160000
 DTEND;TZID=America/New_York:20261222T180000
@@ -3663,7 +3663,7 @@ SUMMARY:Indian Hills High School at Tenafly High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7804005@big-north-conference
+UID:ds:2616:7631410@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T150000
 DTEND;TZID=America/New_York:20270123T170000
@@ -3690,15 +3690,6 @@ SUMMARY:Indian Hills High School at Westwood Regional Senior High School
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7695370@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T173000
-DTEND;TZID=America/New_York:20270126T193000
-SUMMARY:Indian Hills High School at Westwood Regional Senior High School 
- (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2670:7692533@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
@@ -3706,6 +3697,15 @@ DTEND;TZID=America/New_York:20270126T193000
 SUMMARY:Indian Hills High School vs Westwood Regional Senior High School 
  (Junior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2670:7695370@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Indian Hills High School at Westwood Regional Senior High School 
+ (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2670:7804153@big-north-conference
@@ -3744,7 +3744,7 @@ SUMMARY:Indian Hills High School at Wayne Valley High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7540557@big-north-conference
+UID:ds:2670:7804209@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T183000
 DTEND;TZID=America/New_York:20270127T203000
