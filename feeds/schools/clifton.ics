@@ -1383,7 +1383,7 @@ SUMMARY:Clifton High School vs Mount Saint Dominic Academy (Var-JV Girls
 DESCRIPTION:Var-JV Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7545844@big-north-conference
+UID:ds:2574:7545843@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T163000
 DTEND;TZID=America/New_York:20261008T183000
@@ -1958,15 +1958,6 @@ SUMMARY:Clifton High School vs Passaic County Technical Institute (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7556013@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T161500
-DTEND;TZID=America/New_York:20261026T181500
-SUMMARY:Clifton High School vs Hackensack High School (Junior Varsity Boy
- s Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7530232@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T161500
@@ -1974,6 +1965,15 @@ DTEND;TZID=America/New_York:20261026T181500
 SUMMARY:Clifton High School vs Passaic County Technical Institute (Junior
   Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7556013@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Clifton High School vs Hackensack High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2633:7556013@big-north-conference
@@ -2010,6 +2010,15 @@ SUMMARY:Clifton High School vs TBD (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2574:7516335@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T161500
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:Clifton High School at Passaic County Technical Institute (Var-JV
+  Girls Girls Volleyball)
+DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2574:7516354@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T161500
@@ -2035,15 +2044,6 @@ DTEND;TZID=America/New_York:20261027T181500
 SUMMARY:Clifton High School vs Passaic County Technical Institute (Junior
   Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2574:7516335@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T161500
-DTEND;TZID=America/New_York:20261027T181500
-SUMMARY:Clifton High School at Passaic County Technical Institute (Var-JV
-  Girls Girls Volleyball)
-DESCRIPTION:Var-JV Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2794:7516335@big-north-conference
@@ -2879,7 +2879,7 @@ SUMMARY:Bergen County Technical High School at Clifton High School (Varsi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7803222@big-north-conference
+UID:ds:32754:7651743@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
 DTEND;TZID=America/New_York:20270112T183000
@@ -2951,7 +2951,7 @@ SUMMARY:Clifton High School at Passaic County Technical Institute (Varsit
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7803375@big-north-conference
+UID:ds:2573:7682855@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -2969,15 +2969,6 @@ SUMMARY:Clifton High School vs Passaic High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803387@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T163000
-DTEND;TZID=America/New_York:20270114T183000
-SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls B
- asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7754773@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
@@ -2987,7 +2978,16 @@ SUMMARY:Clifton High School vs Passaic High School (Freshman Boys Boys Ba
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803423@big-north-conference
+UID:ds:2574:7803387@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T163000
+DTEND;TZID=America/New_York:20270114T183000
+SUMMARY:Clifton High School at Passaic High School (Varsity Girls Girls B
+ asketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7754772@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T174500
 DTEND;TZID=America/New_York:20270114T194500
@@ -3014,7 +3014,7 @@ SUMMARY:Cliffside Park High School at Clifton High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7591705@big-north-conference
+UID:ds:2574:7784372@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T100000
 DTEND;TZID=America/New_York:20270116T120000
@@ -3023,21 +3023,21 @@ SUMMARY:Clifton High School at Newton High School (Varsity Girls Girls Wr
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803614@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T153000
-DTEND;TZID=America/New_York:20270119T173000
-SUMMARY:Clifton High School vs West Milford High School (Varsity Coed Coe
- d Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2574:7779550@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T153000
 DTEND;TZID=America/New_York:20270119T173000
 SUMMARY:Clifton High School vs Lakeland Regional High School (Varsity Coe
  d Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7803614@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T153000
+DTEND;TZID=America/New_York:20270119T173000
+SUMMARY:Clifton High School vs West Milford High School (Varsity Coed Coe
+ d Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3050,13 +3050,22 @@ SUMMARY:Lakeland Regional High School at Clifton High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7540361@big-north-conference
+UID:ds:2574:7803642@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
 SUMMARY:Clifton High School at Wayne Valley High School (Varsity Girls Gi
  rls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2574:7685243@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T161500
+DTEND;TZID=America/New_York:20270119T181500
+SUMMARY:Clifton High School vs Wayne Valley High School (Freshman Boys Bo
+ ys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2574:7663824@big-north-conference
@@ -3077,15 +3086,6 @@ SUMMARY:Clifton High School vs Wayne Valley High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7685243@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T161500
-DTEND;TZID=America/New_York:20270119T181500
-SUMMARY:Clifton High School vs Wayne Valley High School (Freshman Boys Bo
- ys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2795:7803667@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
@@ -3104,7 +3104,7 @@ SUMMARY:Passaic High School at Clifton High School (Middle School Girls G
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7540362@big-north-conference
+UID:ds:2574:7803689@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
@@ -3275,7 +3275,7 @@ SUMMARY:Clifton High School at Hanover Park High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803990@big-north-conference
+UID:ds:2574:7607967@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
@@ -3302,7 +3302,7 @@ SUMMARY:Clifton High School vs Passaic County Technical Institute (Varsit
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7804047@big-north-conference
+UID:ds:2574:7517077@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T144500
 DTEND;TZID=America/New_York:20270126T164500
@@ -3329,7 +3329,7 @@ SUMMARY:Clifton High School at DePaul Catholic High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7735431@big-north-conference
+UID:ds:2574:7789253@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000
@@ -3338,7 +3338,7 @@ SUMMARY:Clifton High School at Lodi High School (Varsity Girls Girls Wres
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7645086@big-north-conference
+UID:ds:2574:7795320@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T190000
 DTEND;TZID=America/New_York:20270127T210000
