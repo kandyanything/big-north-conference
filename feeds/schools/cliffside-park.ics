@@ -554,13 +554,13 @@ SUMMARY:Cliffside Park High School at Fort Lee High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7396716@big-north-conference
+UID:ds:2573:7434341@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Cliffside Park High School vs Fort Lee High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+SUMMARY:Cliffside Park High School at River Dell Regional High School (Va
+ rsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7395991@big-north-conference
@@ -581,22 +581,13 @@ SUMMARY:Cliffside Park High School at River Dell Regional High School (Fr
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7434341@big-north-conference
+UID:ds:2573:7396716@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Cliffside Park High School at River Dell Regional High School (Va
- rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2573:7377767@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T161500
-DTEND;TZID=America/New_York:20260910T181500
-SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Varsity 
- Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
+SUMMARY:Cliffside Park High School vs Fort Lee High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7396999@big-north-conference
@@ -606,6 +597,15 @@ DTEND;TZID=America/New_York:20260910T181500
 SUMMARY:Cliffside Park High School at Dwight Morrow High School (Junior V
  arsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7377767@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T161500
+DTEND;TZID=America/New_York:20260910T181500
+SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Varsity 
+ Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2573:7416712@big-north-conference
@@ -1634,20 +1634,20 @@ SUMMARY:Bergenfield High School vs Cliffside Park High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7628238@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Cliffside Park High School at Wood-Ridge High School (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2573:7660015@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Cliffside Park High School at Wallington High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2573:7628238@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Cliffside Park High School at Wood-Ridge High School (Junior Vars
  ity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
@@ -3131,15 +3131,6 @@ SUMMARY:Bergenfield High School at Cliffside Park High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7476193@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:Bergenfield High School vs Cliffside Park High School (Junior Var
- sity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2534:7802937@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
@@ -3147,6 +3138,15 @@ DTEND;TZID=America/New_York:20270107T193000
 SUMMARY:Bergenfield High School at Cliffside Park High School (Junior Var
  sity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2534:7476193@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T193000
+SUMMARY:Bergenfield High School vs Cliffside Park High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2534:7802976@big-north-conference
@@ -3239,7 +3239,7 @@ SUMMARY:Northern Highlands Regional High School vs Cliffside Park High Sc
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2533:7752820@big-north-conference
+UID:ds:2533:7803180@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T153000
 DTEND;TZID=America/New_York:20270112T173000
