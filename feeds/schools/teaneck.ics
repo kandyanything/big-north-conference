@@ -480,15 +480,6 @@ SUMMARY:Hackensack High School at Teaneck High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2633:7460878@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T161500
-DTEND;TZID=America/New_York:20260914T181500
-SUMMARY:Hackensack High School vs Teaneck High School (Varsity Girls Girl
- s Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2633:7433259@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T161500
@@ -496,6 +487,15 @@ DTEND;TZID=America/New_York:20260914T181500
 SUMMARY:Hackensack High School at Teaneck High School (Junior Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2633:7460878@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T161500
+DTEND;TZID=America/New_York:20260914T181500
+SUMMARY:Hackensack High School vs Teaneck High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2706:7611390@big-north-conference
@@ -650,15 +650,6 @@ SUMMARY:Teaneck High School vs Ridgefield Memorial High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7611981@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T161500
-DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Teaneck High School vs Glen Rock High School (Freshman Boys Boys 
- Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7501343@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
@@ -666,6 +657,15 @@ DTEND;TZID=America/New_York:20260917T181500
 SUMMARY:Teaneck High School at Ridgefield Park High School (Varsity Girls
   Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7611981@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T161500
+DTEND;TZID=America/New_York:20260917T181500
+SUMMARY:Teaneck High School vs Glen Rock High School (Freshman Boys Boys 
+ Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2888:7499065@big-north-conference
@@ -1262,24 +1262,6 @@ SUMMARY:Passaic Valley High School at Teaneck High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7433463@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Teaneck High School vs Northern Valley Regional High (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2888:7536629@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Teaneck High School at Northern Valley Regional High (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7422814@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -1305,6 +1287,24 @@ DTEND;TZID=America/New_York:20261005T181500
 SUMMARY:Teaneck High School vs Northern Valley Regional High (Junior Vars
  ity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7433463@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Teaneck High School vs Northern Valley Regional High (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7536629@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Teaneck High School at Northern Valley Regional High (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2613:7592919@big-north-conference
@@ -1629,15 +1629,6 @@ SUMMARY:Paramus High School at Teaneck High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7409858@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T161500
-DTEND;TZID=America/New_York:20261015T181500
-SUMMARY:Paramus High School at Teaneck High School (Freshman Girls Girls 
- Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2788:7694309@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -1645,6 +1636,15 @@ DTEND;TZID=America/New_York:20261015T181500
 SUMMARY:Paramus High School at Teaneck High School (Freshman Boys Boys So
  ccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2788:7409858@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T161500
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:Paramus High School at Teaneck High School (Freshman Girls Girls 
+ Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7407200@big-north-conference
@@ -1962,15 +1962,6 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Teaneck High School (
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7709972@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T183000
-DTEND;TZID=America/New_York:20261027T203000
-SUMMARY:Teaneck High School vs Leonia High School (Varsity Girls Girls So
- ccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2888:7422818@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T183000
@@ -1978,6 +1969,15 @@ DTEND;TZID=America/New_York:20261027T203000
 SUMMARY:Teaneck High School at Northern Valley Regional High (Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2888:7709972@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T183000
+DTEND;TZID=America/New_York:20261027T203000
+SUMMARY:Teaneck High School vs Leonia High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2772:7595908@big-north-conference
@@ -2142,7 +2142,7 @@ SUMMARY:Fair Lawn High School at Teaneck High School (Varsity Coed Coed F
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7801871@big-north-conference
+UID:ds:2670:7703609@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T100000
@@ -2151,7 +2151,7 @@ SUMMARY:Indian Hills High School at Teaneck High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7801876@big-north-conference
+UID:ds:2670:7801874@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T100000
@@ -2455,7 +2455,7 @@ SUMMARY:Teaneck High School at Tenafly High School (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7802829@big-north-conference
+UID:ds:2795:7763865@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T150000
 DTEND;TZID=America/New_York:20270106T170000
@@ -2500,6 +2500,15 @@ SUMMARY:Pascack Valley High School at Teaneck High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2793:7661808@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:Pascack Valley High School at Teaneck High School (Freshman Boys 
+ Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2793:7639938@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
@@ -2509,13 +2518,13 @@ SUMMARY:Pascack Valley High School vs Teaneck High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7802917@big-north-conference
+UID:ds:2793:7661807@big-north-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
-SUMMARY:Pascack Valley High School at Teaneck High School (Freshman Boys 
- Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T193000
+SUMMARY:Pascack Valley High School at Teaneck High School (Junior Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7802955@big-north-conference
@@ -2525,15 +2534,6 @@ DTEND;TZID=America/New_York:20270107T193000
 SUMMARY:Pascack Valley High School vs Teaneck High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2793:7661807@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:Pascack Valley High School at Teaneck High School (Junior Varsity
-  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7639942@big-north-conference
@@ -2572,7 +2572,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Teaneck High School (Va
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7555165@big-north-conference
+UID:ds:2771:7803215@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
 DTEND;TZID=America/New_York:20270112T181500
@@ -2653,7 +2653,7 @@ SUMMARY:Teaneck High School at Fort Lee High School (Varsity Boys Boys Bo
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2793:7803319@big-north-conference
+UID:ds:2793:7763738@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
@@ -2662,7 +2662,7 @@ SUMMARY:Pascack Valley High School at Teaneck High School (Var-JV Girls G
 DESCRIPTION:Var-JV Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7763738@big-north-conference
+UID:ds:2888:7803319@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
@@ -2671,7 +2671,7 @@ SUMMARY:Teaneck High School vs Pascack Valley High School (Varsity Coed C
 DESCRIPTION:Varsity Coed Coed Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7645713@big-north-conference
+UID:ds:2888:7645728@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T180000
 DTEND;TZID=America/New_York:20270114T200000
@@ -2716,7 +2716,7 @@ SUMMARY:Northern Valley Regional HS - Demarest at Teaneck High School (Va
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7669326@big-north-conference
+UID:ds:2888:7803809@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -2752,7 +2752,7 @@ SUMMARY:Bergen Catholic High School at Teaneck High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7706997@big-north-conference
+UID:ds:2888:7804165@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T160000
 DTEND;TZID=America/New_York:20270127T180000
@@ -2761,7 +2761,7 @@ SUMMARY:Teaneck High School vs Tenafly High School (Varsity Boys Boys Bow
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7553271@big-north-conference
+UID:ds:2771:7804180@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000
@@ -2770,7 +2770,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Teaneck High School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2888:7553271@big-north-conference
+UID:ds:2888:7804180@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T170000
 DTEND;TZID=America/New_York:20270127T190000
@@ -2832,7 +2832,7 @@ SUMMARY:Don Bosco Prep vs Teaneck High School (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7804325@big-north-conference
+UID:ds:2795:7755587@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T170000
 DTEND;TZID=America/New_York:20270130T190000

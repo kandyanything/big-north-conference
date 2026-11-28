@@ -765,15 +765,6 @@ SUMMARY:Passaic Valley High School vs West Milford High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7487873@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T161500
-DTEND;TZID=America/New_York:20260915T181500
-SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
- ol (Freshman Girls Field Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2770:7441363@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -781,6 +772,15 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Northern Highlands Regional High School at West Milford High Scho
  ol (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2770:7487873@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Northern Highlands Regional High School vs West Milford High Scho
+ ol (Freshman Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2796:7451263@big-north-conference
@@ -1518,15 +1518,6 @@ SUMMARY:Wayne Valley High School at West Milford High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7413434@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Wayne Valley High School vs West Milford High School (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2926:7451283@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -1534,6 +1525,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Wayne Valley High School at West Milford High School (Freshman Bo
  ys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2926:7413434@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Wayne Valley High School vs West Milford High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2926:7451281@big-north-conference
@@ -3496,7 +3496,7 @@ SUMMARY:Northern Highlands Regional High School at West Milford High Scho
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2770:7802921@big-north-conference
+UID:ds:2770:7667496@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
 DTEND;TZID=America/New_York:20270107T181500
@@ -3505,7 +3505,7 @@ SUMMARY:Northern Highlands Regional High School at West Milford High Scho
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7802921@big-north-conference
+UID:ds:2931:7802920@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
 DTEND;TZID=America/New_York:20270107T181500
@@ -3613,7 +3613,7 @@ SUMMARY:West Milford High School at College Achieve Paterson Charter Scho
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7722646@big-north-conference
+UID:ds:2931:7803095@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T130000
 DTEND;TZID=America/New_York:20270109T150000
@@ -3622,7 +3622,7 @@ SUMMARY:West Milford High School at College Achieve Paterson Charter Scho
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7788341@big-north-conference
+UID:ds:2931:7763170@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T090000
 DTEND;TZID=America/New_York:20270110T110000
@@ -3640,7 +3640,7 @@ SUMMARY:West Milford High School vs Butler High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7651976@big-north-conference
+UID:ds:2931:7803111@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T180000
 DTEND;TZID=America/New_York:20270110T200000
@@ -3658,7 +3658,7 @@ SUMMARY:Ramapo High School at West Milford High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7654507@big-north-conference
+UID:ds:2931:7803145@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T161500
 DTEND;TZID=America/New_York:20270111T181500
@@ -3739,7 +3739,7 @@ SUMMARY:Ramapo High School vs West Milford High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7724433@big-north-conference
+UID:ds:2931:7803300@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T163000
 DTEND;TZID=America/New_York:20270113T183000
@@ -4117,7 +4117,7 @@ SUMMARY:Bergen County Technical High School at West Milford High School (
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7803763@big-north-conference
+UID:ds:2931:7659465@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T163000
 DTEND;TZID=America/New_York:20270120T183000
@@ -4243,7 +4243,7 @@ SUMMARY:Bergen County Technical High School vs West Milford High School (
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2794:7804018@big-north-conference
+UID:ds:2794:7702702@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270124T174500
 DTEND;TZID=America/New_York:20270124T194500
