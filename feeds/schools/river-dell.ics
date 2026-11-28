@@ -671,6 +671,15 @@ SUMMARY:Pascack Valley High School vs River Dell Regional High School (Fr
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2573:7401478@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T161500
+DTEND;TZID=America/New_York:20260909T181500
+SUMMARY:Cliffside Park High School at River Dell Regional High School (Fr
+ eshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2573:7434341@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
@@ -680,13 +689,13 @@ SUMMARY:Cliffside Park High School at River Dell Regional High School (Va
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2573:7401478@big-north-conference
+UID:ds:2792:7437590@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T161500
 DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Cliffside Park High School at River Dell Regional High School (Fr
- eshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+SUMMARY:Pascack Hills High School at River Dell Regional High School (Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7434343@big-north-conference
@@ -714,15 +723,6 @@ DTEND;TZID=America/New_York:20260909T181500
 SUMMARY:Pascack Hills High School at River Dell Regional High School (Fre
  shman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2792:7437590@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T161500
-DTEND;TZID=America/New_York:20260909T181500
-SUMMARY:Pascack Hills High School at River Dell Regional High School (Var
- sity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2793:7538258@big-north-conference
@@ -1004,15 +1004,6 @@ SUMMARY:Ramsey High School at River Dell Regional High School (Freshman G
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7437594@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T161500
-DTEND;TZID=America/New_York:20260916T181500
-SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
- School (Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2834:7434353@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T161500
@@ -1029,6 +1020,15 @@ DTEND;TZID=America/New_York:20260916T181500
 SUMMARY:River Dell Regional High School at Westwood Regional Senior High 
  School (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7437594@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:River Dell Regional High School vs Westwood Regional Senior High 
+ School (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7434352@big-north-conference
@@ -2327,15 +2327,6 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs River Dell Regional H
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7446388@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T161500
-DTEND;TZID=America/New_York:20261012T181500
-SUMMARY:Pascack Hills High School vs River Dell Regional High School (Jun
- ior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2792:7446396@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T161500
@@ -2343,6 +2334,15 @@ DTEND;TZID=America/New_York:20261012T181500
 SUMMARY:Pascack Hills High School at River Dell Regional High School (Var
  sity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2792:7446388@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T161500
+DTEND;TZID=America/New_York:20261012T181500
+SUMMARY:Pascack Hills High School vs River Dell Regional High School (Jun
+ ior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7680041@big-north-conference
@@ -3407,7 +3407,7 @@ SUMMARY:Northern Valley Regional HS - Demarest at River Dell Regional Hig
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2772:7801589@big-north-conference
+UID:ds:2772:7801590@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261205T194500
 DTEND;TZID=America/New_York:20261205T214500
@@ -4379,7 +4379,7 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Girls Girls Ba
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7783663@big-north-conference
+UID:ds:2834:7783662@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T110000
@@ -4532,15 +4532,6 @@ SUMMARY:Pascack Hills High School at River Dell Regional High School (Fre
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7707235@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T161500
-DTEND;TZID=America/New_York:20270107T181500
-SUMMARY:River Dell Regional High School at Holdrum Middle School (Middle 
- School Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2834:7675686@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
@@ -4557,6 +4548,15 @@ DTEND;TZID=America/New_York:20270107T181500
 SUMMARY:River Dell Regional High School vs Holdrum Middle School (Middle 
  School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7707235@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:River Dell Regional High School at Holdrum Middle School (Middle 
+ School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2925:7675686@big-north-conference
@@ -4586,7 +4586,7 @@ SUMMARY:Pascack Hills High School at River Dell Regional High School (Jun
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7802940@big-north-conference
+UID:ds:2792:7511527@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -4649,7 +4649,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at River Dell Regional H
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7704290@big-north-conference
+UID:ds:2834:7803037@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T190000
 DTEND;TZID=America/New_York:20270108T210000
@@ -4658,7 +4658,7 @@ SUMMARY:River Dell Regional High School vs Northern Valley Old Tappan/Dem
 DESCRIPTION:Junior Varsity Boys Boys Ice Hockey - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7691585@big-north-conference
+UID:ds:2834:7803055@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T093000
 DTEND;TZID=America/New_York:20270109T113000
@@ -4703,7 +4703,7 @@ SUMMARY:Ridgewood High School at River Dell Regional High School (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7788322@big-north-conference
+UID:ds:2834:7703495@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
 DTEND;TZID=America/New_York:20270109T120000
@@ -4748,15 +4748,6 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Girls Girls Wr
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2833:7694368@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270111T144500
-DTEND;TZID=America/New_York:20270111T164500
-SUMMARY:Ridgewood High School vs River Dell Regional High School (Varsity
-  Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2833:7756654@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T144500
@@ -4764,6 +4755,15 @@ DTEND;TZID=America/New_York:20270111T164500
 SUMMARY:Ridgewood High School vs River Dell Regional High School (Varsity
   Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2833:7694368@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T144500
+DTEND;TZID=America/New_York:20270111T164500
+SUMMARY:Ridgewood High School vs River Dell Regional High School (Varsity
+  Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7694368@big-north-conference
@@ -4865,22 +4865,22 @@ SUMMARY:Ramsey High School vs River Dell Regional High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7459248@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2823:7803261@big-north-conference
+UID:ds:2823:7440753@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Ramsey High School at River Dell Regional High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2823:7803263@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Ramsey High School vs River Dell Regional High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2689:7803284@big-north-conference
@@ -5207,7 +5207,7 @@ SUMMARY:Pascack Valley High School vs River Dell Regional High School (Va
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7803646@big-north-conference
+UID:ds:2595:7593434@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
@@ -5279,15 +5279,6 @@ SUMMARY:Dumont High School vs River Dell Regional High School (Junior Var
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7803722@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T190000
-DTEND;TZID=America/New_York:20270119T210000
-SUMMARY:Dumont High School at River Dell Regional High School (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2595:7593444@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
@@ -5295,6 +5286,15 @@ DTEND;TZID=America/New_York:20270119T210000
 SUMMARY:Dumont High School vs River Dell Regional High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2595:7594094@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T190000
+DTEND;TZID=America/New_York:20270119T210000
+SUMMARY:Dumont High School at River Dell Regional High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2834:7803749@big-north-conference
@@ -5315,7 +5315,7 @@ SUMMARY:Mahwah High School vs River Dell Regional High School (Varsity Co
 DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7803771@big-north-conference
+UID:ds:2834:7691604@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T171500
 DTEND;TZID=America/New_York:20270120T191500
@@ -5324,7 +5324,7 @@ SUMMARY:River Dell Regional High School at TBA NJ (Varsity Coed Coed Indo
 DESCRIPTION:Varsity Coed Coed Indoor Track - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7803781@big-north-conference
+UID:ds:2834:7595133@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T180000
 DTEND;TZID=America/New_York:20270120T200000
@@ -5351,15 +5351,6 @@ SUMMARY:Paramus High School at River Dell Regional High School (Freshman
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7707287@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T161500
-DTEND;TZID=America/New_York:20270121T181500
-SUMMARY:River Dell Regional High School vs Westwood Regional Middle Schoo
- l (Middle School Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2834:7707219@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
@@ -5367,6 +5358,15 @@ DTEND;TZID=America/New_York:20270121T181500
 SUMMARY:River Dell Regional High School at Westwood Regional Middle Schoo
  l (Middle School Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2834:7707287@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:River Dell Regional High School vs Westwood Regional Middle Schoo
+ l (Middle School Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2788:7423238@big-north-conference
@@ -5414,7 +5414,7 @@ SUMMARY:Paramus Catholic High School vs River Dell Regional High School (
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7676562@big-north-conference
+UID:ds:2834:7803920@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T161500
 DTEND;TZID=America/New_York:20270122T181500
@@ -5423,7 +5423,7 @@ SUMMARY:River Dell Regional High School at Paramus Catholic High School (
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2834:7594351@big-north-conference
+UID:ds:2834:7784700@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T173000
 DTEND;TZID=America/New_York:20270122T193000

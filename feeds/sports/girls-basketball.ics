@@ -1166,15 +1166,6 @@ SUMMARY:Passaic County Technical Institute vs Mount Saint Dominic Academy
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 2:49 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2925:7627124@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Wayne Hills High School at Manchester Regional High School (Varsi
- ty Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2925:7787207@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261212
@@ -1200,6 +1191,15 @@ DTEND;VALUE=DATE:20261213
 SUMMARY:Wayne Hills High School at Manchester Regional High School (Junio
  r Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2925:7627124@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Wayne Hills High School at Manchester Regional High School (Varsi
+ ty Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7801955@big-north-conference
@@ -1876,7 +1876,7 @@ SUMMARY:John F. Kennedy High School at Ridgewood High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7802283@big-north-conference
+UID:ds:2771:7556735@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
 DTEND;TZID=America/New_York:20261219T120000
@@ -2989,15 +2989,6 @@ SUMMARY:Ramapo High School vs University High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7528772@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270104T161500
-DTEND;TZID=America/New_York:20270104T181500
-SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
- (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2613:7802699@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270104T161500
@@ -3005,6 +2996,15 @@ DTEND;TZID=America/New_York:20270104T181500
 SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
  (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2613:7528772@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T161500
+DTEND;TZID=America/New_York:20270104T181500
+SUMMARY:Fair Lawn High School vs Northern Highlands Regional High School 
+ (Freshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2795:7802706@big-north-conference
@@ -3115,7 +3115,7 @@ SUMMARY:Dwight Morrow High School at Ridgefield Park High School (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7733445@big-north-conference
+UID:ds:2613:7802763@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T161500
 DTEND;TZID=America/New_York:20270105T181500
@@ -3196,7 +3196,7 @@ SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Fres
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7627148@big-north-conference
+UID:ds:2796:7802755@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T161500
 DTEND;TZID=America/New_York:20270105T181500
@@ -3277,7 +3277,7 @@ SUMMARY:Cliffside Park High School vs Dumont High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7802803@big-north-conference
+UID:ds:2613:7733444@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
@@ -3304,7 +3304,7 @@ SUMMARY:Immaculate Heart Academy vs Paramus Catholic High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2670:7649041@big-north-conference
+UID:ds:2670:7802797@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
@@ -3322,7 +3322,7 @@ SUMMARY:Mahwah High School at Pascack Hills High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7556728@big-north-conference
+UID:ds:2771:7802789@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
@@ -3358,7 +3358,7 @@ SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7627333@big-north-conference
+UID:ds:2796:7802794@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
@@ -3412,7 +3412,7 @@ SUMMARY:Clifton High School at John F. Kennedy High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7802826@big-north-conference
+UID:ds:2613:7733442@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -3493,15 +3493,6 @@ SUMMARY:Paramus High School at Northern Valley Regional High (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7802894@big-north-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Mahwah High School at Westwood Regional Senior High School (Junio
- r Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2706:7802890@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
@@ -3509,6 +3500,15 @@ DTEND;TZID=America/New_York:20270107T180000
 SUMMARY:Mahwah High School at Cavallini Middle School (Middle School Girl
  s Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2706:7802894@big-north-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Mahwah High School at Westwood Regional Senior High School (Junio
+ r Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2792:7593792@big-north-conference
@@ -3547,7 +3547,7 @@ SUMMARY:Bergenfield High School vs Cliffside Park High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2597:7802904@big-north-conference
+UID:ds:2597:7505848@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
 DTEND;TZID=America/New_York:20270107T181500
@@ -3628,7 +3628,7 @@ SUMMARY:Pascack Valley High School vs Teaneck High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7802926@big-north-conference
+UID:ds:2796:7685135@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T161500
 DTEND;TZID=America/New_York:20270107T181500
@@ -3772,7 +3772,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan vs Northern Valley Regio
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7802944@big-north-conference
+UID:ds:2788:7526187@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -3799,7 +3799,7 @@ SUMMARY:Pascack Valley High School vs Teaneck High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7693728@big-north-conference
+UID:ds:2796:7802964@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -3853,7 +3853,7 @@ SUMMARY:Indian Hills High School at West Milford High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7540763@big-north-conference
+UID:ds:2689:7802983@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T190000
 DTEND;TZID=America/New_York:20270107T210000
@@ -3898,7 +3898,7 @@ SUMMARY:West Milford High School at Kinnelon High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2616:7756591@big-north-conference
+UID:ds:2616:7803015@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T161500
 DTEND;TZID=America/New_York:20270108T181500
@@ -4078,7 +4078,7 @@ SUMMARY:Ridgefield Park High School vs Wayne Hills High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7540314@big-north-conference
+UID:ds:2926:7803089@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T120000
 DTEND;TZID=America/New_York:20270109T140000
@@ -4123,7 +4123,7 @@ SUMMARY:Mahwah High School vs Brookside Middle School (Middle School Girl
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2534:7803142@big-north-conference
+UID:ds:2534:7516464@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T161500
 DTEND;TZID=America/New_York:20270111T181500
@@ -4132,7 +4132,7 @@ SUMMARY:Bergenfield High School at Bergen Charter (Varsity Girls Girls Ba
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7803154@big-north-conference
+UID:ds:2823:7738801@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T161500
 DTEND;TZID=America/New_York:20270111T181500
@@ -4240,7 +4240,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Paramus High School (
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423054@big-north-conference
+UID:ds:2788:7803203@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T161500
 DTEND;TZID=America/New_York:20270112T181500
@@ -4312,7 +4312,7 @@ SUMMARY:Eastside High School at John F. Kennedy High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7765782@big-north-conference
+UID:ds:2613:7803228@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T163000
 DTEND;TZID=America/New_York:20270112T183000
@@ -4420,7 +4420,7 @@ SUMMARY:Northern Valley Regional HS - Old Tappan at Paramus High School (
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7423234@big-north-conference
+UID:ds:2788:7803230@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -4501,7 +4501,7 @@ SUMMARY:Academy of the Holy Angels at Immaculate Heart Academy (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7517039@big-north-conference
+UID:ds:2585:7803266@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -4537,7 +4537,7 @@ SUMMARY:Northern Highlands Regional High School at Ridgewood High School
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7459248@big-north-conference
+UID:ds:2823:7803263@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -4582,7 +4582,7 @@ SUMMARY:River Dell Regional High School vs Emerson Jr-Sr High School (Mid
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2689:7689689@big-north-conference
+UID:ds:2689:7803346@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -4627,7 +4627,7 @@ SUMMARY:Cliffside Park High School vs Dwight Morrow High School (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2613:7803370@big-north-conference
+UID:ds:2613:7639623@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -4699,7 +4699,7 @@ SUMMARY:Wayne Hills High School vs West Milford High School (Freshman Gir
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:32754:7803383@big-north-conference
+UID:ds:32754:7642142@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
 DTEND;TZID=America/New_York:20270114T183000
@@ -4798,7 +4798,7 @@ SUMMARY:Northern Valley Regional HS - Demarest vs Tenafly High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2788:7803394@big-north-conference
+UID:ds:2788:7423235@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -4807,7 +4807,7 @@ SUMMARY:Paramus High School vs Pascack Valley High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2792:7512711@big-north-conference
+UID:ds:2792:7803400@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
@@ -5041,7 +5041,7 @@ SUMMARY:Pascack Valley High School vs Northern Valley Regional High (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2796:7689695@big-north-conference
+UID:ds:2796:7803505@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T100000
 DTEND;TZID=America/New_York:20270116T120000
@@ -5104,7 +5104,7 @@ SUMMARY:Mahwah High School at Ramsey High School (Varsity Girls Girls Bas
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2771:7803528@big-north-conference
+UID:ds:2771:7556718@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T113000
 DTEND;TZID=America/New_York:20270116T133000
@@ -5410,7 +5410,7 @@ SUMMARY:Bergenfield High School vs West Milford High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803642@big-north-conference
+UID:ds:2574:7540361@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T161500
 DTEND;TZID=America/New_York:20270119T181500
@@ -5572,7 +5572,7 @@ SUMMARY:Cliffside Park High School at Ramsey High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7803689@big-north-conference
+UID:ds:2574:7540362@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T173000
 DTEND;TZID=America/New_York:20270119T193000
@@ -5671,7 +5671,7 @@ SUMMARY:Cliffside Park High School at Ramsey High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2595:7803722@big-north-conference
+UID:ds:2595:7594094@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
 DTEND;TZID=America/New_York:20270119T210000
@@ -6328,7 +6328,7 @@ SUMMARY:Ramsey High School at Rutherford High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2926:7540370@big-north-conference
+UID:ds:2926:7803989@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
@@ -6400,7 +6400,7 @@ SUMMARY:Dumont High School vs Emerson Jr-Sr High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2931:7775298@big-north-conference
+UID:ds:2931:7789131@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T161500
 DTEND;TZID=America/New_York:20270125T181500
@@ -6463,7 +6463,7 @@ SUMMARY:Passaic High School at Garfield High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2574:7517077@big-north-conference
+UID:ds:2574:7804047@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T144500
 DTEND;TZID=America/New_York:20270126T164500
@@ -6706,7 +6706,7 @@ SUMMARY:John F. Kennedy High School vs Wayne Valley High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7804107@big-north-conference
+UID:ds:2795:7733506@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T163000
 DTEND;TZID=America/New_York:20270126T183000
@@ -6994,7 +6994,7 @@ SUMMARY:Bergen County Technical High School at Leonia High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2706:7804234@big-north-conference
+UID:ds:2706:7709030@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
@@ -7038,7 +7038,7 @@ SUMMARY:Northern Highlands Regional High School vs Passaic County Technic
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2823:7738860@big-north-conference
+UID:ds:2823:7804248@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T161500
 DTEND;TZID=America/New_York:20270128T181500
@@ -7074,7 +7074,7 @@ SUMMARY:Dwight Morrow High School vs Dover High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2585:7804257@big-north-conference
+UID:ds:2585:7517068@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
@@ -7101,7 +7101,7 @@ SUMMARY:Dwight Morrow High School vs Dover High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2795:7534849@big-north-conference
+UID:ds:2795:7789320@big-north-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T160000
 DTEND;TZID=America/New_York:20270129T180000
